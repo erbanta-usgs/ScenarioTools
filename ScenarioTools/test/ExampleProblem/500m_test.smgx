@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<SMProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SmProjectSettings>
+    <MasterNameFile>500m_example_free\example_500m.nam</MasterNameFile>
+    <ModflowExecutable>C:\WRDAPP\MF2005.1_9\bin\mf2005.exe</ModflowExecutable>
+    <NameFiles>
+      <string>500m_example\example_500m.nam</string>
+      <string>500m_example_free\example_500m.nam</string>
+    </NameFiles>
+  </SmProjectSettings>
+  <GridShapefileRelativePath>..\Scenario_manager_well_data\bbgrid_poly.shp</GridShapefileRelativePath>
+  <NamefileRelativePath />
+  <SimulationStartTime>1996-01-01T00:00:00</SimulationStartTime>
+  <ScenarioElements>
+    <SerializableScenarioElement>
+      <Tag>1</Tag>
+      <ParentTag>-1</ParentTag>
+      <ElemType>Scenario</ElemType>
+      <Description />
+      <Name>Scenario_0</Name>
+      <NameFile>Scenario_0.nam</NameFile>
+      <FName>Scenario_0</FName>
+      <ShapefileRelativePath />
+      <TimeSeriesRelativePath />
+      <KeyField />
+      <LayMethod>Uniform</LayMethod>
+      <DefaultLayer>0</DefaultLayer>
+      <Items />
+      <Type>NoType</Type>
+    </SerializableScenarioElement>
+    <SerializableScenarioElement>
+      <Tag>2</Tag>
+      <ParentTag>-1</ParentTag>
+      <ElemType>Scenario</ElemType>
+      <Description />
+      <Name>Scenario_1</Name>
+      <NameFile>Scenario_1.nam</NameFile>
+      <FName>Scenario_1</FName>
+      <ShapefileRelativePath />
+      <TimeSeriesRelativePath />
+      <KeyField />
+      <LayMethod>Uniform</LayMethod>
+      <DefaultLayer>0</DefaultLayer>
+      <Items>
+        <SerializableScenarioElement>
+          <Tag>3</Tag>
+          <ParentTag>2</ParentTag>
+          <ElemType>Package</ElemType>
+          <Description />
+          <Name>New Well Package</Name>
+          <FName>Scenario_1.wel</FName>
+          <ShapefileRelativePath />
+          <TimeSeriesRelativePath />
+          <KeyField />
+          <LayMethod>Uniform</LayMethod>
+          <DefaultLayer>0</DefaultLayer>
+          <Items>
+            <SerializableScenarioElement>
+              <Tag>4</Tag>
+              <ParentTag>3</ParentTag>
+              <ElemType>FeatureSet</ElemType>
+              <Description />
+              <Name>New Well Set</Name>
+              <FName />
+              <ShapefileRelativePath>D:\Projects\Florida-Tools\ScenarioTools\test\Scenario_manager_well_data\county_wells_NAD_27_filtered.shp</ShapefileRelativePath>
+              <TimeSeriesRelativePath>D:\Projects\Florida-Tools\ScenarioTools\test\Scenario_manager_well_data\pumpwell2.smp</TimeSeriesRelativePath>
+              <KeyField>WellName</KeyField>
+              <LayMethod>Uniform</LayMethod>
+              <LayerAttribute />
+              <DefaultLayer>1</DefaultLayer>
+              <Items />
+              <Type>WellType</Type>
+            </SerializableScenarioElement>
+          </Items>
+          <Type>WellType</Type>
+        </SerializableScenarioElement>
+        <SerializableScenarioElement>
+          <Tag>5</Tag>
+          <ParentTag>2</ParentTag>
+          <ElemType>Package</ElemType>
+          <Description />
+          <Name>New CHD Package</Name>
+          <FName>Scenario_1.chd</FName>
+          <ShapefileRelativePath />
+          <TimeSeriesRelativePath />
+          <KeyField />
+          <LayMethod>Uniform</LayMethod>
+          <DefaultLayer>0</DefaultLayer>
+          <Items>
+            <SerializableScenarioElement>
+              <Tag>6</Tag>
+              <ParentTag>5</ParentTag>
+              <ElemType>FeatureSet</ElemType>
+              <Description />
+              <Name>New CHD Set</Name>
+              <FName />
+              <ShapefileRelativePath>D:\Projects\Florida-Tools\ScenarioTools\test\Scenario_manager_well_data\water_poly.shp</ShapefileRelativePath>
+              <TimeSeriesRelativePath>D:\Projects\Florida-Tools\ScenarioTools\test\Scenario_manager_well_data\sea_level.smp</TimeSeriesRelativePath>
+              <KeyField>Id</KeyField>
+              <LayMethod>Uniform</LayMethod>
+              <LayerAttribute />
+              <DefaultLayer>1</DefaultLayer>
+              <Items />
+              <Type>ChdType</Type>
+            </SerializableScenarioElement>
+          </Items>
+          <Type>ChdType</Type>
+        </SerializableScenarioElement>
+      </Items>
+      <Type>NoType</Type>
+    </SerializableScenarioElement>
+    <SerializableScenarioElement>
+      <Tag>7</Tag>
+      <ParentTag>-1</ParentTag>
+      <ElemType>Scenario</ElemType>
+      <Description />
+      <Name>Scenario_2</Name>
+      <NameFile>Scenario_2.nam</NameFile>
+      <FName>Scenario_2</FName>
+      <ShapefileRelativePath />
+      <TimeSeriesRelativePath />
+      <KeyField />
+      <LayMethod>Uniform</LayMethod>
+      <DefaultLayer>0</DefaultLayer>
+      <Items>
+        <SerializableScenarioElement>
+          <Tag>8</Tag>
+          <ParentTag>7</ParentTag>
+          <ElemType>Package</ElemType>
+          <Description />
+          <Name>New CHD Package</Name>
+          <FName>Scenario_2.chd</FName>
+          <ShapefileRelativePath />
+          <TimeSeriesRelativePath />
+          <KeyField />
+          <LayMethod>Uniform</LayMethod>
+          <DefaultLayer>0</DefaultLayer>
+          <Items>
+            <SerializableScenarioElement>
+              <Tag>9</Tag>
+              <ParentTag>8</ParentTag>
+              <ElemType>FeatureSet</ElemType>
+              <Description />
+              <Name>New CHD Set</Name>
+              <FName />
+              <ShapefileRelativePath>D:\Projects\Florida-Tools\ScenarioTools\test\Scenario_manager_well_data\water_poly.shp</ShapefileRelativePath>
+              <TimeSeriesRelativePath>D:\Projects\Florida-Tools\ScenarioTools\test\Scenario_manager_well_data\sea_level.smp</TimeSeriesRelativePath>
+              <KeyField>Id</KeyField>
+              <LayMethod>Uniform</LayMethod>
+              <LayerAttribute />
+              <DefaultLayer>1</DefaultLayer>
+              <Items />
+              <Type>ChdType</Type>
+            </SerializableScenarioElement>
+          </Items>
+          <Type>ChdType</Type>
+        </SerializableScenarioElement>
+      </Items>
+      <Type>NoType</Type>
+    </SerializableScenarioElement>
+  </ScenarioElements>
+  <TreeView>
+    <Tag>-1</Tag>
+    <ImageIndex>0</ImageIndex>
+    <Text />
+    <Items>
+      <SerializableTreeNode>
+        <Tag>1</Tag>
+        <ImageIndex>0</ImageIndex>
+        <Text>Scenario_0</Text>
+        <Items />
+      </SerializableTreeNode>
+      <SerializableTreeNode>
+        <Tag>2</Tag>
+        <ImageIndex>0</ImageIndex>
+        <Text>Scenario_1</Text>
+        <Items>
+          <SerializableTreeNode>
+            <Tag>3</Tag>
+            <ImageIndex>1</ImageIndex>
+            <Text>New Well Package</Text>
+            <Items>
+              <SerializableTreeNode>
+                <Tag>4</Tag>
+                <ImageIndex>1</ImageIndex>
+                <Text>New Well Set</Text>
+                <Items />
+              </SerializableTreeNode>
+            </Items>
+          </SerializableTreeNode>
+          <SerializableTreeNode>
+            <Tag>5</Tag>
+            <ImageIndex>3</ImageIndex>
+            <Text>New CHD Package</Text>
+            <Items>
+              <SerializableTreeNode>
+                <Tag>6</Tag>
+                <ImageIndex>3</ImageIndex>
+                <Text>New CHD Set</Text>
+                <Items />
+              </SerializableTreeNode>
+            </Items>
+          </SerializableTreeNode>
+        </Items>
+      </SerializableTreeNode>
+      <SerializableTreeNode>
+        <Tag>7</Tag>
+        <ImageIndex>0</ImageIndex>
+        <Text>Scenario_2</Text>
+        <Items>
+          <SerializableTreeNode>
+            <Tag>8</Tag>
+            <ImageIndex>3</ImageIndex>
+            <Text>New CHD Package</Text>
+            <Items>
+              <SerializableTreeNode>
+                <Tag>9</Tag>
+                <ImageIndex>3</ImageIndex>
+                <Text>New CHD Set</Text>
+                <Items />
+              </SerializableTreeNode>
+            </Items>
+          </SerializableTreeNode>
+        </Items>
+      </SerializableTreeNode>
+    </Items>
+  </TreeView>
+</SMProject>

@@ -1,0 +1,62 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Data set calculator</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="data set calculator" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?data_set_calc_data_source.htm"; }
+  else { parent.quicksync('a3.4.4'); }
+}
+//-->
+</script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#D0D0D0">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Data set calculator</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="scenario_tools.htm">Top</a>&nbsp;
+     <a href="time_series_data_file.htm">Previous</a>&nbsp;
+     <a href="exporting_data.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>In Scenario Analyzer, when one or more data series have been defined for a display element (map, chart, or table), the Data Set Calculator can be used to generate a data set for a new data series. For example, if a map contains one map layer containing hydraulic heads for model layer 1 and a second map layer containing hydraulic heads for model layer 2, the Data Set Calculator can be used to define a third map layer calculated, on a cell-by-cell basis, as the difference in hydraulic head between layers 1 and 2. Chart or table elements also can use the Data Set Calculator; in this case, the result will be a data series.</p>
+<p>&nbsp;</p>
+<p>When “Data Set Calculator” is selected as the data category in any data series dialog, the Data Set Calculator is shown. The text box labeled “Expression” holds the expression that will be used to generate the data set. The “Data Series” box contains a list of data series that can be used in the expression; this list only includes data series that belong to the same display element (map, chart, or table) to which the data series being defined belongs. Text entered at the keyboard will be inserted at the cursor location. A data series can be referenced by enclosing its name in square brackets. Most expressions can be conveniently built using the list of available data series in the “Data Series” box and the various buttons. Double-clicking a data-series name in the “Data Series” box will insert that name (enclosed in square brackets) into the expression at the cursor location. Clicking a number, decimal, operator, or parenthesis button will insert the indicated character at the cursor location. A scalar constant can be used as a coefficient by enclosing the constant in parentheses and using the multiplication operator. For example, an expression to change the sign of a data series named “my data series” could be formulated as follows:</p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Courier New';">(-1) * [my data series]</span></p>
+<p>&nbsp;</p>
+<p>Spaces can be inserted into the expression to improve readability as desired; however, data-series names must be entered as they appear in the “Data Series” box.</p>
+<p>&nbsp;</p>
+<p>In a data-series dialog for a chart or a table, the Data Set Calculator &nbsp;includes function buttons that implement the aggregate functions Minimum(), Maximum(), &nbsp;and Average(). Clicking one of the function buttons will insert the function name and parentheses at the cursor location. Each function takes one data series as an argument, for example:</p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Courier New';">Average([my data series])</span></p>
+<p>&nbsp;</p>
+<p>When the “OK” button of the data-series dialog is clicked, the expression is tested for validity. If the expression is found to be invalid, a error window appears with a message providing an indication of the cause of the error. In this situation, the user needs to correct the error before changes can be saved by clicking the “OK” button.</p>
+<p>&nbsp;</p>
+
+</td></tr></table>
+
+</body>
+</html>

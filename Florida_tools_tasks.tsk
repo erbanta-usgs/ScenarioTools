@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?taskcoach release="1.4.1" tskversion="37"?>
+
+<tasks>
+<task actualstartdate="2013-06-14 13:38:35.866000" completiondate="2013-08-14 12:30:52.468000" id="011e939e-d52a-11e2-b4d0-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-06-14 13:38:35.865000" priority="30" status="1" subject="Bug in SA: Delete and Undo of a data series">
+<description>
+Add a chart
+Add a (head) data series from Modflow output
+Plot: OK
+Intial delete: OK
+First Undo: Data series returns, but Y axis tick spacing changed, fonts changed.
+2nd delete: DS node disappears, but image remains showing chart that should be deleted.
+
+</description>
+</task>
+<task actualstartdate="2013-07-18 11:18:03.576000" completiondate="2013-08-14 09:44:31.634000" id="0120e28f-efce-11e2-bc28-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-07-18 11:18:03.576000" priority="45" status="1" subject="Make visible area of FeatureSetForm Display tab (under &quot;Map layers&quot;) adjust correctly when window is resized.">
+<description>
+Try to make visible area fill the "Map layers" panel, except for "Map layers"  text
+</description>
+</task>
+<task actualstartdate="2013-08-16 15:08:35.931000" completiondate="2013-08-27 14:50:06.467000" id="03db7530-06b8-11e3-9b1c-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-08-16 15:08:35.931000" priority="35" status="1" subject="Change dimensions of 2-d arrays from [ncol, nrow] to [nrow, ncol]">
+<description>
+Puma uses [nrow, ncol]
+(actually, it uses [rowCount, columnCount], in one place: Array2d
+</description>
+</task>
+<task completiondate="2011-10-12 15:24:09.063000" id="053faa61-f060-11e0-ae70-0023ae773201" percentageComplete="100" plannedstartdate="2011-10-06 15:13:00" priority="3" status="1" subject="Refactor interface names so they all start with &quot;I&quot;">
+<description>
+Including:
+
+DataProvider
+DataProviderMenu
+HasUniqueIdentifier
+ImageProvider
+Logger
+ReportElement
+</description>
+</task>
+<task actualstartdate="2012-05-29 12:42:21.518000" id="06772ede-a9be-11e1-bc3b-0023ae773201" plannedstartdate="2012-05-29 12:42:21.518000" priority="-500" status="1" subject="Add support for parameters">
+<description>
+This applies only to SM.
+</description>
+</task>
+<task actualstartdate="2012-05-29 12:56:42.915000" completiondate="2013-03-12 17:01:59.833000" id="07e5ef30-a9c0-11e1-8094-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-29 12:56:42.915000" priority="20" status="1" subject="Develop stepwise interpretation of SMP data">
+<description>
+See project log book (May 23, 2012).  Apply data value (for RCH, this is a multiplier factor) until next DateTime read from SMP file.
+Stepwise interpretation is unneeded for the CHD Package.
+Stepwise interpretation has been implemented for the Well Package -- DONE.  
+Stepwise interpretation has been implemented for the Recharge Package -- DONE.
+Stepwise interpretation has been implemented for the GHB Package -- DONE.
+
+Stepwise interpretation has been implemented for the River Package -- DONE.
+
+</description>
+</task>
+<task actualstartdate="2012-12-14 10:31:02.585000" completiondate="2013-02-11 11:00:40.627000" id="083a128f-4614-11e2-ab7c-d4bed907f86a" percentageComplete="100" plannedstartdate="2012-12-14 10:31:02.585000" priority="20" status="1" subject="Contour maps: Do not mask contours when No Line Series is selected">
+<description>
+Currently, contours are masked where a label for a "No Line Series" layer would be drawn, which can mask adjacent contour lines.
+</description>
+</task>
+<task actualstartdate="2012-05-31 09:26:51.266000" completiondate="2013-02-06 10:00:01.080000" id="0b844621-ab35-11e1-86d8-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-31 09:26:51.266000" priority="40" status="1" subject="Implement maximum, minimum, average, and sum in Dataset Calculator">
+<description>
+I can't think of a need for a sum function on a chart.  Others have been implemented.
+</description>
+</task>
+<task actualstartdate="2013-05-16 17:12:19.212000" completiondate="2013-05-17 15:24:20.822000" id="0e7324c0-be7e-11e2-95fa-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-05-16 17:12:19.211000" priority="21" status="1" subject="Change &quot;description&quot; to &quot;documentation&quot;">
+<description>
+In menu item View | Description of selected element.  
+Change both the menu text and the title of the form that pops up.
+Also, on the form, make OK button look like others in app.
+</description>
+</task>
+<task actualstartdate="2013-05-08 16:24:36.351000" completiondate="2013-06-18 16:18:56.392000" expandedContexts="('taskviewer',)" id="10bf38f0-b82e-11e2-ab5e-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-05-08 16:24:36.351000" priority="16" status="1" subject="Buy installer-generating software">
+<description>
+Ensure that installer will be able to ensure that .net framework 3.5 is installed.
+</description>
+</task>
+<task actualstartdate="2012-05-29 12:35:37.418000" completiondate="2012-06-08 12:30:07.627000" expandedContexts="('taskviewer',)" id="159a6a9e-a9bd-11e1-be48-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-29 12:35:37.418000" priority="8" status="1" subject="Put feedback in SM status bar for importing grid &amp; other initial steps">
+<task actualstartdate="2012-06-08 11:36:25.830000" completiondate="2012-06-08 12:30:07.627000" id="78d2985e-b190-11e1-9976-0023ae773201" percentageComplete="100" plannedstartdate="2012-06-08 11:36:25.830000" priority="4" status="1" subject="Use progress bar when reading a grid shapefile" />
+</task>
+<task actualstartdate="2013-06-25 14:52:03.320000" completiondate="2013-07-15 16:25:10.821000" id="16b61691-ddd9-11e2-9da4-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-06-25 14:52:03.320000" priority="50" status="1" subject="In STMap, ensure that scale bar is in correct units">
+<description>
+Currently, the scale is always in METERS.
+</description>
+</task>
+<task actualstartdate="2012-10-31 11:40:42.127000" completiondate="2013-02-08 09:33:35.513000" id="177c29f0-2382-11e2-ae73-0023ae773201" percentageComplete="100" plannedstartdate="2012-10-31 11:40:42.127000" priority="49" status="1" subject="Remove support for Kevin-style maps" />
+<task actualstartdate="2013-06-19 11:24:32.010000" completiondate="2013-06-19 11:49:28.847000" id="1aac4e9e-d905-11e2-8277-0023ae773201" percentageComplete="100" plannedstartdate="2013-06-19 11:24:32.010000" priority="35" status="1" subject="Reorder &quot;Data&quot; source options in drop-down list on Data Series dialog">
+<description>
+Currently, Dataset Calculator is first (and so, is default).  Dataset Calculator should be last, in all cases.
+</description>
+</task>
+<task actualstartdate="2013-09-12 17:21:52.482000" id="1b4d7421-1c02-11e3-a83c-d4bed907f86a" plannedstartdate="2013-09-12 17:21:52.482000" priority="-25" status="1" subject="Support addition of text to a map">
+<description>
+From Richard:
+
+It might be a good idea to allow the user to add extra text to a map or chart. For example, there could be a chart title or a label near some particular feature of interest.
+</description>
+</task>
+<task actualstartdate="2013-05-02 20:49:44.165000" completiondate="2013-05-06 11:14:06.238000" id="1c10814f-b39c-11e2-93d6-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-05-02 20:49:44.165000" priority="23" status="1" subject="Bug: when bringing up data series for a chart layer cell-by-cell file group">
+<description>
+the selected group is longer checked
+</description>
+</task>
+<task actualstartdate="2012-05-29 13:04:29.402000" completiondate="2013-10-24 10:31:52.773000" expandedContexts="('taskviewer',)" id="1df2339e-a9c1-11e1-b3cd-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-29 13:04:29.402000" priority="55" status="1" subject="Develop an install program">
+<description>
+So user is unlikely to mess things up.
+</description>
+<task actualstartdate="2013-05-09 15:13:00.534000" completiondate="2013-10-24 10:31:52.773000" id="3aa77870-b8ed-11e2-9490-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-05-09 15:13:00.534000" priority="55" status="1" subject="Add check for installed .net framework 4.0">
+<description>
+This should be part of the install procedure
+</description>
+</task>
+</task>
+<task actualstartdate="2012-05-29 13:11:41.208000" completiondate="2012-06-26 16:59:19.220000" id="1f529180-a9c2-11e1-872a-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-29 13:11:41.208000" priority="42" status="1" subject="Add background image and/or shapefile for map.  (Replace Kevin's hardcoded pathname)" />
+<task actualstartdate="2012-05-21 13:28:21.821000" completiondate="2012-05-21 15:59:12.950000" id="206dfed1-a37b-11e1-adec-c01885d6f27d" percentageComplete="100" plannedstartdate="2012-05-21 13:28:21.821000" priority="1" status="1" subject="On opening Edit | Report Properties, display chart name correctly" />
+<task actualstartdate="2012-04-06 13:53:13.183000" completiondate="2012-04-10 10:33:37.003000" id="24c306f0-8022-11e1-8e8f-0023ae773201" percentageComplete="100" plannedstartdate="2012-04-06 13:53:13.183000" priority="2" status="1" subject="Code ModelGridChangeUndoItem and AddModelGridChangeUndoItem" />
+<task actualstartdate="2013-08-14 12:34:07.682000" completiondate="2013-08-14 14:21:51.270000" id="258a6d21-efee-11e2-a92c-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-07-18 15:08:08.561000" priority="35" status="1" subject="SA: Add code to generate an extent for the background image when it is imported">
+<description>
+Add a "background image" extent to list of extents.  Do not allow it to be deleted.  However, if a different image is selected as background image, redefine the "background image" extent.
+</description>
+</task>
+<task actualstartdate="2013-02-05 16:59:59.157000" completiondate="2013-02-07 11:07:19.861000" id="25cd1e51-6ff0-11e2-9104-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-02-05 16:59:59.141000" priority="24" status="1" subject="Avoid writing to end of PDF page">
+<description>
+If there are too many lines and descriptions for a chart, the descriptions go past end of page.  These should be written on a new page.
+</description>
+</task>
+<task actualstartdate="2012-05-29 12:43:15.561000" completiondate="2012-06-07 18:03:10.286000" expandedContexts="('taskviewer',)" id="26ad7d91-a9be-11e1-82d0-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-29 12:43:15.561000" priority="2" status="1" subject="Add support for OPEN/CLOSE files">
+<description>
+Options are:
+
+(1) Don't support OPEN/CLOSE files.  Instead, require that user list files as DATA (or DATA(BINARY)) files in the name file and reference the unit number in the array reader control line.  
+
+(2) Read all input files.  Where OPEN/CLOSE is found, edit the package input file to use a relative path name that will point to the correct location -- Probably a bad idea.
+
+(3) Read all input files. Where an OPEN/CLOSE file is found, copy the file to a new location that is validly reached by a relative pathname from the scenario folder.  Also probablyl a bad idea.
+
+(4) Only support OPEN/CLOSE files that are provided with absolute pathnames.
+
+Both (1) and (4) can be used -- they are not mutually exclusive.
+
+(5) Restructure name files location and contents so that all scenario name files reside in directory where master name file resides.  &lt;== DO THIS, as follows:
+----------------------------------------------------------------------------------------------------
+
+Need to change construction of scenario name files.  Put all scenario name files in folder where master name file resides.  Then execute all scenarios from that folder.  Rewrite name files so all output goes to scenario folders.  Also need to change naming of run_scenario.bat to include scenario ID.  E.g. "Run_scenario_Scenario_1.bat" or similar.
+
+This change also will require that the master name file have either OLD or REPLACE on all DATA or DATA(BINARY) files.  Issue error if OLD or REPLACE is not found.
+
+</description>
+<task actualstartdate="2012-06-05 11:29:47.355000" completiondate="2012-06-07 17:16:27.392000" id="0c12e2b0-af34-11e1-89e0-d4bed907f86a" percentageComplete="100" plannedstartdate="2012-06-05 11:29:47.355000" priority="2" status="1" subject="Change path/file names written to name file" />
+<task actualstartdate="2012-06-05 11:30:28.445000" completiondate="2012-06-07 17:19:20.439000" id="2490b8cf-af34-11e1-911d-d4bed907f86a" percentageComplete="100" plannedstartdate="2012-06-05 11:30:28.445000" priority="3" status="1" subject="Change location where scenario name file is saved" />
+<task actualstartdate="2012-06-05 11:30:52.874000" completiondate="2012-06-07 17:20:43.992000" id="33204aa1-af34-11e1-b002-d4bed907f86a" percentageComplete="100" plannedstartdate="2012-06-05 11:30:52.874000" priority="4" status="1" subject="Change contents of batch file(?) -- Not needed.">
+<description>
+Not sure if any changes are needed.  
+
+No changes are needed.
+</description>
+</task>
+<task actualstartdate="2012-06-05 11:32:20.320000" completiondate="2012-06-07 18:02:58.337000" id="673f7e00-af34-11e1-b6d2-d4bed907f86a" percentageComplete="100" plannedstartdate="2012-06-05 11:32:20.320000" priority="5" status="1" subject="Assign scenario-specific name for batch file" />
+<task actualstartdate="2012-06-05 11:32:56.543000" completiondate="2012-06-07 18:03:00.879000" id="7cd6aef0-af34-11e1-a8d0-d4bed907f86a" percentageComplete="100" plannedstartdate="2012-06-05 11:32:56.543000" priority="6" status="1" subject="Change location where batch file is saved" />
+<task actualstartdate="2012-06-05 11:33:19.630000" completiondate="2012-06-07 18:03:10.286000" id="8a997ae1-af34-11e1-bb34-d4bed907f86a" percentageComplete="100" plannedstartdate="2012-06-05 11:33:19.630000" priority="7" status="1" subject="Change command to execute batch file">
+<description>
+Current directory needs be revised.
+Command needs to include scenario-specific name of batch file.
+</description>
+</task>
+<task actualstartdate="2012-06-05 11:28:46.813000" completiondate="2012-06-05 12:53:40.246000" id="e7fce8cf-af33-11e1-9932-d4bed907f86a" percentageComplete="100" plannedstartdate="2012-06-05 11:28:46.813000" priority="1" status="1" subject="Check for OLD or REPLACE on all DATA and DATA(BINARY) files">
+<description>
+Check for OLD or REPLACE on all DATA and DATA(BINARY) files listed in master name file.
+</description>
+</task>
+</task>
+<task actualstartdate="2013-07-18 12:59:23.872000" completiondate="2013-07-19 12:17:02.761000" id="29444600-efdc-11e2-92ad-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-07-18 12:59:23.872000" priority="70" status="1" subject="Fix bug: Chart domain Automatic setting doesn't always work">
+<description>
+This happens when a chart contains 1 data series of head from modflow output and modflow time unit is changed, after setting manual domain then back to automatic.
+</description>
+</task>
+<task actualstartdate="2013-06-12 10:00:12.175000" completiondate="2013-06-12 12:22:55.813000" id="29e281f0-d379-11e2-bb7f-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-06-12 10:00:12.175000" priority="30" status="1" subject="Fix bug: Automatic extent to model grid doesn't work right" />
+<task actualstartdate="2013-08-01 14:16:00.857000" completiondate="2013-08-01 16:22:03.938000" id="2f112ba1-fae7-11e2-aeab-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-08-01 14:16:00.857000" priority="72" status="1" subject="Fix bug: Well pump rate shows up in main table, but not in table that is displayed when that one data series is selected.">
+<description>
+This is not a bug.  When a single data series is display for a data series that obtains data from MODFLOW output, data for each time step is listed.  In the example, first well data values are zero (for stress period when well is off), so all zeros show up.  Include Time in Table to show that data are for initial, short-duration time steps.
+</description>
+</task>
+<task actualstartdate="2013-02-21 16:48:32.172000" completiondate="2013-02-21 17:15:21.139000" id="32ef86c0-7c81-11e2-81c8-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-02-21 16:48:32.172000" priority="50" status="1" subject="A Cbb point series should sum values for given cell">
+<description>
+the cbb file may contain multiple entries for a given cell.
+</description>
+</task>
+<task actualstartdate="2012-04-18 15:33:56.995000" completiondate="2012-08-15 09:45:40.892000" id="341c8d2e-899e-11e1-96a9-0023ae773201" percentageComplete="100" plannedstartdate="2012-04-18 15:33:56.995000" priority="50" status="1" subject="Is gridShapefileRelativePath needed in arg. lists for export of package and scenario?" />
+<task actualstartdate="2013-04-26 16:04:13.492000" id="3ae8bf40-aebd-11e2-9e4e-d4bed907f86a" plannedstartdate="2013-04-26 16:04:13.492000" priority="-5" status="1" subject="Work on ability in SA to save and import elements as XML">
+<description>
+Need: treeview menu item to import a map, chart, or table element.
+Need to write or fix code for saving and importing map, chart, or table element.
+Need to write or fix code for saving and importing data-series element.
+
+Currently these menu items are created but are invisible.
+</description>
+</task>
+<task actualstartdate="2012-05-29 12:36:43.650000" completiondate="2012-06-14 10:18:40.020000" id="3d149e21-a9bd-11e1-a67e-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-29 12:36:43.650000" priority="90" status="1" subject="SA Edit menu: Add &quot;Add&quot; options as menu items">
+<description>
+This applies when a Scenario or Package tree node is selected.
+</description>
+</task>
+<task actualstartdate="2013-04-26 16:25:46.394000" id="3d89efa1-aec0-11e2-8344-d4bed907f86a" plannedstartdate="2013-04-26 16:25:46.394000" priority="52" status="1" subject="Adding a new data series should cause parent element to be redrawn and shown" />
+<task actualstartdate="2013-05-30 15:45:27.447000" completiondate="2013-05-31 11:32:34.697000" id="3dc76a70-c972-11e2-ada2-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-05-30 15:45:27.447000" priority="40" status="1" subject="Add ability to define start and end layers for map data series derived from cell-by-cell budget file" />
+<task actualstartdate="2013-07-22 15:54:11.700000" completiondate="2013-08-02 09:12:33.028000" id="3e26d340-f319-11e2-9599-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-07-22 15:54:11.700000" priority="75" status="1" subject="Fix bug: Data series based on cell groups do not behave independently">
+<description>
+Define 1 chart based on a cell-group file and one cell group.
+Define another chart based on same cell-group file and a different cell group.
+
+Go back to first chart: cell group is not as was initially assigned.
+</description>
+</task>
+<task actualstartdate="2013-06-20 16:32:12.053000" completiondate="2013-08-14 09:57:52.997000" id="4021144f-d9f9-11e2-a05b-0023ae773201" percentageComplete="100" plannedstartdate="2013-06-20 16:32:12.053000" priority="40" status="1" subject="Set appropriate minimum size for STMapDesigner dialog." />
+<task actualstartdate="2012-05-29 13:05:27.636000" completiondate="2013-08-27 17:24:29.923000" id="40a80140-a9c1-11e1-aff5-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-29 13:05:27.636000" priority="60" status="1" subject="Develop ini files">
+<description>
+Use SM ini file to provide default MODFLOW executable and default "Maximum Number of Simultaneous Scenario Runs."
+
+Use SA ini file to store default author name.
+</description>
+</task>
+<task actualstartdate="2012-02-15 12:19:19.001000" completiondate="2012-03-08 17:59:39.746000" id="42362192:1298411025.11" percentageComplete="100" plannedstartdate="2011-02-22 14:43:00" priority="13" status="1" subject="Finish converting Scenario Manager from C++ to C#" />
+<task actualstartdate="2013-07-15 15:19:39.853000" completiondate="2013-08-13 09:59:21.348000" id="4257cfcf-ed94-11e2-bdf4-0023ae773201" percentageComplete="100" plannedstartdate="2013-07-15 15:19:39.853000" priority="61" status="1" subject="The Report Chart form needs to have minimum size defined">
+<description>
+Check appearance of all tabs.
+</description>
+</task>
+<task actualstartdate="2012-05-19 17:13:35.826000" completiondate="2012-06-08 15:10:56.790000" id="4294031e-a208-11e1-abc5-c01885d6f27d" percentageComplete="100" plannedstartdate="2012-05-19 17:13:35.826000" priority="8" status="1" subject="Add capability to delete a Data Series from a Chart or Table or Map">
+<description>
+Need to add a MenuItem in MainForm.makeDataSeriesNode... then what?
+
+I made it work for a chart.
+
+Need to test w/ tables and maps.
+</description>
+</task>
+<task actualstartdate="2012-02-15 11:12:00.599000" id="42962704:1298412042.49" plannedstartdate="2011-02-22 15:00:00" priority="-75" status="1" subject="Drain Package preprocessor">
+<description>
+Write in C#
+</description>
+</task>
+<task actualstartdate="2013-08-29 17:25:16.273000" id="42fcfe0f-1102-11e3-9618-d4bed907f86a" plannedstartdate="2013-08-29 17:25:16.272000" priority="-50" status="1" subject="Add capability to export chart and map images">
+<description>
+Suggested by Richard W:  
+It would be useful to be able to export maps and charts as images so they could more easily be incorporated into reports.
+</description>
+</task>
+<task actualstartdate="2012-02-15 11:11:52.396000" completiondate="2012-02-15 12:01:04.943000" id="43845008:1298411783.67" percentageComplete="100" plannedstartdate="2011-02-22 14:56:00" priority="5" status="1" subject="Get and install Shapelib open source C library for shapefiles" />
+<task actualstartdate="2012-02-15 11:11:52.396000" completiondate="2012-03-27 09:48:41.432000" expandedContexts="('taskviewer',)" id="43868496:1298411707.98" percentageComplete="100" plannedstartdate="2011-02-22 15:13:00" priority="5" status="1" subject="Well Package preprocessor">
+<description>
+Has been programmed in C++ by Kevin.  Needs to be completed.
+Two options for layer assignment need to be supported:
+(1) Layer is specified in shapefile
+(2) Screen top and bottom are specified in shapefile.  For screen overlapping multiple model layers, preprocessor assigns Q's weighted by screen length in each layer.
+
+Problem that needs to be addressed: assume confining beds are explicitly represented in model. Screen length intersects two aquifers and intervening confining bed.  Q should be apportioned only to aquifers.  This scheme will not allow a user to do this easily.
+</description>
+<task actualstartdate="2012-02-15 11:11:52.396000" completiondate="2012-03-27 09:48:39.917000" id="44572368:1298412785.06" percentageComplete="100" plannedstartdate="2011-02-22 15:13:00" priority="3" status="1" subject="Connection to time series files">
+<description>
+Linking attribute: StationName
+
+Time series files are in SMP (?) format used by Pest.
+</description>
+</task>
+<task actualstartdate="2012-02-15 11:11:52.396000" completiondate="2012-03-27 09:48:41.432000" expandedContexts="('taskviewer',)" id="85a4e261-5802-11e1-b390-0015c5079733" percentageComplete="100" plannedstartdate="2011-02-22 15:13:00" priority="4" status="1" subject="Code to write a WEL package input file">
+<description>
+This could be an abstract method of the Package class.
+</description>
+</task>
+</task>
+<task actualstartdate="2012-02-15 11:11:56.661000" completiondate="2013-03-12 17:01:21.991000" id="43868848:1298411945.03" percentageComplete="100" plannedstartdate="2011-02-22 14:59:00" priority="56" status="1" subject="River Package preprocessor">
+<description>
+Time-series values should control river stage
+</description>
+</task>
+<task actualstartdate="2012-02-15 12:19:33.252000" id="43869808:1298411630.5" priority="-20" status="1" subject="Scenario Analyzer control: Data calculator">
+<description>
+Make similar to raster calculator in ArcGIS
+</description>
+</task>
+<task actualstartdate="2012-02-15 11:12:00.599000" completiondate="2012-04-03 17:14:49.237000" id="44612080:1298412871.92" percentageComplete="100" plannedstartdate="2011-02-22 15:14:00" priority="100" status="1" subject="Ability to invoke Modflow run">
+<description>
+Low or NO priority.  Problem: Pathname issues and directory management.
+</description>
+</task>
+<task actualstartdate="2012-02-15 12:19:26.579000" completiondate="2013-02-20 12:39:55.893000" id="44791952:1298412958.15" percentageComplete="100" priority="25" status="1" subject="Read compact budget file and deal correctly with auxiliary variables" />
+<task completiondate="2012-02-14 16:53:28.066000" id="45391728:1317766144.87" percentageComplete="100" plannedstartdate="2011-10-04 16:09:00" priority="2" status="1" subject="Characterize modeling skills of users" />
+<task actualstartdate="2012-02-15 11:11:52.396000" expandedContexts="('taskviewer',)" id="45562640:1298412719.23" priority="15" shouldMarkCompletedWhenAllChildrenCompleted="False" status="1" subject="Connection to shapefiles">
+<description>
+Link attribute: StationName
+</description>
+<task actualstartdate="2012-03-08 17:51:28.807000" id="016a3c70-6982-11e1-87b3-004096b36012" priority="1" status="1" subject="Add capabilty to add only selected features to a FeatureSet">
+<description>
+Add capabilty to add only selected features to a FeatureSet (in PopulateFeatureSet)
+</description>
+</task>
+<task actualstartdate="2012-06-27 17:09:07.180000" completiondate="2012-06-27 17:35:17.720000" id="189022c0-c0ad-11e1-aa6c-c01885d6f27d" percentageComplete="100" priority="80" status="1" subject="Add a quasi-3D confining bed below layer 2 of model 3_layer_500m_example" />
+<task actualstartdate="2012-02-15 11:16:28.260000" completiondate="2012-03-06 16:23:24.773000" id="2db0d240-5801-11e1-9820-0015c5079733" percentageComplete="100" priority="1" status="1" subject="Import and display shapefile of model grid">
+<description>
+Model grid should (optionally) display on Display tab of FeatureSetForm.
+To do thhis, need to write function:
+
+CellCenteredArealGrid CreateCellCenteredArealGrid(string ShapefilePath)
+
+</description>
+</task>
+<task actualstartdate="2012-02-15 11:11:56.661000" id="43941296:1298413889.99" priority="2" status="1" subject="Capability to select and deselect wells to be added to scenario">
+<description>
+Should include a dialog that lets user use logical expression involving attributes in shapefile to determine if well (or other features, for other packages) is to be included.
+</description>
+</task>
+<task actualstartdate="2012-02-15 11:11:56.661000" completiondate="2012-07-02 11:45:00.429000" id="45313360:1298996565.74" percentageComplete="100" priority="79" status="1" subject="Assignment of wells in a shapefile to layer(s)">
+<description>
+Two options are to be supported:
+(1) The shapefile contains an integer attribute that contains the layer that the well should be assigned to.
+(2) The shapefile contains two real-number attributes that contain top and bottom elevation of the screeened interval.  In this case, if screened interval intersects multiple model layers, SM would proportion pumping rates by weighting the total pumping rate according to length of screened interval in each layer.  Non-simulated intervals (quasi-3D confining beds) would not be considered in the length weighting.
+</description>
+</task>
+<task actualstartdate="2012-02-15 11:18:39.950000" completiondate="2012-03-09 09:19:23.817000" id="7c2f1ee1-5801-11e1-b47a-0015c5079733" percentageComplete="100" priority="3" status="1" subject="Write code to assign Row and Column for each well.">
+<description>
+Write code to assign Row and Column for each well, based on intersection with model grid shapefile.  This should go into a method of MainForm, and would be called when the well package is exported.
+</description>
+</task>
+<task actualstartdate="2012-02-15 11:20:08.640000" completiondate="2012-03-08 14:49:06.232000" id="b10c2400-5801-11e1-82e3-0015c5079733" percentageComplete="100" priority="2" status="1" subject="Populate KeyItem drop-down list of FeatureSetForm">
+<description>
+Populate KeyItem drop-down list of FeatureSetForm.  Populate list with name of attributes in well (or river, or GHB, or ...) shapefile that are either text or integer attributes.  This should be done when FeatureSetForm is opened or when the shapefile is assigned.  Make it a separate method that is called in either situation. Call the method PopulateKeyItems.
+
+Default for the selected item should be the FeatureSet.KeyField property.
+</description>
+</task>
+<task actualstartdate="2012-06-26 17:21:47.632000" completiondate="2012-06-27 10:28:18.562000" id="b36a2700-bfe5-11e1-b676-0023ae773201" percentageComplete="100" priority="90" status="1" subject="Set up a 3-layer test model">
+<description>
+Start by copying 500m_example; call the copy "3_layer_500m_example".  Add 2 layers with uniform layer-bottom elevations.
+</description>
+</task>
+<task actualstartdate="2012-03-08 14:57:59.806000" completiondate="2012-03-09 17:17:27.948000" id="c52849de-6969-11e1-9b92-004096b36012" percentageComplete="100" priority="2" status="1" subject="Populate a FeatureSet with features">
+<description>
+This would be done in FeatureSetForm. Call the method PopulateFeatureSet, which would invoke FeatureSet.Add.  Features do not need to be saved in smgx file--instead, populate FeatureSet on the fly when needed, using data read from the shapefile and FeatureSet properties (DefaultLayer, LayerAttribute, and LayerMethod).
+</description>
+</task>
+</task>
+<task completiondate="2012-02-14 16:53:26.176000" id="46275120:1317766108.89" percentageComplete="100" plannedstartdate="2011-10-04 16:08:00" priority="1" status="1" subject="Define likely scenarios  (Use cases)" />
+<task actualstartdate="2012-02-15 11:11:52.396000" id="46452496:1298413373.3" plannedstartdate="2011-02-22 15:22:00" priority="-55" status="1" subject="SEAWAT boundaries preprocessor">
+<description>
+A SEAWAT preprocessor would be for MT3D input only.
+A boundary needs to be controlled by SEAWAT only if concentration &gt; 0.
+Assume data are available as a time series of concentrations, which would be used to build a SSM file (SEAWAT input).  SSM file provides stress period by stress period concentration for each source boundary.
+</description>
+</task>
+<task actualstartdate="2012-08-15 09:56:00" id="46452592:1298413617.74" priority="-600" status="1" subject="Add support for putting base maps in Scenario Analyzer (.sa) and Scenario Manager (.sm) files.">
+<description>
+Allow interface to select a map for each scenario.
+</description>
+</task>
+<task actualstartdate="2012-02-15 11:11:52.396000" id="46662992:1298412586.26" plannedstartdate="2011-02-22 15:09:00" priority="-150" status="1" subject="Hooks for SWR package">
+<description>
+SWR preprocessor is to be developed by Joe H and Jeremy White.  Scenario Manager should support linkage.  Details of linkage need to be worked out.
+</description>
+</task>
+<task actualstartdate="2013-08-02 12:56:44.947000" completiondate="2013-08-02 14:17:08.330000" id="46bca540-fba5-11e2-9001-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-08-02 12:56:44.947000" priority="70" status="1" subject="Warn: Attempt to import model grid shapefile that lacks attributes identifying row and column numbers">
+<description>
+Put check in ScenarioTools.Spatial.CreateCellCenteredArealGrid.CreateGrid
+</description>
+</task>
+<task actualstartdate="2012-02-15 12:19:30.048000" completiondate="2013-04-26 14:54:06.069000" id="47127152:1317770182.52" percentageComplete="100" priority="-19" status="1" subject="Extend data model from 2D to 3D" />
+<task actualstartdate="2012-02-15 11:12:00.599000" completiondate="2012-04-12 16:34:37.787000" id="47223184:1298412109.25" percentageComplete="100" plannedstartdate="2011-02-22 15:01:00" priority="80" status="1" subject="CHD Package preprocessor">
+<description>
+Write in C#
+</description>
+</task>
+<task actualstartdate="2013-02-21 16:27:38.550000" completiondate="2013-02-25 16:37:04.577000" id="47b7fd5e-7c7e-11e2-8609-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-02-21 16:27:38.549000" priority="25" status="1" subject="Double clicking an element or layer in SA should open Properties window" />
+<task actualstartdate="2012-02-15 11:11:32.083000" completiondate="2013-04-26 14:54:43.089000" expandedContexts="('taskviewer',)" id="48088976:1317766172.01" percentageComplete="100" plannedstartdate="2012-10-04 16:09:00" priority="-45" status="1" subject="identify Modflow packages that need to be supported" />
+<task actualstartdate="2012-02-15 11:11:40.364000" completiondate="2012-05-31 09:34:50.138000" expandedContexts="('prerequisiteviewerintaskeditor10', 'taskviewer')" id="48089936:1317766213.44" percentageComplete="100" plannedstartdate="2012-10-04 16:10:00" priority="9" status="1" subject="Convert SM from C++ to C#">
+<task actualstartdate="2012-02-15 11:11:49.255000" completiondate="2012-02-15 11:15:48.088000" id="44968432:1317766320.33" percentageComplete="100" priority="2" status="1" subject="Design C# object model" />
+<task actualstartdate="2012-02-15 11:13:13.913000" completiondate="2012-02-15 11:13:17.991000" id="45266160:1317766254.73" percentageComplete="100" priority="1" status="1" subject="Diagram classes as coded in C++">
+<description>
+Use UML diagramming software.  NClass, for example
+</description>
+</task>
+<task actualstartdate="2012-02-15 11:11:49.255000" completiondate="2012-05-31 09:34:50.138000" id="48632208:1317766349.39" percentageComplete="100" priority="4" status="1" subject="Code and test C# to reproduce C++ version of SM" />
+</task>
+<task actualstartdate="2012-02-15 11:11:52.396000" completiondate="2013-04-26 14:54:04.636000" id="49255728:1317767622.51" percentageComplete="100" plannedstartdate="2011-10-04 16:33:00" priority="-19" status="1" subject="Extend data model from 2D to 3D" />
+<task actualstartdate="2012-02-15 11:12:00.599000" id="49280560:1298413736.23" plannedstartdate="2011-02-22 15:28:00" priority="-200" status="1" subject="MNW preprocessor">
+<description>
+No priority for initial release.  Possible enhancement if project is extended.
+This is a can of worms, because of need to use data from model that otherwise would not be available, such as K or T.
+</description>
+</task>
+<task completiondate="2011-11-07 16:04:40.494000" id="49821168:1317769873.5" percentageComplete="100" plannedstartdate="2011-10-04 17:11:00" priority="47" status="1" subject="Develop tree component">
+<description>
+Tree component or alternative for manipulating directories and model components
+</description>
+</task>
+<task actualstartdate="2013-04-26 10:49:42.783000" completiondate="2013-04-26 11:40:56.909000" id="4b1710f0-ae91-11e2-9eee-0023ae773201" percentageComplete="100" plannedstartdate="2013-04-26 10:49:42.783000" priority="11" status="1" subject="Add item to element pop up menu to force reread/recompute of data series data" />
+<task actualstartdate="2013-08-30 13:35:15.103000" id="4b437a00-11ab-11e3-a294-d4bed907f86a" plannedstartdate="2013-08-30 13:35:15.103000" priority="-100" status="1" subject="Support point shapefiles for all packages">
+<description>
+Richard W. says:
+
+I recommend that point shapefiles be an option for all supported packages. It would be difficult, for example, to generate a line shapefile for rivers if the user used polygons to define them in the original model. Point shapefiles, however, would not be much of a problem to generate.
+</description>
+</task>
+<task actualstartdate="2013-05-21 16:18:05.713000" completiondate="2013-06-11 17:00:23.686000" id="4f477f1e-c264-11e2-8ddf-c01885d6f27d" percentageComplete="100" plannedstartdate="2013-05-21 16:18:05.713000" priority="30" status="1" subject="Fix bug re: Drag and drop">
+<description>
+In Scenario Manager, if a package is dragged from one scenario to another, the scenario it was dragged from still contains the package...it shows up in View | Documentation and it gets exported.
+
+Does the same problem happen when a feature set is dragged and dropped? YES.
+
+The same problems also happen when Cut and Paste are used instead of Drag and Drop.
+</description>
+</task>
+<task actualstartdate="2012-05-29 13:13:01.956000" completiondate="2012-07-25 11:14:00.312000" id="4f760630-a9c2-11e1-b074-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-29 13:13:01.956000" priority="15" status="1" subject="In a table, when a date is shown, show entire date &amp; time">
+<description>
+Maybe make this an option?
+</description>
+</task>
+<task actualstartdate="2012-02-15 11:11:52.396000" id="50586448:1317770590.8" plannedstartdate="2011-10-04 17:23:00" priority="50" status="1" subject="Develop at least 3 test cases">
+<description>
+One 2D and one or two 3D cases
+</description>
+</task>
+<task actualstartdate="2012-02-15 12:21:45.323000" completiondate="2013-04-23 16:01:24.508000" id="50588464:1317770540.65" percentageComplete="100" priority="6" status="1" subject="Develop support for &quot;transport classes&quot;">
+<description>
+i.e. concentration maps
+</description>
+</task>
+<task actualstartdate="2012-02-15 12:20:31.599000" completiondate="2012-11-26 14:48:02.858000" expandedContexts="('taskviewer',)" id="52438320:1317770267.8" percentageComplete="100" priority="48" status="1" subject="Implement 2D graphics using Puma Framework">
+<task actualstartdate="2012-10-31 12:16:49.223000" completiondate="2012-11-02 11:55:31.473000" id="232cc570-2387-11e2-8f45-0023ae773201" percentageComplete="100" priority="48" status="1" subject="Add capability to label contours" />
+<task actualstartdate="2012-10-31 11:44:36.594000" completiondate="2012-11-26 14:47:59.972000" id="a33cfd21-2382-11e2-9f97-0023ae773201" percentageComplete="100" priority="48" status="1" subject="Add explanation to image provided by GetImage" />
+<task actualstartdate="2012-10-31 11:45:30.703000" completiondate="2012-11-26 14:48:02.858000" id="c37d5df0-2382-11e2-b3ee-0023ae773201" percentageComplete="100" priority="48" status="1" subject="Add scale bar to image provided by GetImage" />
+</task>
+<task actualstartdate="2012-02-15 12:20:21.067000" id="52442032:1317770487.9" priority="-42" status="1" subject="Develop support for RIV and GHB Packages" />
+<task actualstartdate="2012-02-15 12:21:06.304000" expandedContexts="('prerequisiteviewerintaskeditor83', 'taskviewer')" id="52761136:1317771167.08" priority="-15" shouldMarkCompletedWhenAllChildrenCompleted="False" status="1" subject="Scenario Analyzer output">
+<task actualstartdate="2012-02-15 12:21:20.055000" completiondate="2012-06-11 10:29:01.183000" expandedContexts="('taskviewer',)" id="42379536:1298411581.71" percentageComplete="100" priority="-31" status="1" subject="Scenario Analyzer output: Tables" />
+<task actualstartdate="2012-02-15 12:21:22.993000" expandedContexts="('taskviewer',)" id="42816912:1298411553.67" priority="-34" shouldMarkCompletedWhenAllChildrenCompleted="False" status="1" subject="Scenario Analyzer output: Time-series graphs">
+<description>
+Graph by cell or by groups of cells.
+Groups results are always sums now; add support for calculation of max, min, avg, std. dev.
+
+
+</description>
+<task actualstartdate="2012-02-15 12:21:25.931000" id="43940400:1298413302.13" priority="-32" status="1" subject="Add support for a secondary Y axis on graphs." />
+</task>
+<task actualstartdate="2012-02-15 12:21:17.383000" completiondate="2012-06-11 10:29:07.371000" id="55197008:1317770708.01" percentageComplete="100" priority="-30" status="1" subject="Develop capability to generate PDF files">
+<description>
+Capability needs to support tables, graphs, maps.
+</description>
+</task>
+<task actualstartdate="2012-02-15 12:21:28.165000" expandedContexts="('taskviewer',)" id="59693968:1317771462.47" priority="-15" shouldMarkCompletedWhenAllChildrenCompleted="False" status="1" subject="Scenario Analyzer output: Maps">
+<description>
+Raster in SA coincides with Modflow grid.
+Should (does it correctly?) support variable spacing of rows and columns.
+Supports rotated grids (unlike ArcGIS).
+</description>
+<task actualstartdate="2012-02-15 12:21:31.040000" id="47908496:1298413119.75" priority="-15" status="1" subject="Add grid rotation capability " />
+</task>
+</task>
+<task actualstartdate="2012-02-15 12:20:48.491000" completiondate="2012-05-29 14:18:41.573000" id="53799440:1317770224.56" percentageComplete="100" priority="48" status="1" subject="Implement charts using MS Chart Controls" />
+<task actualstartdate="2012-02-15 12:20:08.270000" id="54947792:1317770454.13" priority="-26" status="1" subject="Develop / extend support for WELL Package" />
+<task actualstartdate="2012-12-14 10:33:11.972000" completiondate="2013-02-12 17:23:19.101000" id="5558f640-4614-11e2-990d-d4bed907f86a" percentageComplete="100" plannedstartdate="2012-12-14 10:33:11.972000" priority="22" status="1" subject="Color-fill map: In explanation, put higher end of range at top of symbol box." />
+<task actualstartdate="2012-05-20 19:00:24.766000" completiondate="2012-05-21 16:15:54.099000" id="590465e1-a2e0-11e1-8498-c01885d6f27d" percentageComplete="100" plannedstartdate="2012-05-20 19:00:24.766000" priority="2" status="1" subject="Assign treeView node name as &quot;Chart: &quot; + chart.name." />
+<task actualstartdate="2013-07-15 10:55:28.442000" completiondate="2013-08-13 09:42:25.568000" id="5a2a719e-ed6f-11e2-9fa4-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-07-15 10:55:28.441000" priority="65" status="1" subject="Fix bug:  Use of Automatic on Extent tab of Map Designer">
+<description>
+When Automatic is selected, then OK is clicked, an unhandled exception is thrown.
+
+8/13/2013 -- Seems to work OK now.
+</description>
+</task>
+<task actualstartdate="2013-04-24 10:24:27.463000" completiondate="2013-04-24 16:29:09.062000" id="5a9b371e-a79a-11e2-b991-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-04-17 14:06:56.145000" priority="20" status="1" subject="Add support for creating concentration maps based on SEAWAT output">
+<description>
+Need to filter out concentrations that equal CINACT (in MT3D BTN file).
+</description>
+</task>
+<task actualstartdate="2013-02-15 15:09:26.386000" completiondate="2013-03-18 10:26:11.185000" id="5c7e151e-77bc-11e2-ada5-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-02-15 15:09:26.386000" priority="20" status="1" subject="Add zoom and pan capabilities to STMapDesigner">
+<description>
+Instead, I implemented a capability to interactively define an extent, so DONE.
+</description>
+</task>
+<task actualstartdate="2012-05-29 13:06:15.636000" completiondate="2012-05-31 10:39:43.035000" id="5d443940-a9c1-11e1-a849-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-29 13:06:15.636000" priority="1" status="1" subject="Fix problems caused by spaces in pathnames">
+<description>
+Check use of embedded spaces in pathnames for MF executable, MODFLOW name file, and in all "Save As" dialogs.
+</description>
+</task>
+<task actualstartdate="2013-02-25 10:47:03.736000" completiondate="2013-02-27 10:24:59.224000" id="5d45d380-7f73-11e2-92eb-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-02-25 10:47:03.736000" priority="11" status="1" subject="Make scale bar font smaller on maps">
+<description>
+Also close up space allowed for scale bar, so more space is available for the map
+</description>
+</task>
+<task actualstartdate="2012-05-29 12:59:07.862000" id="5e4b175e-a9c0-11e1-90a6-0023ae773201" plannedstartdate="2012-05-29 12:59:07.862000" priority="-17" status="1" subject="What about EVT?">
+<description>
+Similar to RCH, but would there be a need to vary extinction depth with time?
+</description>
+</task>
+<task actualstartdate="2013-05-30 16:36:29.018000" completiondate="2013-05-31 11:31:58.648000" id="5e9e139e-c979-11e2-8512-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-05-30 16:36:29.017000" priority="42" status="1" subject="Resize DataProviderCbbMapMenu with data series menu" />
+<task actualstartdate="2013-07-15 14:23:14.288000" completiondate="2013-08-13 09:50:35.137000" id="60639700-ed8c-11e2-a7b7-0023ae773201" percentageComplete="100" plannedstartdate="2013-07-15 14:23:14.288000" priority="62" status="1" subject="STMapDesigner needs to have a better minimum width">
+<description>
+As is, form can be made too small.  Really, the left panel needs to have an appropriate minimum width to avoid disappearing controls.
+</description>
+</task>
+<task actualstartdate="2013-06-19 14:03:59.955000" completiondate="2013-08-14 12:20:11.981000" id="619cda2e-d91b-11e2-854c-0023ae773201" percentageComplete="100" plannedstartdate="2013-06-19 14:03:59.955000" priority="35" status="1" subject="Look into &quot;head, drawdown, or concentration data by cell group&quot;">
+<description>
+What does it mean to extract head, drawdown, or concentration data by cell group?  
+Summing does not make sense, but can an average be calculated?
+Does it even make sense to average if cell sizes are not equal?
+If not, maybe this option should be removed.
+</description>
+</task>
+<task actualstartdate="2013-03-18 10:32:13.083000" completiondate="2013-03-18 12:38:21.711000" id="634f4eb0-8fe9-11e2-832c-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-03-18 10:32:13.082000" priority="15" status="1" subject="Limit number of decimal digits shown on contours">
+<description>
+Use contour interval to determine max number of digits to right of decimal
+</description>
+</task>
+<task actualstartdate="2013-06-27 09:29:43.971000" completiondate="2013-08-13 16:40:12.086000" id="64631e40-df3e-11e2-924d-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-06-27 09:29:43.971000" priority="55" status="1" subject="Fix bug: Math errors in DatasetCalculator">
+<description>
+if expression  ==  -1 * [wells flow] 
+and [wells flow] == -12000,
+result shows as 12001 instead of 12000.
+
+And expression  -[wells flow]
+produces -12000
+
+Both are wrong!
+
+However, 
+[wells flow] * (-1)
+and
+(-1) * [wells flow] 
+produce the correct result, 12000.
+
+Another problem needs to be checked:
+
+[data series] + (1) 
+
+or similar does not produce the expected result.
+</description>
+</task>
+<task actualstartdate="2012-05-29 12:38:01.084000" completiondate="2012-06-12 17:04:08.516000" id="6b3c1bc0-a9bd-11e1-90cd-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-29 12:38:01.084000" priority="100" status="1" subject="Test ability to copy an SA file into directory of another scenario. -- Are paths stored as relative paths?">
+<description>
+It should be possible to reuse an SA project in a new scenario directory(?)
+</description>
+</task>
+<task actualstartdate="2013-07-15 16:25:14.132000" completiondate="2013-07-18 15:16:50.619000" id="6b5b2540-ed9d-11e2-b48e-0023ae773201" percentageComplete="100" plannedstartdate="2013-07-15 16:25:14.132000" priority="50" status="1" subject="On Report Chart form, maybe delete Chart Properties tab">
+<description>
+Is it ever used???
+</description>
+</task>
+<task actualstartdate="2012-07-20 15:25:25.294000" completiondate="2012-07-25 11:13:33.765000" id="6b87ecde-d2b1-11e1-b537-0023ae773201" percentageComplete="100" plannedstartdate="2012-07-20 15:25:25.294000" priority="70" status="1" subject="In SA Table, add option to have a Time column">
+<description>
+Or, list time in date column and make column heading "Date and Time"
+</description>
+</task>
+<task actualstartdate="2013-02-21 16:28:41.745000" completiondate="2013-02-21 17:15:31.797000" id="6d62ef21-7c7e-11e2-8e5c-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-02-21 16:28:41.745000" priority="45" status="1" subject="Debug cbb point times seires">
+<description>
+Use test23.sa
+</description>
+</task>
+<task actualstartdate="2013-06-27 09:44:21.563000" completiondate="2013-07-02 10:05:26.330000" id="6f78e0b0-df40-11e2-ac3f-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-06-27 09:44:21.563000" priority="56" status="1" subject="Bug: Conversion of time step to DateTime">
+<description>
+Bug: When a chart or table includes data from modflow output, DateTime for each time step is not calculated correctly.  Instead of computing date and hour, it looks like the SP is being interpreted as the date, and TS as the hour.
+
+Also, not sure the simulation start time is being handled correctly.
+</description>
+</task>
+<task actualstartdate="2013-06-21 17:08:09.254000" completiondate="2013-06-25 15:53:05.633000" id="7055945e-dac7-11e2-ae1c-0023ae773201" percentageComplete="100" plannedstartdate="2013-06-21 17:08:09.254000" priority="45" status="1" subject="Data series for a map layer needs work">
+<description>
+A single binary file could contain both head and drawdown arrays.  Need a way to allow user to get desired kind of array.
+Have a drop-down list showing only choices found in file (read text strings from binary file).
+To test this, will need a model that saves both head and drawdown to the same binary file.
+
+Needed for:
+1. DataProviderHeadAtPointMenu
+2. DataProviderHeadMapMenu
+3. DataProviderHeadGroupMenu
+
+Used by:
+1. DataProviderHeadAtPoint
+2. DataProviderHeadMap
+3. DataProviderHeadGroup
+
+Each "Used by" item needs to store and use data-descriptor text so that correct dataset can be extracted.
+
+</description>
+</task>
+<task actualstartdate="2012-05-29 12:31:04.662000" completiondate="2012-05-31 09:32:43.060000" id="7307275e-a9bc-11e1-aae9-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-29 12:31:04.662000" priority="2" status="1" subject="Check expression syntax">
+<description>
+In the SA expression builder, entering a bad expression (e.g. "input [Non-Pumping] - [Pumping]") does not cause an error.  Instead it endlessly tries to compute the expression.  
+
+Need to check syntax or otherwise validate the expression
+</description>
+</task>
+<task actualstartdate="2012-03-08 18:04:00" completiondate="2013-04-26 14:54:01.119000" duedate="2013-04-30 18:00:00" id="733fe570-67e3-11e1-9a54-0023ae773201" percentageComplete="100" plannedstartdate="2012-04-02 18:03:00" priority="-18" status="1" subject="Show row and column numbers in FeatureSetForm display">
+<description>
+Display row and column numbers according to mouse pointer location in map control of FeatureSetForm.
+</description>
+</task>
+<task actualstartdate="2013-08-01 14:10:48.146000" completiondate="2013-08-02 09:31:11.864000" id="74ad4230-fae6-11e2-a000-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-08-01 14:10:48.146000" priority="69" status="1" subject="Add support: for warning when well-screen top &lt; well-screen bottom">
+<description>
+Warn once if any well in domain has this problem.
+</description>
+</task>
+<task actualstartdate="2013-07-23 12:41:15.678000" completiondate="2013-08-13 17:00:53.159000" id="74b7f2ee-f3c7-11e2-815a-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-07-23 12:41:15.678000" priority="55" status="1" subject="Fix bug: Empty CHD package causes unhandled exception">
+<description>
+It should be possible to "turn off" a package listed in the base name file, but when this is done in exercise with CHD package, an unhandled exception is reported.
+</description>
+</task>
+<task actualstartdate="2012-04-10 10:37:30.503000" completiondate="2012-04-10 11:20:21.691000" id="773b4170-832b-11e1-a450-0023ae773201" percentageComplete="100" plannedstartdate="2012-04-10 10:37:30.503000" priority="2" status="1" subject="On program exit, ask user to save or lose changes, if any." />
+<task actualstartdate="2013-02-25 10:40:38.215000" completiondate="2013-02-27 10:22:56.364000" id="777bfd6e-7f72-11e2-9a60-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-02-25 10:40:38.215000" priority="22" status="1" subject="Add color ramp options for color fill maps">
+<description>
+Currently, the Data Series dialog has only the gray-scale option.  Should be able to choose colors and high/low orientation of ramp direction
+</description>
+</task>
+<task actualstartdate="2012-05-29 12:59:50.568000" completiondate="2013-02-06 12:09:14.810000" id="77bf8280-a9c0-11e1-9fc8-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-29 12:59:50.568000" priority="35" status="1" subject="Ensure that a ddn (MODFLOW drawdown) file can be read.">
+<description>
+The way to do this is to ensure that all "open dialog" calls support "All files *.*" 
+</description>
+</task>
+<task actualstartdate="2012-05-29 13:14:11.250000" completiondate="2012-11-26 17:31:29.250000" id="78c1291e-a9c2-11e1-9b27-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-29 13:14:11.250000" priority="58" status="1" subject="Add capabiilty to export a table as a CSV file">
+<description>
+When done, eliminate option to export to XML.  It doesn't seem to work anyway.
+</description>
+</task>
+<task actualstartdate="2013-07-25 12:03:12.858000" completiondate="2013-08-09 17:14:26.642000" id="78e09ba1-f554-11e2-b37b-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-07-25 12:03:12.858000" priority="68" status="1" subject="Fix bug: Convert RCH flow rates to flux rates for display in SA">
+<description>
+RCH values extracted from CBC file are flow rates (L**3/T) but for display on a map should be converted to fluxes (L/T).  When data are for a map, need to divide by cell area
+</description>
+</task>
+<task actualstartdate="2013-05-30 16:37:18.324000" completiondate="2013-05-31 11:32:54.349000" id="7c019340-c979-11e2-acd2-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-05-30 16:37:18.324000" priority="44" status="1" subject="Add Start Layer and End Layer to DataProviderCbbMapMenu &amp; implement" />
+<task actualstartdate="2013-07-02 11:54:49.049000" completiondate="2013-08-14 09:50:20.523000" id="7d15348f-e340-11e2-af46-0023ae773201" percentageComplete="100" plannedstartdate="2013-07-02 11:54:49.049000" priority="44" status="1" subject="Set appropriate minimum size for SA Project Settings dialog" />
+<task actualstartdate="2013-05-31 16:21:50.237000" completiondate="2013-06-11 10:20:28.969000" id="7d3ca3de-ca40-11e2-aac5-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-05-31 16:21:50.237000" priority="45" status="1" subject="In STMapDesigner, bottom of text label for color box is cut off" />
+<task actualstartdate="2012-06-08 16:37:13.071000" completiondate="2012-06-08 17:08:38.305000" id="7dda7dcf-b1ba-11e1-82c4-0023ae773201" percentageComplete="100" plannedstartdate="2012-06-08 16:37:13.071000" priority="4" status="1" subject="Fix arrow buttons in Report Table dialog, Columns tab">
+<description>
+They should reorder data series but they don't do anything.
+</description>
+</task>
+<task actualstartdate="2012-03-09 10:22:49.164000" completiondate="2012-03-09 17:17:46.932000" id="7e7d05a1-6a0c-11e1-942a-004096b36012" percentageComplete="100" plannedstartdate="2012-03-09 10:22:49.164000" priority="7" status="1" subject="Implement saving of well (Feature) data?">
+<description>
+It may not be necessary to save Feature data.  If Feature data are not saved, the Feature data would need to be processed on the fly.  Maybe this is not a bad thing.
+</description>
+</task>
+<task actualstartdate="2012-03-27 10:40:01.698000" completiondate="2012-04-02 10:43:30.631000" expandedContexts="('taskviewer',)" id="7f91481e-782b-11e1-8dc8-0023ae773201" percentageComplete="100" plannedstartdate="2012-03-27 10:40:01.698000" priority="4" status="1" subject="Develop folder/file scheme">
+<description>
+A SM project has ONE master name file active at any time.  User can select the master name file on the Project Settings dialog.  The folder where the master name file resides is determined dynamically and is the MasterDirectory.
+
+Each scenario has a unique ScenarioID, which is shown on the level-0 tree view node for the scenario.  Currently, the ScenarioID may not contain blanks because it is used to generate file names read by MODFLOW.
+
+Each scenario creates its own subfolder under the MasterDirectory.  The subfolder name is the  ScenarioID.
+
+Each scenario generates its own name file in the scenario folder.  The name file is named as ScenarioID + ".nam".
+
+When a scenario is generated, all packages are exported and the scenario name file is written, based on the master name file but with relative paths for input files.  Output files and scenario-controlled input file are put in the scenario folder.
+
+A dialog could be used to prompt user to identify all files in the name file (e.g. DATA and DATA(BINARY) files) that are ambiguous with respect to input/output status.  If REPLACE is found, recognize file as being output.  If OLD is found, recognize file as being input.
+</description>
+<task actualstartdate="2012-03-28 08:56:22.530000" completiondate="2012-04-02 10:43:30.631000" id="2f114e1e-78e6-11e1-8eb9-0023ae773201" percentageComplete="100" plannedstartdate="2012-03-28 08:56:22.530000" priority="3" status="1" subject="Develop NextScenarioID and revise AddScenario">
+<description>
+string method NextScenarioID will Look at existing ScenarioIDs and generate next in format Scenario_n.
+
+AddScenario will open a dialog providing a default ScenarioID (using NextScenarioID) and allow user to edit it.
+</description>
+</task>
+<task actualstartdate="2012-03-27 10:40:32.276000" completiondate="2012-04-02 10:42:02.115000" id="91cb1d40-782b-11e1-ab79-0023ae773201" percentageComplete="100" plannedstartdate="2012-03-27 10:40:32.276000" priority="4" status="1" subject="Implement ability to import a Modflow name file" />
+<task actualstartdate="2012-03-27 10:41:12.792000" completiondate="2012-04-02 10:41:37.803000" id="a9f15d80-782b-11e1-ba53-0023ae773201" percentageComplete="100" plannedstartdate="2012-03-27 10:41:12.792000" priority="3" status="1" subject="Create a folder for each scenario" />
+<task actualstartdate="2012-03-28 13:47:13.030000" completiondate="2012-04-02 10:41:35.990000" id="d0604a5e-790e-11e1-a96a-0023ae773201" percentageComplete="100" plannedstartdate="2012-03-28 13:47:13.030000" priority="2" status="1" subject="Create file names as required">
+<description>
+This will require developing a GetScenarioID() method in Scenario and Package classes.  Package will need to be able to invoke something like Parent.GetScenarioID().
+</description>
+</task>
+</task>
+<task actualstartdate="2013-05-20 17:25:04.128000" completiondate="2013-06-12 12:30:16.911000" id="80071000-c1a4-11e2-aede-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-05-20 17:25:04.112000" priority="20" status="1" subject="Set SM project setting dialog width minimum to be smaller" />
+<task actualstartdate="2013-08-01 14:18:17.810000" id="80b2631e-fae7-11e2-a058-d4bed907f86a" plannedstartdate="2013-08-01 14:18:17.810000" priority="45" status="1" subject="Documentation of Data Set Calculator">
+<description>
+In Data Set Calculator, expression is case-sensitive.  Ensure that report says it is case-sensitive.
+</description>
+</task>
+<task actualstartdate="2012-05-30 11:33:00.723000" completiondate="2012-05-31 09:33:32.326000" id="80da0030-aa7d-11e1-926c-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-30 11:33:00.723000" priority="4" status="1" subject="Fix Cancel button on DataSeries dialog">
+<description>
+Cancel button does not do anything.
+</description>
+</task>
+<task actualstartdate="2012-05-29 12:52:58.388000" completiondate="2013-03-06 12:05:04.276000" id="8211d540-a9bf-11e1-a25e-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-29 12:52:58.388000" priority="55" status="1" subject="Add support for GHB package in SM">
+<description>
+Implement as a area, like CHD
+</description>
+</task>
+<task actualstartdate="2013-05-02 15:08:59.494000" completiondate="2013-05-03 15:40:40.720000" id="8217485e-b36c-11e2-ab7e-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-05-02 15:08:59.494000" priority="28" status="1" subject="In FeatureSetForm, disable &quot;Label feature&quot; option for feature set of Recharge type">
+<description>
+because recharge features are not labeled anyway
+</description>
+</task>
+<task actualstartdate="2013-05-01 16:21:46.763000" completiondate="2013-05-03 15:01:21.558000" id="82c5e5b0-b2ad-11e2-b06a-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-05-01 16:21:46.763000" priority="30" status="1" subject="Fix extent bug">
+<description>
+Define an extent that's a copy of an existing (selected) extent (same coordinates, different name).  Clicking OK does not assign the new extent, but should.
+</description>
+</task>
+<task actualstartdate="2013-05-30 16:30:20.935000" completiondate="2013-06-11 11:06:08.996000" id="83393880-c978-11e2-8410-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-05-30 16:30:20.935000" priority="40" status="1" subject="Bug: Well data not extracted from CBC?">
+<description>
+for test SWRSample08\PumpingResults.  In DataProviderCbbMap.GetDataSynchronous, CbbReader.GetMapFromCbb is called with Layer=1, but wells are in layer 3.
+Test using both COMPACT and non-COMPACT budget files.
+</description>
+</task>
+<task actualstartdate="2015-01-14 10:06:31.478000" creationDateTime="2015-01-14 10:05:21.909000" id="8645524f-9c0f-11e4-ba64-d4bed907f86a" modificationDateTime="2015-01-14 10:06:31.478000" priority="40" status="1" subject="Add to Help">
+<description>
+Need to populate the "Data Sources" topic.
+</description>
+</task>
+<task actualstartdate="2013-02-05 16:59:00" duedate="2014-09-30 18:00:00" id="865b3f51-6fef-11e2-bd84-d4bed907f86a" plannedstartdate="2013-02-05 16:59:00" priority="35" status="1" subject="Fix line weights in chart explanation">
+<description>
+Line weights in chart explanation are too light
+</description>
+</task>
+<task actualstartdate="2013-08-08 17:16:17.895000" id="876a6e80-0080-11e3-a86a-d4bed907f86a" plannedstartdate="2013-08-08 17:16:17.895000" priority="30" status="1" subject="Add support for variable grid spacing">
+<description>
+Specifically, in GeoMap.FixedGridMap, it does not allow for variable grid spacing.  Also check other mapping methods.
+
+Need to generate a ModelMuse model with variable grid spacing.
+</description>
+</task>
+<task actualstartdate="2012-07-19 16:46:09.459000" completiondate="2012-07-20 09:19:12.038000" id="88771830-d1f3-11e1-bbc5-0023ae773201" percentageComplete="100" plannedstartdate="2012-07-19 16:46:09.459000" priority="70" status="1" subject="On FeatureSetForm, the uniform layer selector should not allow a layer number greater than NLAY" />
+<task actualstartdate="2012-08-13 17:28:28.634000" completiondate="2012-08-14 14:58:00.813000" id="964233a1-e59e-11e1-8a64-0023ae773201" percentageComplete="100" plannedstartdate="2012-08-13 17:28:28.634000" priority="61" status="1" subject="Add support for other options for assigning Layer for CHD feature set" />
+<task actualstartdate="2012-05-29 13:07:58.322000" completiondate="2012-05-31 11:26:16.890000" id="9a78dd21-a9c1-11e1-a6f6-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-29 13:07:58.322000" priority="1" status="1" subject="Catch problem where linking attribute has not been defined">
+<description>
+Also look for other errors.
+</description>
+</task>
+<task actualstartdate="2013-05-02 16:57:03.163000" completiondate="2013-05-06 15:33:58.397000" id="9aa8a8b0-b37b-11e2-97f0-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-05-02 16:57:03.163000" priority="22" status="1" subject="In SA map image, make room for layer name" />
+<task actualstartdate="2012-05-29 12:53:46.792000" completiondate="2013-02-01 16:06:40.238000" id="9eebb280-a9bf-11e1-b74b-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-29 12:53:46.792000" priority="5" status="1" subject="Add support for RCH in SM">
+<description>
+As a factor, by stress period.
+
+Read factors from the SMP file.
+
+Support both current (piecewise) interpretation of SMP data and to-be-developed stepwise interpretation.
+
+See project log book (May 23, 2012) and stepwise interpretation to-do item
+</description>
+</task>
+<task actualstartdate="2013-05-02 20:17:36.267000" completiondate="2013-05-07 10:59:37.964000" id="9ef29db0-b397-11e2-b7db-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-05-02 20:17:36.267000" priority="19" status="1" subject="Make chart dimensions bigger" />
+<task actualstartdate="2012-07-27 18:39:01.462000" completiondate="2012-07-30 11:16:21.108000" id="a032bf5e-d84c-11e1-b99f-c01885d6f27d" percentageComplete="100" plannedstartdate="2012-07-27 18:39:01.462000" priority="70" status="1" subject="Move InsertAsModflowCommentLines to StringUtil" />
+<task actualstartdate="2012-05-20 18:55:18.950000" completiondate="2013-02-06 16:47:14.006000" id="a2bc9461-a2df-11e1-b106-c01885d6f27d" percentageComplete="100" plannedstartdate="2012-05-20 18:55:18.950000" priority="30" status="1" subject="Make Data Series dialog wide enough to accommodate all buttons in expression builder." />
+<task actualstartdate="2012-10-31 11:37:31.925000" completiondate="2012-11-26 14:51:31.287000" id="a61da44f-2381-11e2-b844-0023ae773201" percentageComplete="100" plannedstartdate="2012-10-31 11:37:31.925000" priority="47" status="1" subject="To SA Edit menu, add item &quot;Add New ST Map&quot;">
+<description>
+This will be renamed as "Add New Map" when support for Kevin-style maps is removed.
+</description>
+</task>
+<task actualstartdate="2013-07-15 10:57:36.003000" completiondate="2013-08-14 12:04:55.824000" id="a632b530-ed6f-11e2-a87a-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-07-15 10:57:36.003000" priority="37" status="1" subject="Import of background image should create an extent in SA">
+<description>
+But it doesn't. 
+
+E.g.: 
+
+New SA project.  
+Project | Settings: 
+  Define model-grid shapefile and background image file.
+  OK.
+Add New Map, brings up Map Designer.
+  Click Show checkbox on Layout tab.
+  Select Extent tab.
+
+List of extents does not include "background image" but it should.
+
+</description>
+</task>
+<task actualstartdate="2013-05-03 12:38:32.793000" id="a82beb9e-b420-11e2-b8fe-d4bed907f86a" plannedstartdate="2013-05-03 12:38:32.793000" priority="25" status="1" subject="Develop a way to create a &quot;cell group&quot; file (containing zones) from a polygon shapefile" />
+<task actualstartdate="2012-05-29 12:39:46.641000" id="aa26d40f-a9bd-11e1-b18c-0023ae773201" plannedstartdate="2012-05-29 12:39:46.641000" priority="-501" status="1" subject="Add support for Auxiliary variables">
+<description>
+I think this applies only to SM
+</description>
+</task>
+<task actualstartdate="2013-05-08 11:35:29.127000" completiondate="2013-05-09 17:09:24.729000" id="acfee770-b805-11e2-a4e9-0023ae773201" percentageComplete="100" plannedstartdate="2013-05-08 11:35:29.127000" priority="20" status="1" subject="Adopt consistent image/icon for all Browse buttons">
+<description>
+ModelMate also uses several icons.  I like the one with a folder and green arrow...maybe use that.  It's used on the Model Commands form.  The same icon is used on the tool bar of the ModelMate File Viewer.
+
+Scenario Manager currently uses:
+    (1) an icon with a folder and (I think) a magnifying glass (hard to interpret);
+    (2) "Browse..."
+
+Scenario Analyzer currently uses:
+    (1) "Browse..."
+    (2) "&gt;"
+
+Make button size 30 x 30 and for image use:
+
+ScenarioTools\src\ScenarioTools\Images\open_document24_h.png
+
+Other icons are available in:
+C:\Program Files (x86)\Common Files\CodeGear Shared\Images\GlyFX\Icons\XP\BMP
+</description>
+</task>
+<task actualstartdate="2013-06-21 14:39:32.784000" completiondate="2013-08-14 10:49:14.820000" id="adb43b00-dab2-11e2-8de5-0023ae773201" percentageComplete="100" plannedstartdate="2013-06-21 14:39:32.784000" priority="38" status="1" subject="Fix bug: When map node is selected, Edit | Add New *** Layer is not enabled" />
+<task actualstartdate="2013-08-01 14:12:25.541000" completiondate="2013-08-12 14:56:34.449000" id="aeba8e61-fae6-11e2-9fb7-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-08-01 14:12:25.541000" priority="67" status="1" subject="Add support: for warning when RchLayer is specified for Linking Attribute.">
+<description>
+The warning should indicate the problem.  Also, should be possible to filter out integer attributes so they aren't loaded in ComboBox for Linking Attribute.
+
+Fixed: I made the Linking Attribute comboBox get populated only with attributes of type "string".  Layer number can only be a numeric attribute, so there is no chance to get them mixed up.
+
+
+</description>
+</task>
+<task actualstartdate="2013-08-09 17:30:34.846000" completiondate="2013-08-12 13:06:57.058000" id="b09c5fde-014b-11e3-a925-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-08-09 17:30:34.846000" priority="68" status="1" subject="Bug: When an SA project is opened and then immediately exported to PDF, a map is not generated">
+<description>
+test with: debug_flux_rates.sa
+
+If a map node is clicked, image is generated and PDF exports OK.
+
+Need to regenerate map images on export to PDF?
+</description>
+</task>
+<task actualstartdate="2012-03-28 09:00:03.296000" completiondate="2013-04-26 14:54:47.954000" id="b2a78600-78e6-11e1-aca5-0023ae773201" percentageComplete="100" plannedstartdate="2012-03-28 09:00:03.296000" priority="-48" status="1" subject="Develop Scenario.Describe() -- and ScenarioCompare() (?)">
+<description>
+Scenario.Describe() will generate a full description of a scenario.  Also implement Package.Describe() and FeatureSet.Describe(), which will be invoked via Scenario.Describe().
+
+ScenarioCompare would compare two scenarios and describe differences, which could go to a dialog containing a text box and optionally be written to a file.
+</description>
+</task>
+<task actualstartdate="2012-06-26 17:00:19.078000" completiondate="2013-04-25 12:43:35.044000" id="b3606a61-bfe2-11e1-9cde-0023ae773201" percentageComplete="100" plannedstartdate="2012-06-26 17:00:19.078000" priority="10" status="1" subject="Add Zoom and Pan capabilities to Display tab of FeatureSetForm of SM">
+<description>
+Also show rectangle in index map to indicate area displayed in main map.
+</description>
+</task>
+<task actualstartdate="2013-05-01 16:23:10.581000" completiondate="2013-05-03 15:42:18.138000" id="b4bba961-b2ad-11e2-8414-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-05-01 16:23:10.581000" priority="25" status="1" subject="Eliminate &quot;Include Time in Table&quot; checkbox...">
+<description>
+...in the Data Series dialog for a table
+</description>
+</task>
+<task actualstartdate="2013-05-02 21:22:39.524000" completiondate="2013-05-07 10:59:41.911000" id="b5785e40-b3a0-11e2-b230-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-05-02 21:22:39.524000" priority="15" status="1" subject="Allow more height for table when truncating">
+<description>
+see D:\Projects\Florida-Tools\ScenarioTools\demo_20130503\Test\demo2.sa
+</description>
+</task>
+<task actualstartdate="2013-05-08 12:47:23.948000" completiondate="2013-05-09 14:50:30.972000" id="b8d456c0-b80f-11e2-bcff-0023ae773201" percentageComplete="100" plannedstartdate="2013-05-08 12:47:23.948000" priority="25" status="1" subject="Change &quot;groups&quot; to &quot;zones&quot; or &quot;cell groups&quot;" />
+<task actualstartdate="2013-07-10 12:37:09.422000" completiondate="2013-07-10 15:48:51.739000" id="ba9183f0-e98f-11e2-a9f2-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-07-10 12:37:09.422000" priority="60" status="1" subject="Fix bug: Time series times are incorrect">
+<description>
+Problem is shown when trying to plot chart of calculated heads in SWRSample08 example.
+Use L,R,C location 3,41,9, where well is located..
+
+Turns out the OC file for the SWRSample08 example had not saved data for all time steps.
+
+The time series times are correct.
+</description>
+</task>
+<task actualstartdate="2013-03-04 16:03:29.521000" completiondate="2013-03-06 12:05:13.992000" id="ba92f60f-851f-11e2-96d1-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-03-04 16:03:29.520000" priority="50" status="1" subject="Implement way to assign CBC flag and unit for each package">
+<description>
+Needs to be implemented for GHB, WEL, RIV others?
+
+Currently, this is done for RCH in FeatureSetForm, with a way to assign a master feature set. 
+
+Probably should do the same for GHB, WEL, and RIV.  However, there could be a Package Properties form, or it could be on the package summary panel in the main form
+</description>
+</task>
+<task actualstartdate="2013-05-30 16:39:09.651000" completiondate="2013-05-31 11:51:14.843000" id="be5ce140-c979-11e2-8fae-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-05-30 16:39:09.651000" priority="46" status="1" subject="Remove Time Step drop down on LayerDialog">
+<description>
+Better yet, make it work -- Done
+</description>
+</task>
+<task actualstartdate="2013-07-11 12:43:20.626000" completiondate="2013-08-01 14:10:12.294000" id="c23c591e-ea59-11e2-b8b7-0023ae773201" percentageComplete="100" plannedstartdate="2013-07-11 12:43:20.626000" priority="20" status="1" subject="Assign either Scenario Manager or Scenario Analyzer icon to each form">
+<description>
+Some forms may be used by both SM and SA, for these leave icon as USGS logo.
+</description>
+</task>
+<task actualstartdate="2012-05-29 13:09:07.305000" completiondate="2012-06-18 11:58:45.806000" id="c396d591-a9c1-11e1-8729-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-29 13:09:07.305000" priority="85" status="1" subject="Add menu item to Export And Run All Scenarios" />
+<task actualstartdate="2013-07-11 15:42:24.354000" completiondate="2013-08-13 16:06:38.411000" id="c5ff2421-ea72-11e2-bd6d-0023ae773201" percentageComplete="100" plannedstartdate="2013-07-11 15:42:24.354000" priority="60" status="1" subject="Fix bug:  Expression is copied by reference only">
+<description>
+When a chart is duplicated and a data-set calculator expression is changed in one of the copies, the expression is changed in both copies.
+</description>
+</task>
+<task actualstartdate="2012-05-29 12:33:26.423000" completiondate="2012-06-12 17:53:59.187000" id="c7862a70-a9bc-11e1-bb0c-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-29 12:33:26.423000" priority="95" status="1" subject="Add a Properties menu item under Edit menu in SA">
+<description>
+Still need to add a menu item to edit a data series
+</description>
+</task>
+<task actualstartdate="2013-05-10 14:25:43.009000" completiondate="2013-06-13 14:19:24.444000" id="c9c51d0f-b9af-11e2-a83c-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-05-10 14:25:43.008000" priority="6" status="1" subject="Develop icons for ScenarioManager and ScenarioAnalyzer" />
+<task actualstartdate="2013-07-11 15:13:52.931000" completiondate="2013-08-13 17:06:37.567000" id="c9e8b730-ea6e-11e2-bb6f-0023ae773201" percentageComplete="100" plannedstartdate="2013-07-11 15:13:52.931000" priority="53" status="1" subject="Fix bug:  When a map-layer data series is deleted from an SA project and the project is saved, it cannot be reopened.">
+<description>
+The error is "Size mismatch between central header (mmmm) and local header (nnnn)."  mmmm and nnnn are integer sizes, I assume.
+
+Does this also happen when a report element is deleted? No.
+
+How about when a time-series data series is deleted? No.
+
+Not sure about this problem...it is irreproducable.
+
+I think the problem occurs when a file is saved, then a data series is deleted, then saved (not saved as) again.
+</description>
+</task>
+<task actualstartdate="2012-05-29 13:02:10.104000" completiondate="2012-06-26 16:57:15.472000" id="caeb0380-a9c0-11e1-8b3d-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-29 13:02:10.104000" priority="80" status="1" subject="Add capability to include a background image (and/or shapefile) in display in SM for reference." />
+<task actualstartdate="2013-10-24 09:49:00.922000" completiondate="2013-11-08 12:36:42.328000" id="cd23ed9e-3cc3-11e3-bc06-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-10-24 09:49:00.922000" priority="42" status="1" subject="Work on form Data Series for a Contour Map Layer">
+<description>
+From Richard: Is the “No Line Series” option needed here? Maybe “Line Series Color” should be changed to “Contour Color”.
+</description>
+</task>
+<task actualstartdate="2013-10-24 11:00:44.662000" completiondate="2013-11-07 17:24:24.035000" id="d25eb070-3ccd-11e3-9774-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-10-24 11:00:44.662000" priority="55" status="1" subject="Develop help files">
+<description>
+Use text in exercise files as start on content for help topics.
+</description>
+</task>
+<task actualstartdate="2012-10-31 11:31:38.349000" completiondate="2013-03-13 11:32:13.915000" id="d360aacf-2380-11e2-b2a7-0023ae773201" percentageComplete="100" plannedstartdate="2012-10-31 11:31:38.349000" priority="21" status="1" subject="To SA Edit menu, add item: Extents...">
+<description>
+Add form to enable user to delete an extent.  This form could also support changes to extent coordinates or addition of new extents, but these changes are already supported by the STMapDesigner form (Extent tab), so these capabilities are not absolutely needed here.  Do not allow a user to change extent names because that would mess up the link between an STMap and its extent
+</description>
+</task>
+<task actualstartdate="2013-10-24 10:32:14.332000" completiondate="2013-11-07 17:24:20.811000" id="d6ef0acf-3cc9-11e3-bf1b-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-10-24 10:32:14.332000" priority="60" status="1" subject="Debug reading of data from head binary file">
+<description>
+Work on processing of head file in debug_head_table.sa
+     Data file: ScenarioTools\Test\SWRSample08\PumpingResults\SWRSample08.hds
+     Head at: (3,31,9) and (3,33,25)
+
+Time series is messed up.  It does not contain correct times.
+</description>
+</task>
+<task actualstartdate="2013-05-02 15:11:23.679000" completiondate="2013-05-03 15:01:13.586000" id="d8082aee-b36c-11e2-8d9f-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-05-02 15:11:23.679000" priority="26" status="1" subject="Add Pause at end of batch files that run scenarios.">
+<description>
+Need to keep DOS window visible.
+</description>
+</task>
+<task actualstartdate="2013-04-19 12:13:32.411000" completiondate="2013-04-23 16:01:07.825000" id="d8174bc0-a91c-11e2-8406-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-04-19 12:13:32.411000" priority="7" status="1" subject="Allow user to create a file of spatial synonyms and read it">
+<description>
+The synonyms would be added to Dictionary synonyms in SpatialReferenceHelpers.
+
+No longer a need for this capability.
+</description>
+</task>
+<task actualstartdate="2012-07-25 15:08:16.468000" completiondate="2012-07-27 09:41:18.224000" id="da5e4940-d69c-11e1-9498-0023ae773201" percentageComplete="100" plannedstartdate="2012-07-25 15:08:16.468000" priority="62" status="1" subject="Work on Description text box bugs.">
+<description>
+When the text box has focus, typical keyboard shortcuts should operate on the text box, not the tree view.  E.g. shortcuts like &lt;Ctrl&gt;-C, &lt;Ctrl&gt;-A, &lt;Ctrl&gt;-V, &lt;Ctrl&gt;-X, and &lt;Delete&gt;
+
+Need to experiment to see if all shortcuts and operations work as expected.
+
+Also, editing the text should create an Undo item. -- Done
+
+
+</description>
+</task>
+<task actualstartdate="2012-05-20 18:35:24.248000" completiondate="2012-05-21 16:14:36.178000" id="daa38580-a2dc-11e1-a260-c01885d6f27d" percentageComplete="100" plannedstartdate="2012-05-20 18:35:24.248000" priority="2" status="1" subject="On Data Series dialog, change &quot;Timestep&quot; to &quot;Time Step&quot;" />
+<task actualstartdate="2012-05-29 13:09:50.319000" completiondate="2012-07-19 13:39:24.960000" id="dd3a3ff0-a9c1-11e1-bf68-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-29 13:09:50.319000" priority="70" status="1" subject="PDF exported by SA is ugly">
+<description>
+Need better font size
+</description>
+</task>
+<task actualstartdate="2013-05-01 16:24:20.369000" completiondate="2013-05-06 15:42:02.611000" id="de54771e-b2ad-11e2-815a-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-05-01 16:24:20.369000" priority="20" status="1" subject="Ensure that checking &quot;Include Time in Table&quot; checkbox in Report Table dialog trigger Undo event." />
+<task actualstartdate="2013-07-18 17:07:51.575000" expandedContexts="('taskviewer',)" id="def33a70-effe-11e2-bcd0-d4bed907f86a" plannedstartdate="2013-07-18 17:07:51.574000" priority="55" status="1" subject="Add a way to delete a cell group file?">
+<description>
+Low priority
+</description>
+</task>
+<task actualstartdate="2012-05-19 20:38:25.868000" completiondate="2012-05-21 16:11:02.211000" id="e00398c0-a224-11e1-a111-c01885d6f27d" percentageComplete="100" plannedstartdate="2012-05-19 20:38:25.868000" priority="1" status="1" subject="On Report Chart dialog, label domain and range with &quot;Maximum&quot; and &quot;Minimum&quot;" />
+<task actualstartdate="2013-02-19 10:36:23.794000" completiondate="2013-02-25 10:28:56.584000" id="e15bed1e-7aba-11e2-ad90-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-02-19 10:36:23.794000" priority="30" status="1" subject="Ensure Scenario Analyzer handles double precision binary files">
+<description>
+It needs to be able to read data from budget and head (or drawdown) binary files.
+</description>
+</task>
+<task actualstartdate="2012-05-29 12:34:17.905000" completiondate="2013-04-25 14:18:36.034000" id="e635b20f-a9bc-11e1-a9a1-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-29 12:34:17.905000" priority="2" status="1" subject="Make SA work more like SM">
+<description>
+E.g. support Undo, Redo; prevent closing app if there are changes -- DONE.
+
+May need to add support for copy, move, paste for tree nodes. -- Don't bother
+
+</description>
+</task>
+<task actualstartdate="2013-06-25 16:30:56.050000" completiondate="2013-06-27 11:37:30.735000" id="e6e4b11e-dde6-11e2-b512-0023ae773201" percentageComplete="100" plannedstartdate="2013-06-25 16:30:56.050000" priority="45" status="1" subject="Add option to make any data series invisible">
+<description>
+It would be handy to be able to create a data series for a map, chart, or table that is for calculation purposes only and is not displayed.
+
+Add a "Display" checkbox to the data series menu.
+</description>
+</task>
+<task actualstartdate="2013-05-22 11:56:29.997000" completiondate="2013-06-12 10:53:43.983000" id="ee510cde-c308-11e2-bfe7-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-05-22 11:56:29.997000" priority="25" status="1" subject="Fix Dataset Calculator bug">
+<description>
+Color fill, expression = [Difference]
+This expression does not pass validation test.  I think it should.
+Difference = [Non-pumping heads] - [Pumping heads] 
+This expression is valid, but [Difference] is not.
+
+</description>
+</task>
+<task actualstartdate="2013-10-24 09:42:47.664000" id="eea94700-3cc2-11e3-bbff-d4bed907f86a" plannedstartdate="2013-10-24 09:42:47.664000" priority="-60" status="1" subject="Add support for multiple background images" />
+<task actualstartdate="2013-02-25 11:05:27.209000" completiondate="2013-02-27 15:59:36.734000" id="eefe7191-7f75-11e2-ac32-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-02-25 11:05:27.209000" priority="21" status="1" subject="For groups (in charts and tables), allow entire domain as an option">
+<description>
+Identified in Data dropdown list as "Cell-By-Cell File Group" and "Head or Drawdown Group"
+</description>
+</task>
+<task actualstartdate="2012-04-06 13:51:48.854000" completiondate="2012-04-10 10:35:37.878000" id="f27f7161-8021-11e1-9aa5-0023ae773201" percentageComplete="100" plannedstartdate="2012-04-06 13:51:48.854000" priority="2" status="1" subject="Code SimulationStartTimeChangeUndoItem and AddSimulationStartTimeChangeUndoItem" />
+<task actualstartdate="2012-05-29 12:48:57.837000" completiondate="2012-08-03 12:07:28.964000" id="f2b0a9cf-a9be-11e1-836b-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-29 12:48:57.837000" priority="65" status="1" subject="Implement self-documenting feature">
+<description>
+Put Description of each scenario element into comments at top of appropriate input file(s). -- Done
+
+Also have SM create a PDF file whenever a scenario is exported.  Write the Description of all components that are controlled by SM, including shapefiles and SMP files. -- Done
+
+Provide options to enable user to choose what information is written to input files and PDF file on export. -- Don't bother.
+
+Part of this should be to convert all internal file names to be absolute path names.  Convert to relative path names only when project file is being saved. -- Done.
+</description>
+</task>
+<task actualstartdate="2012-05-29 13:03:19.010000" completiondate="2013-04-19 12:16:05.481000" id="f3fd3c1e-a9c0-11e1-8deb-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-29 13:03:19.010000" priority="12" status="1" subject="Warn if coordinate systems / projection (if available) do not match">
+<description>
+Needs to be done for both Scenario Analyzer and Scenario Manager.
+Done.
+Add following:
+(1) Dictionary of synonyms (e.g. meter and metre) - Done, but do additional synonyms need to be added? Need to allow user to create a file of synonyms and read it.
+(1) is no longer needed.
+(2) Dialog box to display warning, with boxes showing 2 conflicting WKT strings. - Done
+</description>
+</task>
+<task actualstartdate="2013-05-23 16:56:07.657000" completiondate="2013-05-24 14:15:47.926000" id="f43fdd91-c3fb-11e2-a578-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-05-23 16:56:07.657000" priority="35" status="1" subject="Fix display of text on Display tab of FeatureSetForm">
+<description>
+The descenders are cut off, underscore characters are not visible, and the shapefile name gets truncated in mid-letter
+</description>
+</task>
+<task actualstartdate="2013-08-01 14:14:22.390000" completiondate="2013-08-27 14:50:17.731000" id="f4602561-fae6-11e2-b59b-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-08-01 14:14:22.390000" priority="27" status="1" subject="Add support: For some way to mask inactive areas.">
+<description>
+Maybe use IBOUND?  or read blanking area -- 1 layer of an IBOUND data set -- One file for project.
+</description>
+</task>
+<task actualstartdate="2013-07-18 14:59:39.321000" completiondate="2013-08-13 17:26:37.954000" id="f6026a91-efec-11e2-b913-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-07-18 14:59:39.321000" priority="49" status="1" subject="Fix appearance of labels of Data Series for a Contour Map Layer form">
+<description>
+The labels "Starting Contour" and "Contour Interval" are too close to their boxes.
+So move the Visible checkbox down to make room.
+Work on laptop to see problem.
+</description>
+</task>
+<task actualstartdate="2012-07-19 13:35:57.616000" completiondate="2012-07-19 16:01:00.318000" id="f67a0b00-d1d8-11e1-aed6-0023ae773201" percentageComplete="100" plannedstartdate="2012-07-19 13:35:57.616000" priority="75" status="1" subject="Add capability to toggle background image on Display tab of FeatureSetForm">
+<description>
+Need way to make background image invisible or visible.
+
+No entry for background image shows up in map legend because the image is not a FeatureLayer.
+
+See MapLegend.cs, 
+
+public void AddItems(Collection&lt;GraphicLayer&gt; items)
+
+(lines 137-152)
+</description>
+</task>
+<task actualstartdate="2012-05-29 13:10:36.053000" completiondate="2012-08-14 12:48:03.895000" id="f87cb44f-a9c1-11e1-a28e-0023ae773201" percentageComplete="100" plannedstartdate="2012-05-29 13:10:36.053000" priority="60" status="1" subject="Add option to write well name to right of each entry in WEL input file" />
+<task actualstartdate="2013-05-02 17:06:56.089000" completiondate="2013-05-03 15:26:03.334000" id="fc11fc8f-b37c-11e2-b456-d4bed907f86a" percentageComplete="100" plannedstartdate="2013-05-02 17:06:56.088000" priority="30" status="1" subject="Fix bug in STMapDesigner">
+<description>
+When window is enlarged and you attempt to draw a new extent, map goes back to original size and messes things up -- Can't reproduce problem
+</description>
+</task>
+<category categorizables="0120e28f-efce-11e2-bc28-d4bed907f86a 016a3c70-6982-11e1-87b3-004096b36012 03db7530-06b8-11e3-9b1c-d4bed907f86a 06772ede-a9be-11e1-bc3b-0023ae773201 07e5ef30-a9c0-11e1-8094-0023ae773201 0c12e2b0-af34-11e1-89e0-d4bed907f86a 0e7324c0-be7e-11e2-95fa-d4bed907f86a 10bf38f0-b82e-11e2-ab5e-d4bed907f86a 159a6a9e-a9bd-11e1-be48-0023ae773201 189022c0-c0ad-11e1-aa6c-c01885d6f27d 1df2339e-a9c1-11e1-b3cd-0023ae773201 2490b8cf-af34-11e1-911d-d4bed907f86a 24c306f0-8022-11e1-8e8f-0023ae773201 258a6d21-efee-11e2-a92c-d4bed907f86a 26ad7d91-a9be-11e1-82d0-0023ae773201 29444600-efdc-11e2-92ad-d4bed907f86a 29e281f0-d379-11e2-bb7f-d4bed907f86a 2db0d240-5801-11e1-9820-0015c5079733 33204aa1-af34-11e1-b002-d4bed907f86a 341c8d2e-899e-11e1-96a9-0023ae773201 3aa77870-b8ed-11e2-9490-d4bed907f86a 3dc76a70-c972-11e2-ada2-d4bed907f86a 40a80140-a9c1-11e1-aff5-0023ae773201 42362192:1298411025.11 42962704:1298412042.49 43845008:1298411783.67 43868496:1298411707.98 43868848:1298411945.03 43941296:1298413889.99 44572368:1298412785.06 44612080:1298412871.92 44968432:1317766320.33 45266160:1317766254.73 45313360:1298996565.74 45391728:1317766144.87 45562640:1298412719.23 46275120:1317766108.89 46452496:1298413373.3 46452592:1298413617.74 46662992:1298412586.26 46bca540-fba5-11e2-9001-d4bed907f86a 47223184:1298412109.25 48088976:1317766172.01 48089936:1317766213.44 48632208:1317766349.39 49255728:1317767622.51 49280560:1298413736.23 49821168:1317769873.5 4b437a00-11ab-11e3-a294-d4bed907f86a 4f477f1e-c264-11e2-8ddf-c01885d6f27d 50586448:1317770590.8 5d443940-a9c1-11e1-a849-0023ae773201 5e4b175e-a9c0-11e1-90a6-0023ae773201 634f4eb0-8fe9-11e2-832c-d4bed907f86a 673f7e00-af34-11e1-b6d2-d4bed907f86a 733fe570-67e3-11e1-9a54-0023ae773201 74ad4230-fae6-11e2-a000-d4bed907f86a 74b7f2ee-f3c7-11e2-815a-d4bed907f86a 773b4170-832b-11e1-a450-0023ae773201 78d2985e-b190-11e1-9976-0023ae773201 7c2f1ee1-5801-11e1-b47a-0015c5079733 7cd6aef0-af34-11e1-a8d0-d4bed907f86a 7e7d05a1-6a0c-11e1-942a-004096b36012 7f91481e-782b-11e1-8dc8-0023ae773201 80071000-c1a4-11e2-aede-d4bed907f86a 8211d540-a9bf-11e1-a25e-0023ae773201 8217485e-b36c-11e2-ab7e-d4bed907f86a 85a4e261-5802-11e1-b390-0015c5079733 8645524f-9c0f-11e4-ba64-d4bed907f86a 88771830-d1f3-11e1-bbc5-0023ae773201 8a997ae1-af34-11e1-bb34-d4bed907f86a 964233a1-e59e-11e1-8a64-0023ae773201 9a78dd21-a9c1-11e1-a6f6-0023ae773201 9eebb280-a9bf-11e1-b74b-0023ae773201 9ef29db0-b397-11e2-b7db-d4bed907f86a a032bf5e-d84c-11e1-b99f-c01885d6f27d aa26d40f-a9bd-11e1-b18c-0023ae773201 acfee770-b805-11e2-a4e9-0023ae773201 aeba8e61-fae6-11e2-9fb7-d4bed907f86a b09c5fde-014b-11e3-a925-d4bed907f86a b10c2400-5801-11e1-82e3-0015c5079733 b2a78600-78e6-11e1-aca5-0023ae773201 b3606a61-bfe2-11e1-9cde-0023ae773201 ba9183f0-e98f-11e2-a9f2-d4bed907f86a ba92f60f-851f-11e2-96d1-d4bed907f86a c23c591e-ea59-11e2-b8b7-0023ae773201 c396d591-a9c1-11e1-8729-0023ae773201 c52849de-6969-11e1-9b92-004096b36012 c9c51d0f-b9af-11e2-a83c-d4bed907f86a caeb0380-a9c0-11e1-8b3d-0023ae773201 d25eb070-3ccd-11e3-9774-d4bed907f86a d8082aee-b36c-11e2-8d9f-d4bed907f86a d8174bc0-a91c-11e2-8406-d4bed907f86a da5e4940-d69c-11e1-9498-0023ae773201 e7fce8cf-af33-11e1-9932-d4bed907f86a eea94700-3cc2-11e3-bbff-d4bed907f86a f27f7161-8021-11e1-9aa5-0023ae773201 f2b0a9cf-a9be-11e1-836b-0023ae773201 f3fd3c1e-a9c0-11e1-8deb-0023ae773201 f43fdd91-c3fb-11e2-a578-d4bed907f86a f67a0b00-d1d8-11e1-aed6-0023ae773201 f87cb44f-a9c1-11e1-a28e-0023ae773201 fc11fc8f-b37c-11e2-b456-d4bed907f86a" expandedContexts="('categoryviewerintaskeditor', 'categoryviewerintaskeditor1', 'categoryviewerintaskeditor10', 'categoryviewerintaskeditor11', 'categoryviewerintaskeditor2', 'categoryviewerintaskeditor3', 'categoryviewerintaskeditor4', 'categoryviewerintaskeditor5', 'categoryviewerintaskeditor6', 'categoryviewerintaskeditor7', 'categoryviewerintaskeditor8', 'categoryviewerintaskeditor9')" filtered="True" id="42725680:1298410434.62" status="1" subject="Scenario Manager" />
+<category categorizables="011e939e-d52a-11e2-b4d0-d4bed907f86a 03db7530-06b8-11e3-9b1c-d4bed907f86a 053faa61-f060-11e0-ae70-0023ae773201 083a128f-4614-11e2-ab7c-d4bed907f86a 0b844621-ab35-11e1-86d8-0023ae773201 0e7324c0-be7e-11e2-95fa-d4bed907f86a 10bf38f0-b82e-11e2-ab5e-d4bed907f86a 16b61691-ddd9-11e2-9da4-d4bed907f86a 177c29f0-2382-11e2-ae73-0023ae773201 1aac4e9e-d905-11e2-8277-0023ae773201 1b4d7421-1c02-11e3-a83c-d4bed907f86a 1c10814f-b39c-11e2-93d6-d4bed907f86a 1f529180-a9c2-11e1-872a-0023ae773201 206dfed1-a37b-11e1-adec-c01885d6f27d 232cc570-2387-11e2-8f45-0023ae773201 258a6d21-efee-11e2-a92c-d4bed907f86a 25cd1e51-6ff0-11e2-9104-d4bed907f86a 29444600-efdc-11e2-92ad-d4bed907f86a 29e281f0-d379-11e2-bb7f-d4bed907f86a 2f112ba1-fae7-11e2-aeab-d4bed907f86a 32ef86c0-7c81-11e2-81c8-d4bed907f86a 3aa77870-b8ed-11e2-9490-d4bed907f86a 3ae8bf40-aebd-11e2-9e4e-d4bed907f86a 3d149e21-a9bd-11e1-a67e-0023ae773201 3d89efa1-aec0-11e2-8344-d4bed907f86a 3dc76a70-c972-11e2-ada2-d4bed907f86a 3e26d340-f319-11e2-9599-d4bed907f86a 4021144f-d9f9-11e2-a05b-0023ae773201 40a80140-a9c1-11e1-aff5-0023ae773201 42379536:1298411581.71 4257cfcf-ed94-11e2-bdf4-0023ae773201 42816912:1298411553.67 4294031e-a208-11e1-abc5-c01885d6f27d 42fcfe0f-1102-11e3-9618-d4bed907f86a 43845008:1298411783.67 43869808:1298411630.5 43940400:1298413302.13 44572368:1298412785.06 44791952:1298412958.15 46452592:1298413617.74 46bca540-fba5-11e2-9001-d4bed907f86a 47127152:1317770182.52 47908496:1298413119.75 47b7fd5e-7c7e-11e2-8609-d4bed907f86a 4b1710f0-ae91-11e2-9eee-0023ae773201 4b437a00-11ab-11e3-a294-d4bed907f86a 4f760630-a9c2-11e1-b074-0023ae773201 50586448:1317770590.8 50588464:1317770540.65 52438320:1317770267.8 52442032:1317770487.9 52761136:1317771167.08 53799440:1317770224.56 54947792:1317770454.13 55197008:1317770708.01 5558f640-4614-11e2-990d-d4bed907f86a 590465e1-a2e0-11e1-8498-c01885d6f27d 59693968:1317771462.47 5a2a719e-ed6f-11e2-9fa4-d4bed907f86a 5a9b371e-a79a-11e2-b991-d4bed907f86a 5c7e151e-77bc-11e2-ada5-d4bed907f86a 5d45d380-7f73-11e2-92eb-d4bed907f86a 5e9e139e-c979-11e2-8512-d4bed907f86a 60639700-ed8c-11e2-a7b7-0023ae773201 619cda2e-d91b-11e2-854c-0023ae773201 634f4eb0-8fe9-11e2-832c-d4bed907f86a 64631e40-df3e-11e2-924d-d4bed907f86a 6b3c1bc0-a9bd-11e1-90cd-0023ae773201 6b5b2540-ed9d-11e2-b48e-0023ae773201 6b87ecde-d2b1-11e1-b537-0023ae773201 6d62ef21-7c7e-11e2-8e5c-d4bed907f86a 6f78e0b0-df40-11e2-ac3f-d4bed907f86a 7055945e-dac7-11e2-ae1c-0023ae773201 7307275e-a9bc-11e1-aae9-0023ae773201 777bfd6e-7f72-11e2-9a60-d4bed907f86a 77bf8280-a9c0-11e1-9fc8-0023ae773201 78c1291e-a9c2-11e1-9b27-0023ae773201 78e09ba1-f554-11e2-b37b-d4bed907f86a 7c019340-c979-11e2-acd2-d4bed907f86a 7d15348f-e340-11e2-af46-0023ae773201 7d3ca3de-ca40-11e2-aac5-d4bed907f86a 7dda7dcf-b1ba-11e1-82c4-0023ae773201 80da0030-aa7d-11e1-926c-0023ae773201 82c5e5b0-b2ad-11e2-b06a-d4bed907f86a 83393880-c978-11e2-8410-d4bed907f86a 8645524f-9c0f-11e4-ba64-d4bed907f86a 865b3f51-6fef-11e2-bd84-d4bed907f86a 876a6e80-0080-11e3-a86a-d4bed907f86a 88771830-d1f3-11e1-bbc5-0023ae773201 9aa8a8b0-b37b-11e2-97f0-d4bed907f86a 9ef29db0-b397-11e2-b7db-d4bed907f86a a032bf5e-d84c-11e1-b99f-c01885d6f27d a2bc9461-a2df-11e1-b106-c01885d6f27d a33cfd21-2382-11e2-9f97-0023ae773201 a61da44f-2381-11e2-b844-0023ae773201 a632b530-ed6f-11e2-a87a-d4bed907f86a a82beb9e-b420-11e2-b8fe-d4bed907f86a acfee770-b805-11e2-a4e9-0023ae773201 adb43b00-dab2-11e2-8de5-0023ae773201 b09c5fde-014b-11e3-a925-d4bed907f86a b4bba961-b2ad-11e2-8414-d4bed907f86a b5785e40-b3a0-11e2-b230-d4bed907f86a b8d456c0-b80f-11e2-bcff-0023ae773201 ba9183f0-e98f-11e2-a9f2-d4bed907f86a be5ce140-c979-11e2-8fae-d4bed907f86a c23c591e-ea59-11e2-b8b7-0023ae773201 c37d5df0-2382-11e2-b3ee-0023ae773201 c5ff2421-ea72-11e2-bd6d-0023ae773201 c7862a70-a9bc-11e1-bb0c-0023ae773201 c9c51d0f-b9af-11e2-a83c-d4bed907f86a c9e8b730-ea6e-11e2-bb6f-0023ae773201 cd23ed9e-3cc3-11e3-bc06-d4bed907f86a d25eb070-3ccd-11e3-9774-d4bed907f86a d360aacf-2380-11e2-b2a7-0023ae773201 d6ef0acf-3cc9-11e3-bf1b-d4bed907f86a d8174bc0-a91c-11e2-8406-d4bed907f86a daa38580-a2dc-11e1-a260-c01885d6f27d dd3a3ff0-a9c1-11e1-bf68-0023ae773201 de54771e-b2ad-11e2-815a-d4bed907f86a def33a70-effe-11e2-bcd0-d4bed907f86a e00398c0-a224-11e1-a111-c01885d6f27d e15bed1e-7aba-11e2-ad90-d4bed907f86a e635b20f-a9bc-11e1-a9a1-0023ae773201 e6e4b11e-dde6-11e2-b512-0023ae773201 ee510cde-c308-11e2-bfe7-d4bed907f86a eea94700-3cc2-11e3-bbff-d4bed907f86a eefe7191-7f75-11e2-ac32-d4bed907f86a f3fd3c1e-a9c0-11e1-8deb-0023ae773201 f4602561-fae6-11e2-b59b-d4bed907f86a f6026a91-efec-11e2-b913-d4bed907f86a f67a0b00-d1d8-11e1-aed6-0023ae773201 fc11fc8f-b37c-11e2-b456-d4bed907f86a" expandedContexts="('categoryviewerintaskeditor', 'categoryviewerintaskeditor1', 'categoryviewerintaskeditor10', 'categoryviewerintaskeditor11', 'categoryviewerintaskeditor2', 'categoryviewerintaskeditor3', 'categoryviewerintaskeditor4', 'categoryviewerintaskeditor5', 'categoryviewerintaskeditor6', 'categoryviewerintaskeditor7', 'categoryviewerintaskeditor8', 'categoryviewerintaskeditor9')" filtered="True" id="42884784:1298410447.33" status="1" subject="Scenario Analyzer" />
+<category categorizables="03db7530-06b8-11e3-9b1c-d4bed907f86a 46bca540-fba5-11e2-9001-d4bed907f86a 4b437a00-11ab-11e3-a294-d4bed907f86a 80b2631e-fae7-11e2-a058-d4bed907f86a 8645524f-9c0f-11e4-ba64-d4bed907f86a b09c5fde-014b-11e3-a925-d4bed907f86a" expandedContexts="('categoryviewerintaskeditor', 'categoryviewerintaskeditor1', 'categoryviewerintaskeditor2', 'categoryviewerintaskeditor3', 'categoryviewerintaskeditor4', 'categoryviewerintaskeditor5', 'categoryviewerintaskeditor6')" filtered="True" id="6e6c8011-fae7-11e2-80a6-d4bed907f86a" status="1" subject="Report" />
+<syncmlconfig>
+<TaskCoach-0000012e4f49c602820d2d8e008800b1000800ab>
+<spds>
+<sources>
+<TaskCoach-0000012e4f49c602820d2d8e008800b1000800ab.Tasks />
+<TaskCoach-0000012e4f49c602820d2d8e008800b1000800ab.Notes />
+</sources>
+<syncml>
+<Auth />
+<Conn />
+</syncml>
+</spds>
+</TaskCoach-0000012e4f49c602820d2d8e008800b1000800ab>
+</syncmlconfig>
+<guid>
+0000012e4f49c602820d2d8e008800b1000800ab
+</guid>
+</tasks>

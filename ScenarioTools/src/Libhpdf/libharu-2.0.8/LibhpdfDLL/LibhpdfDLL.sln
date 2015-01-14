@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libhpdf", "libhpdf\libhpdf.vcproj", "{445488BF-D2A8-49A7-AAF3-CE74DC0298C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{445488BF-D2A8-49A7-AAF3-CE74DC0298C8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{445488BF-D2A8-49A7-AAF3-CE74DC0298C8}.Debug|Win32.Build.0 = Debug|Win32
+		{445488BF-D2A8-49A7-AAF3-CE74DC0298C8}.Release|Win32.ActiveCfg = Release|Win32
+		{445488BF-D2A8-49A7-AAF3-CE74DC0298C8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

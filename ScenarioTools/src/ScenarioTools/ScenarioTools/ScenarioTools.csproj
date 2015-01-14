@@ -1,0 +1,710 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4272EEE9-9D9E-4D73-9E21-988582EBDB1D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ScenarioTools</RootNamespace>
+    <AssemblyName>ScenarioTools</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reporting\ColorRampImageMaker.cs" />
+    <Compile Include="Dialogs\ConfigureChartDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ConfigureChartDialog.designer.cs">
+      <DependentUpon>ConfigureChartDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataClasses\CellGroup.cs" />
+    <Compile Include="DataClasses\CellGroupFile.cs" />
+    <Compile Include="DataClasses\CellGroupProvider.cs" />
+    <Compile Include="DataClasses\DataStatus.cs" />
+    <Compile Include="DataClasses\GeoMap.cs" />
+    <Compile Include="DataClasses\GeoMapOps.cs" />
+    <Compile Include="DataClasses\GroupHelper.cs" />
+    <Compile Include="DataClasses\LengthReference.cs" />
+    <Compile Include="DataClasses\MapEnums.cs" />
+    <Compile Include="DataClasses\SmpRecord.cs" />
+    <Compile Include="DataClasses\SmpSeries.cs" />
+    <Compile Include="DataClasses\StringHolder.cs" />
+    <Compile Include="DataClasses\TemporalReference.cs" />
+    <Compile Include="DataClasses\TimeHelper.cs" />
+    <Compile Include="DataClasses\TimeSeries.cs" />
+    <Compile Include="DataClasses\TimeSeriesOps.cs" />
+    <Compile Include="DataClasses\TimeSeriesSample.cs" />
+    <Compile Include="Dialogs\AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DateTimeDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DateTimeDialog.Designer.cs">
+      <DependentUpon>DateTimeDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\EditNameDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\EditNameDialog.Designer.cs">
+      <DependentUpon>EditNameDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ImageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ImageBox.Designer.cs">
+      <DependentUpon>ImageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\QueryBuilderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\QueryBuilderForm.Designer.cs">
+      <DependentUpon>QueryBuilderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\StringListViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\StringListViewer.Designer.cs">
+      <DependentUpon>StringListViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogHelper.cs" />
+    <Compile Include="Reporting\DocumentHolder.cs" />
+    <Compile Include="FileReaders\BoreholeSampleFileReader.cs" />
+    <Compile Include="GdalConfiguration.cs" />
+    <Compile Include="GdalHelper.cs" />
+    <Compile Include="GdalNativeConfiguration.cs" />
+    <Compile Include="Geometry\DbfFieldDescriptor.cs" />
+    <Compile Include="Geometry\Extent.cs" />
+    <Compile Include="Geometry\GeometryHelper.cs" />
+    <Compile Include="Geometry\Line.cs" />
+    <Compile Include="Geometry\LineSegment2D.cs" />
+    <Compile Include="Geometry\OrthoGrid.cs" />
+    <Compile Include="Geometry\Point2D.cs" />
+    <Compile Include="Geometry\PointList.cs" />
+    <Compile Include="Geometry\PolarPoint2D.cs" />
+    <Compile Include="Geometry\Polygon2D.cs" />
+    <Compile Include="Geometry\Polyline2D.cs" />
+    <Compile Include="Geometry\Range1D.cs" />
+    <Compile Include="Geometry\Range2D.cs" />
+    <Compile Include="Geometry\Shape2D.cs" />
+    <Compile Include="Geometry\ShapeAttribute.cs" />
+    <Compile Include="GlobalStaticVariables.cs" />
+    <Compile Include="Graphics\ContourMaker.cs" />
+    <Compile Include="Graphics\GraphicsHelpers.cs" />
+    <Compile Include="Graphics\GraphMaker.cs" />
+    <Compile Include="Graphics\RgbaPixel.cs" />
+    <Compile Include="Graphics\RgbPixel.cs" />
+    <Compile Include="Gui\ExtentDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\ExtentDialog.Designer.cs">
+      <DependentUpon>ExtentDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\NameFileUnitPicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\NameFileUnitPicker.Designer.cs">
+      <DependentUpon>NameFileUnitPicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\STMapControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gui\STMapDesigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\STMapDesigner.Designer.cs">
+      <DependentUpon>STMapDesigner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\TreeSignature.cs" />
+    <Compile Include="Reporting\ImageLayer.cs" />
+    <Compile Include="ImageProvider\IImageProvider.cs" />
+    <Compile Include="Reporting\IReportMap.cs" />
+    <Compile Include="LogAndErrorProcessing\Error.cs" />
+    <Compile Include="LogAndErrorProcessing\ILogger.cs" />
+    <Compile Include="LogAndErrorProcessing\Logging.cs" />
+    <Compile Include="ModflowReaders\ModflowHelpers.cs" />
+    <Compile Include="ModflowReaders\ModflowReadersHelpers.cs" />
+    <Compile Include="ModflowReaders\CbbHelper.cs" />
+    <Compile Include="ModflowReaders\CbbReader.cs" />
+    <Compile Include="Reporting\ColorUtil.cs" />
+    <Compile Include="Data_Providers\IDataProvider.cs" />
+    <Compile Include="Data_Providers\MapDataProviders\DataProviderCalculatedMap.cs" />
+    <Compile Include="Data_Providers\MapDataProviders\DataProviderCalculatedMapMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Data_Providers\MapDataProviders\DataProviderCalculatedMapMenu.designer.cs">
+      <DependentUpon>DataProviderCalculatedMapMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetCalculator\DataProviderCalculatedSeries.cs" />
+    <Compile Include="DatasetCalculator\DataProviderCalculatedSeriesMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DatasetCalculator\DataProviderCalculatedSeriesMenu.designer.cs">
+      <DependentUpon>DataProviderCalculatedSeriesMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data_Providers\GraphDataProviders\DataProviderCbbAtPoint.cs" />
+    <Compile Include="Data_Providers\GraphDataProviders\DataProviderCbbAtPointMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Data_Providers\GraphDataProviders\DataProviderCbbAtPointMenu.designer.cs">
+      <DependentUpon>DataProviderCbbAtPointMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data_Providers\DataProviderCbbGroup.cs" />
+    <Compile Include="Data_Providers\GraphDataProviders\DataProviderCbbGroupMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Data_Providers\GraphDataProviders\DataProviderCbbGroupMenu.designer.cs">
+      <DependentUpon>DataProviderCbbGroupMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data_Providers\MapDataProviders\DataProviderCbbMap.cs" />
+    <Compile Include="Data_Providers\MapDataProviders\DataProviderCbbMapMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Data_Providers\MapDataProviders\DataProviderCbbMapMenu.designer.cs">
+      <DependentUpon>DataProviderCbbMapMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModflowReaders\PrecisionHelpers.cs" />
+    <Compile Include="ModflowReaders\NameFileEntry.cs" />
+    <Compile Include="ModflowReaders\NameFileInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Numerical\ArrayOps.cs" />
+    <Compile Include="Numerical\MathUtil.cs" />
+    <Compile Include="Numerical\RandGen.cs" />
+    <Compile Include="PdfWriting\ChartWriter.cs" />
+    <Compile Include="PdfWriting\MapWriter.cs" />
+    <Compile Include="PdfWriting\PdfWriter.cs" />
+    <Compile Include="Scene\AreaFeature.cs" />
+    <Compile Include="Scene\ChdCell.cs" />
+    <Compile Include="Scene\ChdPackage.cs" />
+    <Compile Include="Scene\FeatureSet.cs" />
+    <Compile Include="Scene\GeoValue.cs" />
+    <Compile Include="Scene\GhbCell.cs" />
+    <Compile Include="Scene\GhbPackage.cs" />
+    <Compile Include="Scene\IDescribable.cs" />
+    <Compile Include="Scene\ITaggable.cs" />
+    <Compile Include="Scene\LineFeature.cs" />
+    <Compile Include="Scene\Package.cs" />
+    <Compile Include="Scene\PackageType.cs" />
+    <Compile Include="Scene\RchPackage.cs" />
+    <Compile Include="Scene\RiverCell.cs" />
+    <Compile Include="Scene\RiverPackage.cs" />
+    <Compile Include="Scene\Scenario.cs" />
+    <Compile Include="Scene\ScenarioFeature.cs" />
+    <Compile Include="Scene\SerializableScenarioElement.cs" />
+    <Compile Include="Scene\SerializableTreeNode.cs" />
+    <Compile Include="SMDataClasses\SMProjectSettings.cs" />
+    <Compile Include="Scene\SMProject.cs" />
+    <Compile Include="Spatial\CreateCellCenteredArealGrid.cs" />
+    <Compile Include="Spatial\GeographicCoordinateSystem.cs" />
+    <Compile Include="Spatial\GlobalSpatialStaticVariables.cs" />
+    <Compile Include="Spatial\GridInfo.cs" />
+    <Compile Include="Spatial\ImageInfo.cs" />
+    <Compile Include="Spatial\SpatialReference.cs" />
+    <Compile Include="Spatial\SpatialReferenceArgument.cs" />
+    <Compile Include="Spatial\SpatialReferenceHelpers.cs" />
+    <Compile Include="Spatial\SpatialReferenceMismatchDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Spatial\SpatialReferenceMismatchDialog.Designer.cs">
+      <DependentUpon>SpatialReferenceMismatchDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Spatial\SpatialReferenceParameter.cs" />
+    <Compile Include="Spatial\StaticObjects.cs" />
+    <Compile Include="Scene\TagLink.cs" />
+    <Compile Include="Scene\TagStore.cs" />
+    <Compile Include="Scene\TagUtilities.cs" />
+    <Compile Include="UndoItems\GlobalBackgroundImageFileChangeUndoItem.cs" />
+    <Compile Include="UndoItems\GlobalGridShapefilePathChangeUndoItem.cs" />
+    <Compile Include="Util\FileUtil.cs" />
+    <Compile Include="Util\IDeepCloneable.cs" />
+    <Compile Include="Util\ImageUtil.cs" />
+    <Compile Include="Util\Pair.cs" />
+    <Compile Include="Util\StringUtil.cs" />
+    <Compile Include="Util\SystemUtil.cs" />
+    <Compile Include="Scene\Well.cs" />
+    <Compile Include="Scene\WellCell.cs" />
+    <Compile Include="Scene\WellPackage.cs" />
+    <Compile Include="Reporting\STMap.cs" />
+    <Compile Include="Reporting\ReportElementChart.cs" />
+    <Compile Include="Dialogs\ReportElementChartMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ReportElementChartMenu.Designer.cs">
+      <DependentUpon>ReportElementChartMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporting\ReportElementSTMap.cs" />
+    <Compile Include="Reporting\STMapLayer.cs" />
+    <Compile Include="Reporting\STMapLegend.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ModflowReaders\StressPeriodHelper.cs" />
+    <Compile Include="TreeElementFactories\DataProviderFactory.cs" />
+    <Compile Include="Data_Providers\DataProviderHeadAtPoint.cs" />
+    <Compile Include="Data_Providers\DataProviderHeadAtPointMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Data_Providers\DataProviderHeadAtPointMenu.designer.cs">
+      <DependentUpon>DataProviderHeadAtPointMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data_Providers\DataProviderHeadGroup.cs" />
+    <Compile Include="Data_Providers\GraphDataProviders\DataProviderHeadGroupMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Data_Providers\GraphDataProviders\DataProviderHeadGroupMenu.designer.cs">
+      <DependentUpon>DataProviderHeadGroupMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data_Providers\DataProviderHeadMap.cs" />
+    <Compile Include="Data_Providers\DataProviderHeadMapMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Data_Providers\DataProviderHeadMapMenu.designer.cs">
+      <DependentUpon>DataProviderHeadMapMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data_Providers\DataProviderManager.cs" />
+    <Compile Include="Data_Providers\IDataProviderMenu.cs" />
+    <Compile Include="Data_Providers\GraphDataProviders\DataProviderObservedSeries.cs" />
+    <Compile Include="Data_Providers\GraphDataProviders\DataProviderObservedSeriesMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Data_Providers\GraphDataProviders\DataProviderObservedSeriesMenu.designer.cs">
+      <DependentUpon>DataProviderObservedSeriesMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data_Providers\DataProviderType.cs" />
+    <Compile Include="Reporting\DataSeries.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DataSeriesMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DataSeriesMenu.designer.cs">
+      <DependentUpon>DataSeriesMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DataSeriesMenuContourBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DataSeriesMenuContourBox.designer.cs">
+      <DependentUpon>DataSeriesMenuContourBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PdfWriting\DateUtil.cs" />
+    <Compile Include="ModflowReaders\DiscretizationFile.cs" />
+    <Compile Include="Spatial\GeoImage.cs" />
+    <Compile Include="Data_Providers\IHasUniqueIdentifier.cs" />
+    <Compile Include="Data_Providers\DatasetDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Data_Providers\DatasetDialog.designer.cs">
+      <DependentUpon>DatasetDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data_Providers\ListDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Data_Providers\ListDialog.designer.cs">
+      <DependentUpon>ListDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModflowReaders\ModelLayer.cs" />
+    <Compile Include="ModflowReaders\ModflowReader.cs" />
+    <Compile Include="PdfWriting\PdfHelper.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Reporting\Report.cs" />
+    <Compile Include="Reporting\IReportElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TreeElementFactories\ReportElementFactory.cs" />
+    <Compile Include="Reporting\ReportElementTable.cs" />
+    <Compile Include="Dialogs\ReportElementTableMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ReportElementTableMenu.Designer.cs">
+      <DependentUpon>ReportElementTableMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageProcessing\RgbaPixelArrayToImage.cs" />
+    <Compile Include="Reporting\SADocument.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reporting\SADocumentXmlStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ModflowReaders\StressPeriod.cs" />
+    <Compile Include="Reporting\TableMaker.cs" />
+    <Compile Include="Dialogs\TableTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\TableTest.Designer.cs">
+      <DependentUpon>TableTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PdfWriting\TableWriter.cs" />
+    <Compile Include="UndoItems\CbcFlagChangeUndoItem.cs" />
+    <Compile Include="UndoItems\DescriptionChangeUndoItem.cs" />
+    <Compile Include="UndoItems\DiscretizationFileChangeUndoItem.cs" />
+    <Compile Include="UndoItems\GlobalTemporalReferenceChangeUndoItem.cs" />
+    <Compile Include="UndoItems\ModelGridChangeUndoItem.cs" />
+    <Compile Include="UndoItems\NamefileChangeUndoItem.cs" />
+    <Compile Include="UndoItems\ProjectSettingsChangeUndoItem.cs" />
+    <Compile Include="UndoItems\SADocumentChangeUndoItem.cs" />
+    <Compile Include="UndoItems\ScenarioCopyUndoItem.cs" />
+    <Compile Include="UndoItems\ScenarioElementChangeUndoItem.cs" />
+    <Compile Include="UndoItems\ScenarioManagerTreeChangeUndoItem.cs" />
+    <Compile Include="UndoItems\TreeNodeAddUndoItem.cs" />
+    <Compile Include="UndoItems\TreeNodeDeleteUndoItem.cs" />
+    <Compile Include="UndoItems\TreeNodeMoveUndoItem.cs" />
+    <Compile Include="UndoItems\TreeNodePasteUndoItem.cs" />
+    <Compile Include="UndoItems\TreeNodeRenameUndoItem.cs" />
+    <Compile Include="WorkerWrapper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WorkspaceUtil.cs" />
+    <Compile Include="Xml\XmlUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Dialogs\ConfigureChartDialog.resx">
+      <DependentUpon>ConfigureChartDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data_Providers\MapDataProviders\DataProviderCalculatedMapMenu.resx">
+      <DependentUpon>DataProviderCalculatedMapMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatasetCalculator\DataProviderCalculatedSeriesMenu.resx">
+      <DependentUpon>DataProviderCalculatedSeriesMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data_Providers\GraphDataProviders\DataProviderCbbAtPointMenu.resx">
+      <DependentUpon>DataProviderCbbAtPointMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data_Providers\GraphDataProviders\DataProviderCbbGroupMenu.resx">
+      <DependentUpon>DataProviderCbbGroupMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data_Providers\MapDataProviders\DataProviderCbbMapMenu.resx">
+      <DependentUpon>DataProviderCbbMapMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data_Providers\DataProviderHeadAtPointMenu.resx">
+      <DependentUpon>DataProviderHeadAtPointMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data_Providers\GraphDataProviders\DataProviderHeadGroupMenu.resx">
+      <DependentUpon>DataProviderHeadGroupMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data_Providers\DataProviderHeadMapMenu.resx">
+      <DependentUpon>DataProviderHeadMapMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data_Providers\GraphDataProviders\DataProviderObservedSeriesMenu.resx">
+      <DependentUpon>DataProviderObservedSeriesMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DataSeriesMenu.resx">
+      <DependentUpon>DataSeriesMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DataSeriesMenuContourBox.resx">
+      <DependentUpon>DataSeriesMenuContourBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data_Providers\DatasetDialog.resx">
+      <DependentUpon>DatasetDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data_Providers\ListDialog.resx">
+      <DependentUpon>ListDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DateTimeDialog.resx">
+      <DependentUpon>DateTimeDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\EditNameDialog.resx">
+      <DependentUpon>EditNameDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ImageBox.resx">
+      <DependentUpon>ImageBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\QueryBuilderForm.resx">
+      <DependentUpon>QueryBuilderForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\StringListViewer.resx">
+      <DependentUpon>StringListViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\ExtentDialog.resx">
+      <DependentUpon>ExtentDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\NameFileUnitPicker.resx">
+      <DependentUpon>NameFileUnitPicker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\STMapDesigner.resx">
+      <DependentUpon>STMapDesigner.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ReportElementChartMenu.resx">
+      <DependentUpon>ReportElementChartMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ReportElementTableMenu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReportElementTableMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Spatial\SpatialReferenceMismatchDialog.resx">
+      <DependentUpon>SpatialReferenceMismatchDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\TableTest.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableTest.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\HPdf\HPdf.csproj">
+      <Project>{B8F797D0-95B8-45DE-AF12-5DE2E8E4C791}</Project>
+      <Name>HPdf</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SharpZip\ICSharpCode.SharpZLib.csproj">
+      <Project>{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}</Project>
+      <Name>ICSharpCode.SharpZLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SoftwareProduction.Utilities\Utilities.csproj">
+      <Project>{7B57AB0F-4A93-412E-AA54-2B9CB63FBF9A}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\USGS_PUMA_Framework_2\GeoAPI\GeoAPI.csproj">
+      <Project>{FFB69466-79DE-466A-ADA7-5C47C5C5CA3A}</Project>
+      <Name>GeoAPI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\USGS_PUMA_Framework_2\ModflowTrainingTools\USGS.ModflowTrainingTools\USGS.ModflowTrainingTools.csproj">
+      <Project>{1B9E464F-3028-4477-9DBB-F119A93C16F6}</Project>
+      <Name>USGS.ModflowTrainingTools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\USGS_PUMA_Framework_2\USGS.Puma.Modflow\USGS.Puma.Modflow.csproj">
+      <Project>{E2BC5AC6-921C-47BE-9F3F-7E5D5E72CA48}</Project>
+      <Name>USGS.Puma.Modflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\USGS_PUMA_Framework_2\USGS.Puma.NTS\USGS.Puma.NTS.csproj">
+      <Project>{5770DAA9-84E5-4770-AF43-F6B815894368}</Project>
+      <Name>USGS.Puma.NTS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\USGS_PUMA_Framework_2\USGS.Puma.UI\USGS.Puma.UI.csproj">
+      <Project>{4E7709CF-6528-4EC6-A63D-2CFFDCD6CCE7}</Project>
+      <Name>USGS.Puma.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\USGS_PUMA_Framework_2\USGS.Puma\USGS.Puma.csproj">
+      <Project>{118DE6CE-2FA3-4D6A-BAF2-3C74754255A0}</Project>
+      <Name>USGS.Puma</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="gdalconst_csharp, Version=1.0.4704.32537, Culture=neutral, PublicKeyToken=db5a52b08dc5b321, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\packages\GDAL.1.9.2\lib\net40\gdalconst_csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="gdal_csharp, Version=1.0.4704.32537, Culture=neutral, PublicKeyToken=db5a52b08dc5b321, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\packages\GDAL.1.9.2\lib\net40\gdal_csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="mapscript_csharp, Version=1.0.3671.21478, Culture=neutral, PublicKeyToken=80087771edd02926">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\GDAL\csharp\mapscript_csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MapTools">
+      <HintPath>..\..\DLLs\MapTools\MapTools.dll</HintPath>
+    </Reference>
+    <Reference Include="NDepend.Helpers.FileDirectoryPath, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\NDepend.Helpers.FileDirectoryPath\bin\Release\NDepend.Helpers.FileDirectoryPath.dll</HintPath>
+    </Reference>
+    <Reference Include="ogr_csharp, Version=1.0.4704.32537, Culture=neutral, PublicKeyToken=db5a52b08dc5b321, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\packages\GDAL.1.9.2\lib\net40\ogr_csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="osr_csharp, Version=1.0.4704.32536, Culture=neutral, PublicKeyToken=db5a52b08dc5b321, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\packages\GDAL.1.9.2\lib\net40\osr_csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\add.png" />
+    <None Include="Spatial\packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usgs_logo_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color_ramp_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down_arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\graph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_blank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_graph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_refresh_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_refresh_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_refresh_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_refresh_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\math_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\math_divide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\math_multiply.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\math_subtract.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove_x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up_arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GdalConfiguration.vb" />
+    <Content Include="GdalNativeConfiguration.vb" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <PostBuildEvent>
+    if not exist "$(TargetDir)gdal" md "$(TargetDir)gdal"
+    xcopy /s /y "$(SolutionDir)packages\GDAL.Native.1.9.2\gdal\*.*" "$(TargetDir)gdal"</PostBuildEvent>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties BuildVersion_BuildVersioningStyle="None.None.None.Increment" BuildVersion_UpdateFileVersion="True" BuildVersion_ConfigurationName="Release" BuildVersion_UpdateAssemblyVersion="True" BuildVersion_StartDate="2013/10/23" BuildVersion_BuildAction="ReBuild" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

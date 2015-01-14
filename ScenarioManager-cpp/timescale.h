@@ -1,0 +1,10 @@
+#ifndef TIMESCALE_H
+#define TIMESCALE_H
+
+enum Timescale {
+    TIMESCALE_DAILY,
+    TIMESCALE_MONTHLY,
+    TIMESCALE_YEARLY
+};
+
+#endif // TIMESCALE_H

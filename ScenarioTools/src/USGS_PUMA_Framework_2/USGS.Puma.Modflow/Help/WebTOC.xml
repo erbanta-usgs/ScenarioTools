@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Title="Overview" Url="PumaFrameworkIntroduction.htm" />
+  <HelpTOCNode Id="50784779-21ea-4a0c-805c-e7e0b04d146c" Title="USGS.Puma.Modflow Namespace" Url="html/N_USGS_Puma_Modflow.htm">
+    <HelpTOCNode Id="def9a5c8-2d0b-41b2-ad04-085087a2ed1d" Title="ArrayControlRecord(T) Class" Url="html/T_USGS_Puma_Modflow_ArrayControlRecord_1.htm">
+      <HelpTOCNode Title="ArrayControlRecord(T) Members" Url="html/AllMembers_T_USGS_Puma_Modflow_ArrayControlRecord_1.htm" />
+      <HelpTOCNode Id="4bbf27fe-3c65-446b-a02d-4d471836f975" Title="ArrayControlRecord(T) Constructor " Url="html/Overload_USGS_Puma_Modflow_ArrayControlRecord_1__ctor.htm">
+        <HelpTOCNode Title="ArrayControlRecord(T) Constructor " Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1__ctor.htm" />
+        <HelpTOCNode Title="ArrayControlRecord(T) Constructor (String)" Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0f6f3782-5eb5-4864-87e4-2cfbf984f60b" Title="ArrayControlRecord(T) Methods" Url="html/Methods_T_USGS_Puma_Modflow_ArrayControlRecord_1.htm">
+        <HelpTOCNode Title="GetFixedFieldInfo Method " Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1_GetFixedFieldInfo.htm" />
+        <HelpTOCNode Title="SetAsConstant Method " Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1_SetAsConstant.htm" />
+        <HelpTOCNode Title="SetAsExternal Method " Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1_SetAsExternal.htm" />
+        <HelpTOCNode Title="SetAsInternal Method " Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1_SetAsInternal.htm" />
+        <HelpTOCNode Title="SetAsOpenClose Method " Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1_SetAsOpenClose.htm" />
+        <HelpTOCNode Title="SetControlRecordData Method " Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1_SetControlRecordData.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="eba7d160-c30f-4c5f-a9b3-2d2dd015410e" Title="ArrayControlRecord(T) Properties" Url="html/Properties_T_USGS_Puma_Modflow_ArrayControlRecord_1.htm">
+        <HelpTOCNode Title="ArrayMultiplier Property " Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_ArrayMultiplier.htm" />
+        <HelpTOCNode Title="ConstantValue Property " Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_ConstantValue.htm" />
+        <HelpTOCNode Title="Filename Property " Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_Filename.htm" />
+        <HelpTOCNode Title="FileUnit Property " Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_FileUnit.htm" />
+        <HelpTOCNode Title="InputFormat Property " Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_InputFormat.htm" />
+        <HelpTOCNode Title="NameData Property " Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_NameData.htm" />
+        <HelpTOCNode Title="PrintCode Property " Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_PrintCode.htm" />
+        <HelpTOCNode Title="RecordType Property " Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_RecordType.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="ArrayControlRecordType Enumeration" Url="html/T_USGS_Puma_Modflow_ArrayControlRecordType.htm" />
+    <HelpTOCNode Id="403cfbbf-5fab-4308-a28e-861371936ff1" Title="BasDataReader Class" Url="html/T_USGS_Puma_Modflow_BasDataReader.htm">
+      <HelpTOCNode Title="BasDataReader Members" Url="html/AllMembers_T_USGS_Puma_Modflow_BasDataReader.htm" />
+      <HelpTOCNode Title="BasDataReader Constructor " Url="html/M_USGS_Puma_Modflow_BasDataReader__ctor.htm" />
+      <HelpTOCNode Id="77853d6c-af5a-4978-9d23-161dc452524f" Title="BasDataReader Methods" Url="html/Methods_T_USGS_Puma_Modflow_BasDataReader.htm">
+        <HelpTOCNode Id="ee12b1ad-26d8-4f36-8c4b-515d694982e5" Title="Read Method " Url="html/Overload_USGS_Puma_Modflow_BasDataReader_Read.htm">
+          <HelpTOCNode Title="Read Method (String, Int32, Int32, Int32)" Url="html/M_USGS_Puma_Modflow_BasDataReader_Read.htm" />
+          <HelpTOCNode Title="Read Method (ModflowNameData, Int32, Int32, Int32)" Url="html/M_USGS_Puma_Modflow_BasDataReader_Read_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="afc1d16c-eed6-4026-aeed-03733a578896" Title="BasFileData Class" Url="html/T_USGS_Puma_Modflow_BasFileData.htm">
+      <HelpTOCNode Title="BasFileData Members" Url="html/AllMembers_T_USGS_Puma_Modflow_BasFileData.htm" />
+      <HelpTOCNode Id="96daf4ad-4416-4702-ac94-13053a09fc71" Title="BasFileData Constructor " Url="html/Overload_USGS_Puma_Modflow_BasFileData__ctor.htm">
+        <HelpTOCNode Title="BasFileData Constructor " Url="html/M_USGS_Puma_Modflow_BasFileData__ctor.htm" />
+        <HelpTOCNode Title="BasFileData Constructor (Int32, Int32, Int32)" Url="html/M_USGS_Puma_Modflow_BasFileData__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="253ffd15-e90d-43c5-a1f0-01de6796b5ee" Title="BasFileData Methods" Url="html/Methods_T_USGS_Puma_Modflow_BasFileData.htm">
+        <HelpTOCNode Title="GetIBound Method " Url="html/M_USGS_Puma_Modflow_BasFileData_GetIBound.htm" />
+        <HelpTOCNode Title="GetSHead Method " Url="html/M_USGS_Puma_Modflow_BasFileData_GetSHead.htm" />
+        <HelpTOCNode Title="Initialize Method " Url="html/M_USGS_Puma_Modflow_BasFileData_Initialize.htm" />
+        <HelpTOCNode Title="SetIBound Method " Url="html/M_USGS_Puma_Modflow_BasFileData_SetIBound.htm" />
+        <HelpTOCNode Title="SetSHead Method " Url="html/M_USGS_Puma_Modflow_BasFileData_SetSHead.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3cb4890f-9ad6-47ef-b54f-52235bd1bf2e" Title="BasFileData Properties" Url="html/Properties_T_USGS_Puma_Modflow_BasFileData.htm">
+        <HelpTOCNode Title="AllowFlowBetweenConstantHeads Property " Url="html/P_USGS_Puma_Modflow_BasFileData_AllowFlowBetweenConstantHeads.htm" />
+        <HelpTOCNode Title="ColumnCount Property " Url="html/P_USGS_Puma_Modflow_BasFileData_ColumnCount.htm" />
+        <HelpTOCNode Title="Comments Property " Url="html/P_USGS_Puma_Modflow_BasFileData_Comments.htm" />
+        <HelpTOCNode Title="HNoFlo Property " Url="html/P_USGS_Puma_Modflow_BasFileData_HNoFlo.htm" />
+        <HelpTOCNode Title="IsCrossSection Property " Url="html/P_USGS_Puma_Modflow_BasFileData_IsCrossSection.htm" />
+        <HelpTOCNode Title="LayerCount Property " Url="html/P_USGS_Puma_Modflow_BasFileData_LayerCount.htm" />
+        <HelpTOCNode Title="RowCount Property " Url="html/P_USGS_Puma_Modflow_BasFileData_RowCount.htm" />
+        <HelpTOCNode Title="UseFreeFormat Property " Url="html/P_USGS_Puma_Modflow_BasFileData_UseFreeFormat.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4c0e88e1-4a97-4c2a-9018-0a2433b4c43b" Title="BcfDataReader Class" Url="html/T_USGS_Puma_Modflow_BcfDataReader.htm">
+      <HelpTOCNode Title="BcfDataReader Members" Url="html/AllMembers_T_USGS_Puma_Modflow_BcfDataReader.htm" />
+      <HelpTOCNode Title="BcfDataReader Constructor " Url="html/M_USGS_Puma_Modflow_BcfDataReader__ctor.htm" />
+      <HelpTOCNode Id="426884fb-e40e-432d-b403-f9dc7eade603" Title="BcfDataReader Methods" Url="html/Methods_T_USGS_Puma_Modflow_BcfDataReader.htm">
+        <HelpTOCNode Id="e25ee27b-0d63-4a45-a118-c8ad5fc5c6fe" Title="Read Method " Url="html/Overload_USGS_Puma_Modflow_BcfDataReader_Read.htm">
+          <HelpTOCNode Title="Read Method (String, Int32, Int32, Int32)" Url="html/M_USGS_Puma_Modflow_BcfDataReader_Read.htm" />
+          <HelpTOCNode Title="Read Method (ModflowNameData, Int32, Int32, Int32)" Url="html/M_USGS_Puma_Modflow_BcfDataReader_Read_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0416d29b-0989-4705-bdd4-fecebf3fc664" Title="BcfFileData Class" Url="html/T_USGS_Puma_Modflow_BcfFileData.htm">
+      <HelpTOCNode Title="BcfFileData Members" Url="html/AllMembers_T_USGS_Puma_Modflow_BcfFileData.htm" />
+      <HelpTOCNode Title="BcfFileData Constructor " Url="html/M_USGS_Puma_Modflow_BcfFileData__ctor.htm" />
+      <HelpTOCNode Id="f70c5a43-aee9-4ea8-92b1-2d94d274e52c" Title="BcfFileData Methods" Url="html/Methods_T_USGS_Puma_Modflow_BcfFileData.htm">
+        <HelpTOCNode Title="Initialize Method " Url="html/M_USGS_Puma_Modflow_BcfFileData_Initialize.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c5f1b5c7-8b20-4fb4-804f-b9962af452c3" Title="BcfFileData Properties" Url="html/Properties_T_USGS_Puma_Modflow_BcfFileData.htm">
+        <HelpTOCNode Title="ColumnCount Property " Url="html/P_USGS_Puma_Modflow_BcfFileData_ColumnCount.htm" />
+        <HelpTOCNode Title="Comments Property " Url="html/P_USGS_Puma_Modflow_BcfFileData_Comments.htm" />
+        <HelpTOCNode Title="HDry Property " Url="html/P_USGS_Puma_Modflow_BcfFileData_HDry.htm" />
+        <HelpTOCNode Title="IBcfCb Property " Url="html/P_USGS_Puma_Modflow_BcfFileData_IBcfCb.htm" />
+        <HelpTOCNode Title="IHdWet Property " Url="html/P_USGS_Puma_Modflow_BcfFileData_IHdWet.htm" />
+        <HelpTOCNode Title="IWdFlg Property " Url="html/P_USGS_Puma_Modflow_BcfFileData_IWdFlg.htm" />
+        <HelpTOCNode Title="IWetIt Property " Url="html/P_USGS_Puma_Modflow_BcfFileData_IWetIt.htm" />
+        <HelpTOCNode Title="LayerCount Property " Url="html/P_USGS_Puma_Modflow_BcfFileData_LayerCount.htm" />
+        <HelpTOCNode Title="RowCount Property " Url="html/P_USGS_Puma_Modflow_BcfFileData_RowCount.htm" />
+        <HelpTOCNode Title="WetFct Property " Url="html/P_USGS_Puma_Modflow_BcfFileData_WetFct.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e61a6a25-28ea-4955-8a0c-34ebc7630619" Title="BinaryLayerReader Class" Url="html/T_USGS_Puma_Modflow_BinaryLayerReader.htm">
+      <HelpTOCNode Title="BinaryLayerReader Members" Url="html/AllMembers_T_USGS_Puma_Modflow_BinaryLayerReader.htm" />
+      <HelpTOCNode Title="BinaryLayerReader Constructor " Url="html/M_USGS_Puma_Modflow_BinaryLayerReader__ctor.htm" />
+      <HelpTOCNode Id="d8ab08f2-dbbf-46f2-a1ab-f3d667900f77" Title="BinaryLayerReader Methods" Url="html/Methods_T_USGS_Puma_Modflow_BinaryLayerReader.htm">
+        <HelpTOCNode Title="Close Method " Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_Close.htm" />
+        <HelpTOCNode Id="9c5a3694-a868-4715-a61b-db4e67abebdd" Title="Dispose Method " Url="html/Overload_USGS_Puma_Modflow_BinaryLayerReader_Dispose.htm">
+          <HelpTOCNode Title="Dispose Method " Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_Dispose.htm" />
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_Dispose_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d8aa048d-5299-4f52-9c09-0389d85af30d" Title="FindRecordIndex Method " Url="html/Overload_USGS_Puma_Modflow_BinaryLayerReader_FindRecordIndex.htm">
+          <HelpTOCNode Title="FindRecordIndex Method (String)" Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_FindRecordIndex_1.htm" />
+          <HelpTOCNode Title="FindRecordIndex Method (Int32, Int32, Int32, String)" Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_FindRecordIndex.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetDataTypes Method " Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_GetDataTypes.htm" />
+        <HelpTOCNode Title="GetRecord Method " Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_GetRecord.htm" />
+        <HelpTOCNode Title="GetRecordAsDouble Method " Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_GetRecordAsDouble.htm" />
+        <HelpTOCNode Title="GetRecordAsSingle Method " Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_GetRecordAsSingle.htm" />
+        <HelpTOCNode Title="GetStressPeriods Method " Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_GetStressPeriods.htm" />
+        <HelpTOCNode Title="GetTimeSteps Method " Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_GetTimeSteps.htm" />
+        <HelpTOCNode Title="ReadAllRecordHeaders Method " Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_ReadAllRecordHeaders.htm" />
+        <HelpTOCNode Title="ReadRecordHeader Method " Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_ReadRecordHeader.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="784f0180-c22d-4d35-990c-98f6f708fa0b" Title="BinaryLayerReader Properties" Url="html/Properties_T_USGS_Puma_Modflow_BinaryLayerReader.htm">
+        <HelpTOCNode Title="ColumnCount Property " Url="html/P_USGS_Puma_Modflow_BinaryLayerReader_ColumnCount.htm" />
+        <HelpTOCNode Title="Filename Property " Url="html/P_USGS_Puma_Modflow_BinaryLayerReader_Filename.htm" />
+        <HelpTOCNode Title="OutputPrecision Property " Url="html/P_USGS_Puma_Modflow_BinaryLayerReader_OutputPrecision.htm" />
+        <HelpTOCNode Title="RecordCount Property " Url="html/P_USGS_Puma_Modflow_BinaryLayerReader_RecordCount.htm" />
+        <HelpTOCNode Title="RowCount Property " Url="html/P_USGS_Puma_Modflow_BinaryLayerReader_RowCount.htm" />
+        <HelpTOCNode Title="Valid Property " Url="html/P_USGS_Puma_Modflow_BinaryLayerReader_Valid.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="21912dba-1cb8-4830-ad61-a8902ce04c3c" Title="BinaryLayerWriter Class" Url="html/T_USGS_Puma_Modflow_BinaryLayerWriter.htm">
+      <HelpTOCNode Title="BinaryLayerWriter Members" Url="html/AllMembers_T_USGS_Puma_Modflow_BinaryLayerWriter.htm" />
+      <HelpTOCNode Title="BinaryLayerWriter Constructor " Url="html/M_USGS_Puma_Modflow_BinaryLayerWriter__ctor.htm" />
+      <HelpTOCNode Id="3fc7b563-0600-4ab1-9922-9e9d3891d8d0" Title="BinaryLayerWriter Methods" Url="html/Methods_T_USGS_Puma_Modflow_BinaryLayerWriter.htm">
+        <HelpTOCNode Title="Close Method " Url="html/M_USGS_Puma_Modflow_BinaryLayerWriter_Close.htm" />
+        <HelpTOCNode Id="ff546085-b899-4ecd-8197-3befa347973b" Title="Dispose Method " Url="html/Overload_USGS_Puma_Modflow_BinaryLayerWriter_Dispose.htm">
+          <HelpTOCNode Title="Dispose Method " Url="html/M_USGS_Puma_Modflow_BinaryLayerWriter_Dispose.htm" />
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_USGS_Puma_Modflow_BinaryLayerWriter_Dispose_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Finalize Method " Url="html/M_USGS_Puma_Modflow_BinaryLayerWriter_Finalize.htm" />
+        <HelpTOCNode Id="ba9c2ee2-0ad1-4c7e-b62f-df0778a17140" Title="Write Method " Url="html/Overload_USGS_Puma_Modflow_BinaryLayerWriter_Write.htm">
+          <HelpTOCNode Title="Write Method (LayerDataRecord(Double))" Url="html/M_USGS_Puma_Modflow_BinaryLayerWriter_Write.htm" />
+          <HelpTOCNode Title="Write Method (LayerDataRecord(Single))" Url="html/M_USGS_Puma_Modflow_BinaryLayerWriter_Write_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="WriteFile Method " Url="html/M_USGS_Puma_Modflow_BinaryLayerWriter_WriteFile.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5b4fcc2e-fac1-4d77-b889-0c40d478fd11" Title="BinaryLayerWriter Properties" Url="html/Properties_T_USGS_Puma_Modflow_BinaryLayerWriter.htm">
+        <HelpTOCNode Title="ColumnCount Property " Url="html/P_USGS_Puma_Modflow_BinaryLayerWriter_ColumnCount.htm" />
+        <HelpTOCNode Title="RowCount Property " Url="html/P_USGS_Puma_Modflow_BinaryLayerWriter_RowCount.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bd5f685a-17cb-4660-bbb0-e1357d127ffa" Title="DisDataReader Class" Url="html/T_USGS_Puma_Modflow_DisDataReader.htm">
+      <HelpTOCNode Title="DisDataReader Members" Url="html/AllMembers_T_USGS_Puma_Modflow_DisDataReader.htm" />
+      <HelpTOCNode Title="DisDataReader Constructor " Url="html/M_USGS_Puma_Modflow_DisDataReader__ctor.htm" />
+      <HelpTOCNode Id="d19a7160-cafb-4234-b8b1-167331774d00" Title="DisDataReader Methods" Url="html/Methods_T_USGS_Puma_Modflow_DisDataReader.htm">
+        <HelpTOCNode Id="aa6b40eb-1891-4358-a2c9-fb6025bdc894" Title="Read Method " Url="html/Overload_USGS_Puma_Modflow_DisDataReader_Read.htm">
+          <HelpTOCNode Title="Read Method (ModflowNameData)" Url="html/M_USGS_Puma_Modflow_DisDataReader_Read_1.htm" />
+          <HelpTOCNode Title="Read Method (String, String)" Url="html/M_USGS_Puma_Modflow_DisDataReader_Read.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3fbfe3e5-a117-43fe-8bca-91ac23779abe" Title="DisFileData Class" Url="html/T_USGS_Puma_Modflow_DisFileData.htm">
+      <HelpTOCNode Title="DisFileData Members" Url="html/AllMembers_T_USGS_Puma_Modflow_DisFileData.htm" />
+      <HelpTOCNode Id="a27f5ec0-d87d-4ef0-8825-cc3125404de8" Title="DisFileData Constructor " Url="html/Overload_USGS_Puma_Modflow_DisFileData__ctor.htm">
+        <HelpTOCNode Title="DisFileData Constructor (Int32, Int32, Int32, Single, Single)" Url="html/M_USGS_Puma_Modflow_DisFileData__ctor.htm" />
+        <HelpTOCNode Title="DisFileData Constructor (Int32, Int32, Int32, Single, Single, StressPeriod[])" Url="html/M_USGS_Puma_Modflow_DisFileData__ctor_1.htm" />
+        <HelpTOCNode Title="DisFileData Constructor (Single[], Single[], IModflowDataArray2d(Single), IModflowDataArray2d(Single)[], StressPeriod[], Int32, Int32)" Url="html/M_USGS_Puma_Modflow_DisFileData__ctor_3.htm" />
+        <HelpTOCNode Title="DisFileData Constructor (Int32, Int32, Int32, Single, Single, StressPeriod[], Int32, Int32)" Url="html/M_USGS_Puma_Modflow_DisFileData__ctor_2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b8e717c5-9d00-4149-ae62-2b818e6e16d1" Title="DisFileData Methods" Url="html/Methods_T_USGS_Puma_Modflow_DisFileData.htm">
+        <HelpTOCNode Title="CreateCellCenteredGrid Method " Url="html/M_USGS_Puma_Modflow_DisFileData_CreateCellCenteredGrid.htm" />
+        <HelpTOCNode Title="GetBottom Method " Url="html/M_USGS_Puma_Modflow_DisFileData_GetBottom.htm" />
+        <HelpTOCNode Title="GetConfiningBedBottom Method " Url="html/M_USGS_Puma_Modflow_DisFileData_GetConfiningBedBottom.htm" />
+        <HelpTOCNode Title="GetLayerConfiningBedFlag Method " Url="html/M_USGS_Puma_Modflow_DisFileData_GetLayerConfiningBedFlag.htm" />
+        <HelpTOCNode Title="SetBottom Method " Url="html/M_USGS_Puma_Modflow_DisFileData_SetBottom.htm" />
+        <HelpTOCNode Title="SetConfiningBedBottom Method " Url="html/M_USGS_Puma_Modflow_DisFileData_SetConfiningBedBottom.htm" />
+        <HelpTOCNode Title="SetLayerConfiningBedFlag Method " Url="html/M_USGS_Puma_Modflow_DisFileData_SetLayerConfiningBedFlag.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d9692a7b-b8fc-4f8d-958a-6c44a047f1a1" Title="DisFileData Properties" Url="html/Properties_T_USGS_Puma_Modflow_DisFileData.htm">
+        <HelpTOCNode Title="ColumnCount Property " Url="html/P_USGS_Puma_Modflow_DisFileData_ColumnCount.htm" />
+        <HelpTOCNode Title="Comments Property " Url="html/P_USGS_Puma_Modflow_DisFileData_Comments.htm" />
+        <HelpTOCNode Title="DelC Property " Url="html/P_USGS_Puma_Modflow_DisFileData_DelC.htm" />
+        <HelpTOCNode Title="DelR Property " Url="html/P_USGS_Puma_Modflow_DisFileData_DelR.htm" />
+        <HelpTOCNode Title="LayerCount Property " Url="html/P_USGS_Puma_Modflow_DisFileData_LayerCount.htm" />
+        <HelpTOCNode Title="LengthUnit Property " Url="html/P_USGS_Puma_Modflow_DisFileData_LengthUnit.htm" />
+        <HelpTOCNode Title="NameData Property " Url="html/P_USGS_Puma_Modflow_DisFileData_NameData.htm" />
+        <HelpTOCNode Title="RowCount Property " Url="html/P_USGS_Puma_Modflow_DisFileData_RowCount.htm" />
+        <HelpTOCNode Title="TimeDiscretization Property " Url="html/P_USGS_Puma_Modflow_DisFileData_TimeDiscretization.htm" />
+        <HelpTOCNode Title="TimeUnit Property " Url="html/P_USGS_Puma_Modflow_DisFileData_TimeUnit.htm" />
+        <HelpTOCNode Title="Top Property " Url="html/P_USGS_Puma_Modflow_DisFileData_Top.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2c44dc16-53bc-43b2-b495-cad57fe179ea" Title="IArrayControlRecord(T) Interface" Url="html/T_USGS_Puma_Modflow_IArrayControlRecord_1.htm">
+      <HelpTOCNode Title="IArrayControlRecord(T) Members" Url="html/AllMembers_T_USGS_Puma_Modflow_IArrayControlRecord_1.htm" />
+      <HelpTOCNode Id="55bb0f38-7dce-49b7-8c7f-d0587c6ca0ce" Title="IArrayControlRecord(T) Methods" Url="html/Methods_T_USGS_Puma_Modflow_IArrayControlRecord_1.htm">
+        <HelpTOCNode Title="SetAsConstant Method " Url="html/M_USGS_Puma_Modflow_IArrayControlRecord_1_SetAsConstant.htm" />
+        <HelpTOCNode Title="SetAsExternal Method " Url="html/M_USGS_Puma_Modflow_IArrayControlRecord_1_SetAsExternal.htm" />
+        <HelpTOCNode Title="SetAsInternal Method " Url="html/M_USGS_Puma_Modflow_IArrayControlRecord_1_SetAsInternal.htm" />
+        <HelpTOCNode Title="SetAsOpenClose Method " Url="html/M_USGS_Puma_Modflow_IArrayControlRecord_1_SetAsOpenClose.htm" />
+        <HelpTOCNode Title="SetControlRecordData Method " Url="html/M_USGS_Puma_Modflow_IArrayControlRecord_1_SetControlRecordData.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2211f85b-d2f1-4005-9770-f6ec04ee292c" Title="IArrayControlRecord(T) Properties" Url="html/Properties_T_USGS_Puma_Modflow_IArrayControlRecord_1.htm">
+        <HelpTOCNode Title="ArrayMultiplier Property " Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_ArrayMultiplier.htm" />
+        <HelpTOCNode Title="ConstantValue Property " Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_ConstantValue.htm" />
+        <HelpTOCNode Title="Filename Property " Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_Filename.htm" />
+        <HelpTOCNode Title="FileUnit Property " Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_FileUnit.htm" />
+        <HelpTOCNode Title="InputFormat Property " Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_InputFormat.htm" />
+        <HelpTOCNode Title="NameData Property " Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_NameData.htm" />
+        <HelpTOCNode Title="PrintCode Property " Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_PrintCode.htm" />
+        <HelpTOCNode Title="RecordType Property " Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_RecordType.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c0271ddc-61ef-4faf-8a62-6fcc87a62465" Title="IModflowDataArray(T) Interface" Url="html/T_USGS_Puma_Modflow_IModflowDataArray_1.htm">
+      <HelpTOCNode Title="IModflowDataArray(T) Members" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowDataArray_1.htm" />
+      <HelpTOCNode Id="9c9d98cb-a6f7-4646-8943-130a6b8e48d2" Title="IModflowDataArray(T) Properties" Url="html/Properties_T_USGS_Puma_Modflow_IModflowDataArray_1.htm">
+        <HelpTOCNode Title="ArrayDimension Property " Url="html/P_USGS_Puma_Modflow_IModflowDataArray_1_ArrayDimension.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="face7323-9418-4868-a379-4e238ac4ac81" Title="IModflowDataArray1d(T) Interface" Url="html/T_USGS_Puma_Modflow_IModflowDataArray1d_1.htm">
+      <HelpTOCNode Title="IModflowDataArray1d(T) Members" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowDataArray1d_1.htm" />
+      <HelpTOCNode Id="6e231304-d4a3-46a8-9ae7-086a6fd31550" Title="IModflowDataArray1d(T) Methods" Url="html/Methods_T_USGS_Puma_Modflow_IModflowDataArray1d_1.htm">
+        <HelpTOCNode Id="6e85e884-2b1a-420e-bc42-53f90f8bef62" Title="GetDataArrayCopy Method " Url="html/Overload_USGS_Puma_Modflow_IModflowDataArray1d_1_GetDataArrayCopy.htm">
+          <HelpTOCNode Title="GetDataArrayCopy Method (Boolean)" Url="html/M_USGS_Puma_Modflow_IModflowDataArray1d_1_GetDataArrayCopy.htm" />
+          <HelpTOCNode Title="GetDataArrayCopy Method (BinaryReader, Boolean)" Url="html/M_USGS_Puma_Modflow_IModflowDataArray1d_1_GetDataArrayCopy_1.htm" />
+          <HelpTOCNode Title="GetDataArrayCopy Method (StreamReader, Boolean)" Url="html/M_USGS_Puma_Modflow_IModflowDataArray1d_1_GetDataArrayCopy_2.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="ca57199e-86a0-4f11-a5d6-a6fc044c6f81" Title="IModflowDataArray1d(T) Properties" Url="html/Properties_T_USGS_Puma_Modflow_IModflowDataArray1d_1.htm">
+        <HelpTOCNode Title="DataArray Property " Url="html/P_USGS_Puma_Modflow_IModflowDataArray1d_1_DataArray.htm" />
+        <HelpTOCNode Title="ElementCount Property " Url="html/P_USGS_Puma_Modflow_IModflowDataArray1d_1_ElementCount.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f27becb2-34e7-4374-8d67-cf75f1c91d47" Title="IModflowDataArray2d(T) Interface" Url="html/T_USGS_Puma_Modflow_IModflowDataArray2d_1.htm">
+      <HelpTOCNode Title="IModflowDataArray2d(T) Members" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowDataArray2d_1.htm" />
+      <HelpTOCNode Id="864848d6-e102-49ca-99ae-464be511699e" Title="IModflowDataArray2d(T) Methods" Url="html/Methods_T_USGS_Puma_Modflow_IModflowDataArray2d_1.htm">
+        <HelpTOCNode Id="833fff62-6acd-4cf1-bbdd-9878128e4159" Title="GetDataArrayCopy Method " Url="html/Overload_USGS_Puma_Modflow_IModflowDataArray2d_1_GetDataArrayCopy.htm">
+          <HelpTOCNode Title="GetDataArrayCopy Method (Boolean)" Url="html/M_USGS_Puma_Modflow_IModflowDataArray2d_1_GetDataArrayCopy.htm" />
+          <HelpTOCNode Title="GetDataArrayCopy Method (BinaryReader, Boolean)" Url="html/M_USGS_Puma_Modflow_IModflowDataArray2d_1_GetDataArrayCopy_1.htm" />
+          <HelpTOCNode Title="GetDataArrayCopy Method (StreamReader, Boolean)" Url="html/M_USGS_Puma_Modflow_IModflowDataArray2d_1_GetDataArrayCopy_2.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="1af55168-f517-44ec-9530-2d2cd5ecf56d" Title="IModflowDataArray2d(T) Properties" Url="html/Properties_T_USGS_Puma_Modflow_IModflowDataArray2d_1.htm">
+        <HelpTOCNode Title="ColumnCount Property " Url="html/P_USGS_Puma_Modflow_IModflowDataArray2d_1_ColumnCount.htm" />
+        <HelpTOCNode Title="DataArray Property " Url="html/P_USGS_Puma_Modflow_IModflowDataArray2d_1_DataArray.htm" />
+        <HelpTOCNode Title="RowCount Property " Url="html/P_USGS_Puma_Modflow_IModflowDataArray2d_1_RowCount.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="110692e4-0f1d-4dc8-ad3a-6912e5c31166" Title="IModflowNameData Interface" Url="html/T_USGS_Puma_Modflow_IModflowNameData.htm">
+      <HelpTOCNode Title="IModflowNameData Members" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowNameData.htm" />
+      <HelpTOCNode Id="0048bde5-5ecb-4e3f-ae78-7fb41065c204" Title="IModflowNameData Methods" Url="html/Methods_T_USGS_Puma_Modflow_IModflowNameData.htm">
+        <HelpTOCNode Id="7fd1057e-d926-40c2-8585-af6ca012fc59" Title="AddItem Method " Url="html/Overload_USGS_Puma_Modflow_IModflowNameData_AddItem.htm">
+          <HelpTOCNode Title="AddItem Method (NameFileItem)" Url="html/M_USGS_Puma_Modflow_IModflowNameData_AddItem_2.htm" />
+          <HelpTOCNode Title="AddItem Method (Int32, String, String)" Url="html/M_USGS_Puma_Modflow_IModflowNameData_AddItem.htm" />
+          <HelpTOCNode Title="AddItem Method (Int32, String, String, String)" Url="html/M_USGS_Puma_Modflow_IModflowNameData_AddItem_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Clear Method " Url="html/M_USGS_Puma_Modflow_IModflowNameData_Clear.htm" />
+        <HelpTOCNode Title="FileUnitAvailable Method " Url="html/M_USGS_Puma_Modflow_IModflowNameData_FileUnitAvailable.htm" />
+        <HelpTOCNode Title="GetItemsAsList Method " Url="html/M_USGS_Puma_Modflow_IModflowNameData_GetItemsAsList.htm" />
+        <HelpTOCNode Title="RemoveItem Method " Url="html/M_USGS_Puma_Modflow_IModflowNameData_RemoveItem.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="504ff24a-9b01-4af1-bfb1-a8420753ee13" Title="INameFileItem Interface" Url="html/T_USGS_Puma_Modflow_INameFileItem.htm">
+      <HelpTOCNode Title="INameFileItem Members" Url="html/AllMembers_T_USGS_Puma_Modflow_INameFileItem.htm" />
+      <HelpTOCNode Id="b16ef853-e287-43f0-9f10-aef93890eb78" Title="INameFileItem Properties" Url="html/Properties_T_USGS_Puma_Modflow_INameFileItem.htm">
+        <HelpTOCNode Title="FileName Property " Url="html/P_USGS_Puma_Modflow_INameFileItem_FileName.htm" />
+        <HelpTOCNode Title="FileStatus Property " Url="html/P_USGS_Puma_Modflow_INameFileItem_FileStatus.htm" />
+        <HelpTOCNode Title="FileType Property " Url="html/P_USGS_Puma_Modflow_INameFileItem_FileType.htm" />
+        <HelpTOCNode Title="FileUnit Property " Url="html/P_USGS_Puma_Modflow_INameFileItem_FileUnit.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="adfc650c-7ffc-4434-8c6d-fe345cde1963" Title="LayerDataRecord(T) Class" Url="html/T_USGS_Puma_Modflow_LayerDataRecord_1.htm">
+      <HelpTOCNode Title="LayerDataRecord(T) Members" Url="html/AllMembers_T_USGS_Puma_Modflow_LayerDataRecord_1.htm" />
+      <HelpTOCNode Id="7b4c72a8-3d79-4dd0-aaf0-5858212c3a8f" Title="LayerDataRecord(T) Constructor " Url="html/Overload_USGS_Puma_Modflow_LayerDataRecord_1__ctor.htm">
+        <HelpTOCNode Title="LayerDataRecord(T) Constructor " Url="html/M_USGS_Puma_Modflow_LayerDataRecord_1__ctor.htm" />
+        <HelpTOCNode Title="LayerDataRecord(T) Constructor (Int32, Int32, Int32, String, Single, Single, (T))" Url="html/M_USGS_Puma_Modflow_LayerDataRecord_1__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9fd75b03-e9e1-4263-965b-dbc4d3680747" Title="LayerDataRecord(T) Methods" Url="html/Methods_T_USGS_Puma_Modflow_LayerDataRecord_1.htm">
+        <HelpTOCNode Title="CopyAsDouble Method " Url="html/M_USGS_Puma_Modflow_LayerDataRecord_1_CopyAsDouble.htm" />
+        <HelpTOCNode Title="CopyAsSingle Method " Url="html/M_USGS_Puma_Modflow_LayerDataRecord_1_CopyAsSingle.htm" />
+        <HelpTOCNode Id="123801a0-3c50-4405-a4fd-f42ed68b59a1" Title="Write Method " Url="html/Overload_USGS_Puma_Modflow_LayerDataRecord_1_Write.htm">
+          <HelpTOCNode Title="Write Method (XmlWriter)" Url="html/M_USGS_Puma_Modflow_LayerDataRecord_1_Write.htm" />
+          <HelpTOCNode Title="Write Method (XmlWriter, String)" Url="html/M_USGS_Puma_Modflow_LayerDataRecord_1_Write_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="4fdcf904-6b33-46f4-93b3-3ac760eba4cc" Title="LayerDataRecord(T) Properties" Url="html/Properties_T_USGS_Puma_Modflow_LayerDataRecord_1.htm">
+        <HelpTOCNode Title="DataArray Property " Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_DataArray.htm" />
+        <HelpTOCNode Title="Layer Property " Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_Layer.htm" />
+        <HelpTOCNode Title="PeriodTime Property " Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_PeriodTime.htm" />
+        <HelpTOCNode Title="StressPeriod Property " Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_StressPeriod.htm" />
+        <HelpTOCNode Title="Text Property " Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_Text.htm" />
+        <HelpTOCNode Title="TimeStep Property " Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_TimeStep.htm" />
+        <HelpTOCNode Title="TotalTime Property " Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_TotalTime.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="366f2fdf-a23b-409e-b6dd-7fcc7bc588d5" Title="LayerDataRecordHeader Class" Url="html/T_USGS_Puma_Modflow_LayerDataRecordHeader.htm">
+      <HelpTOCNode Title="LayerDataRecordHeader Members" Url="html/AllMembers_T_USGS_Puma_Modflow_LayerDataRecordHeader.htm" />
+      <HelpTOCNode Id="dc193c41-b1e0-45e7-9e94-fb91ac33260d" Title="LayerDataRecordHeader Constructor " Url="html/Overload_USGS_Puma_Modflow_LayerDataRecordHeader__ctor.htm">
+        <HelpTOCNode Title="LayerDataRecordHeader Constructor " Url="html/M_USGS_Puma_Modflow_LayerDataRecordHeader__ctor.htm" />
+        <HelpTOCNode Title="LayerDataRecordHeader Constructor (Int32, Int32, Int32, String, Int32, Int32, Single, Single)" Url="html/M_USGS_Puma_Modflow_LayerDataRecordHeader__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="LayerDataRecordHeader Methods" Url="html/Methods_T_USGS_Puma_Modflow_LayerDataRecordHeader.htm" />
+      <HelpTOCNode Id="4b4fe3ee-9669-49c2-9863-bdb7abbb8398" Title="LayerDataRecordHeader Properties" Url="html/Properties_T_USGS_Puma_Modflow_LayerDataRecordHeader.htm">
+        <HelpTOCNode Title="ColumnCount Property " Url="html/P_USGS_Puma_Modflow_LayerDataRecordHeader_ColumnCount.htm" />
+        <HelpTOCNode Title="Layer Property " Url="html/P_USGS_Puma_Modflow_LayerDataRecordHeader_Layer.htm" />
+        <HelpTOCNode Title="PeriodTime Property " Url="html/P_USGS_Puma_Modflow_LayerDataRecordHeader_PeriodTime.htm" />
+        <HelpTOCNode Title="RowCount Property " Url="html/P_USGS_Puma_Modflow_LayerDataRecordHeader_RowCount.htm" />
+        <HelpTOCNode Title="StressPeriod Property " Url="html/P_USGS_Puma_Modflow_LayerDataRecordHeader_StressPeriod.htm" />
+        <HelpTOCNode Title="Text Property " Url="html/P_USGS_Puma_Modflow_LayerDataRecordHeader_Text.htm" />
+        <HelpTOCNode Title="TimeStep Property " Url="html/P_USGS_Puma_Modflow_LayerDataRecordHeader_TimeStep.htm" />
+        <HelpTOCNode Title="TotalTime Property " Url="html/P_USGS_Puma_Modflow_LayerDataRecordHeader_TotalTime.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9722428f-b625-41ec-8a29-cce38e900537" Title="LayerDataRecordHeaderCollection Class" Url="html/T_USGS_Puma_Modflow_LayerDataRecordHeaderCollection.htm">
+      <HelpTOCNode Title="LayerDataRecordHeaderCollection Members" Url="html/AllMembers_T_USGS_Puma_Modflow_LayerDataRecordHeaderCollection.htm" />
+      <HelpTOCNode Title="LayerDataRecordHeaderCollection Constructor " Url="html/M_USGS_Puma_Modflow_LayerDataRecordHeaderCollection__ctor.htm" />
+      <HelpTOCNode Title="LayerDataRecordHeaderCollection Methods" Url="html/Methods_T_USGS_Puma_Modflow_LayerDataRecordHeaderCollection.htm" />
+      <HelpTOCNode Title="LayerDataRecordHeaderCollection Properties" Url="html/Properties_T_USGS_Puma_Modflow_LayerDataRecordHeaderCollection.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bd1c1672-a324-42ee-8c98-fdaa1a4978b9" Title="LpfDataReader Class" Url="html/T_USGS_Puma_Modflow_LpfDataReader.htm">
+      <HelpTOCNode Title="LpfDataReader Members" Url="html/AllMembers_T_USGS_Puma_Modflow_LpfDataReader.htm" />
+      <HelpTOCNode Title="LpfDataReader Constructor " Url="html/M_USGS_Puma_Modflow_LpfDataReader__ctor.htm" />
+      <HelpTOCNode Id="884674ef-8965-4d3e-8fbd-f4ec4d08c64b" Title="LpfDataReader Methods" Url="html/Methods_T_USGS_Puma_Modflow_LpfDataReader.htm">
+        <HelpTOCNode Id="f3461491-1189-423f-ae3b-f6b7d5572ce2" Title="Read Method " Url="html/Overload_USGS_Puma_Modflow_LpfDataReader_Read.htm">
+          <HelpTOCNode Title="Read Method (String, Int32, Int32, Int32)" Url="html/M_USGS_Puma_Modflow_LpfDataReader_Read.htm" />
+          <HelpTOCNode Title="Read Method (ModflowNameData, Int32, Int32, Int32)" Url="html/M_USGS_Puma_Modflow_LpfDataReader_Read_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="95f9ce68-bdd9-4a78-a98b-cabd438c516a" Title="LpfFileData Class" Url="html/T_USGS_Puma_Modflow_LpfFileData.htm">
+      <HelpTOCNode Title="LpfFileData Members" Url="html/AllMembers_T_USGS_Puma_Modflow_LpfFileData.htm" />
+      <HelpTOCNode Title="LpfFileData Constructor " Url="html/M_USGS_Puma_Modflow_LpfFileData__ctor.htm" />
+      <HelpTOCNode Id="a890067a-b47b-4dee-9058-c752b79829fd" Title="LpfFileData Methods" Url="html/Methods_T_USGS_Puma_Modflow_LpfFileData.htm">
+        <HelpTOCNode Title="Initialize Method " Url="html/M_USGS_Puma_Modflow_LpfFileData_Initialize.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e2727239-6aef-4704-af95-0175832d53be" Title="LpfFileData Properties" Url="html/Properties_T_USGS_Puma_Modflow_LpfFileData.htm">
+        <HelpTOCNode Title="ColumnCount Property " Url="html/P_USGS_Puma_Modflow_LpfFileData_ColumnCount.htm" />
+        <HelpTOCNode Title="Comments Property " Url="html/P_USGS_Puma_Modflow_LpfFileData_Comments.htm" />
+        <HelpTOCNode Title="HDry Property " Url="html/P_USGS_Puma_Modflow_LpfFileData_HDry.htm" />
+        <HelpTOCNode Title="ILpfCb Property " Url="html/P_USGS_Puma_Modflow_LpfFileData_ILpfCb.htm" />
+        <HelpTOCNode Title="LayerCount Property " Url="html/P_USGS_Puma_Modflow_LpfFileData_LayerCount.htm" />
+        <HelpTOCNode Title="NoVerticalCvCorrection Property " Url="html/P_USGS_Puma_Modflow_LpfFileData_NoVerticalCvCorrection.htm" />
+        <HelpTOCNode Title="NpLpf Property " Url="html/P_USGS_Puma_Modflow_LpfFileData_NpLpf.htm" />
+        <HelpTOCNode Title="RowCount Property " Url="html/P_USGS_Puma_Modflow_LpfFileData_RowCount.htm" />
+        <HelpTOCNode Title="UseConstantCV Property " Url="html/P_USGS_Puma_Modflow_LpfFileData_UseConstantCV.htm" />
+        <HelpTOCNode Title="UseStartingHeadToComputeThickness Property " Url="html/P_USGS_Puma_Modflow_LpfFileData_UseStartingHeadToComputeThickness.htm" />
+        <HelpTOCNode Title="UseStorageCoefficient Property " Url="html/P_USGS_Puma_Modflow_LpfFileData_UseStorageCoefficient.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4449e2ab-c7e2-4cb0-91b8-22d1e057a1da" Title="ModflowDataArray1d(T) Class" Url="html/T_USGS_Puma_Modflow_ModflowDataArray1d_1.htm">
+      <HelpTOCNode Title="ModflowDataArray1d(T) Members" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowDataArray1d_1.htm" />
+      <HelpTOCNode Id="525c8f93-dc72-47af-96b4-3f30f6c2169a" Title="ModflowDataArray1d(T) Constructor " Url="html/Overload_USGS_Puma_Modflow_ModflowDataArray1d_1__ctor.htm">
+        <HelpTOCNode Title="ModflowDataArray1d(T) Constructor (Int32)" Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1__ctor.htm" />
+        <HelpTOCNode Title="ModflowDataArray1d(T) Constructor ((T))" Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1__ctor_2.htm" />
+        <HelpTOCNode Title="ModflowDataArray1d(T) Constructor (Int32, T)" Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a1813273-861e-47e1-b9e1-0122354c03d2" Title="ModflowDataArray1d(T) Methods" Url="html/Methods_T_USGS_Puma_Modflow_ModflowDataArray1d_1.htm">
+        <HelpTOCNode Id="a7fb1595-4458-4922-8125-8e299d325e04" Title="GetDataArrayCopy Method " Url="html/Overload_USGS_Puma_Modflow_ModflowDataArray1d_1_GetDataArrayCopy.htm">
+          <HelpTOCNode Title="GetDataArrayCopy Method (Boolean)" Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1_GetDataArrayCopy.htm" />
+          <HelpTOCNode Title="GetDataArrayCopy Method (BinaryReader, Boolean)" Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1_GetDataArrayCopy_1.htm" />
+          <HelpTOCNode Title="GetDataArrayCopy Method (StreamReader, Boolean)" Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1_GetDataArrayCopy_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="SetAsConstant Method " Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1_SetAsConstant.htm" />
+        <HelpTOCNode Title="SetAsExternal Method " Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1_SetAsExternal.htm" />
+        <HelpTOCNode Title="SetAsInternal Method " Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1_SetAsInternal.htm" />
+        <HelpTOCNode Title="SetAsOpenClose Method " Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1_SetAsOpenClose.htm" />
+        <HelpTOCNode Title="SetControlRecordData Method " Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1_SetControlRecordData.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="fd5a14c7-5889-4337-8c4d-bd1342b5d94e" Title="ModflowDataArray1d(T) Properties" Url="html/Properties_T_USGS_Puma_Modflow_ModflowDataArray1d_1.htm">
+        <HelpTOCNode Title="ArrayDimension Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_ArrayDimension.htm" />
+        <HelpTOCNode Title="ArrayMultiplier Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_ArrayMultiplier.htm" />
+        <HelpTOCNode Title="ConstantValue Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_ConstantValue.htm" />
+        <HelpTOCNode Title="DataArray Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_DataArray.htm" />
+        <HelpTOCNode Title="ElementCount Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_ElementCount.htm" />
+        <HelpTOCNode Title="Filename Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_Filename.htm" />
+        <HelpTOCNode Title="FileUnit Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_FileUnit.htm" />
+        <HelpTOCNode Title="InputFormat Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_InputFormat.htm" />
+        <HelpTOCNode Title="NameData Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_NameData.htm" />
+        <HelpTOCNode Title="PrintCode Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_PrintCode.htm" />
+        <HelpTOCNode Title="RecordType Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_RecordType.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="eb6e53c0-ed31-4a2a-9812-6f04ff960511" Title="ModflowDataArray2d(T) Class" Url="html/T_USGS_Puma_Modflow_ModflowDataArray2d_1.htm">
+      <HelpTOCNode Title="ModflowDataArray2d(T) Members" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowDataArray2d_1.htm" />
+      <HelpTOCNode Id="65c60a0a-34fe-4812-bc19-9ded59aed76e" Title="ModflowDataArray2d(T) Constructor " Url="html/Overload_USGS_Puma_Modflow_ModflowDataArray2d_1__ctor.htm">
+        <HelpTOCNode Title="ModflowDataArray2d(T) Constructor ((T))" Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1__ctor_2.htm" />
+        <HelpTOCNode Title="ModflowDataArray2d(T) Constructor (Int32, Int32)" Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1__ctor.htm" />
+        <HelpTOCNode Title="ModflowDataArray2d(T) Constructor (Int32, Int32, T)" Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7d0ef0ea-224e-40a8-815d-f94e47ed9b4e" Title="ModflowDataArray2d(T) Methods" Url="html/Methods_T_USGS_Puma_Modflow_ModflowDataArray2d_1.htm">
+        <HelpTOCNode Id="e251ecc3-c567-44e2-bbf9-2226c4351023" Title="GetDataArrayCopy Method " Url="html/Overload_USGS_Puma_Modflow_ModflowDataArray2d_1_GetDataArrayCopy.htm">
+          <HelpTOCNode Title="GetDataArrayCopy Method (Boolean)" Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1_GetDataArrayCopy.htm" />
+          <HelpTOCNode Title="GetDataArrayCopy Method (BinaryReader, Boolean)" Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1_GetDataArrayCopy_1.htm" />
+          <HelpTOCNode Title="GetDataArrayCopy Method (StreamReader, Boolean)" Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1_GetDataArrayCopy_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="SetAsConstant Method " Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1_SetAsConstant.htm" />
+        <HelpTOCNode Title="SetAsExternal Method " Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1_SetAsExternal.htm" />
+        <HelpTOCNode Title="SetAsInternal Method " Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1_SetAsInternal.htm" />
+        <HelpTOCNode Title="SetAsOpenClose Method " Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1_SetAsOpenClose.htm" />
+        <HelpTOCNode Title="SetControlRecordData Method " Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1_SetControlRecordData.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8c4830eb-7c7b-43b1-90f0-1c7e6370ffd9" Title="ModflowDataArray2d(T) Properties" Url="html/Properties_T_USGS_Puma_Modflow_ModflowDataArray2d_1.htm">
+        <HelpTOCNode Title="ArrayDimension Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_ArrayDimension.htm" />
+        <HelpTOCNode Title="ArrayMultiplier Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_ArrayMultiplier.htm" />
+        <HelpTOCNode Title="ColumnCount Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_ColumnCount.htm" />
+        <HelpTOCNode Title="ConstantValue Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_ConstantValue.htm" />
+        <HelpTOCNode Title="DataArray Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_DataArray.htm" />
+        <HelpTOCNode Title="Filename Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_Filename.htm" />
+        <HelpTOCNode Title="FileUnit Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_FileUnit.htm" />
+        <HelpTOCNode Title="InputFormat Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_InputFormat.htm" />
+        <HelpTOCNode Title="NameData Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_NameData.htm" />
+        <HelpTOCNode Title="PrintCode Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_PrintCode.htm" />
+        <HelpTOCNode Title="RecordType Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_RecordType.htm" />
+        <HelpTOCNode Title="RowCount Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_RowCount.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="92511091-2bc1-45fb-8f84-d42a2c2d3240" Title="ModflowDataArrayReader(T) Class" Url="html/T_USGS_Puma_Modflow_ModflowDataArrayReader_1.htm">
+      <HelpTOCNode Title="ModflowDataArrayReader(T) Members" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowDataArrayReader_1.htm" />
+      <HelpTOCNode Title="ModflowDataArrayReader(T) Constructor " Url="html/M_USGS_Puma_Modflow_ModflowDataArrayReader_1__ctor.htm" />
+      <HelpTOCNode Id="d6736c61-f563-41f8-9011-8493b980fcce" Title="ModflowDataArrayReader(T) Methods" Url="html/Methods_T_USGS_Puma_Modflow_ModflowDataArrayReader_1.htm">
+        <HelpTOCNode Id="f9efe299-4438-403d-9279-a8ddb1725a86" Title="Read Method " Url="html/Overload_USGS_Puma_Modflow_ModflowDataArrayReader_1_Read.htm">
+          <HelpTOCNode Title="Read Method (IModflowDataArray1d(T))" Url="html/M_USGS_Puma_Modflow_ModflowDataArrayReader_1_Read.htm" />
+          <HelpTOCNode Title="Read Method (IModflowDataArray2d(T))" Url="html/M_USGS_Puma_Modflow_ModflowDataArrayReader_1_Read_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ReadControlRecord Method " Url="html/M_USGS_Puma_Modflow_ModflowDataArrayReader_1_ReadControlRecord.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="24a4c0d5-193d-45a1-9e2e-3af0d3a81ca7" Title="ModflowDataArrayReader(T) Properties" Url="html/Properties_T_USGS_Puma_Modflow_ModflowDataArrayReader_1.htm">
+        <HelpTOCNode Title="FileReader Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArrayReader_1_FileReader.htm" />
+        <HelpTOCNode Title="NameData Property " Url="html/P_USGS_Puma_Modflow_ModflowDataArrayReader_1_NameData.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2ca29414-cb44-4f0c-9ab9-687121ce86f1" Title="ModflowMetadata Class" Url="html/T_USGS_Puma_Modflow_ModflowMetadata.htm">
+      <HelpTOCNode Title="ModflowMetadata Members" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowMetadata.htm" />
+      <HelpTOCNode Title="ModflowMetadata Constructor " Url="html/M_USGS_Puma_Modflow_ModflowMetadata__ctor.htm" />
+      <HelpTOCNode Id="09e60d46-6c6f-4c0c-b4a4-6956799ad03d" Title="ModflowMetadata Methods" Url="html/Methods_T_USGS_Puma_Modflow_ModflowMetadata.htm">
+        <HelpTOCNode Title="CreateFromXml Method " Url="html/M_USGS_Puma_Modflow_ModflowMetadata_CreateFromXml.htm" />
+        <HelpTOCNode Title="Read Method " Url="html/M_USGS_Puma_Modflow_ModflowMetadata_Read.htm" />
+        <HelpTOCNode Title="Write Method " Url="html/M_USGS_Puma_Modflow_ModflowMetadata_Write.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8a388314-b8ab-4bf7-a385-d68c98ccdbc3" Title="ModflowMetadata Properties" Url="html/Properties_T_USGS_Puma_Modflow_ModflowMetadata.htm">
+        <HelpTOCNode Title="BasemapFile Property " Url="html/P_USGS_Puma_Modflow_ModflowMetadata_BasemapFile.htm" />
+        <HelpTOCNode Title="GridGeoReference Property " Url="html/P_USGS_Puma_Modflow_ModflowMetadata_GridGeoReference.htm" />
+        <HelpTOCNode Title="SourcefileDirectory Property " Url="html/P_USGS_Puma_Modflow_ModflowMetadata_SourcefileDirectory.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f93ecb86-a51e-4dd2-b2da-82acbcf4ae3d" Title="ModflowNameData Class" Url="html/T_USGS_Puma_Modflow_ModflowNameData.htm">
+      <HelpTOCNode Title="ModflowNameData Members" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowNameData.htm" />
+      <HelpTOCNode Title="ModflowNameData Constructor " Url="html/M_USGS_Puma_Modflow_ModflowNameData__ctor.htm" />
+      <HelpTOCNode Id="ebfd7958-8a4d-4bff-a0c9-bc9308d227a4" Title="ModflowNameData Methods" Url="html/Methods_T_USGS_Puma_Modflow_ModflowNameData.htm">
+        <HelpTOCNode Id="6e7db0c7-3b0d-4277-b3bd-217ea875ca0b" Title="AddItem Method " Url="html/Overload_USGS_Puma_Modflow_ModflowNameData_AddItem.htm">
+          <HelpTOCNode Title="AddItem Method (NameFileItem)" Url="html/M_USGS_Puma_Modflow_ModflowNameData_AddItem_2.htm" />
+          <HelpTOCNode Title="AddItem Method (Int32, String, String)" Url="html/M_USGS_Puma_Modflow_ModflowNameData_AddItem.htm" />
+          <HelpTOCNode Title="AddItem Method (Int32, String, String, String)" Url="html/M_USGS_Puma_Modflow_ModflowNameData_AddItem_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Clear Method " Url="html/M_USGS_Puma_Modflow_ModflowNameData_Clear.htm" />
+        <HelpTOCNode Title="FileUnitAvailable Method " Url="html/M_USGS_Puma_Modflow_ModflowNameData_FileUnitAvailable.htm" />
+        <HelpTOCNode Id="8d1fd17e-5de0-46fb-ac09-a83958055a95" Title="GetFullFilename Method " Url="html/Overload_USGS_Puma_Modflow_ModflowNameData_GetFullFilename.htm">
+          <HelpTOCNode Title="GetFullFilename Method (Int32)" Url="html/M_USGS_Puma_Modflow_ModflowNameData_GetFullFilename.htm" />
+          <HelpTOCNode Title="GetFullFilename Method (String)" Url="html/M_USGS_Puma_Modflow_ModflowNameData_GetFullFilename_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="5c84d92d-3326-40fe-a8a1-bae593b61d05" Title="GetItemsAsList Method " Url="html/Overload_USGS_Puma_Modflow_ModflowNameData_GetItemsAsList.htm">
+          <HelpTOCNode Title="GetItemsAsList Method " Url="html/M_USGS_Puma_Modflow_ModflowNameData_GetItemsAsList.htm" />
+          <HelpTOCNode Title="GetItemsAsList Method (String)" Url="html/M_USGS_Puma_Modflow_ModflowNameData_GetItemsAsList_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="RemoveItem Method " Url="html/M_USGS_Puma_Modflow_ModflowNameData_RemoveItem.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3bd00e59-94bf-435a-9c3a-45e02b0760f0" Title="ModflowNameData Properties" Url="html/Properties_T_USGS_Puma_Modflow_ModflowNameData.htm">
+        <HelpTOCNode Title="ParentDirectory Property " Url="html/P_USGS_Puma_Modflow_ModflowNameData_ParentDirectory.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ff682f8f-3df3-49c2-b9cb-e80f18c8cac3" Title="ModflowNameFileReader Class" Url="html/T_USGS_Puma_Modflow_ModflowNameFileReader.htm">
+      <HelpTOCNode Title="ModflowNameFileReader Members" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowNameFileReader.htm" />
+      <HelpTOCNode Title="ModflowNameFileReader Constructor " Url="html/M_USGS_Puma_Modflow_ModflowNameFileReader__ctor.htm" />
+      <HelpTOCNode Id="25508e14-0c39-46f5-abe3-4b673a877ec5" Title="ModflowNameFileReader Methods" Url="html/Methods_T_USGS_Puma_Modflow_ModflowNameFileReader.htm">
+        <HelpTOCNode Title="Read Method " Url="html/M_USGS_Puma_Modflow_ModflowNameFileReader_Read.htm" />
+        <HelpTOCNode Title="Write Method " Url="html/M_USGS_Puma_Modflow_ModflowNameFileReader_Write.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4f82dd5f-9bf8-432f-ad55-8dfa9c83db62" Title="NameFileItem Class" Url="html/T_USGS_Puma_Modflow_NameFileItem.htm">
+      <HelpTOCNode Title="NameFileItem Members" Url="html/AllMembers_T_USGS_Puma_Modflow_NameFileItem.htm" />
+      <HelpTOCNode Id="a104f98f-0280-46ee-ab1c-3b8f2f468b64" Title="NameFileItem Constructor " Url="html/Overload_USGS_Puma_Modflow_NameFileItem__ctor.htm">
+        <HelpTOCNode Title="NameFileItem Constructor " Url="html/M_USGS_Puma_Modflow_NameFileItem__ctor.htm" />
+        <HelpTOCNode Title="NameFileItem Constructor (String, Int32, String)" Url="html/M_USGS_Puma_Modflow_NameFileItem__ctor_1.htm" />
+        <HelpTOCNode Title="NameFileItem Constructor (String, Int32, String, String)" Url="html/M_USGS_Puma_Modflow_NameFileItem__ctor_2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="NameFileItem Methods" Url="html/Methods_T_USGS_Puma_Modflow_NameFileItem.htm" />
+      <HelpTOCNode Id="9dff6769-0bd8-45a3-af22-22b01034d9e9" Title="NameFileItem Properties" Url="html/Properties_T_USGS_Puma_Modflow_NameFileItem.htm">
+        <HelpTOCNode Title="FileName Property " Url="html/P_USGS_Puma_Modflow_NameFileItem_FileName.htm" />
+        <HelpTOCNode Title="FileStatus Property " Url="html/P_USGS_Puma_Modflow_NameFileItem_FileStatus.htm" />
+        <HelpTOCNode Title="FileType Property " Url="html/P_USGS_Puma_Modflow_NameFileItem_FileType.htm" />
+        <HelpTOCNode Title="FileUnit Property " Url="html/P_USGS_Puma_Modflow_NameFileItem_FileUnit.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="019b34f4-2833-4037-b5e2-52dda624b84b" Title="OcDataHeader Class" Url="html/T_USGS_Puma_Modflow_OcDataHeader.htm">
+      <HelpTOCNode Title="OcDataHeader Members" Url="html/AllMembers_T_USGS_Puma_Modflow_OcDataHeader.htm" />
+      <HelpTOCNode Id="9968618d-80fd-46a8-8342-61a86d261131" Title="OcDataHeader Constructor " Url="html/Overload_USGS_Puma_Modflow_OcDataHeader__ctor.htm">
+        <HelpTOCNode Title="OcDataHeader Constructor " Url="html/M_USGS_Puma_Modflow_OcDataHeader__ctor.htm" />
+        <HelpTOCNode Title="OcDataHeader Constructor (OcDataHeader)" Url="html/M_USGS_Puma_Modflow_OcDataHeader__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="OcDataHeader Methods" Url="html/Methods_T_USGS_Puma_Modflow_OcDataHeader.htm" />
+      <HelpTOCNode Id="05dd4c9f-8a9f-4241-a685-91016ddf9bea" Title="OcDataHeader Properties" Url="html/Properties_T_USGS_Puma_Modflow_OcDataHeader.htm">
+        <HelpTOCNode Title="Comments Property " Url="html/P_USGS_Puma_Modflow_OcDataHeader_Comments.htm" />
+        <HelpTOCNode Title="CompactBudget Property " Url="html/P_USGS_Puma_Modflow_OcDataHeader_CompactBudget.htm" />
+        <HelpTOCNode Title="CompactBudgetSaveAuxiliary Property " Url="html/P_USGS_Puma_Modflow_OcDataHeader_CompactBudgetSaveAuxiliary.htm" />
+        <HelpTOCNode Title="DrawdownPrintFormat Property " Url="html/P_USGS_Puma_Modflow_OcDataHeader_DrawdownPrintFormat.htm" />
+        <HelpTOCNode Title="DrawdownSaveFormat Property " Url="html/P_USGS_Puma_Modflow_OcDataHeader_DrawdownSaveFormat.htm" />
+        <HelpTOCNode Title="DrawdownSaveFormatLabel Property " Url="html/P_USGS_Puma_Modflow_OcDataHeader_DrawdownSaveFormatLabel.htm" />
+        <HelpTOCNode Title="DrawdownSaveUnit Property " Url="html/P_USGS_Puma_Modflow_OcDataHeader_DrawdownSaveUnit.htm" />
+        <HelpTOCNode Title="HeadPrintFormat Property " Url="html/P_USGS_Puma_Modflow_OcDataHeader_HeadPrintFormat.htm" />
+        <HelpTOCNode Title="HeadSaveFormat Property " Url="html/P_USGS_Puma_Modflow_OcDataHeader_HeadSaveFormat.htm" />
+        <HelpTOCNode Title="HeadSaveFormatLabel Property " Url="html/P_USGS_Puma_Modflow_OcDataHeader_HeadSaveFormatLabel.htm" />
+        <HelpTOCNode Title="HeadSaveUnit Property " Url="html/P_USGS_Puma_Modflow_OcDataHeader_HeadSaveUnit.htm" />
+        <HelpTOCNode Title="IboundSaveFormat Property " Url="html/P_USGS_Puma_Modflow_OcDataHeader_IboundSaveFormat.htm" />
+        <HelpTOCNode Title="IboundSaveFormatLabel Property " Url="html/P_USGS_Puma_Modflow_OcDataHeader_IboundSaveFormatLabel.htm" />
+        <HelpTOCNode Title="IboundSaveUnit Property " Url="html/P_USGS_Puma_Modflow_OcDataHeader_IboundSaveUnit.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fd5d05d7-93ec-4c48-b392-b83eb8fcbd4e" Title="OcDataReader Class" Url="html/T_USGS_Puma_Modflow_OcDataReader.htm">
+      <HelpTOCNode Title="OcDataReader Members" Url="html/AllMembers_T_USGS_Puma_Modflow_OcDataReader.htm" />
+      <HelpTOCNode Title="OcDataReader Constructor " Url="html/M_USGS_Puma_Modflow_OcDataReader__ctor.htm" />
+      <HelpTOCNode Id="0e508722-0360-481b-93f5-c61532c928d9" Title="OcDataReader Methods" Url="html/Methods_T_USGS_Puma_Modflow_OcDataReader.htm">
+        <HelpTOCNode Title="ReadHeader Method " Url="html/M_USGS_Puma_Modflow_OcDataReader_ReadHeader.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="OutputPrecisionType Enumeration" Url="html/T_USGS_Puma_Modflow_OutputPrecisionType.htm" />
+    <HelpTOCNode Id="6bcac2f2-8f08-4b43-9604-ea8854f70f65" Title="StressPeriod Class" Url="html/T_USGS_Puma_Modflow_StressPeriod.htm">
+      <HelpTOCNode Title="StressPeriod Members" Url="html/AllMembers_T_USGS_Puma_Modflow_StressPeriod.htm" />
+      <HelpTOCNode Title="StressPeriod Constructor " Url="html/M_USGS_Puma_Modflow_StressPeriod__ctor.htm" />
+      <HelpTOCNode Id="b9ff26c0-1888-405c-80b9-654690dd1a93" Title="StressPeriod Methods" Url="html/Methods_T_USGS_Puma_Modflow_StressPeriod.htm">
+        <HelpTOCNode Title="GetPeriodTimes Method " Url="html/M_USGS_Puma_Modflow_StressPeriod_GetPeriodTimes.htm" />
+        <HelpTOCNode Title="GetTimeStepLengths Method " Url="html/M_USGS_Puma_Modflow_StressPeriod_GetTimeStepLengths.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="135ccc4c-2c3e-487d-90b5-af7e71a6e7e2" Title="StressPeriod Properties" Url="html/Properties_T_USGS_Puma_Modflow_StressPeriod.htm">
+        <HelpTOCNode Title="PeriodLength Property " Url="html/P_USGS_Puma_Modflow_StressPeriod_PeriodLength.htm" />
+        <HelpTOCNode Title="PeriodType Property " Url="html/P_USGS_Puma_Modflow_StressPeriod_PeriodType.htm" />
+        <HelpTOCNode Title="TimeStepCount Property " Url="html/P_USGS_Puma_Modflow_StressPeriod_TimeStepCount.htm" />
+        <HelpTOCNode Title="TimeStepMultiplier Property " Url="html/P_USGS_Puma_Modflow_StressPeriod_TimeStepMultiplier.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="StressPeriodType Enumeration" Url="html/T_USGS_Puma_Modflow_StressPeriodType.htm" />
+    <HelpTOCNode Id="d97108ea-5217-4155-8974-1ee06e0bf570" Title="TimeDiscretization Class" Url="html/T_USGS_Puma_Modflow_TimeDiscretization.htm">
+      <HelpTOCNode Title="TimeDiscretization Members" Url="html/AllMembers_T_USGS_Puma_Modflow_TimeDiscretization.htm" />
+      <HelpTOCNode Id="4ec0e4d4-7b1a-41ae-a19a-ea796b04871c" Title="TimeDiscretization Constructor " Url="html/Overload_USGS_Puma_Modflow_TimeDiscretization__ctor.htm">
+        <HelpTOCNode Title="TimeDiscretization Constructor " Url="html/M_USGS_Puma_Modflow_TimeDiscretization__ctor.htm" />
+        <HelpTOCNode Title="TimeDiscretization Constructor (IList(StressPeriod))" Url="html/M_USGS_Puma_Modflow_TimeDiscretization__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3f1d6b63-1983-4636-8ac6-e2b8987d1781" Title="TimeDiscretization Methods" Url="html/Methods_T_USGS_Puma_Modflow_TimeDiscretization.htm">
+        <HelpTOCNode Id="f438084b-1e6d-4b53-bc12-5789acfeab79" Title="AddStressPeriod Method " Url="html/Overload_USGS_Puma_Modflow_TimeDiscretization_AddStressPeriod.htm">
+          <HelpTOCNode Title="AddStressPeriod Method (StressPeriod)" Url="html/M_USGS_Puma_Modflow_TimeDiscretization_AddStressPeriod_1.htm" />
+          <HelpTOCNode Title="AddStressPeriod Method (Single, Int32, Single, StressPeriodType)" Url="html/M_USGS_Puma_Modflow_TimeDiscretization_AddStressPeriod.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="293d1454-3584-4d6e-a50f-97edb1c321b9" Title="BuildTimeStepCollection Method " Url="html/Overload_USGS_Puma_Modflow_TimeDiscretization_BuildTimeStepCollection.htm">
+          <HelpTOCNode Title="BuildTimeStepCollection Method " Url="html/M_USGS_Puma_Modflow_TimeDiscretization_BuildTimeStepCollection.htm" />
+          <HelpTOCNode Title="BuildTimeStepCollection Method (Int32)" Url="html/M_USGS_Puma_Modflow_TimeDiscretization_BuildTimeStepCollection_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Clear Method " Url="html/M_USGS_Puma_Modflow_TimeDiscretization_Clear.htm" />
+        <HelpTOCNode Title="InsertStressPeriod Method " Url="html/M_USGS_Puma_Modflow_TimeDiscretization_InsertStressPeriod.htm" />
+        <HelpTOCNode Title="RemoveStressPeriod Method " Url="html/M_USGS_Puma_Modflow_TimeDiscretization_RemoveStressPeriod.htm" />
+        <HelpTOCNode Title="StressPeriod Method " Url="html/M_USGS_Puma_Modflow_TimeDiscretization_StressPeriod.htm" />
+        <HelpTOCNode Title="ToArray Method " Url="html/M_USGS_Puma_Modflow_TimeDiscretization_ToArray.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c23a3e90-c95f-477c-b670-0bcaa13e31ea" Title="TimeDiscretization Properties" Url="html/Properties_T_USGS_Puma_Modflow_TimeDiscretization.htm">
+        <HelpTOCNode Title="StressPeriodCount Property " Url="html/P_USGS_Puma_Modflow_TimeDiscretization_StressPeriodCount.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="552bfb88-b4a2-42ff-98ec-d8a7d31b1b68" Title="TimeStep Class" Url="html/T_USGS_Puma_Modflow_TimeStep.htm">
+      <HelpTOCNode Title="TimeStep Members" Url="html/AllMembers_T_USGS_Puma_Modflow_TimeStep.htm" />
+      <HelpTOCNode Id="70f12f95-eed2-4d76-9a79-e93b8d81a80b" Title="TimeStep Constructor " Url="html/Overload_USGS_Puma_Modflow_TimeStep__ctor.htm">
+        <HelpTOCNode Title="TimeStep Constructor (Int32, Int32)" Url="html/M_USGS_Puma_Modflow_TimeStep__ctor.htm" />
+        <HelpTOCNode Title="TimeStep Constructor (Int32, Int32, Single, Single)" Url="html/M_USGS_Puma_Modflow_TimeStep__ctor_1.htm" />
+        <HelpTOCNode Title="TimeStep Constructor (Int32, Int32, Single, StressPeriodType)" Url="html/M_USGS_Puma_Modflow_TimeStep__ctor_3.htm" />
+        <HelpTOCNode Title="TimeStep Constructor (Int32, Int32, Single, Single, StressPeriodType)" Url="html/M_USGS_Puma_Modflow_TimeStep__ctor_2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c7fd0448-54be-4318-a8fa-db52a3715819" Title="TimeStep Methods" Url="html/Methods_T_USGS_Puma_Modflow_TimeStep.htm">
+        <HelpTOCNode Title="CreateKey Method " Url="html/M_USGS_Puma_Modflow_TimeStep_CreateKey.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e26e4bdc-3f22-4ef2-b028-909d226cdc18" Title="TimeStep Properties" Url="html/Properties_T_USGS_Puma_Modflow_TimeStep.htm">
+        <HelpTOCNode Title="Key Property " Url="html/P_USGS_Puma_Modflow_TimeStep_Key.htm" />
+        <HelpTOCNode Title="Period Property " Url="html/P_USGS_Puma_Modflow_TimeStep_Period.htm" />
+        <HelpTOCNode Title="PeriodTime Property " Url="html/P_USGS_Puma_Modflow_TimeStep_PeriodTime.htm" />
+        <HelpTOCNode Title="PeriodType Property " Url="html/P_USGS_Puma_Modflow_TimeStep_PeriodType.htm" />
+        <HelpTOCNode Title="Step Property " Url="html/P_USGS_Puma_Modflow_TimeStep_Step.htm" />
+        <HelpTOCNode Title="TotalTime Property " Url="html/P_USGS_Puma_Modflow_TimeStep_TotalTime.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9869698f-b640-40b4-8341-1dc85d862dfc" Title="TimeStepCollection Class" Url="html/T_USGS_Puma_Modflow_TimeStepCollection.htm">
+      <HelpTOCNode Title="TimeStepCollection Members" Url="html/AllMembers_T_USGS_Puma_Modflow_TimeStepCollection.htm" />
+      <HelpTOCNode Title="TimeStepCollection Constructor " Url="html/M_USGS_Puma_Modflow_TimeStepCollection__ctor.htm" />
+      <HelpTOCNode Id="18635c31-8978-4e57-b5b8-cec2d6876fb2" Title="TimeStepCollection Methods" Url="html/Methods_T_USGS_Puma_Modflow_TimeStepCollection.htm">
+        <HelpTOCNode Title="Contains Method " Url="html/Overload_USGS_Puma_Modflow_TimeStepCollection_Contains.htm" />
+        <HelpTOCNode Title="ContainsTimeStep Method " Url="html/M_USGS_Puma_Modflow_TimeStepCollection_ContainsTimeStep.htm" />
+        <HelpTOCNode Title="GetKeyForItem Method " Url="html/M_USGS_Puma_Modflow_TimeStepCollection_GetKeyForItem.htm" />
+        <HelpTOCNode Title="Remove Method " Url="html/Overload_USGS_Puma_Modflow_TimeStepCollection_Remove.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b929c53d-be86-4b88-a8f5-4492ac8396f6" Title="TimeStepCollection Properties" Url="html/Properties_T_USGS_Puma_Modflow_TimeStepCollection.htm">
+        <HelpTOCNode Title="Item Property " Url="html/Overload_USGS_Puma_Modflow_TimeStepCollection_Item.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a0911e50-d7d3-44c3-ad09-0d0d80c2ad88" Title="XmlLayerDataWriter(T) Class" Url="html/T_USGS_Puma_Modflow_XmlLayerDataWriter_1.htm">
+      <HelpTOCNode Title="XmlLayerDataWriter(T) Members" Url="html/AllMembers_T_USGS_Puma_Modflow_XmlLayerDataWriter_1.htm" />
+      <HelpTOCNode Title="XmlLayerDataWriter(T) Constructor " Url="html/M_USGS_Puma_Modflow_XmlLayerDataWriter_1__ctor.htm" />
+      <HelpTOCNode Id="1b6d6a8b-7b6d-4819-92f0-f7061e1c3fdb" Title="XmlLayerDataWriter(T) Methods" Url="html/Methods_T_USGS_Puma_Modflow_XmlLayerDataWriter_1.htm">
+        <HelpTOCNode Id="6b62c279-19c7-4d45-81a4-d969bc08373f" Title="Write Method " Url="html/Overload_USGS_Puma_Modflow_XmlLayerDataWriter_1_Write.htm">
+          <HelpTOCNode Title="Write Method (BinaryLayerReader, String)" Url="html/M_USGS_Puma_Modflow_XmlLayerDataWriter_1_Write.htm" />
+          <HelpTOCNode Title="Write Method (BinaryLayerReader, String, String)" Url="html/M_USGS_Puma_Modflow_XmlLayerDataWriter_1_Write_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

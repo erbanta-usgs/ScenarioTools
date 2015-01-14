@@ -1,0 +1,65 @@
+Scenario Manager does not really do anything yet, but some of the controls 
+work:
+
+Open an existing Scenario Manager (.smgx) project file:
+
+  Select menu item: File | Open
+  Browse to select file test.smgx.
+  
+The left panel contains a tree view of the project:
+
+  The first level is the scenario level (currently identified by the USGS 
+  logo).
+  Each scenario can be expanded to reveal a second level (the package level).
+  Each package can be expanded to reveal a third level (the feature-set level).
+  
+A highlighted scenario, package, or feature-set name can be edited by clicking 
+on the name.  
+
+The description in the right panel can be edited.
+
+Currently, the Well and River packages are supported.  Other packages will be 
+added.  Packages and feature sets are identified as belonging to the Well 
+package or the River package by corresponding icons.
+
+Right-click on a scenario in the left panel and select "Add New Package" to add 
+a package.  A scenario can contain at most one Well package and one River 
+package.
+
+Right-click on a package to add a feature set in a similar way.  Each package 
+can contain any number of feature sets.
+
+Other actions on the popup menu that appears when a tree node is right-clicked 
+work as one would expect.
+
+Packages and feature sets can be copied and pasted using the right-click popup 
+menu or the usual <CTRL>-C and <CTRL>-V key combinations.
+
+Packages and feature sets can be moved by dragging and dropping, or by <CTRL>-X 
+followed by <CTRL>-V, while appropriate tree nodes are selected.
+
+A new scenario can be added using menu item Edit | Add New Scenario.
+
+The Edit menu has Undo and Redo items, which can be used as one would expect.
+
+The New, Save, Save As, and Exit items on the File menu work as one would 
+expect.  Other menu items are nonfunctional and disabled.
+
+For any tree node at the feature-set level, the popup menu has an Edit option, 
+which opens a dialog that can be used to set up and display details of the 
+selected feature set.  This dialog also can be opened by double-clicking on the 
+feature-set node.  The Filter tool at the top of the feature-set dialog window
+is not yet functional.
+
+On the General tab of the feature-set dialog, the feature set can be renamed, 
+and a shapefile and a time-series file can be selected.
+
+The Display tab of the feature-set dialog shows a map of the features contained 
+in the selected shapefile, an explanation, and an index map.
+
+The panels can be resized.
+
+Currently, there is no logic to prevent closing a project that has unsaved 
+changes.
+
+  

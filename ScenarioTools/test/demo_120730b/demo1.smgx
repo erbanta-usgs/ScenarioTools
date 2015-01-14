@@ -1,0 +1,334 @@
+<?xml version="1.0"?>
+<SMProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SmProjectSettings>
+    <MasterNameFile>500m_example\3_layer_example_500m.nam</MasterNameFile>
+    <MaxSimultaneousRuns>1</MaxSimultaneousRuns>
+    <ModflowExecutable>D:\Projects\Florida-Tools\ScenarioTools\test\demo_120730b\bin\mf2005dbl.exe</ModflowExecutable>
+    <BackgroundImageFile>D:\Projects\Florida-Tools\ScenarioTools\test\demo_120730b\Images\Biscayne_area_land_cover.tif</BackgroundImageFile>
+    <NameFiles>
+      <string>500m_example\3_layer_example_500m.nam</string>
+    </NameFiles>
+  </SmProjectSettings>
+  <GridShapefileRelativePath>GIS\bbgrid_poly.shp</GridShapefileRelativePath>
+  <SimulationStartTime>1996-01-01T00:00:00</SimulationStartTime>
+  <ScenarioElements>
+    <SerializableScenarioElement>
+      <Tag>1</Tag>
+      <ParentTag>-1</ParentTag>
+      <ElemType>Scenario</ElemType>
+      <Description />
+      <Name>Scenario_0</Name>
+      <ShapefileRelativePath />
+      <TimeSeriesRelativePath />
+      <KeyField />
+      <LayMethod>Uniform</LayMethod>
+      <LayerAttribute />
+      <TopElevationAttribute />
+      <BottomElevationAttribute />
+      <DefaultLayer>0</DefaultLayer>
+      <Items />
+      <Type>NoType</Type>
+    </SerializableScenarioElement>
+    <SerializableScenarioElement>
+      <Tag>2</Tag>
+      <ParentTag>-1</ParentTag>
+      <ElemType>Scenario</ElemType>
+      <Description />
+      <Name>Scenario_1 which is like base scenario based on Master Name File but with modifications</Name>
+      <ShapefileRelativePath />
+      <TimeSeriesRelativePath />
+      <KeyField />
+      <LayMethod>Uniform</LayMethod>
+      <LayerAttribute />
+      <TopElevationAttribute />
+      <BottomElevationAttribute />
+      <DefaultLayer>0</DefaultLayer>
+      <Items />
+      <Type>NoType</Type>
+    </SerializableScenarioElement>
+    <SerializableScenarioElement>
+      <Tag>3</Tag>
+      <ParentTag>-1</ParentTag>
+      <ElemType>Scenario</ElemType>
+      <Description>Scenario_2 is like the base scenario based on Master Name File but it has modifications to simulate pumping proposed by the committee.  This scenario was developed by me on August 2, 2012 as a way to test the scenario export report capability of Scenario Manager.</Description>
+      <Name>Scenario_2</Name>
+      <ShapefileRelativePath />
+      <TimeSeriesRelativePath />
+      <KeyField />
+      <LayMethod>Uniform</LayMethod>
+      <LayerAttribute />
+      <TopElevationAttribute />
+      <BottomElevationAttribute />
+      <DefaultLayer>0</DefaultLayer>
+      <Items>
+        <SerializableScenarioElement>
+          <Tag>4</Tag>
+          <ParentTag>3</ParentTag>
+          <ElemType>Package</ElemType>
+          <Description>This well package contains existing wells in the entire model area.</Description>
+          <Name>Well Package</Name>
+          <ShapefileRelativePath />
+          <TimeSeriesRelativePath />
+          <KeyField />
+          <LayMethod>Uniform</LayMethod>
+          <LayerAttribute />
+          <TopElevationAttribute />
+          <BottomElevationAttribute />
+          <DefaultLayer>0</DefaultLayer>
+          <Items>
+            <SerializableScenarioElement>
+              <Tag>5</Tag>
+              <ParentTag>4</ParentTag>
+              <ElemType>FeatureSet</ElemType>
+              <Description>This set of wells includes all wells in the eastern part of the study area.  These wells range in depth from 100 to 800 feet.  They are assigned to model layer according to attributes in the shapefile containing the wells.  All wells in this feature set were constructed prior to 1990.</Description>
+              <Name>Eastern Well Set</Name>
+              <ShapefileRelativePath>GIS\county_wells_NAD_27_filtered_edit.shp</ShapefileRelativePath>
+              <TimeSeriesRelativePath>TimeSeriesData\pumpwell2.smp</TimeSeriesRelativePath>
+              <KeyField>WellName</KeyField>
+              <LayMethod>ByCellTops</LayMethod>
+              <LayerAttribute />
+              <TopElevationAttribute>screen_top</TopElevationAttribute>
+              <BottomElevationAttribute>screen_bot</BottomElevationAttribute>
+              <DefaultLayer>1</DefaultLayer>
+              <Items />
+              <Type>WellType</Type>
+            </SerializableScenarioElement>
+            <SerializableScenarioElement>
+              <Tag>6</Tag>
+              <ParentTag>4</ParentTag>
+              <ElemType>FeatureSet</ElemType>
+              <Description>This feature set as yet contains no wells.</Description>
+              <Name>Empty Well Set</Name>
+              <ShapefileRelativePath />
+              <TimeSeriesRelativePath />
+              <KeyField />
+              <LayMethod>Uniform</LayMethod>
+              <LayerAttribute />
+              <TopElevationAttribute />
+              <BottomElevationAttribute />
+              <DefaultLayer>1</DefaultLayer>
+              <Items />
+              <Type>WellType</Type>
+            </SerializableScenarioElement>
+          </Items>
+          <Type>WellType</Type>
+        </SerializableScenarioElement>
+        <SerializableScenarioElement>
+          <Tag>7</Tag>
+          <ParentTag>3</ParentTag>
+          <ElemType>Package</ElemType>
+          <Description />
+          <Name>New CHD Package</Name>
+          <ShapefileRelativePath />
+          <TimeSeriesRelativePath />
+          <KeyField />
+          <LayMethod>Uniform</LayMethod>
+          <LayerAttribute />
+          <TopElevationAttribute />
+          <BottomElevationAttribute />
+          <DefaultLayer>0</DefaultLayer>
+          <Items>
+            <SerializableScenarioElement>
+              <Tag>8</Tag>
+              <ParentTag>7</ParentTag>
+              <ElemType>FeatureSet</ElemType>
+              <Description />
+              <Name>New CHD Set</Name>
+              <ShapefileRelativePath>GIS\water_poly.shp</ShapefileRelativePath>
+              <TimeSeriesRelativePath>TimeSeriesData\sea_level.smp</TimeSeriesRelativePath>
+              <KeyField>Name</KeyField>
+              <LayMethod>Uniform</LayMethod>
+              <LayerAttribute />
+              <TopElevationAttribute />
+              <BottomElevationAttribute />
+              <DefaultLayer>1</DefaultLayer>
+              <Items />
+              <Type>ChdType</Type>
+            </SerializableScenarioElement>
+          </Items>
+          <Type>ChdType</Type>
+        </SerializableScenarioElement>
+      </Items>
+      <Type>NoType</Type>
+    </SerializableScenarioElement>
+    <SerializableScenarioElement>
+      <Tag>9</Tag>
+      <ParentTag>-1</ParentTag>
+      <ElemType>Scenario</ElemType>
+      <Description>Scenario_3, like Scenario_2, is like the base scenario based on Master Name File but it has modifications to simulate pumping proposed by the committee.  This scenario was developed by me on August 2, 2012 as a way to test the scenario export report capability of Scenario Manager.</Description>
+      <Name>Scenario_3</Name>
+      <ShapefileRelativePath />
+      <TimeSeriesRelativePath />
+      <KeyField />
+      <LayMethod>Uniform</LayMethod>
+      <LayerAttribute />
+      <TopElevationAttribute />
+      <BottomElevationAttribute />
+      <DefaultLayer>0</DefaultLayer>
+      <Items>
+        <SerializableScenarioElement>
+          <Tag>10</Tag>
+          <ParentTag>9</ParentTag>
+          <ElemType>Package</ElemType>
+          <Description>This well package contains existing wells in the entire model area.</Description>
+          <Name>Well Package</Name>
+          <ShapefileRelativePath />
+          <TimeSeriesRelativePath />
+          <KeyField />
+          <LayMethod>Uniform</LayMethod>
+          <LayerAttribute />
+          <TopElevationAttribute />
+          <BottomElevationAttribute />
+          <DefaultLayer>0</DefaultLayer>
+          <Items>
+            <SerializableScenarioElement>
+              <Tag>11</Tag>
+              <ParentTag>10</ParentTag>
+              <ElemType>FeatureSet</ElemType>
+              <Description>This set of wells includes all wells in the eastern part of the study area.  These wells range in depth from 100 to 800 feet.  They are assigned to model layer according to attributes in the shapefile containing the wells.  All wells in this feature set were constructed prior to 1990.</Description>
+              <Name>Eastern Well Set</Name>
+              <ShapefileRelativePath>GIS\county_wells_NAD_27_filtered_edit.shp</ShapefileRelativePath>
+              <TimeSeriesRelativePath>TimeSeriesData\pumpwell2.smp</TimeSeriesRelativePath>
+              <KeyField>WellName</KeyField>
+              <LayMethod>ByCellTops</LayMethod>
+              <LayerAttribute />
+              <TopElevationAttribute>screen_top</TopElevationAttribute>
+              <BottomElevationAttribute>screen_bot</BottomElevationAttribute>
+              <DefaultLayer>1</DefaultLayer>
+              <Items />
+              <Type>WellType</Type>
+            </SerializableScenarioElement>
+          </Items>
+          <Type>WellType</Type>
+        </SerializableScenarioElement>
+        <SerializableScenarioElement>
+          <Tag>13</Tag>
+          <ParentTag>9</ParentTag>
+          <ElemType>Package</ElemType>
+          <Description />
+          <Name>New CHD Package</Name>
+          <ShapefileRelativePath />
+          <TimeSeriesRelativePath />
+          <KeyField />
+          <LayMethod>Uniform</LayMethod>
+          <LayerAttribute />
+          <TopElevationAttribute />
+          <BottomElevationAttribute />
+          <DefaultLayer>0</DefaultLayer>
+          <Items>
+            <SerializableScenarioElement>
+              <Tag>14</Tag>
+              <ParentTag>13</ParentTag>
+              <ElemType>FeatureSet</ElemType>
+              <Description />
+              <Name>New CHD Set</Name>
+              <ShapefileRelativePath>GIS\water_poly.shp</ShapefileRelativePath>
+              <TimeSeriesRelativePath>TimeSeriesData\sea_level.smp</TimeSeriesRelativePath>
+              <KeyField>Name</KeyField>
+              <LayMethod>Uniform</LayMethod>
+              <LayerAttribute />
+              <TopElevationAttribute />
+              <BottomElevationAttribute />
+              <DefaultLayer>1</DefaultLayer>
+              <Items />
+              <Type>ChdType</Type>
+            </SerializableScenarioElement>
+          </Items>
+          <Type>ChdType</Type>
+        </SerializableScenarioElement>
+      </Items>
+      <Type>NoType</Type>
+    </SerializableScenarioElement>
+  </ScenarioElements>
+  <TreeView>
+    <Tag>-1</Tag>
+    <ImageIndex>0</ImageIndex>
+    <Text />
+    <Items>
+      <SerializableTreeNode>
+        <Tag>1</Tag>
+        <ImageIndex>0</ImageIndex>
+        <Text>Scenario_0</Text>
+        <Items />
+      </SerializableTreeNode>
+      <SerializableTreeNode>
+        <Tag>2</Tag>
+        <ImageIndex>0</ImageIndex>
+        <Text>Scenario_1 which is like base scenario based on Master Name File but with modifications</Text>
+        <Items />
+      </SerializableTreeNode>
+      <SerializableTreeNode>
+        <Tag>3</Tag>
+        <ImageIndex>0</ImageIndex>
+        <Text>Scenario_2</Text>
+        <Items>
+          <SerializableTreeNode>
+            <Tag>4</Tag>
+            <ImageIndex>1</ImageIndex>
+            <Text>Well Package</Text>
+            <Items>
+              <SerializableTreeNode>
+                <Tag>5</Tag>
+                <ImageIndex>1</ImageIndex>
+                <Text>Eastern Well Set</Text>
+                <Items />
+              </SerializableTreeNode>
+              <SerializableTreeNode>
+                <Tag>6</Tag>
+                <ImageIndex>1</ImageIndex>
+                <Text>Empty Well Set</Text>
+                <Items />
+              </SerializableTreeNode>
+            </Items>
+          </SerializableTreeNode>
+          <SerializableTreeNode>
+            <Tag>7</Tag>
+            <ImageIndex>3</ImageIndex>
+            <Text>New CHD Package</Text>
+            <Items>
+              <SerializableTreeNode>
+                <Tag>8</Tag>
+                <ImageIndex>3</ImageIndex>
+                <Text>New CHD Set</Text>
+                <Items />
+              </SerializableTreeNode>
+            </Items>
+          </SerializableTreeNode>
+        </Items>
+      </SerializableTreeNode>
+      <SerializableTreeNode>
+        <Tag>9</Tag>
+        <ImageIndex>0</ImageIndex>
+        <Text>Scenario_3</Text>
+        <Items>
+          <SerializableTreeNode>
+            <Tag>10</Tag>
+            <ImageIndex>1</ImageIndex>
+            <Text>Well Package</Text>
+            <Items>
+              <SerializableTreeNode>
+                <Tag>11</Tag>
+                <ImageIndex>1</ImageIndex>
+                <Text>Eastern Well Set</Text>
+                <Items />
+              </SerializableTreeNode>
+            </Items>
+          </SerializableTreeNode>
+          <SerializableTreeNode>
+            <Tag>13</Tag>
+            <ImageIndex>3</ImageIndex>
+            <Text>New CHD Package</Text>
+            <Items>
+              <SerializableTreeNode>
+                <Tag>14</Tag>
+                <ImageIndex>3</ImageIndex>
+                <Text>New CHD Set</Text>
+                <Items />
+              </SerializableTreeNode>
+            </Items>
+          </SerializableTreeNode>
+        </Items>
+      </SerializableTreeNode>
+    </Items>
+  </TreeView>
+</SMProject>

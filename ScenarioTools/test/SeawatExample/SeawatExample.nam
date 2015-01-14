@@ -1,0 +1,22 @@
+LIST   7 SeawatExample.lst
+BAS6   1 SeawatExample.bas
+DIS   29 SeawatExample.dis
+BCF6  11 SeawatExample.bcf
+ZONE  13 SeawatExample.zone
+WEL   12 SeawatExample.wel
+RIV   14 SeawatExample.riv
+EVT    5 SeawatExample.evt
+GHB   17 SeawatExample.ghb
+RCH   18 SeawatExample.rch
+CHD   40 SeawatExample.chd
+OC    22 SeawatExample.oc
+PCG   19 SeawatExample.pcg
+DATA  60 SeawatExample_arrays.rch   OLD
+DATA(BINARY) 30 SeawatExample.hds
+DATA(BINARY) 50 SeawatExample.cbb
+DATA(BINARY) 54 SeawatExample.cbwel
+VDF   80  SeawatExample.vdf
+BTN   81  SeawatExample.btn
+ADV   82  SeawatExample.adv
+SSM   84  SeawatExample.ssm
+GCG   86  SeawatExample.gcg

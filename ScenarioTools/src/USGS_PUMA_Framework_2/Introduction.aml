@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<topic id="2ec3b930-4cae-4c41-9571-fd8c0763d27f" revisionNumber="1">
+  <developerOrientationDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!--
+    <summary>
+      <para>Optional summary abstract</para>
+    </summary>
+    -->
+    <introduction>
+      <para>USGS PUMA Framework -- Programming Utilities for Modeling Applications</para>
+      <para>
+      The PUMA Framework is a .NET class library designed to provide support for pre- and post-processing 
+      applications for groundwater models. In particular, it includes components designed to process data 
+      from the MODFLOW and MODPATH.
+      </para>
+    </introduction>
+    <!-- <inThisSection>Optional description of content in this section</inThisSection> -->
+    <!-- <reference>Optional reference section</reference> -->
+    <!-- <relatedSections>Optional related sections info</relatedSections> -->
+    <!-- <externalResources>Optional external resources section</externalResources> -->
+    <relatedTopics>
+      <!-- One or more of the following:
+           - A local link
+           - An external link
+           - A code entity reference
+
+      <link xlink:href="Other Topic's ID">Link text</link>
+      <externalLink>
+          <linkText>Link text</linkText>
+          <linkAlternateText>Optional alternate link text</linkAlternateText>
+          <linkUri>URI</linkUri>
+      </externalLink>
+      <codeEntityReference>API member ID</codeEntityReference>
+
+      Examples:
+
+      <link xlink:href="00e97994-e9e6-46e0-b420-5be86b2f8278">Some other topic</link>
+
+      <externalLink>
+          <linkText>SHFB on CodePlex</linkText>
+          <linkAlternateText>Go to CodePlex</linkAlternateText>
+          <linkUri>http://shfb.codeplex.com</linkUri>
+      </externalLink>
+
+      <codeEntityReference>T:TestDoc.TestClass</codeEntityReference>
+      <codeEntityReference>P:TestDoc.TestClass.SomeProperty</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.#ctor</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.#ctor(System.String,System.Int32)</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.ToString</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.FirstMethod</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.SecondMethod(System.Int32,System.String)</codeEntityReference>
+      -->
+    </relatedTopics>
+  </developerOrientationDocument>
+</topic>

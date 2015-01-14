@@ -1,0 +1,5 @@
+1. Are auxiliary variables used in any package?
+
+
+2. Are parameters used in any package?
+

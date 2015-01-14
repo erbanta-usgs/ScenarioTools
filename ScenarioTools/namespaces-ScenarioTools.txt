@@ -1,0 +1,215 @@
+Namespaces (and folder names) for ScenarioTools:
+
+
+ScenarioTools
+
+HPdf
+
+  HPdf.cs
+
+ScenarioTools.DataClasses
+
+  DataClasses\CellGroup.cs
+  DataClasses\CellGroupFile.cs
+  DataClasses\CellGroupProvider.cs
+  DataClasses\GeoMap.cs
+  DataClasses\GeoMapOps.cs
+  DataClasses\GroupHelper.cs
+  DataClasses\TemporalReference.cs
+  DataClasses\TimeSeries.cs
+  DataClasses\TimeSeriesOps.cs
+  DataClasses\TimeSeriesSample.cs
+  DataStatus.cs
+  
+ScenarioTools.DataProviders
+
+  DataProviders\DataProvider.cs
+  DataProviders\DataProviderManager.cs
+  DataProviders\DataProviderMenu.cs
+  DataProviders\DataProviderType.cs
+  DataProviders\Dialogs\LayerDialog.cs
+  DataProviders\Dialogs\LayerDialog.Designer.cs
+  DataProviders\Dialogs\ListDialog.cs
+  DataProviders\Dialogs\ListDialog.Designer.cs
+  DataProviders\GraphDataProviders\DataProviderCbbGroup.cs
+  DataProviders\GraphDataProviders\DataProviderHeadAtPoint.cs
+  DataProviders\GraphDataProviders\DataProviderHeadAtPointMenu.cs
+  DataProviders\GraphDataProviders\DataProviderHeadAtPointMenu.Designer.cs
+  DataProviders\GraphDataProviders\DataProviderHeadGroup.cs
+  DataProviders\MapDataProviders\DataProviderHeadMap.cs
+  DataProviders\MapDataProviders\DataProviderHeadMapMenu.cs
+  DataProviders\MapDataProviders\DataProviderHeadMapMenu.Designer.cs
+  HasUniqueIdentifier.cs
+  TreeElementFactories\DataProviderFactory.cs
+
+ScenarioTools.DataProviders.GraphDataProviders
+  
+  DataProviders\GraphDataProviders\DataProviderCbbAtPoint.cs
+  DataProviders\GraphDataProviders\DataProviderCbbAtPointMenu.cs
+  DataProviders\GraphDataProviders\DataProviderCbbAtPointMenu.Designer.cs
+  DataProviders\GraphDataProviders\DataProviderCbbGroupMenu.cs
+  DataProviders\GraphDataProviders\DataProviderCbbGroupMenu.Designer.cs
+  DataProviders\GraphDataProviders\DataProviderHeadGroupMenu.cs
+  DataProviders\GraphDataProviders\DataProviderHeadGroupMenu.Designer.cs
+  DataProviders\GraphDataProviders\DataProviderObservedSeries.cs
+  DataProviders\GraphDataProviders\DataProviderObservedSeriesMenu.cs
+  DataProviders\GraphDataProviders\DataProviderObservedSeriesMenu.Designer.cs
+
+ScenarioTools.DataProviders.MapDataProviders
+  
+  DataProviders\MapDataProviders\DataProviderCalculatedMap.cs
+  DataProviders\MapDataProviders\DataProviderCalculatedMapMenu.cs
+  DataProviders\MapDataProviders\DataProviderCalculatedMapMenu.Designer.cs
+  DataProviders\MapDataProviders\DataProviderCbbMap.cs
+  DataProviders\MapDataProviders\DataProviderCbbMapMenu.cs
+  DataProviders\MapDataProviders\DataProviderCbbMapMenu.Designer.cs
+
+ScenarioTools.DatasetCalculator
+
+  DataProviders\GraphDataProviders\DataProviderCalculatedSeries.cs
+  DataProviders\GraphDataProviders\DataProviderCalculatedSeriesMenu.cs
+  DataProviders\GraphDataProviders\DataProviderCalculatedSeriesMenu.Designer.cs
+
+ScenarioTools.Dialog
+
+  DialogHelper.cs(7):namespace ScenarioAnalyzer
+
+ScenarioTools.FileReaders
+
+  FileReaders\BoreholeSampleFileReader.cs
+
+ScenarioTools.Geometry
+
+  PointList.cs
+  Geometry\DbfFieldDescriptor.cs
+  Geometry\GeometryHelper.cs
+  Geometry\LineSegment2D.cs
+  Geometry\OrthoGrid.cs
+  Geometry\Point2D.cs
+  Geometry\PolarPoint2D.cs
+  Geometry\Polygon2D.cs
+  Geometry\Polyline2D.cs
+  Geometry\Range1D.cs
+  Geometry\Range2D.cs
+  Geometry\Shape2D.cs
+  Geometry\ShapeAttribute.cs
+  Extent.cs
+  Line.cs
+  
+ScenarioTools.Graphics
+
+  [rename folder to Graphics]
+  ImageProcessing\RgbaPixel.cs
+  ImageProcessing\RgbPixel.cs
+  ContourMaker.cs
+  GraphMaker.cs
+  
+ScenarioTools.Gui
+
+  TreeSignature.cs
+
+ScenarioTools.Image 
+  
+  [rename folder to Image]
+  ImageProcessing\GraphImageWriter.cs
+  ImageProcessing\RgbaPixelArrayToImage.cs
+  ImageProcessing\RgbPixelArrayToImage.cs
+  ColorUtil.cs
+  DataSeries.cs
+  DragHelper.cs
+  GeoImage.cs
+  IconHelper.cs
+  ImageProvider.cs
+  TableMaker.cs
+
+ScenarioTools.LogAndErrorProcessing
+
+  Error.cs
+  Logger.cs
+  Logging.cs
+
+ScenarioTools.Modflow
+
+  [rename folder to Modflow]
+  ModflowReaders\CbbHelper.cs
+  ModflowReaders\CbbReader.cs
+  ModflowReaders\DiscretizationFile.cs
+  ModflowReaders\ModelLayer.cs
+  ModflowReaders\ModflowReader.cs
+  StressPeriod.cs
+
+ScenarioTools.Numerical
+
+  ArrayOps.cs
+  MathUtil.cs
+  RandGen.cs
+
+ScenarioTools.Spatial
+
+  Spatial\SpatialReference.cs
+
+ScenarioTools.Util
+
+  Util\FileUtil.cs
+  Util\Pair.cs
+  
+ScenarioTools.Workspace
+  
+  WorkspaceUtil.cs
+
+ScenarioTools.Xml
+
+  XmlUtil.cs
+
+********************************************************************
+
+
+[Properties]   (These belong with ScenarioAnalyzer app.)
+  
+  Properties\Resources.Designer.cs
+  Properties\Settings.Designer.cs
+
+ScenarioAnalyzer
+
+ScenarioAnalyzer.PdfWriting  
+  
+  PdfWriting\DateUtil.cs
+  PdfWriting\GraphWriter.cs
+  PdfWriting\PdfHelper.cs
+  PdfWriting\TableWriter.cs
+  PdfWriting\PdfWriter.cs
+
+ScenarioAnalyzer.Report
+
+  Report.cs
+  ReportElement.cs
+  ReportElementGraph.cs
+  ReportElementGraphMenu.cs
+  ReportElementGraphMenu.Designer.cs
+  ReportElementMap.cs
+  ReportElementMapMenu.cs
+  ReportElementMapMenu.Designer.cs
+  ReportElementTable.cs
+  ReportElementTableMenu.cs
+  ReportElementTableMenu.Designer.cs
+  MapWriter.cs
+  SADocument.cs
+  SADocumentXmlStream.cs
+  TreeElementFactories\ReportElementFactory.cs
+
+  
+ScenarioAnalyzer: Main Program and Forms
+
+  Program.cs
+  DataSeriesMenu.cs
+  DataSeriesMenu.Designer.cs
+  DataSeriesMenuContourBox.cs
+  DataSeriesMenuContourBox.Designer.cs
+  DocumentMenu.cs
+  DocumentMenu.Designer.cs
+  MainForm.cs
+  MainForm.Designer.cs
+  TableTest.cs
+  TableTest.Designer.cs
+
+

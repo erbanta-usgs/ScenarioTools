@@ -1,0 +1,68 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Scenario Analyzer example</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?scenario_analyzer_example.htm"; }
+  else { parent.quicksync('a6.2'); }
+}
+//-->
+</script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#D0D0D0">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Scenario Analyzer example</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="scenario_tools.htm">Top</a>&nbsp;
+     <a href="scenario_manager_example.htm">Previous</a>&nbsp;
+     
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>The Scenario Analyzer project file for this example is SeawatExample.sa, which is located in the examples\SeawatExample folder of the Scenario Tools distribution. The example uses data extracted from SEAWAT output files for the SeawatExample model. Because of the size of these files, they are not distributed with Scenario Tools.</p>
+<p>&nbsp;</p>
+<p>In order to use the SeawatExample.sa file, the user will first need to do two things:</p>
+<p>&nbsp;</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="15"><span style="font-size: 10pt; font-family: 'Arial'; color: #000000;">1.</span></td><td>Copy the "examples" folder and all its contents to a folder for which you have write privileges.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="15"><span style="font-size: 10pt; font-family: 'Arial'; color: #000000;">2.</span></td><td>Run the batch file PrepareExamples.bat in the new location of the "example" folder; this will run the SeawatExample model and generate the required output files. This batch file will take several minutes to run. </td></tr></table></div><p>&nbsp;</p>
+<p>When Scenario Analyzer opens the SeawatExample.sa file for the first time, loading the file will require several minutes. After the file has been successfully opened, save the file. <span style="font-weight: bold;">The data read from the model-output files are saved in the Scenario Analyzer project file.</span> If the data have been saved, the time required for Scenario Analyzer to open the project file the next time will be much shorter.</p>
+<p>&nbsp;</p>
+<p>The following image shows the Scenario Analyzer main window with a number of display elements defined:</p>
+<p>&nbsp;</p>
+<p><img src="sa_main_window.zoom70.png" width="527" height="397" border="0" alt="sa_main_window"></p>
+<p>&nbsp;</p>
+<p>Here is a map showing the distribution of solute concentration after 80 of the 100 stress periods in the model:</p>
+<p>&nbsp;</p>
+<p><img src="conc_map.zoom80.png" width="490" height="558" border="0" alt="conc_map"></p>
+<p>&nbsp;</p>
+<p>Here is a chart showing concentration vs. time at a group of four adjacent cells:</p>
+<p><img src="conc_chart.zoom60.png" width="544" height="419" border="0" alt="conc_chart"></p>
+<p>These and other images that are part of this project can be viewed by using Scenario Analyzer to open the project file indicated above. New maps, charts, and tables also can be generated as desired.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</td></tr></table>
+
+</body>
+</html>

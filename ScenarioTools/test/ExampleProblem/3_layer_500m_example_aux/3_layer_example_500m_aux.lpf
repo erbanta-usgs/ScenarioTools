@@ -1,0 +1,19 @@
+# MODFLOW-2000 Layer Property Flow (LPF) Package
+ 50  -99999.0  0   # Item 1: ILPFCB HDRY NPLPF [options]
+  1  0  0          # Item 2: LAYTYP
+  0  0  0          # Item 3: LAYAVG
+  1.0  1.0  1.0    # Item 4: CHANI
+  0  0  0          # Item 5: LAYVKA
+  0  0  0          # Item 6: LAYWET
+external 71 1.0 (FREE) -1  HYDRAULIC CONDUCTIVITY Layer 1
+constant 90.0              Vertical K (VKA) Layer 1
+constant 1.0               Ss Layer 1
+constant 0.2               Sy Layer 1
+external 71 1.0 (FREE) -1  HYDRAULIC CONDUCTIVITY Layer 2
+constant 90.0              Vertical K (VKA) Layer 2
+constant 0.00001           Ss Layer 2
+constant 5.0               VKCB of confining bed below Layer 2
+external 71 1.0 (FREE) -1  HYDRAULIC CONDUCTIVITY Layer 3
+constant 90.0              Vertical K (VKA) Layer 3
+constant 0.00001           Ss Layer 3
+

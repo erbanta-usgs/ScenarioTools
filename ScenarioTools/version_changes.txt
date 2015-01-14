@@ -1,0 +1,48 @@
+Changes to implement change in version number:
+
+##############   FOR RELEASE   ##############
+
+1. Change Properties of VS projects:
+     Scenario Analyzer
+     Scenario Manager
+     Scenario Tools
+
+2. Clean and Rebuild VS ScenarioTools solution (Release configuration)
+
+3. Edit Help file: Version information section
+
+4. Compile help:
+     HTML Help (ScenarioToolsHelp.chm)
+     Webhelp (HTML and other files in
+       D:\Projects\Florida-Tools\ScenarioTools\src\Help\HTML)
+
+5. Edit ScenarioToolsSetup.iss (Inno Setup script):
+     #define MyAppVersion "0.2.7"
+     #define MyAppVersionName "0_2_7"
+       
+6. Edit Web_page\code\doc\readme.txt:
+     Title
+     A. Distribution file
+       
+7. Edit Web_page\code\doc\release.txt:
+     Add section documenting changes in version, with date.
+ 
+8. Compile setup file.
+
+##############   FOR WEB PAGE   ##############
+
+9. Copy all files in:
+       D:\Projects\Florida-Tools\ScenarioTools\src\Help\HTML
+     to:
+       D:\Projects\Florida-Tools\ScenarioTools\Web_page\help
+ 
+10. Edit D:\Projects\Florida-Tools\ScenarioTools\Web_page\index.html:
+     <meta name="version" content="0.2.7">
+     <meta name="lastupdated" content="2013/11/08">
+     <li>Current version is 0.2.7 (xx/xx/2013).
+     <a href="ScenarioTools_0_2_7_Setup.exe">Scenario Tools ver. 0.2.7</a>
+
+11. Copy _Setup.exe file in:
+       D:\Projects\Florida-Tools\ScenarioTools\InnoSetup
+     to:
+       D:\Projects\Florida-Tools\ScenarioTools\Web_page\code\WINDOWS

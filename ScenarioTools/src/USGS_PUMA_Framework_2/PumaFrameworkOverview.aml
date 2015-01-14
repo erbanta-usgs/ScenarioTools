@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<topic id="9f117814-1456-4822-8ddb-3055bc31f351" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <introduction>
+      <para>
+      The PUMA Framework is a set of C# class libraries based on the Microsoft
+      .NET Framework that provides tools for developing pre- and post-processing 
+      applications for MODFLOW and MODPATH. The framework incorporates code from 
+      several other open-source .NET class libraries. See <link xlink:href="76605e6b-1d96-4f9d-8c97-291de9d94a2b" />.
+      </para>
+      <para>
+      The PUMA Framework consists of six dynamically-linked class libraries:
+      </para>
+      <definitionTable>
+          <definedTerm>USGS.Puma.dll</definedTerm>
+          <definition><para>Basic support for tasks common to modeling studies.</para></definition>
+
+          <definedTerm>USGS.Puma.UI.dll</definedTerm>
+          <definition><para>User-interface components such as common dialogs and user-controls.</para></definition>
+          
+          <definedTerm>USGS.Puma.Modflow.dll</definedTerm>
+          <definition><para>Support for managing data and analysing output for MODFLOW</para></definition>
+
+          <definedTerm>USGS.Puma.Modpath.dll</definedTerm>
+          <definition><para>Support for managing data and analysing output for MODPATH.</para></definition>
+
+          <definedTerm>GeoAPI.dll</definedTerm>
+          <definition><para>Defines interfaces and data types that support GIS functionality.</para></definition>
+
+          <definedTerm>USGS.Puma.NTS.dll</definedTerm>
+          <definition><para>
+          Incorporates functionality from the open-source Net Topology Suite (NTS) project. 
+          NTS supports a wide-range of GIS operations to analyze spatial data and display it in map view.
+          </para></definition>
+
+      </definitionTable>
+    </introduction>
+
+    <relatedTopics>
+    </relatedTopics>
+
+  </developerConceptualDocument>
+</topic>

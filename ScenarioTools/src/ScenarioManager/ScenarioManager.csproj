@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C180F476-EAF4-4F86-B628-E32C29A9A8F1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ScenarioManager</RootNamespace>
+    <AssemblyName>ScenarioManager</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ManifestCertificateThumbprint>85838E8E2F2AD08D87BEF1A87EFC6038EC213B31</ManifestCertificateThumbprint>
+    <ManifestKeyFile>ScenarioManager_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <ProductName>Scenario Manager</ProductName>
+    <PublisherName>U.S. Geological Survey</PublisherName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>0.0.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <ApplicationIcon>Resources\ScenarioManager.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="gdalconst_csharp, Version=1.0.4704.32537, Culture=neutral, PublicKeyToken=db5a52b08dc5b321, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\GDAL.1.9.2\lib\net40\gdalconst_csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="gdal_csharp, Version=1.0.4704.32537, Culture=neutral, PublicKeyToken=db5a52b08dc5b321, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\GDAL.1.9.2\lib\net40\gdal_csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="ogr_csharp, Version=1.0.4704.32537, Culture=neutral, PublicKeyToken=db5a52b08dc5b321, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\GDAL.1.9.2\lib\net40\ogr_csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="osr_csharp, Version=1.0.4704.32536, Culture=neutral, PublicKeyToken=db5a52b08dc5b321, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\GDAL.1.9.2\lib\net40\osr_csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FeatureSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FeatureSetForm.Designer.cs">
+      <DependentUpon>FeatureSetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GdalConfiguration.cs" />
+    <Compile Include="GdalNativeConfiguration.cs" />
+    <Compile Include="GroupBoxLayerAssignment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GroupBoxLayerAssignment.Designer.cs">
+      <DependentUpon>GroupBoxLayerAssignment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SMMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SMMainForm.Designer.cs">
+      <DependentUpon>SMMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModelGridForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModelGridForm.Designer.cs">
+      <DependentUpon>ModelGridForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProjectSettingsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectSettingsDialog.Designer.cs">
+      <DependentUpon>ProjectSettingsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FeatureSetForm.resx">
+      <DependentUpon>FeatureSetForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupBoxLayerAssignment.resx">
+      <DependentUpon>GroupBoxLayerAssignment.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SMMainForm.resx">
+      <DependentUpon>SMMainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModelGridForm.resx">
+      <DependentUpon>ModelGridForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectSettingsDialog.resx">
+      <DependentUpon>ProjectSettingsDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScenarioIdDialog.resx">
+      <DependentUpon>ScenarioIdDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScenarioPropertiesDialog.resx">
+      <DependentUpon>ScenarioPropertiesDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ScenarioIdDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScenarioIdDialog.Designer.cs">
+      <DependentUpon>ScenarioIdDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScenarioPropertiesDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScenarioPropertiesDialog.Designer.cs">
+      <DependentUpon>ScenarioPropertiesDialog.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\add_icon_dis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\add_icon_riv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\add_icon_wel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ScenarioTools\ScenarioTools\ScenarioTools.csproj">
+      <Project>{4272EEE9-9D9E-4D73-9E21-988582EBDB1D}</Project>
+      <Name>ScenarioTools %28ScenarioTools\ScenarioTools%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SoftwareProduction.Utilities\Utilities.csproj">
+      <Project>{7B57AB0F-4A93-412E-AA54-2B9CB63FBF9A}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\USGS_PUMA_Framework_2\GeoAPI\GeoAPI.csproj">
+      <Project>{FFB69466-79DE-466A-ADA7-5C47C5C5CA3A}</Project>
+      <Name>GeoAPI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\USGS_PUMA_Framework_2\USGS.Puma.NTS\USGS.Puma.NTS.csproj">
+      <Project>{5770DAA9-84E5-4770-AF43-F6B815894368}</Project>
+      <Name>USGS.Puma.NTS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\USGS_PUMA_Framework_2\USGS.Puma.UI\USGS.Puma.UI.csproj">
+      <Project>{4E7709CF-6528-4EC6-A63D-2CFFDCD6CCE7}</Project>
+      <Name>USGS.Puma.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\USGS_PUMA_Framework_2\USGS.Puma\USGS.Puma.csproj">
+      <Project>{118DE6CE-2FA3-4D6A-BAF2-3C74754255A0}</Project>
+      <Name>USGS.Puma</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\RivIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\WellPump.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\ChdIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GdalConfiguration.vb" />
+    <Content Include="GdalNativeConfiguration.vb" />
+    <Content Include="Images\GhbIconSet.ico" />
+    <Content Include="Images\RchIcon.ico" />
+    <None Include="Resources\ScenarioManager.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>if not exist "$(TargetDir)gdal" md "$(TargetDir)gdal"
+xcopy /s /y "$(SolutionDir)packages\GDAL.Native.1.9.2\gdal\*.*" "$(TargetDir)gdal"
+copy $(SolutionDir)src\DLLs\LibHaru\libhpdf.dll $(TargetDir)
+copy $(SolutionDir)src\DLLs\MapTools\MapTools.dll $(TargetDir)
+copy $(SolutionDir)src\DLLs\FWTools\*.dll $(TargetDir)</PostBuildEvent>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties BuildVersion_BuildVersioningStyle="None.None.None.Increment" BuildVersion_UpdateFileVersion="True" BuildVersion_ConfigurationName="Release" BuildVersion_UpdateAssemblyVersion="True" BuildVersion_StartDate="2013/10/23" BuildVersion_BuildAction="ReBuild" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

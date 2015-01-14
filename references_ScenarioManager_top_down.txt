@@ -1,0 +1,157 @@
+Top-down, References by project in Scenario Manager
+(3rd-party assemblies omitted)
+
+=============================================================================================================
+
+Level 0: Top
+
+Project: Scenario Manager
+  SMDataClasses  (ScenarioTools\src\ScenarioManager\SMDataClasses\bin\Debug\SMDataClasses.dll)
+  
+  DataClasses    (ScenarioTools\src\ScenarioTools\DataClasses\bin\Debug\DataClasses.dll)
+  Dialog         (ScenarioTools\src\ScenarioTools\Dialog\bin\Debug\Dialog.dll)
+  Dialogs        (ScenarioTools\src\ScenarioTools\Dialogs\bin\Debug\Dialogs.dll)
+  ScenarioTools  (ScenarioTools\src\ScenarioTools\ScenarioTools\bin\Debug\ScenarioTools.dll)
+  Scene          (ScenarioTools\src\ScenarioTools\Scene\bin\Debug\Scene.dll)
+  Spatial        (ScenarioTools\src\ScenarioTools\Spatial\bin\Debug\Spatial.dll)
+  Undo           (ScenarioTools\src\ScenarioTools\Undo\bin\Debug\Undo.dll)
+  Util           (ScenarioTools\src\ScenarioTools\Util\bin\Debug\Util.dll)
+
+  GeoAPI         (ScenarioTools\src\USGS_PUMA_Framework_2\GeoAPI\bin\Debug\GeoAPI.dll)
+  UGSG.Puma      (ScenarioTools\src\USGS_PUMA_Framework_2\USGS.Puma\bin\Debug\USGS.Puma.dll)
+  USGS.Puma.NTS  (ScenarioTools\src\USGS_PUMA_Framework_2\USGS.Puma.NTS\bin\Debug\USGS.Puma.NTS.dll)
+  USGS.Puma.UI   (ScenarioTools\src\USGS_PUMA_Framework_2\USGS.Puma.UI\bin\Release\USGS.Puma.UI.dll)
+ 
+=============================================================================================================
+
+Level 1 (referenced by level 0)
+ 
+Project: SMDataClasses
+  Util           (ScenarioTools\src\ScenarioTools\Util\bin\Debug\Util.dll)
+ 
+-------------------------------------------------------------------------------------------------------------
+
+Project: DataClasses
+  Dialog         (ScenarioTools\src\ScenarioTools\Dialog\bin\Debug\Dialog.dll)
+  Geometry       (ScenarioTools\src\ScenarioTools\Geometry\bin\Debug\Geometry.dll)
+  ImageProvider  (ScenarioTools\src\ScenarioTools\ImageProvider\bin\Debug\ImageProvider.dll)
+  Numerical      (ScenarioTools\src\ScenarioTools\Numerical\bin\Debug\Numerical.dll)
+  Spatial        (ScenarioTools\src\ScenarioTools\Spatial\bin\Debug\Spatial.dll)
+  Util           (ScenarioTools\src\ScenarioTools\Util\bin\Debug\Util.dll)
+  Xml            (ScenarioTools\src\ScenarioTools\Xml\bin\Debug\Xml.dll)
+ 
+-------------------------------------------------------------------------------------------------------------
+
+Project: Dialog
+  (references only System)
+ 
+-------------------------------------------------------------------------------------------------------------
+
+Project: Dialogs
+  (references only System)
+
+-------------------------------------------------------------------------------------------------------------
+  
+Project: ScenarioTools
+  DataClasses    (ScenarioTools\src\ScenarioTools\DataClasses\bin\Debug\DataClasses.dll)
+  Dialog         (ScenarioTools\src\ScenarioTools\Dialog\bin\Debug\Dialog.dll)
+  Dialogs        (ScenarioTools\src\ScenarioTools\Dialogs\bin\Debug\Dialogs.dll)
+  FileReaders    (ScenarioTools\src\ScenarioTools\FileReaders\bin\Debug\FileReaders.dll)
+  Geometry       (ScenarioTools\src\ScenarioTools\Geometry\bin\Debug\Geometry.dll)
+  Graphics       (ScenarioTools\src\ScenarioTools\Graphics\bin\Debug\Graphics.dll)
+  ImageProvider  (ScenarioTools\src\ScenarioTools\ImageProvider\bin\Debug\ImageProvider.dll)
+  Numerical      (ScenarioTools\src\ScenarioTools\Numerical\bin\Debug\Numerical.dll)
+  Spatial        (ScenarioTools\src\ScenarioTools\Spatial\bin\Debug\Spatial.dll)
+  Util           (ScenarioTools\src\ScenarioTools\Util\bin\Debug\Util.dll)
+  Xml            (ScenarioTools\src\ScenarioTools\Xml\bin\Debug\Xml.dll)
+  
+  GeoAPI         (ScenarioTools\src\USGS_PUMA_Framework_2\GeoAPI\bin\Debug\GeoAPI.dll)
+  UGSG.Puma      (ScenarioTools\src\USGS_PUMA_Framework_2\USGS.Puma\bin\Debug\USGS.Puma.dll)
+  USGS.Puma.NTS  (ScenarioTools\src\USGS_PUMA_Framework_2\USGS.Puma.NTS\bin\Debug\USGS.Puma.NTS.dll)
+  USGS.Puma.UI   (ScenarioTools\src\USGS_PUMA_Framework_2\USGS.Puma.UI\bin\Release\USGS.Puma.UI.dll)
+ 
+-------------------------------------------------------------------------------------------------------------
+  
+Project: Scene
+  SMDataClasses  (ScenarioTools\src\ScenarioManager\SMDataClasses\bin\Debug\SMDataClasses.dll)
+  
+  DataClasses    (ScenarioTools\src\ScenarioTools\DataClasses\bin\Debug\DataClasses.dll)
+  ScenarioTools  (ScenarioTools\src\ScenarioTools\ScenarioTools\bin\Debug\ScenarioTools.dll)
+  Util           (ScenarioTools\src\ScenarioTools\Util\bin\Debug\Util.dll)
+
+  GeoAPI         (ScenarioTools\src\USGS_PUMA_Framework_2\GeoAPI\bin\Debug\GeoAPI.dll)
+  UGSG.Puma      (ScenarioTools\src\USGS_PUMA_Framework_2\USGS.Puma\bin\Debug\USGS.Puma.dll)
+  USGS.Puma.NTS  (ScenarioTools\src\USGS_PUMA_Framework_2\USGS.Puma.NTS\bin\Debug\USGS.Puma.NTS.dll)
+  USGS.Puma.UI   (ScenarioTools\src\USGS_PUMA_Framework_2\USGS.Puma.UI\bin\Release\USGS.Puma.UI.dll)
+
+-------------------------------------------------------------------------------------------------------------
+
+Project: Spatial
+  Numerical      (ScenarioTools\src\ScenarioTools\Numerical\bin\Debug\Numerical.dll)
+
+  GeoAPI         (ScenarioTools\src\USGS_PUMA_Framework_2\GeoAPI\bin\Debug\GeoAPI.dll)
+  UGSG.Puma      (ScenarioTools\src\USGS_PUMA_Framework_2\USGS.Puma\bin\Debug\USGS.Puma.dll)
+  USGS.Puma.NTS  (ScenarioTools\src\USGS_PUMA_Framework_2\USGS.Puma.NTS\bin\Debug\USGS.Puma.NTS.dll)
+
+-------------------------------------------------------------------------------------------------------------
+
+Project: Undo
+  SMDataClasses  (ScenarioTools\src\ScenarioManager\SMDataClasses\bin\Debug\SMDataClasses.dll)
+  
+  DataClasses    (ScenarioTools\src\ScenarioTools\DataClasses\bin\Debug\DataClasses.dll)
+  Scene          (ScenarioTools\src\ScenarioTools\Scene\bin\Debug\Scene.dll)
+
+-------------------------------------------------------------------------------------------------------------
+
+Project: Util
+  (no references to ScenarioManager, ScenarioTools, or USGS)
+ 
+=============================================================================================================
+
+Level 2 (referenced by level 1)
+
+Project: Xml
+  (references only System)
+
+-------------------------------------------------------------------------------------------------------------
+
+Project: Geometry
+  LogAndErrorProcessing  (ScenarioTools\src\ScenarioTools\LogAndErrorProcessing\bin\Debug\LoggingAndErrorProcessing.dll)
+  Numerical              (ScenarioTools\src\ScenarioTools\Numerical\bin\Debug\Numerical.dll)
+  Spatial                (ScenarioTools\src\ScenarioTools\Spatial\bin\Debug\Spatial.dll)
+  Util                   (ScenarioTools\src\ScenarioTools\Util\bin\Debug\Util.dll)
+
+-------------------------------------------------------------------------------------------------------------
+
+Project: ImageProvider
+  (references only System)
+
+-------------------------------------------------------------------------------------------------------------
+
+Project: Numerical
+  (no references)
+  
+-------------------------------------------------------------------------------------------------------------
+
+Project: FileReaders
+  DataClasses    (ScenarioTools\src\ScenarioTools\DataClasses\bin\Debug\DataClasses.dll)
+
+-------------------------------------------------------------------------------------------------------------
+
+Project: Graphics
+  Geometry       (ScenarioTools\src\ScenarioTools\Geometry\bin\Debug\Geometry.dll)
+  Numerical      (ScenarioTools\src\ScenarioTools\Numerical\bin\Debug\Numerical.dll)
+
+  GeoAPI         (ScenarioTools\src\USGS_PUMA_Framework_2\GeoAPI\bin\Debug\GeoAPI.dll)
+  USGS.Puma.NTS  (ScenarioTools\src\USGS_PUMA_Framework_2\USGS.Puma.NTS\bin\Debug\USGS.Puma.NTS.dll)
+  USGS.Puma.UI   (ScenarioTools\src\USGS_PUMA_Framework_2\USGS.Puma.UI\bin\Release\USGS.Puma.UI.dll)
+ 
+=============================================================================================================
+
+Level 3 (referenced by level 2)
+
+Project: LogAndErrorProcessing
+  (no references)
+
+
+

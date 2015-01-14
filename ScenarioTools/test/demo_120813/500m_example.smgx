@@ -1,0 +1,705 @@
+<?xml version="1.0"?>
+<SMProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SmProjectSettings>
+    <MasterNameFile>500m_example\3_layer_example_500m.nam</MasterNameFile>
+    <MaxSimultaneousRuns>2</MaxSimultaneousRuns>
+    <ModflowExecutable>C:\WRDAPP\MF2005.1_11\bin\mf2005.exe</ModflowExecutable>
+    <BackgroundImageFile>D:\ScenarioTools\Test\Images\Biscayne_area_land_cover.tif</BackgroundImageFile>
+    <NameFiles>
+      <string>500m_example\3_layer_example_500m.nam</string>
+    </NameFiles>
+  </SmProjectSettings>
+  <GridShapefileRelativePath>GIS\bbgrid_poly.shp</GridShapefileRelativePath>
+  <SimulationStartTime>1996-01-01T00:00:00</SimulationStartTime>
+  <ScenarioElements>
+    <SerializableScenarioElement>
+      <DefaultLayer>0</DefaultLayer>
+      <Tag>1</Tag>
+      <PackageOption>1</PackageOption>
+      <CbcFlag>0</CbcFlag>
+      <ParentTag>-1</ParentTag>
+      <BottomElevationAttribute />
+      <Description>This scenario is based on the 3_layer_500m_example model.</Description>
+      <KeyField />
+      <LayerAttribute />
+      <Name>Base_Scenario</Name>
+      <ShapefileRelativePath />
+      <TimeSeriesRelativePath />
+      <TimeSeriesSecondaryRelativePath />
+      <TopElevationAttribute />
+      <ElemType>Scenario</ElemType>
+      <LabelFeatures>None</LabelFeatures>
+      <LayMethod>Uniform</LayMethod>
+      <Type>NoType</Type>
+      <InterpretationMethod>Piecewise</InterpretationMethod>
+      <Items />
+      <GeoValueList />
+    </SerializableScenarioElement>
+    <SerializableScenarioElement>
+      <DefaultLayer>0</DefaultLayer>
+      <Tag>16</Tag>
+      <PackageOption>1</PackageOption>
+      <CbcFlag>0</CbcFlag>
+      <ParentTag>-1</ParentTag>
+      <BottomElevationAttribute />
+      <Description />
+      <KeyField />
+      <LayerAttribute />
+      <Name>Scenario_1</Name>
+      <ShapefileRelativePath />
+      <TimeSeriesRelativePath />
+      <TimeSeriesSecondaryRelativePath />
+      <TopElevationAttribute />
+      <ElemType>Scenario</ElemType>
+      <LabelFeatures>None</LabelFeatures>
+      <LayMethod>Uniform</LayMethod>
+      <Type>NoType</Type>
+      <InterpretationMethod>Piecewise</InterpretationMethod>
+      <Items>
+        <SerializableScenarioElement>
+          <DefaultLayer>0</DefaultLayer>
+          <Tag>17</Tag>
+          <PackageOption>1</PackageOption>
+          <CbcFlag>50</CbcFlag>
+          <ParentTag>16</ParentTag>
+          <BottomElevationAttribute />
+          <Description />
+          <KeyField />
+          <LayerAttribute />
+          <Name>New Well Package</Name>
+          <ShapefileRelativePath />
+          <TimeSeriesRelativePath />
+          <TimeSeriesSecondaryRelativePath />
+          <TopElevationAttribute />
+          <ElemType>Package</ElemType>
+          <LabelFeatures>None</LabelFeatures>
+          <LayMethod>Uniform</LayMethod>
+          <Type>WellType</Type>
+          <InterpretationMethod>Piecewise</InterpretationMethod>
+          <Items>
+            <SerializableScenarioElement>
+              <DefaultLayer>1</DefaultLayer>
+              <Tag>18</Tag>
+              <PackageOption>1</PackageOption>
+              <CbcFlag>0</CbcFlag>
+              <ParentTag>17</ParentTag>
+              <BottomElevationAttribute />
+              <Description>Wells with pumping specified in pumpwell2.smp.</Description>
+              <KeyField>WellName</KeyField>
+              <LayerAttribute />
+              <Name>New Well Set</Name>
+              <ShapefileRelativePath>GIS\county_wells_NAD_27_filtered_edit.shp</ShapefileRelativePath>
+              <TimeSeriesRelativePath>TimeSeriesData\pumpwell2.smp</TimeSeriesRelativePath>
+              <TimeSeriesSecondaryRelativePath />
+              <TopElevationAttribute />
+              <ElemType>FeatureSet</ElemType>
+              <LabelFeatures>FeatureSetAndName</LabelFeatures>
+              <LayMethod>Uniform</LayMethod>
+              <Type>WellType</Type>
+              <InterpretationMethod>Piecewise</InterpretationMethod>
+              <Items />
+              <GeoValueList />
+            </SerializableScenarioElement>
+          </Items>
+          <GeoValueList />
+        </SerializableScenarioElement>
+        <SerializableScenarioElement>
+          <DefaultLayer>0</DefaultLayer>
+          <Tag>19</Tag>
+          <PackageOption>1</PackageOption>
+          <CbcFlag>50</CbcFlag>
+          <ParentTag>16</ParentTag>
+          <BottomElevationAttribute />
+          <Description />
+          <KeyField />
+          <LayerAttribute />
+          <Name>New River Package</Name>
+          <ShapefileRelativePath />
+          <TimeSeriesRelativePath />
+          <TimeSeriesSecondaryRelativePath />
+          <TopElevationAttribute />
+          <ElemType>Package</ElemType>
+          <LabelFeatures>None</LabelFeatures>
+          <LayMethod>Uniform</LayMethod>
+          <Type>RiverType</Type>
+          <InterpretationMethod>Piecewise</InterpretationMethod>
+          <Items>
+            <SerializableScenarioElement>
+              <DefaultLayer>1</DefaultLayer>
+              <Tag>20</Tag>
+              <PackageOption>1</PackageOption>
+              <CbcFlag>0</CbcFlag>
+              <ParentTag>19</ParentTag>
+              <BottomElevationAttribute />
+              <Description />
+              <KeyField>DB_NAME</KeyField>
+              <LayerAttribute />
+              <Name>New River Set</Name>
+              <ShapefileRelativePath>GIS\MD_Canals_50m_v2.shp</ShapefileRelativePath>
+              <TimeSeriesRelativePath>TimeSeriesData\output_navd_all.smp</TimeSeriesRelativePath>
+              <TimeSeriesSecondaryRelativePath />
+              <TopElevationAttribute />
+              <ElemType>FeatureSet</ElemType>
+              <LabelFeatures>None</LabelFeatures>
+              <LayMethod>Uniform</LayMethod>
+              <Type>RiverType</Type>
+              <InterpretationMethod>Stepwise</InterpretationMethod>
+              <Items />
+              <GeoValueList>
+                <GeoValue>
+                  <Descriptor>riverbed bottom elevation</Descriptor>
+                  <Attribute>BOT_NAVDM</Attribute>
+                  <UniformValue>0</UniformValue>
+                  <GeoValueType>Attribute</GeoValueType>
+                </GeoValue>
+                <GeoValue>
+                  <Descriptor>hydraulic conductivity</Descriptor>
+                  <Attribute>HYDR_COND</Attribute>
+                  <UniformValue>0</UniformValue>
+                  <GeoValueType>Attribute</GeoValueType>
+                </GeoValue>
+                <GeoValue>
+                  <Descriptor>width</Descriptor>
+                  <Attribute>TOP_WID_M</Attribute>
+                  <UniformValue>0</UniformValue>
+                  <GeoValueType>Attribute</GeoValueType>
+                </GeoValue>
+                <GeoValue>
+                  <Descriptor>riverbed thickness</Descriptor>
+                  <Attribute />
+                  <UniformValue>2</UniformValue>
+                  <GeoValueType>Uniform</GeoValueType>
+                </GeoValue>
+              </GeoValueList>
+            </SerializableScenarioElement>
+          </Items>
+          <GeoValueList />
+        </SerializableScenarioElement>
+        <SerializableScenarioElement>
+          <DefaultLayer>0</DefaultLayer>
+          <Tag>21</Tag>
+          <PackageOption>1</PackageOption>
+          <CbcFlag>50</CbcFlag>
+          <ParentTag>16</ParentTag>
+          <BottomElevationAttribute />
+          <Description />
+          <KeyField />
+          <LayerAttribute />
+          <Name>New Recharge Package</Name>
+          <ShapefileRelativePath />
+          <TimeSeriesRelativePath />
+          <TimeSeriesSecondaryRelativePath />
+          <TopElevationAttribute />
+          <ElemType>Package</ElemType>
+          <LabelFeatures>None</LabelFeatures>
+          <LayMethod>Uniform</LayMethod>
+          <Type>RchType</Type>
+          <InterpretationMethod>Piecewise</InterpretationMethod>
+          <Items>
+            <SerializableScenarioElement>
+              <DefaultLayer>1</DefaultLayer>
+              <Tag>22</Tag>
+              <PackageOption>2</PackageOption>
+              <CbcFlag>0</CbcFlag>
+              <ParentTag>21</ParentTag>
+              <BottomElevationAttribute />
+              <Description />
+              <KeyField>RchRateZon</KeyField>
+              <LayerAttribute>RchLayer</LayerAttribute>
+              <Name>New Recharge Set</Name>
+              <ShapefileRelativePath>GIS\new_rch_zones.shp</ShapefileRelativePath>
+              <TimeSeriesRelativePath>TimeSeriesData\recharge.smp</TimeSeriesRelativePath>
+              <TimeSeriesSecondaryRelativePath />
+              <TopElevationAttribute />
+              <ElemType>FeatureSet</ElemType>
+              <LabelFeatures>None</LabelFeatures>
+              <LayMethod>Uniform</LayMethod>
+              <Type>RchType</Type>
+              <InterpretationMethod>Piecewise</InterpretationMethod>
+              <Items />
+              <GeoValueList />
+            </SerializableScenarioElement>
+          </Items>
+          <GeoValueList />
+        </SerializableScenarioElement>
+        <SerializableScenarioElement>
+          <DefaultLayer>0</DefaultLayer>
+          <Tag>23</Tag>
+          <PackageOption>1</PackageOption>
+          <CbcFlag>50</CbcFlag>
+          <ParentTag>16</ParentTag>
+          <BottomElevationAttribute />
+          <Description />
+          <KeyField />
+          <LayerAttribute />
+          <Name>New GHB Package</Name>
+          <ShapefileRelativePath />
+          <TimeSeriesRelativePath />
+          <TimeSeriesSecondaryRelativePath />
+          <TopElevationAttribute />
+          <ElemType>Package</ElemType>
+          <LabelFeatures>None</LabelFeatures>
+          <LayMethod>Uniform</LayMethod>
+          <Type>GhbType</Type>
+          <InterpretationMethod>Piecewise</InterpretationMethod>
+          <Items>
+            <SerializableScenarioElement>
+              <DefaultLayer>1</DefaultLayer>
+              <Tag>24</Tag>
+              <PackageOption>1</PackageOption>
+              <CbcFlag>0</CbcFlag>
+              <ParentTag>23</ParentTag>
+              <BottomElevationAttribute />
+              <Description />
+              <KeyField>Name</KeyField>
+              <LayerAttribute />
+              <Name>New GHB Set</Name>
+              <ShapefileRelativePath>GIS\water_poly.shp</ShapefileRelativePath>
+              <TimeSeriesRelativePath>TimeSeriesData\sea_level.smp</TimeSeriesRelativePath>
+              <TimeSeriesSecondaryRelativePath />
+              <TopElevationAttribute />
+              <ElemType>FeatureSet</ElemType>
+              <LabelFeatures>FeatureNameOnly</LabelFeatures>
+              <LayMethod>Uniform</LayMethod>
+              <Type>GhbType</Type>
+              <InterpretationMethod>Piecewise</InterpretationMethod>
+              <Items />
+              <GeoValueList>
+                <GeoValue>
+                  <Descriptor>leakance</Descriptor>
+                  <Attribute>Leakance</Attribute>
+                  <UniformValue>0</UniformValue>
+                  <GeoValueType>Attribute</GeoValueType>
+                </GeoValue>
+              </GeoValueList>
+            </SerializableScenarioElement>
+          </Items>
+          <GeoValueList />
+        </SerializableScenarioElement>
+      </Items>
+      <GeoValueList />
+    </SerializableScenarioElement>
+    <SerializableScenarioElement>
+      <DefaultLayer>0</DefaultLayer>
+      <Tag>46</Tag>
+      <PackageOption>1</PackageOption>
+      <CbcFlag>0</CbcFlag>
+      <ParentTag>-1</ParentTag>
+      <BottomElevationAttribute />
+      <Description>This scenario includes proposed withdrawal rates for existing wells, existing and proposed drainage canals, expected recharge, and predicted sea levels for intracoastal waters.</Description>
+      <KeyField />
+      <LayerAttribute />
+      <Name>Scenario_2</Name>
+      <ShapefileRelativePath />
+      <TimeSeriesRelativePath />
+      <TimeSeriesSecondaryRelativePath />
+      <TopElevationAttribute />
+      <ElemType>Scenario</ElemType>
+      <LabelFeatures>None</LabelFeatures>
+      <LayMethod>Uniform</LayMethod>
+      <Type>NoType</Type>
+      <InterpretationMethod>Piecewise</InterpretationMethod>
+      <Items>
+        <SerializableScenarioElement>
+          <DefaultLayer>0</DefaultLayer>
+          <Tag>47</Tag>
+          <PackageOption>1</PackageOption>
+          <CbcFlag>50</CbcFlag>
+          <ParentTag>46</ParentTag>
+          <BottomElevationAttribute />
+          <Description />
+          <KeyField />
+          <LayerAttribute />
+          <Name>Existing Wells</Name>
+          <ShapefileRelativePath />
+          <TimeSeriesRelativePath />
+          <TimeSeriesSecondaryRelativePath />
+          <TopElevationAttribute />
+          <ElemType>Package</ElemType>
+          <LabelFeatures>None</LabelFeatures>
+          <LayMethod>Uniform</LayMethod>
+          <Type>WellType</Type>
+          <InterpretationMethod>Piecewise</InterpretationMethod>
+          <Items>
+            <SerializableScenarioElement>
+              <DefaultLayer>1</DefaultLayer>
+              <Tag>48</Tag>
+              <PackageOption>1</PackageOption>
+              <CbcFlag>0</CbcFlag>
+              <ParentTag>47</ParentTag>
+              <BottomElevationAttribute />
+              <Description>Wells with pumping specified in pumpwell2.smp.</Description>
+              <KeyField>WellName</KeyField>
+              <LayerAttribute />
+              <Name>Proposed Well Rates</Name>
+              <ShapefileRelativePath>GIS\county_wells_NAD_27_filtered_edit.shp</ShapefileRelativePath>
+              <TimeSeriesRelativePath>TimeSeriesData\pumpwell2.smp</TimeSeriesRelativePath>
+              <TimeSeriesSecondaryRelativePath />
+              <TopElevationAttribute />
+              <ElemType>FeatureSet</ElemType>
+              <LabelFeatures>FeatureSetAndName</LabelFeatures>
+              <LayMethod>Uniform</LayMethod>
+              <Type>WellType</Type>
+              <InterpretationMethod>Piecewise</InterpretationMethod>
+              <Items />
+              <GeoValueList />
+            </SerializableScenarioElement>
+          </Items>
+          <GeoValueList />
+        </SerializableScenarioElement>
+        <SerializableScenarioElement>
+          <DefaultLayer>0</DefaultLayer>
+          <Tag>49</Tag>
+          <PackageOption>1</PackageOption>
+          <CbcFlag>50</CbcFlag>
+          <ParentTag>46</ParentTag>
+          <BottomElevationAttribute />
+          <Description />
+          <KeyField />
+          <LayerAttribute />
+          <Name>Replacement River Package</Name>
+          <ShapefileRelativePath />
+          <TimeSeriesRelativePath />
+          <TimeSeriesSecondaryRelativePath />
+          <TopElevationAttribute />
+          <ElemType>Package</ElemType>
+          <LabelFeatures>None</LabelFeatures>
+          <LayMethod>Uniform</LayMethod>
+          <Type>RiverType</Type>
+          <InterpretationMethod>Piecewise</InterpretationMethod>
+          <Items>
+            <SerializableScenarioElement>
+              <DefaultLayer>1</DefaultLayer>
+              <Tag>50</Tag>
+              <PackageOption>1</PackageOption>
+              <CbcFlag>0</CbcFlag>
+              <ParentTag>49</ParentTag>
+              <BottomElevationAttribute />
+              <Description />
+              <KeyField>DB_NAME</KeyField>
+              <LayerAttribute />
+              <Name>Existing Canals</Name>
+              <ShapefileRelativePath>GIS\MD_Canals_50m_v2.shp</ShapefileRelativePath>
+              <TimeSeriesRelativePath>TimeSeriesData\output_navd_all.smp</TimeSeriesRelativePath>
+              <TimeSeriesSecondaryRelativePath />
+              <TopElevationAttribute />
+              <ElemType>FeatureSet</ElemType>
+              <LabelFeatures>None</LabelFeatures>
+              <LayMethod>Uniform</LayMethod>
+              <Type>RiverType</Type>
+              <InterpretationMethod>Stepwise</InterpretationMethod>
+              <Items />
+              <GeoValueList>
+                <GeoValue>
+                  <Descriptor>riverbed bottom elevation</Descriptor>
+                  <Attribute>BOT_NAVDM</Attribute>
+                  <UniformValue>0</UniformValue>
+                  <GeoValueType>Attribute</GeoValueType>
+                </GeoValue>
+                <GeoValue>
+                  <Descriptor>hydraulic conductivity</Descriptor>
+                  <Attribute>HYDR_COND</Attribute>
+                  <UniformValue>0</UniformValue>
+                  <GeoValueType>Attribute</GeoValueType>
+                </GeoValue>
+                <GeoValue>
+                  <Descriptor>width</Descriptor>
+                  <Attribute>TOP_WID_M</Attribute>
+                  <UniformValue>0</UniformValue>
+                  <GeoValueType>Attribute</GeoValueType>
+                </GeoValue>
+                <GeoValue>
+                  <Descriptor>riverbed thickness</Descriptor>
+                  <Attribute />
+                  <UniformValue>2</UniformValue>
+                  <GeoValueType>Uniform</GeoValueType>
+                </GeoValue>
+              </GeoValueList>
+            </SerializableScenarioElement>
+            <SerializableScenarioElement>
+              <DefaultLayer>1</DefaultLayer>
+              <Tag>57</Tag>
+              <PackageOption>1</PackageOption>
+              <CbcFlag>0</CbcFlag>
+              <ParentTag>49</ParentTag>
+              <BottomElevationAttribute />
+              <Description />
+              <KeyField />
+              <LayerAttribute />
+              <Name>Proposed Canals</Name>
+              <ShapefileRelativePath />
+              <TimeSeriesRelativePath />
+              <TimeSeriesSecondaryRelativePath />
+              <TopElevationAttribute />
+              <ElemType>FeatureSet</ElemType>
+              <LabelFeatures>None</LabelFeatures>
+              <LayMethod>Uniform</LayMethod>
+              <Type>RiverType</Type>
+              <InterpretationMethod>Piecewise</InterpretationMethod>
+              <Items />
+              <GeoValueList>
+                <GeoValue>
+                  <Descriptor>riverbed bottom elevation</Descriptor>
+                  <Attribute />
+                  <UniformValue>0</UniformValue>
+                  <GeoValueType>Attribute</GeoValueType>
+                </GeoValue>
+                <GeoValue>
+                  <Descriptor>hydraulic conductivity</Descriptor>
+                  <Attribute />
+                  <UniformValue>0</UniformValue>
+                  <GeoValueType>Uniform</GeoValueType>
+                </GeoValue>
+                <GeoValue>
+                  <Descriptor>width</Descriptor>
+                  <Attribute />
+                  <UniformValue>0</UniformValue>
+                  <GeoValueType>Uniform</GeoValueType>
+                </GeoValue>
+                <GeoValue>
+                  <Descriptor>riverbed thickness</Descriptor>
+                  <Attribute />
+                  <UniformValue>0</UniformValue>
+                  <GeoValueType>Uniform</GeoValueType>
+                </GeoValue>
+              </GeoValueList>
+            </SerializableScenarioElement>
+          </Items>
+          <GeoValueList />
+        </SerializableScenarioElement>
+        <SerializableScenarioElement>
+          <DefaultLayer>0</DefaultLayer>
+          <Tag>51</Tag>
+          <PackageOption>1</PackageOption>
+          <CbcFlag>50</CbcFlag>
+          <ParentTag>46</ParentTag>
+          <BottomElevationAttribute />
+          <Description />
+          <KeyField />
+          <LayerAttribute />
+          <Name>Replacement Recharge Package</Name>
+          <ShapefileRelativePath />
+          <TimeSeriesRelativePath />
+          <TimeSeriesSecondaryRelativePath />
+          <TopElevationAttribute />
+          <ElemType>Package</ElemType>
+          <LabelFeatures>None</LabelFeatures>
+          <LayMethod>Uniform</LayMethod>
+          <Type>RchType</Type>
+          <InterpretationMethod>Piecewise</InterpretationMethod>
+          <Items>
+            <SerializableScenarioElement>
+              <DefaultLayer>1</DefaultLayer>
+              <Tag>52</Tag>
+              <PackageOption>2</PackageOption>
+              <CbcFlag>0</CbcFlag>
+              <ParentTag>51</ParentTag>
+              <BottomElevationAttribute />
+              <Description />
+              <KeyField>RchRateZon</KeyField>
+              <LayerAttribute>RchLayer</LayerAttribute>
+              <Name>Expected Recharge</Name>
+              <ShapefileRelativePath>GIS\new_rch_zones.shp</ShapefileRelativePath>
+              <TimeSeriesRelativePath>TimeSeriesData\recharge.smp</TimeSeriesRelativePath>
+              <TimeSeriesSecondaryRelativePath />
+              <TopElevationAttribute />
+              <ElemType>FeatureSet</ElemType>
+              <LabelFeatures>None</LabelFeatures>
+              <LayMethod>Uniform</LayMethod>
+              <Type>RchType</Type>
+              <InterpretationMethod>Piecewise</InterpretationMethod>
+              <Items />
+              <GeoValueList />
+            </SerializableScenarioElement>
+          </Items>
+          <GeoValueList />
+        </SerializableScenarioElement>
+        <SerializableScenarioElement>
+          <DefaultLayer>0</DefaultLayer>
+          <Tag>55</Tag>
+          <PackageOption>1</PackageOption>
+          <CbcFlag>0</CbcFlag>
+          <ParentTag>46</ParentTag>
+          <BottomElevationAttribute />
+          <Description />
+          <KeyField />
+          <LayerAttribute />
+          <Name>Replacement CHD Package</Name>
+          <ShapefileRelativePath />
+          <TimeSeriesRelativePath />
+          <TimeSeriesSecondaryRelativePath />
+          <TopElevationAttribute />
+          <ElemType>Package</ElemType>
+          <LabelFeatures>None</LabelFeatures>
+          <LayMethod>Uniform</LayMethod>
+          <Type>ChdType</Type>
+          <InterpretationMethod>Piecewise</InterpretationMethod>
+          <Items>
+            <SerializableScenarioElement>
+              <DefaultLayer>1</DefaultLayer>
+              <Tag>56</Tag>
+              <PackageOption>1</PackageOption>
+              <CbcFlag>0</CbcFlag>
+              <ParentTag>55</ParentTag>
+              <BottomElevationAttribute />
+              <Description>Intracoastal waters, with predicted sea levels </Description>
+              <KeyField>Name</KeyField>
+              <LayerAttribute />
+              <Name>Predicted Sea Level</Name>
+              <ShapefileRelativePath>GIS\water_poly.shp</ShapefileRelativePath>
+              <TimeSeriesRelativePath>TimeSeriesData\sea_level.smp</TimeSeriesRelativePath>
+              <TimeSeriesSecondaryRelativePath />
+              <TopElevationAttribute />
+              <ElemType>FeatureSet</ElemType>
+              <LabelFeatures>None</LabelFeatures>
+              <LayMethod>Uniform</LayMethod>
+              <Type>ChdType</Type>
+              <InterpretationMethod>Piecewise</InterpretationMethod>
+              <Items />
+              <GeoValueList />
+            </SerializableScenarioElement>
+          </Items>
+          <GeoValueList />
+        </SerializableScenarioElement>
+      </Items>
+      <GeoValueList />
+    </SerializableScenarioElement>
+  </ScenarioElements>
+  <TreeView>
+    <Tag>-1</Tag>
+    <ImageIndex>0</ImageIndex>
+    <Text />
+    <Items>
+      <SerializableTreeNode>
+        <Tag>1</Tag>
+        <ImageIndex>0</ImageIndex>
+        <Text>Base_Scenario</Text>
+        <Items />
+      </SerializableTreeNode>
+      <SerializableTreeNode>
+        <Tag>16</Tag>
+        <ImageIndex>0</ImageIndex>
+        <Text>Scenario_1</Text>
+        <Items>
+          <SerializableTreeNode>
+            <Tag>17</Tag>
+            <ImageIndex>1</ImageIndex>
+            <Text>New Well Package</Text>
+            <Items>
+              <SerializableTreeNode>
+                <Tag>18</Tag>
+                <ImageIndex>1</ImageIndex>
+                <Text>New Well Set</Text>
+                <Items />
+              </SerializableTreeNode>
+            </Items>
+          </SerializableTreeNode>
+          <SerializableTreeNode>
+            <Tag>19</Tag>
+            <ImageIndex>2</ImageIndex>
+            <Text>New River Package</Text>
+            <Items>
+              <SerializableTreeNode>
+                <Tag>20</Tag>
+                <ImageIndex>2</ImageIndex>
+                <Text>New River Set</Text>
+                <Items />
+              </SerializableTreeNode>
+            </Items>
+          </SerializableTreeNode>
+          <SerializableTreeNode>
+            <Tag>21</Tag>
+            <ImageIndex>4</ImageIndex>
+            <Text>New Recharge Package</Text>
+            <Items>
+              <SerializableTreeNode>
+                <Tag>22</Tag>
+                <ImageIndex>4</ImageIndex>
+                <Text>New Recharge Set</Text>
+                <Items />
+              </SerializableTreeNode>
+            </Items>
+          </SerializableTreeNode>
+          <SerializableTreeNode>
+            <Tag>23</Tag>
+            <ImageIndex>5</ImageIndex>
+            <Text>New GHB Package</Text>
+            <Items>
+              <SerializableTreeNode>
+                <Tag>24</Tag>
+                <ImageIndex>5</ImageIndex>
+                <Text>New GHB Set</Text>
+                <Items />
+              </SerializableTreeNode>
+            </Items>
+          </SerializableTreeNode>
+        </Items>
+      </SerializableTreeNode>
+      <SerializableTreeNode>
+        <Tag>46</Tag>
+        <ImageIndex>0</ImageIndex>
+        <Text>Scenario_2</Text>
+        <Items>
+          <SerializableTreeNode>
+            <Tag>47</Tag>
+            <ImageIndex>1</ImageIndex>
+            <Text>Existing Wells</Text>
+            <Items>
+              <SerializableTreeNode>
+                <Tag>48</Tag>
+                <ImageIndex>1</ImageIndex>
+                <Text>Proposed Well Rates</Text>
+                <Items />
+              </SerializableTreeNode>
+            </Items>
+          </SerializableTreeNode>
+          <SerializableTreeNode>
+            <Tag>49</Tag>
+            <ImageIndex>2</ImageIndex>
+            <Text>Replacement River Package</Text>
+            <Items>
+              <SerializableTreeNode>
+                <Tag>50</Tag>
+                <ImageIndex>2</ImageIndex>
+                <Text>Existing Canals</Text>
+                <Items />
+              </SerializableTreeNode>
+              <SerializableTreeNode>
+                <Tag>57</Tag>
+                <ImageIndex>2</ImageIndex>
+                <Text>Proposed Canals</Text>
+                <Items />
+              </SerializableTreeNode>
+            </Items>
+          </SerializableTreeNode>
+          <SerializableTreeNode>
+            <Tag>51</Tag>
+            <ImageIndex>4</ImageIndex>
+            <Text>Replacement Recharge Package</Text>
+            <Items>
+              <SerializableTreeNode>
+                <Tag>52</Tag>
+                <ImageIndex>4</ImageIndex>
+                <Text>Expected Recharge</Text>
+                <Items />
+              </SerializableTreeNode>
+            </Items>
+          </SerializableTreeNode>
+          <SerializableTreeNode>
+            <Tag>55</Tag>
+            <ImageIndex>3</ImageIndex>
+            <Text>Replacement CHD Package</Text>
+            <Items>
+              <SerializableTreeNode>
+                <Tag>56</Tag>
+                <ImageIndex>3</ImageIndex>
+                <Text>Predicted Sea Level</Text>
+                <Items />
+              </SerializableTreeNode>
+            </Items>
+          </SerializableTreeNode>
+        </Items>
+      </SerializableTreeNode>
+    </Items>
+  </TreeView>
+</SMProject>

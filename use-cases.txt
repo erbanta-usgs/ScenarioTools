@@ -1,0 +1,50 @@
+Use cases for Scenario Manager and Scenario Analyzer
+
+****************
+Scenario Manager
+****************
+
+1. Select different set of wells, replacing existing set, prepare WEL package input.
+    
+    a. Browse to select a shapefile containing well data.
+    
+    b. Select a subset of wells in the shapefile, with user-defined selection criteria.
+    
+    c. Associate selected shapefile attributes with required well properties.
+    
+        i. Model layer, or data to define model layer.
+        
+        ii. Name of time-series file.
+        
+    d. Time series files contain
+
+        i. Pumping rate
+        
+        ii. Pumping start and end times
+        
+        iii. If well has multiple pumping times, define multiple start and end times.
+        
+    e. Choose: Replace ALL Current Wells.
+        
+    f. Prepare WEL package input.
+
+2. Use existing set of wells with revised pumping rates, prepare WEL package input.
+
+3. Add new set of wells to existing set, prepare WEL package input.
+
+4. Define new river stages for existing set of river cells, prepare RIV package input.
+
+5. Define new set of river cells, replacing existing set, prepare RIV package input.
+
+6. Define new set of river cells, add to existing set, prepare RIV package input.
+
+7. Define new GHB heads for existing set of GHB cells, prepare GHB package input.
+
+8. Define new set of GHB cells, replacing existing set, prepare GHB package input.
+
+9. Define new set of GHB cells, add to existing set, prepare GHB package input.
+
+*****************
+Scenario Analyzer
+*****************
+

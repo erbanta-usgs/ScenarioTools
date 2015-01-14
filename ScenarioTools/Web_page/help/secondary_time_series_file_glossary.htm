@@ -1,0 +1,53 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Secondary time-series file</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="secondary time-series file" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?secondary_time_series_file_glossary.htm"; }
+  else { parent.quicksync('a4.32'); }
+}
+//-->
+</script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#D0D0D0">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Secondary time-series file</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="scenario_tools.htm">Top</a>&nbsp;
+     <a href="scenario_element_glossary.htm">Previous</a>&nbsp;
+     <a href="shapefile_glossary.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>Feature sets defined for the <a href="river_package.htm">River</a> and <a href="ghb_package_general_head_bound.htm">GHB packages</a> also support the use of a secondary<a href="time_series_file_glossary.htm"> time-series file</a> to control activation and deactivation of features during the course of a simulation. </p>
+<p>&nbsp;</p>
+<p>If the secondary time series contains a record with an identifier matching the linking attribute for a feature and a value greater than zero during a given <a href="stress_period_glossary.htm">stress period</a>, the feature is activated for that stress period; otherwise, the feature is deactivated for that stress period. If no secondary time-series file is specified, all features in the feature set are active in all stress periods.</p>
+<p>&nbsp;</p>
+<p>An important difference between a secondary time-series file and a time-series file used to define stress values is that a secondary time-series file needs to include at least one record with a positive value in each stress period in which the feature is to be active. </p>
+
+</td></tr></table>
+
+</body>
+</html>

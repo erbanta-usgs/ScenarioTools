@@ -1,0 +1,17 @@
+# Example model useful only for demonstrating Scenario Manager and Scenario Analyzer
+LIST  7 example_500m.lst
+BAS6  1 example_500m.bas
+LPF  11 example_500m.lpf
+CHD  12 example_500m.chd
+WEL  13 example_500m.wel
+RIV  14 example_500m.riv
+RCH	 18 example_500m.rch
+PCG  19 example_500m.pcg
+OC   22 example_500m.oc
+DIS  29 example_500m.dis
+EVT	 70 example_500m.evt
+DATA         71 HK.ref            OLD
+DATA(BINARY) 60 RECH2.bin         OLD
+DATA(BINARY) 50 example_500m.cbb  REPLACE
+DATA(BINARY) 30 example_500m.hds  REPLACE
+DATA(BINARY) 31 example_500m.ddn  REPLACE

@@ -1,0 +1,6 @@
+This scenario is based on the 500m_example model.
+
+Proposed pumping for existing wells.
+
+Wells with pumping specified in pumpwell2.smp.
+

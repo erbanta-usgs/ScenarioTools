@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{445488BF-D2A8-49A7-AAF3-CE74DC0298C8}</ProjectGuid>
+    <RootNamespace>libhpdf</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;LIBHPDF_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\..\win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;LIBHPDF_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\zlib\adler32.c" />
+    <ClCompile Include="..\..\..\zlib\compress.c" />
+    <ClCompile Include="..\..\..\zlib\crc32.c" />
+    <ClCompile Include="..\..\..\zlib\deflate.c" />
+    <ClCompile Include="..\..\..\libpng\example.c" />
+    <ClCompile Include="..\..\..\zlib\gzclose.c" />
+    <ClCompile Include="..\..\..\zlib\gzlib.c" />
+    <ClCompile Include="..\..\..\zlib\gzread.c" />
+    <ClCompile Include="..\..\..\zlib\gzwrite.c" />
+    <ClCompile Include="..\..\src\hpdf_annotation.c" />
+    <ClCompile Include="..\..\src\hpdf_array.c" />
+    <ClCompile Include="..\..\src\hpdf_binary.c" />
+    <ClCompile Include="..\..\src\hpdf_boolean.c" />
+    <ClCompile Include="..\..\src\hpdf_catalog.c" />
+    <ClCompile Include="..\..\src\hpdf_destination.c" />
+    <ClCompile Include="..\..\src\hpdf_dict.c" />
+    <ClCompile Include="..\..\src\hpdf_doc.c" />
+    <ClCompile Include="..\..\src\hpdf_doc_png.c" />
+    <ClCompile Include="..\..\src\hpdf_encoder.c" />
+    <ClCompile Include="..\..\src\hpdf_encoder_cns.c" />
+    <ClCompile Include="..\..\src\hpdf_encoder_cnt.c" />
+    <ClCompile Include="..\..\src\hpdf_encoder_jp.c" />
+    <ClCompile Include="..\..\src\hpdf_encoder_kr.c" />
+    <ClCompile Include="..\..\src\hpdf_encrypt.c" />
+    <ClCompile Include="..\..\src\hpdf_encryptdict.c" />
+    <ClCompile Include="..\..\src\hpdf_error.c" />
+    <ClCompile Include="..\..\src\hpdf_ext_gstate.c" />
+    <ClCompile Include="..\..\src\hpdf_font.c" />
+    <ClCompile Include="..\..\src\hpdf_font_cid.c" />
+    <ClCompile Include="..\..\src\hpdf_font_tt.c" />
+    <ClCompile Include="..\..\src\hpdf_font_type1.c" />
+    <ClCompile Include="..\..\src\hpdf_fontdef.c" />
+    <ClCompile Include="..\..\src\hpdf_fontdef_base14.c" />
+    <ClCompile Include="..\..\src\hpdf_fontdef_cid.c" />
+    <ClCompile Include="..\..\src\hpdf_fontdef_cns.c" />
+    <ClCompile Include="..\..\src\hpdf_fontdef_cnt.c" />
+    <ClCompile Include="..\..\src\hpdf_fontdef_jp.c" />
+    <ClCompile Include="..\..\src\hpdf_fontdef_kr.c" />
+    <ClCompile Include="..\..\src\hpdf_fontdef_tt.c" />
+    <ClCompile Include="..\..\src\hpdf_fontdef_type1.c" />
+    <ClCompile Include="..\..\src\hpdf_gstate.c" />
+    <ClCompile Include="..\..\src\hpdf_image.c" />
+    <ClCompile Include="..\..\src\hpdf_image_png.c" />
+    <ClCompile Include="..\..\src\hpdf_info.c" />
+    <ClCompile Include="..\..\src\hpdf_list.c" />
+    <ClCompile Include="..\..\src\hpdf_mmgr.c" />
+    <ClCompile Include="..\..\src\hpdf_name.c" />
+    <ClCompile Include="..\..\src\hpdf_null.c" />
+    <ClCompile Include="..\..\src\hpdf_number.c" />
+    <ClCompile Include="..\..\src\hpdf_objects.c" />
+    <ClCompile Include="..\..\src\hpdf_outline.c" />
+    <ClCompile Include="..\..\src\hpdf_page_label.c" />
+    <ClCompile Include="..\..\src\hpdf_page_operator.c" />
+    <ClCompile Include="..\..\src\hpdf_pages.c" />
+    <ClCompile Include="..\..\src\hpdf_real.c" />
+    <ClCompile Include="..\..\src\hpdf_streams.c" />
+    <ClCompile Include="..\..\src\hpdf_string.c" />
+    <ClCompile Include="..\..\src\hpdf_utils.c" />
+    <ClCompile Include="..\..\src\hpdf_xref.c" />
+    <ClCompile Include="..\..\..\zlib\infback.c" />
+    <ClCompile Include="..\..\..\zlib\inffast.c" />
+    <ClCompile Include="..\..\..\zlib\inflate.c" />
+    <ClCompile Include="..\..\..\zlib\inftrees.c" />
+    <ClCompile Include="..\..\..\libpng\png.c" />
+    <ClCompile Include="..\..\..\libpng\pngerror.c" />
+    <ClCompile Include="..\..\..\libpng\pngget.c" />
+    <ClCompile Include="..\..\..\libpng\pngmem.c" />
+    <ClCompile Include="..\..\..\libpng\pngpread.c" />
+    <ClCompile Include="..\..\..\libpng\pngread.c" />
+    <ClCompile Include="..\..\..\libpng\pngrio.c" />
+    <ClCompile Include="..\..\..\libpng\pngrtran.c" />
+    <ClCompile Include="..\..\..\libpng\pngrutil.c" />
+    <ClCompile Include="..\..\..\libpng\pngset.c" />
+    <ClCompile Include="..\..\..\libpng\pngtest.c" />
+    <ClCompile Include="..\..\..\libpng\pngtrans.c" />
+    <ClCompile Include="..\..\..\libpng\pngwio.c" />
+    <ClCompile Include="..\..\..\libpng\pngwrite.c" />
+    <ClCompile Include="..\..\..\libpng\pngwtran.c" />
+    <ClCompile Include="..\..\..\libpng\pngwutil.c" />
+    <ClCompile Include="..\..\..\zlib\trees.c" />
+    <ClCompile Include="..\..\..\zlib\uncompr.c" />
+    <ClCompile Include="..\..\..\zlib\zutil.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\zlib\crc32.h" />
+    <ClInclude Include="..\..\..\zlib\deflate.h" />
+    <ClInclude Include="..\..\..\zlib\gzguts.h" />
+    <ClInclude Include="..\..\include\hpdf.h" />
+    <ClInclude Include="..\..\include\hpdf_annotation.h" />
+    <ClInclude Include="..\..\include\hpdf_catalog.h" />
+    <ClInclude Include="..\..\include\hpdf_conf.h" />
+    <ClInclude Include="..\..\include\hpdf_consts.h" />
+    <ClInclude Include="..\..\include\hpdf_destination.h" />
+    <ClInclude Include="..\..\include\hpdf_doc.h" />
+    <ClInclude Include="..\..\include\hpdf_encoder.h" />
+    <ClInclude Include="..\..\include\hpdf_encrypt.h" />
+    <ClInclude Include="..\..\include\hpdf_encryptdict.h" />
+    <ClInclude Include="..\..\include\hpdf_error.h" />
+    <ClInclude Include="..\..\include\hpdf_ext_gstate.h" />
+    <ClInclude Include="..\..\include\hpdf_font.h" />
+    <ClInclude Include="..\..\include\hpdf_fontdef.h" />
+    <ClInclude Include="..\..\include\hpdf_gstate.h" />
+    <ClInclude Include="..\..\include\hpdf_image.h" />
+    <ClInclude Include="..\..\include\hpdf_info.h" />
+    <ClInclude Include="..\..\include\hpdf_list.h" />
+    <ClInclude Include="..\..\include\hpdf_mmgr.h" />
+    <ClInclude Include="..\..\include\hpdf_objects.h" />
+    <ClInclude Include="..\..\include\hpdf_outline.h" />
+    <ClInclude Include="..\..\include\hpdf_page_label.h" />
+    <ClInclude Include="..\..\include\hpdf_pages.h" />
+    <ClInclude Include="..\..\include\hpdf_streams.h" />
+    <ClInclude Include="..\..\include\hpdf_types.h" />
+    <ClInclude Include="..\..\include\hpdf_utils.h" />
+    <ClInclude Include="..\..\..\zlib\inffast.h" />
+    <ClInclude Include="..\..\..\zlib\inffixed.h" />
+    <ClInclude Include="..\..\..\zlib\inflate.h" />
+    <ClInclude Include="..\..\..\zlib\inftrees.h" />
+    <ClInclude Include="..\..\..\libpng\png.h" />
+    <ClInclude Include="..\..\win32\include\png.h" />
+    <ClInclude Include="..\..\..\libpng\pngconf.h" />
+    <ClInclude Include="..\..\win32\include\pngconf.h" />
+    <ClInclude Include="..\..\..\libpng\pngdebug.h" />
+    <ClInclude Include="..\..\..\libpng\pnginfo.h" />
+    <ClInclude Include="..\..\..\libpng\pnglibconf.h" />
+    <ClInclude Include="..\..\..\libpng\pngpriv.h" />
+    <ClInclude Include="..\..\..\libpng\pngstruct.h" />
+    <ClInclude Include="..\..\..\zlib\trees.h" />
+    <ClInclude Include="..\..\win32\include\zconf.h" />
+    <ClInclude Include="..\..\..\zlib\zconf.h" />
+    <ClInclude Include="..\..\..\zlib\zlib.h" />
+    <ClInclude Include="..\..\win32\include\zlib.h" />
+    <ClInclude Include="..\..\..\zlib\zutil.h" />
+    <ClInclude Include="..\..\win32\include\zutil.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,25 @@
+LIST   7 NonPumpingResults\SWRSample08.lst
+BAS6   1 SWRSample08.bas
+DIS   29 SWRSample08.dis
+LPF   11 SWRSample08.lpf
+ZONE  40 SWRSample08.zone
+#WEL  12 SWRSample08_SS_deep.wel
+#RIV  14 SWRSample08.riv
+OC    22 SWRSample08.oc
+PCG   19 SWRSample08.pcg
+#UZF  58 SWRSample08.uzf
+RCH   59 SWRSample08.rch 
+EVT   60 SWRSample08.evt
+SWR   61 SWRSample08.swr
+DATA(BINARY)  75 NonPumpingResults\SWRSample08.cbz  REPLACE
+DATA(BINARY) 111 NonPumpingResults\SWRSample08.cz2  REPLACE
+DATA(BINARY)  50 NonPumpingResults\SWRSample08.cbb  REPLACE
+DATA(BINARY)  54 NonPumpingResults\SWRSample08.cbw  Replace
+DATA         121 NonPumpingResults\UZFbudgetTR.txt  REPLACE
+DATA(BINARY)  30 NonPumpingResults\SWRSample08.hds  REPLACE
+DATA(BINARY)  31 NonPumpingResults\SWRSample08.ddn  REPLACE
+DATA	     102 NonPumpingResults\SWRSample08stage.csv  REPLACE
+DATA         103 NonPumpingResults\SWRSample08flows.csv  REPLACE
+DATA          91 init\Layer_1.ref  OLD
+DATA          92 init\Layer_2.ref  OLD
+DATA          93 init\Layer_3.ref  OLD

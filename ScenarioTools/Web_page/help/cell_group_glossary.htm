@@ -1,0 +1,63 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Cell group</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="cell group" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?cell_group_glossary.htm"; }
+  else { parent.quicksync('a4.3'); }
+}
+//-->
+</script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#D0D0D0">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Cell group</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="scenario_tools.htm">Top</a>&nbsp;
+     <a href="base_model_glossary.htm">Previous</a>&nbsp;
+     <a href="chart_glossary.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>A cell group is a user-defined subset of cells in a 2-dimensional, areal representation of the model, which may be used in Scenario Analyzer to aggregate data of interest for use in charts and tables. Input defines cells included in a cell group by row and column indices. A given cell group may be applied to one or more model layers. A given cell may be included in more than one cell group. There is no requirement that all cells in a layer belong to a cell group.</p>
+<p>&nbsp;</p>
+<p>Data to define cell groups are read from one or more cell-group files. A cell-group file is a text file containing comma-separated entries, in a form commonly known as a Comma-Separated Value (CSV) file. By convention, the extension “csv” identifies a CSV file.</p>
+<p>&nbsp;</p>
+<p>A cell-group file designed for Scenario Analyzer will contain records of two types: (1) header record, and (2) cell record. A cell group is defined by one header record followed by one or more cell records. A header record has the form:</p>
+<p>&nbsp;</p>
+<p>group-name</p>
+<p>&nbsp;</p>
+<p>where group-name is a text string that will be used to identify the cell group. A cell record has the form:</p>
+<p>&nbsp;</p>
+<p>row, column</p>
+<p>&nbsp;</p>
+<p>where row is the row index and column is the column index (both one-based) of a model cell. A cell-group file may contain one or more cell groups.</p>
+<p>&nbsp;</p>
+<p>Scenario Analyzer keeps a single list of cell-group files and associated cell groups. As a result if a cell-group file is imported for one data series, that cell-group file and the cell groups defined in the file are available for use with any other data series.</p>
+
+</td></tr></table>
+
+</body>
+</html>

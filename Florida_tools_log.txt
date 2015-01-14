@@ -1,0 +1,10 @@
+Feb. 23, 2011 [erb]
+
+Added Scenario Manager files to SVN repository.
+
+Oct. 12, 2011
+
+Finished reorganization of a ScenarioTools C# solution.  It now has a ScenarioTools project, which contains most of the code that used to be part of ScenarioAnalyzer.  The current ScenarioAnalyzer project uses ScenarioTools extensively.  In the current organization, ScenarioManager will be able to share essentially all of the code developed for ScenarioAnalyzer.
+
+I also renamed all interfaces so they start with I.
+

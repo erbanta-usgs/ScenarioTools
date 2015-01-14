@@ -1,0 +1,1 @@
+To run either of the Scenario Tools applications (Scenario Manager and Scenario Analyzer) it is necessary that the .NET Framework 4.0 (client profile) is installed on the user's computer.  If the installer detects that this version of the .NET Framework has not been installed, it will be installed.

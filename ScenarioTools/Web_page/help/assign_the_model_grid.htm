@@ -1,0 +1,58 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Assign the model grid</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="model grid" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?assign_the_model_grid.htm"; }
+  else { parent.quicksync('a2.2.1'); }
+}
+//-->
+</script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#D0D0D0">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Assign the model grid</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="scenario_tools.htm">Top</a>&nbsp;
+     <a href="getting_started.htm">Previous</a>&nbsp;
+     <a href="assign_model_start_date_and_ti.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>To assign a <a href="model_grid_glossary.htm">model grid</a> for Scenario Manager project, open the <span style="font-weight: bold;">Project</span> menu and select <span style="font-weight: bold;">Model Grid</span>. In the <span style="font-weight: bold;">Model Grid</span> window, browse to select a shapefile that contains the model grid for the MODFLOW model of interest.</p>
+<p>&nbsp;</p>
+<p>Scenario Manager requires a polygon shapefile representing the finite-difference model grid to generate model-input files from points, polylines, or polygons representing groundwater-system features or areas of hydrologic significance stored in other shapefiles. </p>
+<p>&nbsp;</p>
+<p>The discretization process of converting points, polylines, and polygons to cell-based model features requires that the attribute table of the model-grid shapefile include attributes identifying the row and column of each cell. The attribute containing the row number needs to be named “row” or “rownum,” and the name of the attribute containing the column number needs to be one of: “col,” “colnum,” “column,” or “columnnum.” &nbsp;Scenario Analyzer also uses a model-grid shapefile for making maps. </p>
+<p>&nbsp;</p>
+<p>The model-grid shapefile needs to contain a polygon for each cell in a model layer, including inactive cells.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</td></tr></table>
+
+</body>
+</html>

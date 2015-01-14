@@ -1,0 +1,15 @@
+Scenario Tools folder/file scheme
+---------------------------------
+
+A SM project has ONE master name file active at any time.  User can select the master name file on the Project Settings dialog.  The folder where the master name file resides is determined dynamically and is the MasterDirectory.
+
+Each scenario has a unique ScenarioID, which is shown on the level-0 tree view node for the scenario.  Currently, the ScenarioID may not contain blanks because it is used to generate file names read by MODFLOW.
+
+Each scenario creates its own subfolder under the MasterDirectory.  The subfolder name is the  ScenarioID.
+
+Each scenario generates its own name file in the scenario folder.  The name file is named as ScenarioID + ".nam".
+
+When a scenario is generated, all packages are exported and the scenario name file is written, based on the master name file but with relative paths for input files.  Output files and scenario-controlled input file are put in the scenario folder.
+
+A dialog could be used to prompt user to identify all files in the name file (e.g. DATA and DATA(BINARY) files) that are ambiguous with respect to input/output status.  If REPLACE is found, recognize file as being output.  If OLD is found, recognize file as being input.
+

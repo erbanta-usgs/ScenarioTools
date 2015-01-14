@@ -1,0 +1,136 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USGS.Puma.NTS", "USGS.Puma.NTS\USGS.Puma.NTS.csproj", "{5770DAA9-84E5-4770-AF43-F6B815894368}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USGS.Puma", "USGS.Puma\USGS.Puma.csproj", "{118DE6CE-2FA3-4D6A-BAF2-3C74754255A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USGS.Puma.UI", "USGS.Puma.UI\USGS.Puma.UI.csproj", "{4E7709CF-6528-4EC6-A63D-2CFFDCD6CCE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USGS.Puma.Modflow", "USGS.Puma.Modflow\USGS.Puma.Modflow.csproj", "{E2BC5AC6-921C-47BE-9F3F-7E5D5E72CA48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USGS.Puma.Modpath", "USGS.Puma.Modpath\USGS.Puma.Modpath.csproj", "{6424050B-5045-4960-9106-D7E875D3D9A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoAPI", "GeoAPI\GeoAPI.csproj", "{FFB69466-79DE-466A-ADA7-5C47C5C5CA3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModpathOutputExaminer", "ModflowTrainingTools\ModpathOutputExaminer\ModpathOutputExaminer.csproj", "{602A0CF2-1753-4D04-81A1-F577AEF41564}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModflowTrainingTools", "ModflowTrainingTools", "{9860EEC0-C1BC-424E-8D17-B1C44ED69913}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PumaFramework", "PumaFramework", "{103A42FA-5BAE-4921-A95C-060D7D657FD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModflowOutputViewer", "ModflowTrainingTools\ModflowOutputViewer\ModflowOutputViewer.csproj", "{22908DC8-3ADA-4CBD-946D-D54B340EF7B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{863AB2BE-6F24-4C72-8654-ABFBBB42E653}"
+	ProjectSection(SolutionItems) = preProject
+		ModflowTrainingTools\Resources\AnalysisLayer.bmp = ModflowTrainingTools\Resources\AnalysisLayer.bmp
+		ModflowTrainingTools\Resources\AnimationLoop.bmp = ModflowTrainingTools\Resources\AnimationLoop.bmp
+		ModflowTrainingTools\Resources\AnimationLoop2.bmp = ModflowTrainingTools\Resources\AnimationLoop2.bmp
+		ModflowTrainingTools\Resources\Basemap_1.bmp = ModflowTrainingTools\Resources\Basemap_1.bmp
+		ModflowTrainingTools\Resources\BinaryLayerFile.bmp = ModflowTrainingTools\Resources\BinaryLayerFile.bmp
+		ModflowTrainingTools\Resources\ContourLayer.bmp = ModflowTrainingTools\Resources\ContourLayer.bmp
+		EditMetadata.bmp = EditMetadata.bmp
+		ModflowTrainingTools\Resources\EditSymbology.bmp = ModflowTrainingTools\Resources\EditSymbology.bmp
+		ModflowTrainingTools\Resources\FilterData.bmp = ModflowTrainingTools\Resources\FilterData.bmp
+		ModflowTrainingTools\Resources\find.bmp = ModflowTrainingTools\Resources\find.bmp
+		ModflowTrainingTools\Resources\folder_closed.bmp = ModflowTrainingTools\Resources\folder_closed.bmp
+		ModflowTrainingTools\Resources\folder_open.bmp = ModflowTrainingTools\Resources\folder_open.bmp
+		ModflowTrainingTools\Resources\globe.bmp = ModflowTrainingTools\Resources\globe.bmp
+		ModflowTrainingTools\Resources\GriddedValuesLayer.bmp = ModflowTrainingTools\Resources\GriddedValuesLayer.bmp
+		ModflowTrainingTools\Resources\hand_1.bmp = ModflowTrainingTools\Resources\hand_1.bmp
+		ModflowTrainingTools\Resources\hand_2.bmp = ModflowTrainingTools\Resources\hand_2.bmp
+		ModflowTrainingTools\Resources\LayerArray.bmp = ModflowTrainingTools\Resources\LayerArray.bmp
+		ModflowTrainingTools\Resources\map_rolled_up.bmp = ModflowTrainingTools\Resources\map_rolled_up.bmp
+		ModflowTrainingTools\Resources\MoveFirst.bmp = ModflowTrainingTools\Resources\MoveFirst.bmp
+		ModflowTrainingTools\Resources\MoveForwardAnimate.bmp = ModflowTrainingTools\Resources\MoveForwardAnimate.bmp
+		ModflowTrainingTools\Resources\MoveLast.bmp = ModflowTrainingTools\Resources\MoveLast.bmp
+		ModflowTrainingTools\Resources\MoveNext.bmp = ModflowTrainingTools\Resources\MoveNext.bmp
+		ModflowTrainingTools\Resources\MovePrevious.bmp = ModflowTrainingTools\Resources\MovePrevious.bmp
+		ModflowTrainingTools\Resources\ParticleTrackingMap.bmp = ModflowTrainingTools\Resources\ParticleTrackingMap.bmp
+		ModflowTrainingTools\Resources\QueryFilterEndpointBmp.bmp = ModflowTrainingTools\Resources\QueryFilterEndpointBmp.bmp
+		ModflowTrainingTools\Resources\QueryFilterPathlineBmp.bmp = ModflowTrainingTools\Resources\QueryFilterPathlineBmp.bmp
+		ModflowTrainingTools\Resources\QueryFilterTimeseriesBmp.bmp = ModflowTrainingTools\Resources\QueryFilterTimeseriesBmp.bmp
+		ModflowTrainingTools\Resources\ReCenter.bmp = ModflowTrainingTools\Resources\ReCenter.bmp
+		ModflowTrainingTools\Resources\SelectArrow.bmp = ModflowTrainingTools\Resources\SelectArrow.bmp
+		ModflowTrainingTools\Resources\StopAnimation.bmp = ModflowTrainingTools\Resources\StopAnimation.bmp
+		ModflowTrainingTools\Resources\ToggleContentsPanelBmp.bmp = ModflowTrainingTools\Resources\ToggleContentsPanelBmp.bmp
+		ModflowTrainingTools\Resources\ToggleGrid.bmp = ModflowTrainingTools\Resources\ToggleGrid.bmp
+		ModflowTrainingTools\Resources\ToggleMapPanelBmp.bmp = ModflowTrainingTools\Resources\ToggleMapPanelBmp.bmp
+		ModflowTrainingTools\Resources\ToggleUtilityPanelBmp.bmp = ModflowTrainingTools\Resources\ToggleUtilityPanelBmp.bmp
+		ModflowTrainingTools\Resources\USGS_visual_identity.bmp = ModflowTrainingTools\Resources\USGS_visual_identity.bmp
+		ModflowTrainingTools\Resources\ViewBasemap.bmp = ModflowTrainingTools\Resources\ViewBasemap.bmp
+		ModflowTrainingTools\Resources\ZoomIn.bmp = ModflowTrainingTools\Resources\ZoomIn.bmp
+		ModflowTrainingTools\Resources\ZoomOut.bmp = ModflowTrainingTools\Resources\ZoomOut.bmp
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USGS.ModflowTrainingTools", "ModflowTrainingTools\USGS.ModflowTrainingTools\USGS.ModflowTrainingTools.csproj", "{1B9E464F-3028-4477-9DBB-F119A93C16F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{46DFABB0-0E0A-4AD5-908C-69329C6F2655}"
+	ProjectSection(SolutionItems) = preProject
+		PumaFramework.shfbproj = PumaFramework.shfbproj
+		USGS.Puma.Modflow\USGS.Puma.Modflow.shfbproj = USGS.Puma.Modflow\USGS.Puma.Modflow.shfbproj
+		USGS.Puma.NTS\USGS.Puma.NTS.shfbproj = USGS.Puma.NTS\USGS.Puma.NTS.shfbproj
+		USGS.Puma\USGS.Puma.shfbproj = USGS.Puma\USGS.Puma.shfbproj
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5770DAA9-84E5-4770-AF43-F6B815894368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5770DAA9-84E5-4770-AF43-F6B815894368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5770DAA9-84E5-4770-AF43-F6B815894368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5770DAA9-84E5-4770-AF43-F6B815894368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118DE6CE-2FA3-4D6A-BAF2-3C74754255A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118DE6CE-2FA3-4D6A-BAF2-3C74754255A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118DE6CE-2FA3-4D6A-BAF2-3C74754255A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118DE6CE-2FA3-4D6A-BAF2-3C74754255A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E7709CF-6528-4EC6-A63D-2CFFDCD6CCE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E7709CF-6528-4EC6-A63D-2CFFDCD6CCE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E7709CF-6528-4EC6-A63D-2CFFDCD6CCE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E7709CF-6528-4EC6-A63D-2CFFDCD6CCE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2BC5AC6-921C-47BE-9F3F-7E5D5E72CA48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2BC5AC6-921C-47BE-9F3F-7E5D5E72CA48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2BC5AC6-921C-47BE-9F3F-7E5D5E72CA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2BC5AC6-921C-47BE-9F3F-7E5D5E72CA48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6424050B-5045-4960-9106-D7E875D3D9A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6424050B-5045-4960-9106-D7E875D3D9A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6424050B-5045-4960-9106-D7E875D3D9A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6424050B-5045-4960-9106-D7E875D3D9A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFB69466-79DE-466A-ADA7-5C47C5C5CA3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB69466-79DE-466A-ADA7-5C47C5C5CA3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB69466-79DE-466A-ADA7-5C47C5C5CA3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB69466-79DE-466A-ADA7-5C47C5C5CA3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{602A0CF2-1753-4D04-81A1-F577AEF41564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{602A0CF2-1753-4D04-81A1-F577AEF41564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{602A0CF2-1753-4D04-81A1-F577AEF41564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{602A0CF2-1753-4D04-81A1-F577AEF41564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22908DC8-3ADA-4CBD-946D-D54B340EF7B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22908DC8-3ADA-4CBD-946D-D54B340EF7B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22908DC8-3ADA-4CBD-946D-D54B340EF7B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22908DC8-3ADA-4CBD-946D-D54B340EF7B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B9E464F-3028-4477-9DBB-F119A93C16F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B9E464F-3028-4477-9DBB-F119A93C16F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B9E464F-3028-4477-9DBB-F119A93C16F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B9E464F-3028-4477-9DBB-F119A93C16F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{118DE6CE-2FA3-4D6A-BAF2-3C74754255A0} = {103A42FA-5BAE-4921-A95C-060D7D657FD4}
+		{4E7709CF-6528-4EC6-A63D-2CFFDCD6CCE7} = {103A42FA-5BAE-4921-A95C-060D7D657FD4}
+		{E2BC5AC6-921C-47BE-9F3F-7E5D5E72CA48} = {103A42FA-5BAE-4921-A95C-060D7D657FD4}
+		{6424050B-5045-4960-9106-D7E875D3D9A6} = {103A42FA-5BAE-4921-A95C-060D7D657FD4}
+		{FFB69466-79DE-466A-ADA7-5C47C5C5CA3A} = {103A42FA-5BAE-4921-A95C-060D7D657FD4}
+		{5770DAA9-84E5-4770-AF43-F6B815894368} = {103A42FA-5BAE-4921-A95C-060D7D657FD4}
+		{602A0CF2-1753-4D04-81A1-F577AEF41564} = {9860EEC0-C1BC-424E-8D17-B1C44ED69913}
+		{22908DC8-3ADA-4CBD-946D-D54B340EF7B5} = {9860EEC0-C1BC-424E-8D17-B1C44ED69913}
+		{863AB2BE-6F24-4C72-8654-ABFBBB42E653} = {9860EEC0-C1BC-424E-8D17-B1C44ED69913}
+		{1B9E464F-3028-4477-9DBB-F119A93C16F6} = {9860EEC0-C1BC-424E-8D17-B1C44ED69913}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

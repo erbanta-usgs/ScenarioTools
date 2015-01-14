@@ -1,0 +1,153 @@
+Title (choose one):  
+
+  Two Graphical User Interfaces for Managing and Analyzing MODFLOW Groundwater-Model Scenarios
+
+  Scenario Tools--Graphical User Interfaces for Managing and Analyzing MODFLOW Groundwater-Model Scenarios
+
+  Scenario Manager and Scenario Analyzer--Graphical User Interfaces for Managing and Analyzing MODFLOW Groundwater-Model Scenarios
+
+  Graphical Tools for Managing and Analyzing MODFLOW Groundwater-Model Scenarios
+
+Preface
+
+Contents
+
+Figures
+
+Tables
+
+Abstract
+
+Introduction
+
+  Purpose and Scope
+  
+  Installation
+    
+  Conventions [used in this report]
+  
+  Input Data
+  
+    Shapefiles
+      [Polygon]
+      [Polyline]
+    
+    Time-Series Data
+      [piecewise and stepwise interpretation, provide figure]
+    
+    Groups
+      [maybe rename these as "zones"]
+      [used only by Scenario Analyzer]
+      [could implement two ways to generate one: 
+        (1) from a Modflow zone array;
+        (2) from a polygon shapefile and the model-grid shapefile.]
+    
+    Georeferenced Image
+ 
+    Initialization File
+      [Scenario Manager saves default modflow executable]
+  
+  Common Files
+    [Model Grid]
+    [Background Image]
+  
+Scenario Manager
+  [guidance from model provider]
+
+  Scenario Manager Overview
+  
+    Scenarios, Packages, and Feature Sets
+    
+    Supported Packages
+      [identify and document each supported package]
+      [note that support could be added for other packages]
+      [for each: what is shapefile used for, what does smp file control?]
+      [what constitutes a feature, how is a feature simulated?]
+      [logic that defines simulation features derived from shapefile]
+      
+      Well Package
+      
+      River Package
+      
+        [river-segment and river-cell properties]
+      
+      GHB Package
+      
+        [leakance]
+      
+      CHD Package
+      
+      Recharge Package
+  
+  Running Scenario Manager
+  
+    Settings
+      [MODFLOW executable]
+      [Master MODFLOW name file]
+      [Simultaneous scenario runs]
+      [Background image file]
+      [Model grid shapefile]
+      [Simulation start time]
+  
+    Building Scenarios
+  
+    Running Scenario Simulations
+
+Scenario Analyzer  
+  
+  Scenario Analyzer Overview
+  
+    Maps, Charts, and Tables
+      [each is a type of element]
+    
+    Data Series Types    
+      [list and detail all types; source of data for each type]
+      [table showing data-series types that can be used for each element type]
+      
+    No-data values
+      [defaults for HNOFLO, HDRY, CINACT]
+  
+  Running Scenario Analyzer
+  
+    Making a Map
+    
+    Making a Chart
+    
+    Making a Table
+    
+    Exporting Data
+      [csv containing time series from chart or table(?)]
+    
+    Exporting Report
+
+Acknowledgments
+
+  Developer(s)
+  
+    Dave Pollock
+  
+  Libraries [omit if license says just include license with source code]
+   
+    FW-Tools
+    
+    GDAL
+    
+    GeoAPI
+   
+    HPdf
+    
+    NetTopologySuite
+
+    SharpMap
+    
+    SharpZip
+    
+    Software Productions [Undo]
+
+References Cited
+
+Appendix 1: Scenario Manager example
+  [demonstrate use of all supported packages.]
+
+Appendex 2: Scenario Analyzer example (needed?)
+

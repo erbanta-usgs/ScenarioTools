@@ -1,0 +1,13 @@
+release.txt
+
+                       Scenario Tools Release Notes
+
+Scenario Tools is a suite of two applications, Scenario Manager and 
+Scenario Analyzer. This file describes changes introduced in these
+applications with each official release.
+
+NOTE: Any use of trade, product or firm names is for descriptive purposes 
+      only and does not imply endorsement by the U.S. Government.
+
+o Version 1.0.0 4/15/2014
+    Initial release of Scenario Manager and Scenario Analyzer.

@@ -1,0 +1,64 @@
+Report title:
+
+Two Graphical User Interfaces for Managing and Analyzing MODFLOW Groundwater-Model Scenarios
+
+=============================================================
+
+Figure captions
+
+Figure 1. Scenario Manager main window, with areas labeled.
+
+Figure 2. Scenario Manager project settings dialog.
+
+Figure 3. Scenario Manager main window, showing element summary panel for a package.
+
+Figure 4. General tab of the feature-set dialog.
+
+Figure 5. Display tab of the feature-set dialog.
+
+Figure 6. Wells tab of the feature-set dialog.
+
+Figure 7. Rivers tab of the feature-set dialog.
+
+Figure 8. CHD tab of the feature-set dialog.
+
+Figure 9. Recharge tab of the feature-set dialog.
+
+Figure 10. GHB tab of the feature-set dialog.
+
+Figure 11. Scenario Analyzer main window, with areas labeled.
+
+Figure 12. Scenario Analyzer project settings dialog.
+
+Figure 13. Map Designer dialog, with map preview panel labeled.
+
+Figure 14. Data-series dialog for a contour map layer based on data from a cell-by-cell budget file.
+
+Figure 15. Data-series dialog for a contour map layer based on data from a head, drawdown, or concentration file.
+
+Figure 16. Data-series dialog for a color-fill map layer based on a calculated data set.
+
+Figure 17. Defining a new extent in Map Designer.
+
+Figure 18. Extent tab of Map Designer.
+
+Figure 19. Layers tab of Map Designer
+
+Figure 20. Report Chart dialog.
+
+Figure 21. Data-series dialog for a chart.
+
+Figure 2-1. Data-series dialog for a chart based on a calculated data set.
+
+=============================================================
+
+Table titles
+
+Table 1. Pan and zoom icons and functions of the Display tab of the feature-set dialog of Scenario Manager.
+
+Table 2. Data categories and descriptions of corresponding data sets by display-element type in Scenario Analyzer.
+
+Table 3. Icons of the analysis design panel and their significance.
+
+Table 1-1. Data that may be contained in a cell-by-cell budget file, by MODFLOW package.
+

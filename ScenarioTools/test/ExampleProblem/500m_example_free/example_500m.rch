@@ -1,0 +1,22 @@
+PARAMETER  1                 # Item 1: NPRCH
+         3        50         # Item 2: NRCHOP IRCHCB
+RechRate  RCH  1.784E-3  1   # Item 3: PARNAM PARTYP PARVAL NCLU
+NONE  ALL                    # Item 4b: Mltarr Zonarr
+         1         0         # Item 5: INRECH INIRCH
+RechRate          -1         # Item 7: PNAME IRCHPF, Stress period 1
+         1         0         # Item 5: INRECH INIRCH
+RechRate          -1         # Item 7: PNAME IRCHPF, Stress period 2
+         1         0         # Item 5: INRECH INIRCH
+RechRate          -1         # Item 7: PNAME IRCHPF, Stress period 3
+         1         0         # Item 5: INRECH INIRCH
+RechRate          -1         # Item 7: PNAME IRCHPF, Stress period 4
+         1         0         # Item 5: INRECH INIRCH
+RechRate          -1         # Item 7: PNAME IRCHPF, Stress period 5
+         1         0         # Item 5: INRECH INIRCH
+RechRate          -1         # Item 7: PNAME IRCHPF, Stress period 6
+         1         0         # Item 5: INRECH INIRCH
+RechRate          -1         # Item 7: PNAME IRCHPF, Stress period 7
+         1         0         # Item 5: INRECH INIRCH
+RechRate          -1         # Item 7: PNAME IRCHPF, Stress period 8
+         1         0         # Item 5: INRECH INIRCH
+RechRate          -1         # Item 7: PNAME IRCHPF, Stress period 9

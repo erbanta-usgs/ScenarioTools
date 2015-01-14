@@ -1,0 +1,95 @@
+First, some terminology.  In Scenario Manager (SM), a Modflow package can be composed of any number of feature sets, and a feature set can contain any number of features.  Each feature set is associated with one shapefile, which defines all the features in the feature set, and one SMP file that defines a time series of data related to each feature.  When a package is exported, a Modflow input file for that package is created and will include entries for all features in all feature sets included in the package.  
+
+In the Well Package, a feature represents one well.  In the River Package, a feature will represent one river reach (one cell).  
+
+Here are some issues that need to be addressed:
+
+**********
+
+(1) Well (WEL) Package:
+
+SM can create a Modflow well file using, for example, a feature set based on the wells in one shapefile and an SMP file of pumping rates for each well.  Another shapefile containing the model grid is used to define the Modflow grid indices for each well.  Currently, SM does not provide a means by which a user could manipulate the contents of the resulting well file.  Instead, a user would need to edit the shapefile and/or the SMP file outside of SM to control the wells or the pumping rates written to the Modflow well file.
+
+It would be possible to add any or all of the following capabilities to SM:
+
+(1a) Allow user to select a subset of wells by querying the attribute table (e.g. supporting logic something like: "SELECT WELL WHERE DEPTH > 100").
+
+(1b) Allow user to specify a multiplier to be applied uniformly to all pumping rates for all wells in the feature set.
+
+(1c) Allow user to specify a pumping-rate multiplier for each stress period, which would apply to pumping rates for all wells in the feature set.
+
+If a user wants to use a subset of wells in a shapefile where the subset is to be selected interactively on a map, I think ArcMap would be the best tool for generating subsets.  For example the user could create two separate shapefiles containing different subsets of wells using ArcMap, and then define two well-package feature sets, using the two shapefiles.
+
+I am inclined to implement (1a) and (1c), but let me know if you agree.
+
+DP: I do think c would give them more flexibility than b, yet not  be potentially too harmful.
+
+NB: OK.  How about (1a)?
+
+**********
+
+(2) River (RIV) Package: 
+
+Support for the River Package has not yet been fully implemented.  Definition of a river reach is not as straightforward as definition of a well, because of the dimensionality (polyline vs. point) and number of variables to be defined for each feature ([stage, conductance, and riverbed bottom elevation] vs. [pump rate]).
+
+One approach would be:
+
+A river shapefile would contain a number of polyline shapes, where each shape represents a river segment (corresponding to one or more river reaches).  Each shape has a corresponding entry in the shapefile attribute table.  The attribute table would need to include a field containing the conductance per unit length for the river segment.  Another field would contain the riverbed bottom elevation.  A field would be needed to provide an identifier for the river segment, which would need to correspond to the identifier in an SMP file.  A conductance multiplier (or on/off flag) for each stress period could be provided to allow the user to turn river feature sets on or off by stress period.
+
+The SMP file associated with a river feature set would provide a time series defining river stage for each river segment over the simulation time.
+
+Please let me know if you consider this approach to be appropriate.
+
+DP: Allowing them to adjust the river stage is fine. If you are also suggesting that they could adjust the conductance or bottom elevation, I think that should be un-modifiable. Is the purpose of the on/off flag to add or remove canals? If so, I'm thinking we should not allow them that flexibility...
+
+NB: I guess I misunderstood this.  I thought that a capability to simulate the addition of new canals was one of the options that was desired.  If I have this wrong, then I need from one of you an explanation of what kind of manipulation of the RIV package is needed.  Are you talking about only supporting a capability to raise or lower stage in river cells already specified in the RIV input file?
+
+**********
+
+(3) Time-variant Specified Head (CHD) Option:
+
+Support for the CHD Option has not been implemented.  As far as the shapefile is concerned, I think the appropriate shape type would be polyline.  The entire shoreline could be represented by a single polyline.  The attribute table would need to include a field containing an identifier.  The SMP would contain a time series of sea-level elevation for that polyline.
+
+If you are in agreement with respect to this approach, it would be relatively straightforward to implement.
+
+DP: I think that sounds good. Is there a way to limit the elevation values? (to prevent them from simulating situations that are so far removed from the calibrated model, or unrealistic sea level values...)
+
+**********
+
+(4) Recharge (RCH) Package:
+
+I think polygons could be used to define the basis for areal distribution of recharge, and the SMP file could define recharge rate over time for each polygon.  SM could provide a recharge-rate multiplier for each stress period.
+
+Please let me know if you have suggestions related to implementation of the RCH Package.
+
+DP: I assume the polygons be numbered? Do we want them to be able to have spatially variable changes in recharge rate? or should we just use a single multiplier for the entire recharge distribution, but make that temporally variable?
+
+NB: The polygons would need to have an identifier that corresponds to the identifier field in entries in the SMP file.  I suppose these could be numbers, but they are treated as text strings, so in general they are not numbers.  I'll leave the question of spatial variability to the two of you.
+
+**********
+
+(5) Evapotranspiration (EVT) Package:
+
+Polygons could be used to define the basis for areal distribution of evapotranspiration properties.  However, both extinction depth and maximum ET flux rate could vary with time.  I would be inclined to support only NEVTOP = 1 (ET is simulated only in model layer 1).
+
+Please let me know how you think EVT should be handled in SM.  Should the SMP file be used to define Max ET rate or extinction depth?  Or should EVT support two SMP files to allow users to define time series for both variables?
+
+DP: I think if we allow the user any flexibility, I think we would want to limit the values they can use.
+
+NB: I would be inclined to allow only Max ET rate to be adjustable and leave extinction depth as specified in the original EVT file.
+
+**********
+
+(6) General-Head Boundary (GHB) Package:
+
+Does the GHB Package need to be supported?  If so, please let me know what types of features are to be simulated using the GHB Package, and how you see SM being involved in manipulating GHB Package input.
+
+**********
+
+(7) Lake (LAK) Package:
+
+I have not started to think about implementing the Lake package.  The data requirements are much greater than any of the packages listed above.  
+
+Please provide information on how you see SM being involved in manipulating Lake Package input. 
+
+**********

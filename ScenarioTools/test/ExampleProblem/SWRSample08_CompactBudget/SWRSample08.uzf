@@ -1,0 +1,26 @@
+# MODFLOW2005 UZF Input File
+ 3 2 0 0 75 111 20 20 1 10.000000
+         0         1 (25I3)                      -1     IUZFBND
+         0     3.500 (10E12.4)                   -1     EPS
+         0 2.5000e-01 (10E12.4)                   -1     THTS
+ -121
+  1
+         01.0000e-03 (10E12.4)                   -1     FINF Stress Period 1
+  1
+         01.0000e-03 (10E12.4)                   -1     FINF Stress Period 2
+  1
+         01.0000e-03 (10E12.4)                   -1     FINF Stress Period 3
+  1
+         01.0000e-03 (10E12.4)                   -1     FINF Stress Period 4
+  1
+         01.0000e-03 (10E12.4)                   -1     FINF Stress Period 5
+  1
+         01.0000e-03 (10E12.4)                   -1     FINF Stress Period 6
+  1
+         01.0000e-03 (10E12.4)                   -1     FINF Stress Period 7
+  1
+         01.0000e-03 (10E12.4)                   -1     FINF Stress Period 8
+  1
+         01.0000e-03 (10E12.4)                   -1     FINF Stress Period 9
+  1
+         01.0000e-03 (10E12.4)                   -1     FINF Stress Period 10

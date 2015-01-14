@@ -1,0 +1,659 @@
+<Project>
+  <Name>SM</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>ModelElementSpace</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>ModelElement</Name>
+        <Access>Public</Access>
+        <Location left="25" top="220" />
+        <Size width="256" height="228" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">protected string _name</Member>
+        <Member type="Constructor">public ModelElement(string name)</Member>
+        <Member type="Constructor">public ModelElement()</Member>
+        <Member type="Method">public virtual List&lt;string&gt; Information()</Member>
+        <Member type="Property">public string Name { get; set; }</Member>
+        <Member type="Property">public virtual int Type { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ModelElementWell</Name>
+        <Access>Public</Access>
+        <Location left="25" top="503" />
+        <Size width="168" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">protected string _shapefilePath = ""</Member>
+        <Member type="Field">protected string _keyField = ""</Member>
+        <Member type="Field">protected string _sampleFilePath = ""</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Enum">
+        <Name>ModelElementType</Name>
+        <Access>Public</Access>
+        <Location left="25" top="37" />
+        <Size width="196" height="129" />
+        <Collapsed>False</Collapsed>
+        <Value>MODEL_ELEMENT_TYPE_PLAIN = 0</Value>
+        <Value>MODEL_ELEMENT_TYPE_DIS = 1</Value>
+        <Value>MODEL_ELEMENT_TYPE_RIV = 2</Value>
+        <Value>MODEL_ELEMENT_TYPE_SWR = 3</Value>
+      </Entity>
+      <Entity type="Class">
+        <Name>ModelElementDis</Name>
+        <Access>Public</Access>
+        <Location left="224" top="503" />
+        <Size width="168" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private int _nRow</Member>
+        <Member type="Field">private int _nCol</Member>
+        <Member type="Field">private int _nLay</Member>
+        <Member type="Field">private int _nPer</Member>
+        <Member type="Property">public int NRow { get; set; }</Member>
+        <Member type="Property">public int NCol { get; set; }</Member>
+        <Member type="Property">public int NLay { get; set; }</Member>
+        <Member type="Property">public int NPer { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Generalization" first="1" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="0" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="3" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>255</X>
+          <Y>473</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>255</X>
+          <Y>473</Y>
+        </BendPoint>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>ScenarioTools.Geometry</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Point2D</Name>
+        <Access>Public</Access>
+        <Location left="781" top="10" />
+        <Size width="162" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private double _x</Member>
+        <Member type="Field">private double _y</Member>
+        <Member type="Property">public double X { get; set; }</Member>
+        <Member type="Property">public double Y { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Range1D</Name>
+        <Access>Public</Access>
+        <Location left="32" top="12" />
+        <Size width="228" height="349" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private double _min</Member>
+        <Member type="Field">private double _max</Member>
+        <Member type="Property">public double Min { get; set; }</Member>
+        <Member type="Property">public double Max { get; set; }</Member>
+        <Member type="Constructor">public Range1D(double min, double max)</Member>
+        <Member type="Method">public double Constrain(double value)</Member>
+        <Member type="Method">public bool Contains(double value)</Member>
+        <Member type="Method">public bool Overlaps(Range1D range)</Member>
+        <Member type="Method">public double GetOverlap()</Member>
+        <Member type="Method">public double Size()</Member>
+        <Member type="Method">public static double MapValue()</Member>
+        <Member type="Method">public static double MapScale()</Member>
+        <Member type="Method">public string ToString()</Member>
+        <Member type="Method">public Range1D Union(Range1D range)</Member>
+        <Member type="Method">public Range1D Buffer(double bufferRatio)</Member>
+        <Member type="Method">public Range1d PadBy(double padRatio)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Range2D</Name>
+        <Access>Public</Access>
+        <Location left="32" top="626" />
+        <Size width="482" height="281" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private Range1D _xRange</Member>
+        <Member type="Field">private Range1D _yRange</Member>
+        <Member type="Constructor">public Range2D(Range1D xRange, Range1D yRange)</Member>
+        <Member type="Property">public Range1D XRange { get; set; }</Member>
+        <Member type="Property">public Range1D YRange { get; set; }</Member>
+        <Member type="Method">public override string ToString()</Member>
+        <Member type="Method">public bool Overlaps(Range2D range)</Member>
+        <Member type="Method">public static Point2D MapPoint(Point2D p, Range2D fromRange, Range2D toRange, bool flipYRange)</Member>
+        <Member type="Method">public static double MapSize(double size, Range2D fromRange, Range2D toRange)</Member>
+        <Member type="Method">public static Range2D Buffer(Range2D range, double bufferPercentage)</Member>
+        <Member type="Method">public static Range2D Normalize(Range2D toNormalize, Range2D aspectRatio)</Member>
+        <Member type="Method">public bool Contains(Point2D p)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Shape2D</Name>
+        <Access>Public</Access>
+        <Location left="1310" top="208" />
+        <Size width="334" height="298" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private List&lt;ShapeAttribute&gt; _attributes</Member>
+        <Member type="Constructor">public Shape2D()</Member>
+        <Member type="Method">public void SetAttribute(string name, object value)</Member>
+        <Member type="Method">public object GetAttributeValue(string name, object defaultValue)</Member>
+        <Member type="Method">public object GetAttribute(string name)</Member>
+        <Member type="Method">public ShapeAttribute GetAttribute()</Member>
+        <Member type="Method">public ShapeAttribute GetAttribute(int index)</Member>
+        <Member type="Method">public void NumAttributes()</Member>
+        <Member type="Method">public static void ClearForShapefile(string baseFilename)</Member>
+        <Member type="Method">public abstract int NumVertices()</Member>
+        <Member type="Method">public abstract void Extent()</Member>
+        <Member type="Method">public abstract Point2D GetVertex(int index)</Member>
+        <Member type="Method">public static Polyline2D AsPolylineArray(Shape2D[] shapes)</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ShapeAttribute</Name>
+        <Access>Public</Access>
+        <Location left="1375" top="10" />
+        <Size width="162" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private string _name</Member>
+        <Member type="Field">private object _value</Member>
+        <Member type="Property">public int Name { get; set; }</Member>
+        <Member type="Property">public object Value { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Polyline2D</Name>
+        <Access>Public</Access>
+        <Location left="906" top="306" />
+        <Size width="326" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private Range2D _range</Member>
+        <Member type="Field">private Point2D[] _vertices</Member>
+        <Member type="Property">public override Range2D Extent { get; set; }</Member>
+        <Member type="Property">public override int NumVertices { get; set; }</Member>
+        <Member type="Constructor">public Polyline2D(Point2D[] vertices)</Member>
+        <Member type="Method">public override Point2D GetVertex()</Member>
+        <Member type="Method">public LineSegment2d[] SplitSegment(LineSegment2D segment)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Polygon2D</Name>
+        <Access>Public</Access>
+        <Location left="507" top="187" />
+        <Size width="299" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private Range2D _range</Member>
+        <Member type="Field">private Point2D[] _vertices</Member>
+        <Member type="Constructor">public Polygon2D(Point2D vertices)</Member>
+        <Member type="Property">public override int NumVertices { get; set; }</Member>
+        <Member type="Property">public override Range2D Extent { get; set; }</Member>
+        <Member type="Method">public Point2D[] GetIntersections(LineSegment2D segment)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>LineSegment2D</Name>
+        <Access>Public</Access>
+        <Location left="287" top="251" />
+        <Size width="186" height="298" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private Point2D _p1</Member>
+        <Member type="Field">private Point2D _p2</Member>
+        <Member type="Constructor">public LineSegment2D(Point2D p1, Point2D p2)</Member>
+        <Member type="Method">public void GetP1()</Member>
+        <Member type="Method">public Point2D GetP2()</Member>
+        <Member type="Method">public void GetXRange()</Member>
+        <Member type="Method">public void GetYRange()</Member>
+        <Member type="Method">public void Midpoint()</Member>
+        <Member type="Method">public void Slope()</Member>
+        <Member type="Method">public override string ToString()</Member>
+        <Member type="Method">public Point2D GetClosestPoint()</Member>
+        <Member type="Method">public double Distance(Point2D p)</Member>
+        <Member type="Method">public Polyline2D ToPolyline()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Dependency" first="2" second="1">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="2" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>498</X>
+          <Y>601</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>865</X>
+          <Y>407</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Dependency" first="3" second="4">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1507</X>
+          <Y>183</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="5" second="3">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1257</X>
+          <Y>387</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1285</X>
+          <Y>387</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Dependency" first="5" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>932</X>
+          <Y>275</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>932</X>
+          <Y>180</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Dependency" first="3" second="5">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1283</X>
+          <Y>355</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Dependency" first="6" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>579</X>
+          <Y>162</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>756</X>
+          <Y>115</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Dependency" first="7" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>377</X>
+          <Y>222</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Dependency" first="6" second="7">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>482</X>
+          <Y>340</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>498</X>
+          <Y>340</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Dependency" first="7" second="5">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>519</X>
+          <Y>436</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>833</X>
+          <Y>435</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Dependency" first="7" second="1">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>305</X>
+          <Y>226</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>287</X>
+          <Y>141</Y>
+        </BendPoint>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>ScenarioTools.Scenario</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Feature</Name>
+        <Access>Public</Access>
+        <Location left="595" top="308" />
+        <Size width="199" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private PackageType _type</Member>
+        <Member type="Constructor">protected Feature()</Member>
+        <Member type="Constructor">protected Feature(PackageType type)</Member>
+        <Member type="Property">public PackageType Type { get; private set; }</Member>
+        <Member type="Method">public virtual Feature Clone()</Member>
+        <Member type="Method">public abstract void Draw()</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>FeatureSet</Name>
+        <Access>Public</Access>
+        <Location left="403" top="419" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private PackageType _type</Member>
+        <Member type="Field">private List &lt;Feature&gt; _features</Member>
+        <Member type="Field">private int _tag</Member>
+        <Member type="Constructor">public FeatureSet()</Member>
+        <Member type="Property">public int Count { get; }</Member>
+        <Member type="Property">public int Tag { get; set; }</Member>
+        <Member type="Method">public virtual void Draw()</Member>
+        <Member type="Method">public FeatureSet Clone()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Package</Name>
+        <Access>Public</Access>
+        <Location left="52" top="488" />
+        <Size width="258" height="294" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private int _tag</Member>
+        <Member type="Field">private PackageType _type</Member>
+        <Member type="Field">private string _relativePath</Member>
+        <Member type="Field">private List &lt;FeatureSet&gt; _featureSets</Member>
+        <Member type="Constructor">protected Package()</Member>
+        <Member type="Property">public virtual List &lt;FeatureSet&gt; FeatureSets { get; set; }</Member>
+        <Member type="Property">public string RelativePath { get; set; }</Member>
+        <Member type="Property">public int Tag { get; set; }</Member>
+        <Member type="Property">public abstract PackageType Type { get; protected set; }</Member>
+        <Member type="Method">public virtual void DrawAllFeatureSets()</Member>
+        <Member type="Method">public abstract bool Write()</Member>
+        <Member type="Method">public virtual Package Clone()</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Enum">
+        <Name>PackageType</Name>
+        <Access>Public</Access>
+        <Location left="205" top="327" />
+        <Size width="162" height="102" />
+        <Collapsed>False</Collapsed>
+        <Value>WellType</Value>
+        <Value>RiverType</Value>
+      </Entity>
+      <Entity type="Interface">
+        <Name>ITaggable</Name>
+        <Access>Public</Access>
+        <Location left="10" top="260" />
+        <Size width="162" height="140" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">virtual object Clone()</Member>
+        <Member type="Method">int GetNewTag()</Member>
+        <Member type="Method">void AssignTag(int tag)</Member>
+        <Member type="Method">void ReTag()</Member>
+      </Entity>
+      <Entity type="Class">
+        <Name>WellPackage</Name>
+        <Access>Public</Access>
+        <Location left="423" top="827" />
+        <Size width="200" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public WellPackage()</Member>
+        <Member type="Method">public override Package Package()</Member>
+        <Member type="Property">public virtual PackageType Type { get; protected set; }</Member>
+        <Member type="Method">public bool Write()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>RiverPackage</Name>
+        <Access>Public</Access>
+        <Location left="423" top="654" />
+        <Size width="204" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public RiverPackage()</Member>
+        <Member type="Method">public override Package Package()</Member>
+        <Member type="Property">public virtual PackageType Type { get; protected set; }</Member>
+        <Member type="Method">public bool Write()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Scenario</Name>
+        <Access>Public</Access>
+        <Location left="10" top="840" />
+        <Size width="227" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private int _tag</Member>
+        <Member type="Field">private string _relativeNameFile</Member>
+        <Member type="Field">private List &lt;Package&gt; _packages</Member>
+        <Member type="Property">public int Tag { get; set; }</Member>
+        <Member type="Property">public string RelativeNameFile { get; set; }</Member>
+        <Member type="Property">public List &lt;Package&gt; Packages { get; set; }</Member>
+        <Member type="Method">public void Export()</Member>
+        <Member type="Method">public Scenario Clone()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TagStore</Name>
+        <Access>Public</Access>
+        <Location left="319" top="10" />
+        <Size width="162" height="162" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private List &lt;TagLink&gt; _links</Member>
+        <Member type="Method">public int GetNextTag()</Member>
+        <Member type="Method">public TagLink GetLink(int tag)</Member>
+        <Member type="Method">public void AddLink(TagLink link)</Member>
+        <Member type="Constructor">public TagStore()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TagLink</Name>
+        <Access>Public</Access>
+        <Location left="582" top="10" />
+        <Size width="243" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private int _tag</Member>
+        <Member type="Field">private TreeNode _treeNode</Member>
+        <Member type="Field">private ITaggable _scenarioElement</Member>
+        <Member type="Field">private TagStore _owner</Member>
+        <Member type="Constructor">public TagLink()</Member>
+        <Member type="Property">public int Tag { get; set; }</Member>
+        <Member type="Property">public TreeNode TreeNode { get; set; }</Member>
+        <Member type="Property">public ITaggable ScenarioElement { get; set; }</Member>
+        <Member type="Property">public TagStore Owner { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Comment">
+        <Text>Namespace ScenarioTools.Scenario</Text>
+        <Location left="10" top="10" />
+        <Size width="234" height="50" />
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Dependency" first="1" second="3">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>434</X>
+          <Y>394</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>392</X>
+          <Y>389</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Dependency" first="2" second="3">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>225</X>
+          <Y>451</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>225</X>
+          <Y>472</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Realization" first="0" second="4">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>688</X>
+          <Y>283</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>197</X>
+          <Y>274</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Realization" first="1" second="4">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>203</X>
+          <Y>313</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Realization" first="2" second="4">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="5" second="2">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>386</X>
+          <Y>850</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>356</X>
+          <Y>726</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="6" second="2">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>389</X>
+          <Y>672</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>347</X>
+          <Y>635</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Association" first="7" second="2">
+        <Label>Composition</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>145</X>
+          <Y>815</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>145</X>
+          <Y>807</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="2" second="1">
+        <Label>Composition</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>335</X>
+          <Y>509</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>334</X>
+          <Y>454</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="1" second="0">
+        <Label>Aggregation</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>515</X>
+          <Y>391</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>568</X>
+          <Y>375</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+      </Relationship>
+      <Relationship type="Dependency" first="0" second="3">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>564</X>
+          <Y>339</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Realization" first="7" second="4">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>24</X>
+          <Y>815</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>24</X>
+          <Y>430</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Dependency" first="4" second="8">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>136</X>
+          <Y>235</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>397</X>
+          <Y>197</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Association" first="8" second="9">
+        <Label>Aggregation</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>

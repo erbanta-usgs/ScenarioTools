@@ -1,0 +1,36 @@
+# LPF: Layer Property Flow package file created on 6/25/2013 by ModelMuse version 2.17.1.11.
+ 9 -1.000000000000E+020  4 NOCVCORRECTION # ILPFCB, HDRY, NPLPF Options
+ 1 0 0 # LAYTYP
+ 0 0 0 # LAYAVG
+ -1 -1 -1 # CHANI
+ 1 1 1 # LAYVKA
+ 0 0 0 # LAYWET
+HK_Par1 HK 2.500000000000E+000  3 # PARNAM, PARTYP, PARVAL, NCLU
+ 1 NONE  ALL  # Layer, MLTARR, ZONARR
+ 2 NONE  ALL  # Layer, MLTARR, ZONARR
+ 3 NONE  ALL  # Layer, MLTARR, ZONARR
+VANI_Par1 VANI 1.000000000000E+001  3 # PARNAM, PARTYP, PARVAL, NCLU
+ 1 NONE  ALL  # Layer, MLTARR, ZONARR
+ 2 NONE  ALL  # Layer, MLTARR, ZONARR
+ 3 NONE  ALL  # Layer, MLTARR, ZONARR
+SS_Par1 SS 1.000000000000E-006  3 # PARNAM, PARTYP, PARVAL, NCLU
+ 1 NONE  ALL  # Layer, MLTARR, ZONARR
+ 2 NONE  ALL  # Layer, MLTARR, ZONARR
+ 3 NONE  ALL  # Layer, MLTARR, ZONARR
+SY_Par1 SY 2.000000000000E-001  3 # PARNAM, PARTYP, PARVAL, NCLU
+ 1 NONE  ALL  # Layer, MLTARR, ZONARR
+ 2 NONE  ALL  # Layer, MLTARR, ZONARR
+ 3 NONE  ALL  # Layer, MLTARR, ZONARR
+ -1 # HK Upper Aquifer Layer 1
+CONSTANT    1.000000000000E+000  # HANI Upper Aquifer Layer 1
+ -1 # VKA Upper Aquifer Layer 1
+ -1 # SS Upper Aquifer Layer 1
+ -1 # SY Upper Aquifer Layer 1
+ -1 # HK Middle Aquifer Layer 2
+CONSTANT    1.000000000000E+000  # HANI Middle Aquifer Layer 2
+ -1 # VKA Middle Aquifer Layer 2
+ -1 # SS Middle Aquifer Layer 2
+ -1 # HK Lower Aquifer Layer 3
+CONSTANT    1.000000000000E+000  # HANI Lower Aquifer Layer 3
+ -1 # VKA Lower Aquifer Layer 3
+ -1 # SS Lower Aquifer Layer 3

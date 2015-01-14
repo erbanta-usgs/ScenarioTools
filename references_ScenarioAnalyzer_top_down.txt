@@ -1,0 +1,113 @@
+Top-down, References by project in Scenario Analyzer
+(3rd-party assemblies omitted)
+
+=============================================================================================================
+
+Level 0: Top
+
+Project: Scenario Analyzer
+  DataClasses
+  Dialog
+  Gui
+  ImageProvider
+  LogAndErrorProcessing
+  ScenarioTools
+  Xml
+  
+=============================================================================================================
+
+Level 1 (referenced by level 0)
+ 
+Project: DataClasses
+  Dialog         
+  Geometry      
+  ImageProvider 
+  Numerical     
+  Spatial       
+  Util          
+  Xml           
+
+-------------------------------------------------------------------------------------------------------------
+
+Project: Dialog
+  (references only System)
+ 
+-------------------------------------------------------------------------------------------------------------
+
+Project: Gui
+  ImageProvider 
+  ScenarioTools [maybe Gui should not reference ScenarioTools]
+ 
+-------------------------------------------------------------------------------------------------------------
+
+Project: ImageProvider
+  (references only System)
+ 
+-------------------------------------------------------------------------------------------------------------
+
+Project: LogAndErrorProcessing
+  (no references)
+ 
+-------------------------------------------------------------------------------------------------------------
+
+Project: ScenarioTools
+  DataClasses  
+  Dialog       
+  Dialogs      
+  FileReaders  
+  Geometry     
+  Graphics     
+  ImageProvider
+  Numerical    
+  Spatial      
+  Util         
+  Xml          
+
+-------------------------------------------------------------------------------------------------------------
+
+Project: Xml
+  (references only System)
+  
+=============================================================================================================
+
+Level 2 (referenced by level 1)
+
+Project: Geometry
+  LogAndErrorProcessing
+  Numerical            
+  Spatial              
+  Util                 
+
+-------------------------------------------------------------------------------------------------------------
+
+Project: Numerical
+  (no references)
+
+-------------------------------------------------------------------------------------------------------------
+
+Project: Spatial
+  Numerical
+
+-------------------------------------------------------------------------------------------------------------
+
+Project: Util
+  (no references to ScenarioManager, ScenarioTools, or USGS)
+
+-------------------------------------------------------------------------------------------------------------
+
+Project: Dialogs
+  (references only System)
+
+-------------------------------------------------------------------------------------------------------------
+
+Project: FileReaders
+  DataClasses
+
+-------------------------------------------------------------------------------------------------------------
+
+Project: Graphics
+  Geometry
+  Numerical
+  
+=============================================================================================================
+

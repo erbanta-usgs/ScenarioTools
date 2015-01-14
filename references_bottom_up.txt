@@ -1,0 +1,75 @@
+Bottom-up, References by project in Scenario Manager and Scenario Analyzer
+(3rd-party assemblies omitted)
+
+=============================================================================================================
+
+Level A (No references, or references only System or 3rd-party assemblies
+
+Project                Namespace
+---------------------  -----------------------------------
+Dialog                 ScenarioTools.Dialog
+Dialogs                ScenarioTools.Dialogs
+ImageProvider          ScenarioTools.ImageProvider
+LogAndErrorProcessing  ScenarioTools.LogAndErrorProcessing
+Numerical              ScenarioTools.Numerical
+Util                   ScenarioTools.Util
+Xml                    ScenarioTools.Xml
+
+=============================================================================================================
+
+Level B (References Namespace in Level A)
+
+Project                Namespace
+---------------------  --------------------------------------------
+SMDataClasses          ScenarioManager.SMDataClasses (references Util)
+Spatial                ScenarioTools.Spatial (references Numerical)
+
+=============================================================================================================
+
+Level C (References Namespace in Level B)
+
+Project                Namespace
+---------------------  --------------------------------------------
+Geometry               ScenarioTools.Geometry (references Spatial)
+
+=============================================================================================================
+
+Level D (References Namespace in Level C)
+
+Project                Namespace
+---------------------  --------------------------------------------
+DataClasses            ScenarioTools.DataClasses (references Geometry)
+Graphics               ScenarioTools.Graphics (references Geometry)
+
+=============================================================================================================
+
+Level E (References Namespace in Level D)
+
+Project                Namespace
+---------------------  --------------------------------------------
+FileReaders            ScenarioTools.FileReaders (references DataClasses)
+
+=============================================================================================================
+
+Level F (References Namespace in Level E)
+
+Project                Namespace
+---------------------  --------------------------------------------
+ScenarioTools          ScenarioTools (references FileReaders)
+
+=============================================================================================================
+
+Level G (References Namespace in Level F)
+
+Project                Namespace
+---------------------  --------------------------------------------
+Scene                  ScenarioTools.Scene (references ScenarioTools)
+Gui                    ScenarioTools.Gui (references ScenarioTools, but maybe it shouldn't)
+
+=============================================================================================================
+
+Level H (References Namespace in Level G)
+
+Project                Namespace
+---------------------  --------------------------------------------
+ScenarioManager        ScenarioManager

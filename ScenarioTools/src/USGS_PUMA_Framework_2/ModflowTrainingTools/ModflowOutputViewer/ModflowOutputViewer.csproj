@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{22908DC8-3ADA-4CBD-946D-D54B340EF7B5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ModflowOutputViewer</RootNamespace>
+    <AssemblyName>ModflowOutputViewer</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="dbAutoTrack.PDFWriter, Version=2.7.0.0, Culture=neutral, PublicKeyToken=40b2134825d59165, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ExternalReferences\dbAutoTrack.PDFWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBoxModflowOutputViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBoxModflowOutputViewer.Designer.cs">
+      <DependentUpon>AboutBoxModflowOutputViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CurrentData.cs" />
+    <Compile Include="DatasetHelper.cs" />
+    <Compile Include="DatasetInfo.cs" />
+    <Compile Include="DatasetItemTag.cs" />
+    <Compile Include="EditAnalysisLayerDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditAnalysisLayerDialog.Designer.cs">
+      <DependentUpon>EditAnalysisLayerDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditContouringOptionsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditContouringOptionsDialog.Designer.cs">
+      <DependentUpon>EditContouringOptionsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditExcludedValuesDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditExcludedValuesDialog.Designer.cs">
+      <DependentUpon>EditExcludedValuesDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExportShapefilesDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExportShapefilesDialog.Designer.cs">
+      <DependentUpon>ExportShapefilesDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LayerAnalysis.cs" />
+    <Compile Include="MapIO.cs" />
+    <Compile Include="ModflowDataset.cs" />
+    <Compile Include="ModflowOutputViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModflowOutputViewer.Designer.cs">
+      <DependentUpon>ModflowOutputViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModflowOutputViewerDef.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBoxModflowOutputViewer.resx">
+      <DependentUpon>AboutBoxModflowOutputViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditAnalysisLayerDialog.resx">
+      <DependentUpon>EditAnalysisLayerDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditContouringOptionsDialog.resx">
+      <DependentUpon>EditContouringOptionsDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditExcludedValuesDialog.resx">
+      <DependentUpon>EditExcludedValuesDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportShapefilesDialog.resx">
+      <DependentUpon>ExportShapefilesDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModflowOutputViewer.resx">
+      <DependentUpon>ModflowOutputViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReferenceDataLinkOptionDialog.resx">
+      <DependentUpon>ReferenceDataLinkOptionDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectCellValuesRendererDialog.resx">
+      <DependentUpon>SelectCellValuesRendererDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ReferenceData.cs" />
+    <Compile Include="ReferenceDataLinkOptionDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReferenceDataLinkOptionDialog.Designer.cs">
+      <DependentUpon>ReferenceDataLinkOptionDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectCellValuesRendererDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectCellValuesRendererDialog.Designer.cs">
+      <DependentUpon>SelectCellValuesRendererDialog.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\GeoAPI\GeoAPI.csproj">
+      <Project>{FFB69466-79DE-466A-ADA7-5C47C5C5CA3A}</Project>
+      <Name>GeoAPI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\USGS.Puma.Modflow\USGS.Puma.Modflow.csproj">
+      <Project>{E2BC5AC6-921C-47BE-9F3F-7E5D5E72CA48}</Project>
+      <Name>USGS.Puma.Modflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\USGS.Puma.Modpath\USGS.Puma.Modpath.csproj">
+      <Project>{6424050B-5045-4960-9106-D7E875D3D9A6}</Project>
+      <Name>USGS.Puma.Modpath</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\USGS.Puma.NTS\USGS.Puma.NTS.csproj">
+      <Project>{5770DAA9-84E5-4770-AF43-F6B815894368}</Project>
+      <Name>USGS.Puma.NTS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\USGS.Puma.UI\USGS.Puma.UI.csproj">
+      <Project>{4E7709CF-6528-4EC6-A63D-2CFFDCD6CCE7}</Project>
+      <Name>USGS.Puma.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\USGS.Puma\USGS.Puma.csproj">
+      <Project>{118DE6CE-2FA3-4D6A-BAF2-3C74754255A0}</Project>
+      <Name>USGS.Puma</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\USGS.ModflowTrainingTools\USGS.ModflowTrainingTools.csproj">
+      <Project>{1B9E464F-3028-4477-9DBB-F119A93C16F6}</Project>
+      <Name>USGS.ModflowTrainingTools</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnalysisLayer.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZoomOut.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnimationLoop.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnimationLoop2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Basemap_1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BinaryLayerFile.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ContourLayer.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditSymbology.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FilterData.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_closed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_open.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\globe.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GriddedValuesLayer.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hand_1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hand_2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LayerArray.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map_rolled_up.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoveFirst.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoveForwardAnimate.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoveLast.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoveNext.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MovePrevious.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ParticleTrackingMap.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QueryFilterEndpointBmp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QueryFilterPathlineBmp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QueryFilterTimeseriesBmp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReCenter.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SelectArrow.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StopAnimation.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToggleContentsPanelBmp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToggleGrid.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToggleMapPanelBmp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToggleUtilityPanelBmp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\USGS_visual_identity.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ViewBasemap.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZoomIn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZoomToGrid.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BinaryLayerFileSelectedCurrent.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BinaryLayerFileSelectedReference.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BinaryLayerFileSelectedBoth.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HideSidePanels.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ShowSidePanels.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BinaryLayerFileSelectedCurrent2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BinaryLayerArraySelectedBoth2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BinaryLayerArraySelectedReference2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\EditMetadata.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

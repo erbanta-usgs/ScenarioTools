@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<SMProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SmProjectSettings>
+    <MasterNameFile>500m_example\3_layer_example_500m.nam</MasterNameFile>
+    <MaxSimultaneousRuns>8</MaxSimultaneousRuns>
+    <ModflowExecutable>D:\Temp\demo_120730b\bin\mf2005.exe</ModflowExecutable>
+    <BackgroundImageFile />
+    <NameFiles>
+      <string>500m_example\3_layer_example_500m.nam</string>
+    </NameFiles>
+  </SmProjectSettings>
+  <GridShapefileRelativePath>GIS\bbgrid_poly.shp</GridShapefileRelativePath>
+  <SimulationStartTime>1900-01-01T00:00:00</SimulationStartTime>
+  <ScenarioElements>
+    <SerializableScenarioElement>
+      <Tag>1</Tag>
+      <ParentTag>-1</ParentTag>
+      <ElemType>Scenario</ElemType>
+      <Description />
+      <Name>Scenario_0</Name>
+      <ShapefileRelativePath />
+      <TimeSeriesRelativePath />
+      <KeyField />
+      <LayMethod>Uniform</LayMethod>
+      <LayerAttribute />
+      <TopElevationAttribute />
+      <BottomElevationAttribute />
+      <DefaultLayer>0</DefaultLayer>
+      <Items />
+      <Type>NoType</Type>
+    </SerializableScenarioElement>
+    <SerializableScenarioElement>
+      <Tag>2</Tag>
+      <ParentTag>-1</ParentTag>
+      <ElemType>Scenario</ElemType>
+      <Description />
+      <Name>Scenario_1_which_is_like_base_scenario_based_on_Master_Name_File_but_with_modifications</Name>
+      <ShapefileRelativePath />
+      <TimeSeriesRelativePath />
+      <KeyField />
+      <LayMethod>Uniform</LayMethod>
+      <LayerAttribute />
+      <TopElevationAttribute />
+      <BottomElevationAttribute />
+      <DefaultLayer>0</DefaultLayer>
+      <Items />
+      <Type>NoType</Type>
+    </SerializableScenarioElement>
+    <SerializableScenarioElement>
+      <Tag>3</Tag>
+      <ParentTag>-1</ParentTag>
+      <ElemType>Scenario</ElemType>
+      <Description />
+      <Name>Scenario_2 which is like base scenario based on Master Name File but with modifications</Name>
+      <ShapefileRelativePath />
+      <TimeSeriesRelativePath />
+      <KeyField />
+      <LayMethod>Uniform</LayMethod>
+      <LayerAttribute />
+      <TopElevationAttribute />
+      <BottomElevationAttribute />
+      <DefaultLayer>0</DefaultLayer>
+      <Items />
+      <Type>NoType</Type>
+    </SerializableScenarioElement>
+  </ScenarioElements>
+  <TreeView>
+    <Tag>-1</Tag>
+    <ImageIndex>0</ImageIndex>
+    <Text />
+    <Items>
+      <SerializableTreeNode>
+        <Tag>1</Tag>
+        <ImageIndex>0</ImageIndex>
+        <Text>Scenario_0</Text>
+        <Items />
+      </SerializableTreeNode>
+      <SerializableTreeNode>
+        <Tag>2</Tag>
+        <ImageIndex>0</ImageIndex>
+        <Text>Scenario_1_which_is_like_base_scenario_based_on_Master_Name_File_but_with_modifications</Text>
+        <Items />
+      </SerializableTreeNode>
+      <SerializableTreeNode>
+        <Tag>3</Tag>
+        <ImageIndex>0</ImageIndex>
+        <Text>Scenario_2 which is like base scenario based on Master Name File but with modifications</Text>
+        <Items />
+      </SerializableTreeNode>
+    </Items>
+  </TreeView>
+</SMProject>

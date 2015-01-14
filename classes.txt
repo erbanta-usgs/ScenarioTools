@@ -1,0 +1,45 @@
+Classes
+
+Which C++ files/classes in SM are already implemented as C# classes in Scenario Tools
+
+Scenario Manager (C++) file  <-->  Scenario Tools (C#) class
+---------------------------        -----------------------------------------------------
+dateutil.cpp                       ScenarioTools.PdfWriting.DateUtil                     
+fileutil.cpp                       ScenarioTools.Util.FileUtil
+linesegment2d.cpp                  ScenarioTools.Geometry.LineSegment2D
+main.cpp                           --
+mainwindow.cpp                     --
+mapwidget.cpp                      no
+modelelement.cpp                   no
+modelelementdialogdis.cpp          no
+modelelementdialogriv.cpp          no
+modelelementdialogwel.cpp          no
+modelelementdis.cpp                no
+modelelementriv.cpp                no
+modelelementwel.cpp                no
+orthogrid.cpp                      ScenarioTools.Geometry.OrthoGrid (partly implemented)
+packageprocessorriv.cpp            no
+packageprocessorwel.cpp            no
+packageprocessorwell2.cpp          no
+point2d.cpp                        ScenarioTools.Geometry.Point2D
+polygon2d.cpp                      ScenarioTools.Geometry.Polygon2D
+polygon2dset.cpp                   not needed - use array of type Polygon2D instead
+polyline2d.cpp                     ScenarioTools.Geometry.Polyline2D
+polyline2dset.cpp                  not needed - use array of type Polyline2D instead
+range1d.cpp                        ScenarioTools.Geometry.Range1D
+range2d.cpp                        ScenarioTools.Geometry.Range2D
+riverpackagemain.cpp               no
+settings.cpp                       no
+shapefileutil.cpp                  no, but MapTools.dll may have similar capabilities
+shapepoint2d.cpp                   no, but MapTools.dll may have similar capabilities
+shapepoint2dset.cpp                no, but MapTools.dll may have similar capabilities
+smdocument.cpp                     no.  SADocument is not similar
+smdocumenttreeview.cpp             no, but System.Windows.Forms.TreeView can be used
+stressperiod.cpp                   ScenarioTools.StressPeriod
+stringutil.cpp                     no
+timeseries.cpp                     ScenarioTools.DataClasses.TimeSeries (partly implemented)
+timeseriessample.cpp               ScenarioTools.DataClasses.TimeSeriesSample (structure)
+timespan.cpp                       no. Use System.TimeSpan instead
+treeitem.cpp                       no
+treemodel.cpp                      no
+xmlutil.cpp                        ScenarioTools.Xml.XmlUtil (partly implemented)

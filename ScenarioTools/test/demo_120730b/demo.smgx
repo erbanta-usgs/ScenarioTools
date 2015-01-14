@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<SMProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SmProjectSettings>
+    <MasterNameFile>D:\Temp\demo_120730b\500m_example\3_layer_example_500m.nam</MasterNameFile>
+    <MaxSimultaneousRuns>8</MaxSimultaneousRuns>
+    <ModflowExecutable>D:\Temp\demo_120730b\bin\mf2005.exe</ModflowExecutable>
+    <BackgroundImageFile />
+    <NameFiles>
+      <string>D:\Temp\demo_120730b\500m_example\3_layer_example_500m.nam</string>
+    </NameFiles>
+  </SmProjectSettings>
+  <GridShapefileRelativePath>GIS\bbgrid_poly.shp</GridShapefileRelativePath>
+  <NamefileRelativePath>500m_example\3_layer_example_500m.nam</NamefileRelativePath>
+  <SimulationStartTime>1900-01-01T00:00:00</SimulationStartTime>
+  <ScenarioElements>
+    <SerializableScenarioElement>
+      <Tag>1</Tag>
+      <ParentTag>-1</ParentTag>
+      <ElemType>Scenario</ElemType>
+      <Description />
+      <Name>Scenario_0</Name>
+      <ShapefileRelativePath />
+      <TimeSeriesRelativePath />
+      <KeyField />
+      <LayMethod>Uniform</LayMethod>
+      <LayerAttribute />
+      <TopElevationAttribute />
+      <BottomElevationAttribute />
+      <DefaultLayer>0</DefaultLayer>
+      <Items />
+      <Type>NoType</Type>
+    </SerializableScenarioElement>
+  </ScenarioElements>
+  <TreeView>
+    <Tag>-1</Tag>
+    <ImageIndex>0</ImageIndex>
+    <Text />
+    <Items>
+      <SerializableTreeNode>
+        <Tag>1</Tag>
+        <ImageIndex>0</ImageIndex>
+        <Text>Scenario_0</Text>
+        <Items />
+      </SerializableTreeNode>
+    </Items>
+  </TreeView>
+</SMProject>

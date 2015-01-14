@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<SMProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SmProjectSettings>
+    <MasterNameFile>demo_120601\500m_example\example_500m.nam</MasterNameFile>
+    <MaxSimultaneousRuns>8</MaxSimultaneousRuns>
+    <ModflowExecutable>D:\Projects\Florida-Tools\ScenarioTools\Demo_May2012\demo_120601\bin\mf2005.exe</ModflowExecutable>
+    <BackgroundImageFile>D:\Projects\Florida-Tools\ScenarioTools\test\ImageData\LandCover_Biscayne\Biscayne_area_land_cover.tif</BackgroundImageFile>
+    <NameFiles>
+      <string>demo_120601\500m_example\example_500m.nam</string>
+    </NameFiles>
+  </SmProjectSettings>
+  <GridShapefileRelativePath>demo_120601\GIS\bbgrid_poly.shp</GridShapefileRelativePath>
+  <NamefileRelativePath />
+  <SimulationStartTime>1900-01-01T00:00:00</SimulationStartTime>
+  <ScenarioElements>
+    <SerializableScenarioElement>
+      <Tag>1</Tag>
+      <ParentTag>-1</ParentTag>
+      <ElemType>Scenario</ElemType>
+      <Description />
+      <Name>Scenario_0</Name>
+      <NameFile />
+      <FName>Scenario_0</FName>
+      <ShapefileRelativePath />
+      <TimeSeriesRelativePath />
+      <KeyField />
+      <LayMethod>Uniform</LayMethod>
+      <DefaultLayer>0</DefaultLayer>
+      <Items>
+        <SerializableScenarioElement>
+          <Tag>2</Tag>
+          <ParentTag>1</ParentTag>
+          <ElemType>Package</ElemType>
+          <Description />
+          <Name>New Well Package</Name>
+          <FName>Scenario_0.wel</FName>
+          <ShapefileRelativePath />
+          <TimeSeriesRelativePath />
+          <KeyField />
+          <LayMethod>Uniform</LayMethod>
+          <DefaultLayer>0</DefaultLayer>
+          <Items>
+            <SerializableScenarioElement>
+              <Tag>3</Tag>
+              <ParentTag>2</ParentTag>
+              <ElemType>FeatureSet</ElemType>
+              <Description />
+              <Name>New Well Set</Name>
+              <FName />
+              <ShapefileRelativePath>D:\Projects\Florida-Tools\ScenarioTools\Demo_May2012\demo_120601\GIS\county_wells_NAD_27_filtered.shp</ShapefileRelativePath>
+              <TimeSeriesRelativePath>D:\Projects\Florida-Tools\ScenarioTools\Demo_May2012\demo_120601\TimeSeriesData\pumpwell2.smp</TimeSeriesRelativePath>
+              <KeyField>WellName</KeyField>
+              <LayMethod>Uniform</LayMethod>
+              <LayerAttribute />
+              <DefaultLayer>1</DefaultLayer>
+              <Items />
+              <Type>WellType</Type>
+            </SerializableScenarioElement>
+          </Items>
+          <Type>WellType</Type>
+        </SerializableScenarioElement>
+        <SerializableScenarioElement>
+          <Tag>4</Tag>
+          <ParentTag>1</ParentTag>
+          <ElemType>Package</ElemType>
+          <Description />
+          <Name>New River Package</Name>
+          <FName>Scenario_0.riv</FName>
+          <ShapefileRelativePath />
+          <TimeSeriesRelativePath />
+          <KeyField />
+          <LayMethod>Uniform</LayMethod>
+          <DefaultLayer>0</DefaultLayer>
+          <Items />
+          <Type>RiverType</Type>
+        </SerializableScenarioElement>
+        <SerializableScenarioElement>
+          <Tag>5</Tag>
+          <ParentTag>1</ParentTag>
+          <ElemType>Package</ElemType>
+          <Description />
+          <Name>New CHD Package</Name>
+          <FName>Scenario_0.chd</FName>
+          <ShapefileRelativePath />
+          <TimeSeriesRelativePath />
+          <KeyField />
+          <LayMethod>Uniform</LayMethod>
+          <DefaultLayer>0</DefaultLayer>
+          <Items />
+          <Type>ChdType</Type>
+        </SerializableScenarioElement>
+      </Items>
+      <Type>NoType</Type>
+    </SerializableScenarioElement>
+  </ScenarioElements>
+  <TreeView>
+    <Tag>-1</Tag>
+    <ImageIndex>0</ImageIndex>
+    <Text />
+    <Items>
+      <SerializableTreeNode>
+        <Tag>1</Tag>
+        <ImageIndex>0</ImageIndex>
+        <Text>Scenario_0</Text>
+        <Items>
+          <SerializableTreeNode>
+            <Tag>2</Tag>
+            <ImageIndex>1</ImageIndex>
+            <Text>New Well Package</Text>
+            <Items>
+              <SerializableTreeNode>
+                <Tag>3</Tag>
+                <ImageIndex>1</ImageIndex>
+                <Text>New Well Set</Text>
+                <Items />
+              </SerializableTreeNode>
+            </Items>
+          </SerializableTreeNode>
+          <SerializableTreeNode>
+            <Tag>4</Tag>
+            <ImageIndex>2</ImageIndex>
+            <Text>New River Package</Text>
+            <Items />
+          </SerializableTreeNode>
+          <SerializableTreeNode>
+            <Tag>5</Tag>
+            <ImageIndex>3</ImageIndex>
+            <Text>New CHD Package</Text>
+            <Items />
+          </SerializableTreeNode>
+        </Items>
+      </SerializableTreeNode>
+    </Items>
+  </TreeView>
+</SMProject>

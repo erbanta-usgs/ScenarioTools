@@ -1,0 +1,17 @@
+#This is a cleaned up version of BBGW4_mf_onelay_mod.nam and of biscam_mod.nam. All packages here are copies of packages there, but just renamed biscam.***
+#GLOBAL 6 biscam.glo
+LIST 7 biscam.lst
+BAS6  1 biscam.bas
+DIS  29 biscam.dis
+LPF 11 biscam.lpf
+OC  22 biscam.oc
+PCG 19 biscam.pcg
+CHD 12 biscam.chd
+WEL 13 biscam.WEL
+RIV 14 biscam_mod.RIV
+RCH	18 biscam.rch
+EVT	70 biscam.EVT
+DATA(BINARY) 60 RECH2.bin 
+DATA(BINARY) 50 biscam.cbb
+DATA(BINARY) 30 biscam.hds
+DATA(BINARY) 31 biscam.ddn

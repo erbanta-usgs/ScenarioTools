@@ -1,0 +1,18 @@
+# Example model useful only for demonstrating 
+# Scenario Manager and Scenario Analyzer
+LIST  7 3_layer_example_500m.lst
+BAS6  1 3_layer_example_500m.bas
+LPF  11 3_layer_example_500m.lpf
+CHD  12 3_layer_example_500m.chd
+WEL  13 3_layer_example_500m.wel
+RIV  14 3_layer_example_500m.riv
+RCH  18 3_layer_example_500m.rch
+PCG  19 3_layer_example_500m.pcg
+OC   22 3_layer_example_500m.oc
+DIS  29 3_layer_example_500m.dis
+EVT  70 3_layer_example_500m.evt
+DATA 71 3_layer_HK.ref                    OLD
+DATA 60 3_layer_example_500m_arrays.rch   OLD
+DATA(BINARY) 50 3_layer_example_500m.cbb  REPLACE
+DATA(BINARY) 30 3_layer_example_500m.hds  REPLACE
+DATA(BINARY) 31 3_layer_example_500m.ddn  REPLACE

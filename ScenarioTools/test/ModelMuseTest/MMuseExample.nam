@@ -1,0 +1,16 @@
+# Name File for MODFLOW created on 6/25/2013 by ModelMuse
+LIST         11 MMuseExample.lst  REPLACE
+DIS          12 MMuseExample.dis  OLD
+BAS6         13 MMuseExample.bas  OLD
+LPF          14 MMuseExample.lpf  OLD
+PCG          18 MMuseExample.pcg  OLD
+WEL          20 MMuseExample.wel  OLD
+RIV          21 MMuseExample.riv  OLD
+RCH          24 MMuseExample.rch  OLD
+OC           39 MMuseExample.oc   OLD
+PVAL         52 MMuseExample.pval OLD
+# Binary files
+DATA(BINARY)  9 MMuseExample.cbc  REPLACE
+#DATA(BINARY) 37 MMuseExample.bhd  REPLACE
+#DATA(BINARY) 38 MMuseExample.bdn  REPLACE
+DATA(BINARY) 40 MMuseExample.hdd  REPLACE

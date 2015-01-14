@@ -1,0 +1,1090 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+
+  <HelpKINode Title="AddItem method" Url="html/Overload_USGS_Puma_Modflow_IModflowNameData_AddItem.htm" />
+  <HelpKINode Title="AddItem method" Url="html/Overload_USGS_Puma_Modflow_ModflowNameData_AddItem.htm" />
+  <HelpKINode Title="AddStressPeriod method" Url="html/Overload_USGS_Puma_Modflow_TimeDiscretization_AddStressPeriod.htm" />
+  <HelpKINode Title="AllowFlowBetweenConstantHeads property" Url="html/P_USGS_Puma_Modflow_BasFileData_AllowFlowBetweenConstantHeads.htm" />
+  <HelpKINode Title="ArrayControlRecord(Of T) class" Url="html/AllMembers_T_USGS_Puma_Modflow_ArrayControlRecord_1.htm" />
+  <HelpKINode Title="ArrayControlRecord(Of T) class" Url="html/T_USGS_Puma_Modflow_ArrayControlRecord_1.htm" />
+  <HelpKINode Title="ArrayControlRecord(Of T) class">
+    <HelpKINode Title="about ArrayControlRecord(Of T) class" Url="html/T_USGS_Puma_Modflow_ArrayControlRecord_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_ArrayControlRecord_1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_USGS_Puma_Modflow_ArrayControlRecord_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_ArrayControlRecord_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_ArrayControlRecord_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ArrayControlRecord(Of T).ArrayControlRecord constructor" Url="html/Overload_USGS_Puma_Modflow_ArrayControlRecord_1__ctor.htm" />
+  <HelpKINode Title="ArrayControlRecord(Of T).ArrayMultiplier property" Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_ArrayMultiplier.htm" />
+  <HelpKINode Title="ArrayControlRecord(Of T).ConstantValue property" Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_ConstantValue.htm" />
+  <HelpKINode Title="ArrayControlRecord(Of T).Filename property" Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_Filename.htm" />
+  <HelpKINode Title="ArrayControlRecord(Of T).FileUnit property" Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_FileUnit.htm" />
+  <HelpKINode Title="ArrayControlRecord(Of T).GetFixedFieldInfo method" Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1_GetFixedFieldInfo.htm" />
+  <HelpKINode Title="ArrayControlRecord(Of T).InputFormat property" Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_InputFormat.htm" />
+  <HelpKINode Title="ArrayControlRecord(Of T).NameData property" Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_NameData.htm" />
+  <HelpKINode Title="ArrayControlRecord(Of T).PrintCode property" Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_PrintCode.htm" />
+  <HelpKINode Title="ArrayControlRecord(Of T).RecordType property" Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_RecordType.htm" />
+  <HelpKINode Title="ArrayControlRecord(Of T).SetAsConstant method" Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1_SetAsConstant.htm" />
+  <HelpKINode Title="ArrayControlRecord(Of T).SetAsExternal method" Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1_SetAsExternal.htm" />
+  <HelpKINode Title="ArrayControlRecord(Of T).SetAsInternal method" Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1_SetAsInternal.htm" />
+  <HelpKINode Title="ArrayControlRecord(Of T).SetAsOpenClose method" Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1_SetAsOpenClose.htm" />
+  <HelpKINode Title="ArrayControlRecord(Of T).SetControlRecordData method" Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1_SetControlRecordData.htm" />
+  <HelpKINode Title="ArrayControlRecord&lt;T&gt; class" Url="html/AllMembers_T_USGS_Puma_Modflow_ArrayControlRecord_1.htm" />
+  <HelpKINode Title="ArrayControlRecord&lt;T&gt; class" Url="html/T_USGS_Puma_Modflow_ArrayControlRecord_1.htm" />
+  <HelpKINode Title="ArrayControlRecord&lt;T&gt; class">
+    <HelpKINode Title="about ArrayControlRecord&lt;T&gt; class" Url="html/T_USGS_Puma_Modflow_ArrayControlRecord_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_ArrayControlRecord_1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_USGS_Puma_Modflow_ArrayControlRecord_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_ArrayControlRecord_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_ArrayControlRecord_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ArrayControlRecord&lt;T&gt;.ArrayControlRecord constructor" Url="html/Overload_USGS_Puma_Modflow_ArrayControlRecord_1__ctor.htm" />
+  <HelpKINode Title="ArrayControlRecord&lt;T&gt;.ArrayMultiplier property" Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_ArrayMultiplier.htm" />
+  <HelpKINode Title="ArrayControlRecord&lt;T&gt;.ConstantValue property" Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_ConstantValue.htm" />
+  <HelpKINode Title="ArrayControlRecord&lt;T&gt;.Filename property" Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_Filename.htm" />
+  <HelpKINode Title="ArrayControlRecord&lt;T&gt;.FileUnit property" Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_FileUnit.htm" />
+  <HelpKINode Title="ArrayControlRecord&lt;T&gt;.GetFixedFieldInfo method" Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1_GetFixedFieldInfo.htm" />
+  <HelpKINode Title="ArrayControlRecord&lt;T&gt;.InputFormat property" Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_InputFormat.htm" />
+  <HelpKINode Title="ArrayControlRecord&lt;T&gt;.NameData property" Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_NameData.htm" />
+  <HelpKINode Title="ArrayControlRecord&lt;T&gt;.PrintCode property" Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_PrintCode.htm" />
+  <HelpKINode Title="ArrayControlRecord&lt;T&gt;.RecordType property" Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_RecordType.htm" />
+  <HelpKINode Title="ArrayControlRecord&lt;T&gt;.SetAsConstant method" Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1_SetAsConstant.htm" />
+  <HelpKINode Title="ArrayControlRecord&lt;T&gt;.SetAsExternal method" Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1_SetAsExternal.htm" />
+  <HelpKINode Title="ArrayControlRecord&lt;T&gt;.SetAsInternal method" Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1_SetAsInternal.htm" />
+  <HelpKINode Title="ArrayControlRecord&lt;T&gt;.SetAsOpenClose method" Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1_SetAsOpenClose.htm" />
+  <HelpKINode Title="ArrayControlRecord&lt;T&gt;.SetControlRecordData method" Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1_SetControlRecordData.htm" />
+  <HelpKINode Title="ArrayControlRecordType enumeration" Url="html/T_USGS_Puma_Modflow_ArrayControlRecordType.htm" />
+  <HelpKINode Title="ArrayDimension property" Url="html/P_USGS_Puma_Modflow_IModflowDataArray_1_ArrayDimension.htm" />
+  <HelpKINode Title="ArrayDimension property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_ArrayDimension.htm" />
+  <HelpKINode Title="ArrayDimension property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_ArrayDimension.htm" />
+  <HelpKINode Title="ArrayMultiplier property" Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_ArrayMultiplier.htm" />
+  <HelpKINode Title="ArrayMultiplier property" Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_ArrayMultiplier.htm" />
+  <HelpKINode Title="ArrayMultiplier property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_ArrayMultiplier.htm" />
+  <HelpKINode Title="ArrayMultiplier property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_ArrayMultiplier.htm" />
+  <HelpKINode Title="BasDataReader class" Url="html/AllMembers_T_USGS_Puma_Modflow_BasDataReader.htm" />
+  <HelpKINode Title="BasDataReader class" Url="html/T_USGS_Puma_Modflow_BasDataReader.htm" />
+  <HelpKINode Title="BasDataReader class">
+    <HelpKINode Title="about BasDataReader class" Url="html/T_USGS_Puma_Modflow_BasDataReader.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_BasDataReader.htm" />
+    <HelpKINode Title="constructor" Url="html/M_USGS_Puma_Modflow_BasDataReader__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_BasDataReader.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BasDataReader.BasDataReader constructor" Url="html/M_USGS_Puma_Modflow_BasDataReader__ctor.htm" />
+  <HelpKINode Title="BasDataReader.Read method" Url="html/Overload_USGS_Puma_Modflow_BasDataReader_Read.htm" />
+  <HelpKINode Title="BasemapFile property" Url="html/P_USGS_Puma_Modflow_ModflowMetadata_BasemapFile.htm" />
+  <HelpKINode Title="BasFileData class" Url="html/AllMembers_T_USGS_Puma_Modflow_BasFileData.htm" />
+  <HelpKINode Title="BasFileData class" Url="html/T_USGS_Puma_Modflow_BasFileData.htm" />
+  <HelpKINode Title="BasFileData class">
+    <HelpKINode Title="about BasFileData class" Url="html/T_USGS_Puma_Modflow_BasFileData.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_BasFileData.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_USGS_Puma_Modflow_BasFileData__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_BasFileData.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_BasFileData.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BasFileData.AllowFlowBetweenConstantHeads property" Url="html/P_USGS_Puma_Modflow_BasFileData_AllowFlowBetweenConstantHeads.htm" />
+  <HelpKINode Title="BasFileData.BasFileData constructor" Url="html/Overload_USGS_Puma_Modflow_BasFileData__ctor.htm" />
+  <HelpKINode Title="BasFileData.ColumnCount property" Url="html/P_USGS_Puma_Modflow_BasFileData_ColumnCount.htm" />
+  <HelpKINode Title="BasFileData.Comments property" Url="html/P_USGS_Puma_Modflow_BasFileData_Comments.htm" />
+  <HelpKINode Title="BasFileData.GetIBound method" Url="html/M_USGS_Puma_Modflow_BasFileData_GetIBound.htm" />
+  <HelpKINode Title="BasFileData.GetSHead method" Url="html/M_USGS_Puma_Modflow_BasFileData_GetSHead.htm" />
+  <HelpKINode Title="BasFileData.HNoFlo property" Url="html/P_USGS_Puma_Modflow_BasFileData_HNoFlo.htm" />
+  <HelpKINode Title="BasFileData.Initialize method" Url="html/M_USGS_Puma_Modflow_BasFileData_Initialize.htm" />
+  <HelpKINode Title="BasFileData.IsCrossSection property" Url="html/P_USGS_Puma_Modflow_BasFileData_IsCrossSection.htm" />
+  <HelpKINode Title="BasFileData.LayerCount property" Url="html/P_USGS_Puma_Modflow_BasFileData_LayerCount.htm" />
+  <HelpKINode Title="BasFileData.RowCount property" Url="html/P_USGS_Puma_Modflow_BasFileData_RowCount.htm" />
+  <HelpKINode Title="BasFileData.SetIBound method" Url="html/M_USGS_Puma_Modflow_BasFileData_SetIBound.htm" />
+  <HelpKINode Title="BasFileData.SetSHead method" Url="html/M_USGS_Puma_Modflow_BasFileData_SetSHead.htm" />
+  <HelpKINode Title="BasFileData.UseFreeFormat property" Url="html/P_USGS_Puma_Modflow_BasFileData_UseFreeFormat.htm" />
+  <HelpKINode Title="BcfDataReader class" Url="html/AllMembers_T_USGS_Puma_Modflow_BcfDataReader.htm" />
+  <HelpKINode Title="BcfDataReader class" Url="html/T_USGS_Puma_Modflow_BcfDataReader.htm" />
+  <HelpKINode Title="BcfDataReader class">
+    <HelpKINode Title="about BcfDataReader class" Url="html/T_USGS_Puma_Modflow_BcfDataReader.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_BcfDataReader.htm" />
+    <HelpKINode Title="constructor" Url="html/M_USGS_Puma_Modflow_BcfDataReader__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_BcfDataReader.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BcfDataReader.BcfDataReader constructor" Url="html/M_USGS_Puma_Modflow_BcfDataReader__ctor.htm" />
+  <HelpKINode Title="BcfDataReader.Read method" Url="html/Overload_USGS_Puma_Modflow_BcfDataReader_Read.htm" />
+  <HelpKINode Title="BcfFileData class" Url="html/AllMembers_T_USGS_Puma_Modflow_BcfFileData.htm" />
+  <HelpKINode Title="BcfFileData class" Url="html/T_USGS_Puma_Modflow_BcfFileData.htm" />
+  <HelpKINode Title="BcfFileData class">
+    <HelpKINode Title="about BcfFileData class" Url="html/T_USGS_Puma_Modflow_BcfFileData.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_BcfFileData.htm" />
+    <HelpKINode Title="constructor" Url="html/M_USGS_Puma_Modflow_BcfFileData__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_BcfFileData.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_BcfFileData.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BcfFileData.BcfFileData constructor" Url="html/M_USGS_Puma_Modflow_BcfFileData__ctor.htm" />
+  <HelpKINode Title="BcfFileData.ColumnCount property" Url="html/P_USGS_Puma_Modflow_BcfFileData_ColumnCount.htm" />
+  <HelpKINode Title="BcfFileData.Comments property" Url="html/P_USGS_Puma_Modflow_BcfFileData_Comments.htm" />
+  <HelpKINode Title="BcfFileData.HDry property" Url="html/P_USGS_Puma_Modflow_BcfFileData_HDry.htm" />
+  <HelpKINode Title="BcfFileData.IBcfCb property" Url="html/P_USGS_Puma_Modflow_BcfFileData_IBcfCb.htm" />
+  <HelpKINode Title="BcfFileData.IHdWet property" Url="html/P_USGS_Puma_Modflow_BcfFileData_IHdWet.htm" />
+  <HelpKINode Title="BcfFileData.Initialize method" Url="html/M_USGS_Puma_Modflow_BcfFileData_Initialize.htm" />
+  <HelpKINode Title="BcfFileData.IWdFlg property" Url="html/P_USGS_Puma_Modflow_BcfFileData_IWdFlg.htm" />
+  <HelpKINode Title="BcfFileData.IWetIt property" Url="html/P_USGS_Puma_Modflow_BcfFileData_IWetIt.htm" />
+  <HelpKINode Title="BcfFileData.LayerCount property" Url="html/P_USGS_Puma_Modflow_BcfFileData_LayerCount.htm" />
+  <HelpKINode Title="BcfFileData.RowCount property" Url="html/P_USGS_Puma_Modflow_BcfFileData_RowCount.htm" />
+  <HelpKINode Title="BcfFileData.WetFct property" Url="html/P_USGS_Puma_Modflow_BcfFileData_WetFct.htm" />
+  <HelpKINode Title="BinaryLayerReader class" Url="html/AllMembers_T_USGS_Puma_Modflow_BinaryLayerReader.htm" />
+  <HelpKINode Title="BinaryLayerReader class" Url="html/T_USGS_Puma_Modflow_BinaryLayerReader.htm" />
+  <HelpKINode Title="BinaryLayerReader class">
+    <HelpKINode Title="about BinaryLayerReader class" Url="html/T_USGS_Puma_Modflow_BinaryLayerReader.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_BinaryLayerReader.htm" />
+    <HelpKINode Title="constructor" Url="html/M_USGS_Puma_Modflow_BinaryLayerReader__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_BinaryLayerReader.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_BinaryLayerReader.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BinaryLayerReader.BinaryLayerReader constructor" Url="html/M_USGS_Puma_Modflow_BinaryLayerReader__ctor.htm" />
+  <HelpKINode Title="BinaryLayerReader.Close method" Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_Close.htm" />
+  <HelpKINode Title="BinaryLayerReader.ColumnCount property" Url="html/P_USGS_Puma_Modflow_BinaryLayerReader_ColumnCount.htm" />
+  <HelpKINode Title="BinaryLayerReader.Dispose method" Url="html/Overload_USGS_Puma_Modflow_BinaryLayerReader_Dispose.htm" />
+  <HelpKINode Title="BinaryLayerReader.Filename property" Url="html/P_USGS_Puma_Modflow_BinaryLayerReader_Filename.htm" />
+  <HelpKINode Title="BinaryLayerReader.FindRecordIndex method" Url="html/Overload_USGS_Puma_Modflow_BinaryLayerReader_FindRecordIndex.htm" />
+  <HelpKINode Title="BinaryLayerReader.GetDataTypes method" Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_GetDataTypes.htm" />
+  <HelpKINode Title="BinaryLayerReader.GetRecord method" Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_GetRecord.htm" />
+  <HelpKINode Title="BinaryLayerReader.GetRecordAsDouble method" Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_GetRecordAsDouble.htm" />
+  <HelpKINode Title="BinaryLayerReader.GetRecordAsSingle method" Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_GetRecordAsSingle.htm" />
+  <HelpKINode Title="BinaryLayerReader.GetStressPeriods method" Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_GetStressPeriods.htm" />
+  <HelpKINode Title="BinaryLayerReader.GetTimeSteps method" Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_GetTimeSteps.htm" />
+  <HelpKINode Title="BinaryLayerReader.OutputPrecision property" Url="html/P_USGS_Puma_Modflow_BinaryLayerReader_OutputPrecision.htm" />
+  <HelpKINode Title="BinaryLayerReader.ReadAllRecordHeaders method" Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_ReadAllRecordHeaders.htm" />
+  <HelpKINode Title="BinaryLayerReader.ReadRecordHeader method" Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_ReadRecordHeader.htm" />
+  <HelpKINode Title="BinaryLayerReader.RecordCount property" Url="html/P_USGS_Puma_Modflow_BinaryLayerReader_RecordCount.htm" />
+  <HelpKINode Title="BinaryLayerReader.RowCount property" Url="html/P_USGS_Puma_Modflow_BinaryLayerReader_RowCount.htm" />
+  <HelpKINode Title="BinaryLayerReader.Valid property" Url="html/P_USGS_Puma_Modflow_BinaryLayerReader_Valid.htm" />
+  <HelpKINode Title="BinaryLayerWriter class" Url="html/AllMembers_T_USGS_Puma_Modflow_BinaryLayerWriter.htm" />
+  <HelpKINode Title="BinaryLayerWriter class" Url="html/T_USGS_Puma_Modflow_BinaryLayerWriter.htm" />
+  <HelpKINode Title="BinaryLayerWriter class">
+    <HelpKINode Title="about BinaryLayerWriter class" Url="html/T_USGS_Puma_Modflow_BinaryLayerWriter.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_BinaryLayerWriter.htm" />
+    <HelpKINode Title="constructor" Url="html/M_USGS_Puma_Modflow_BinaryLayerWriter__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_BinaryLayerWriter.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_BinaryLayerWriter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BinaryLayerWriter.BinaryLayerWriter constructor" Url="html/M_USGS_Puma_Modflow_BinaryLayerWriter__ctor.htm" />
+  <HelpKINode Title="BinaryLayerWriter.Close method" Url="html/M_USGS_Puma_Modflow_BinaryLayerWriter_Close.htm" />
+  <HelpKINode Title="BinaryLayerWriter.ColumnCount property" Url="html/P_USGS_Puma_Modflow_BinaryLayerWriter_ColumnCount.htm" />
+  <HelpKINode Title="BinaryLayerWriter.Dispose method" Url="html/Overload_USGS_Puma_Modflow_BinaryLayerWriter_Dispose.htm" />
+  <HelpKINode Title="BinaryLayerWriter.Finalize method" Url="html/M_USGS_Puma_Modflow_BinaryLayerWriter_Finalize.htm" />
+  <HelpKINode Title="BinaryLayerWriter.RowCount property" Url="html/P_USGS_Puma_Modflow_BinaryLayerWriter_RowCount.htm" />
+  <HelpKINode Title="BinaryLayerWriter.Write method" Url="html/Overload_USGS_Puma_Modflow_BinaryLayerWriter_Write.htm" />
+  <HelpKINode Title="BinaryLayerWriter.WriteFile method" Url="html/M_USGS_Puma_Modflow_BinaryLayerWriter_WriteFile.htm" />
+  <HelpKINode Title="BuildTimeStepCollection method" Url="html/Overload_USGS_Puma_Modflow_TimeDiscretization_BuildTimeStepCollection.htm" />
+  <HelpKINode Title="Clear method" Url="html/M_USGS_Puma_Modflow_IModflowNameData_Clear.htm" />
+  <HelpKINode Title="Clear method" Url="html/M_USGS_Puma_Modflow_ModflowNameData_Clear.htm" />
+  <HelpKINode Title="Clear method" Url="html/M_USGS_Puma_Modflow_TimeDiscretization_Clear.htm" />
+  <HelpKINode Title="Close method" Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_Close.htm" />
+  <HelpKINode Title="Close method" Url="html/M_USGS_Puma_Modflow_BinaryLayerWriter_Close.htm" />
+  <HelpKINode Title="ColumnCount property" Url="html/P_USGS_Puma_Modflow_BasFileData_ColumnCount.htm" />
+  <HelpKINode Title="ColumnCount property" Url="html/P_USGS_Puma_Modflow_BcfFileData_ColumnCount.htm" />
+  <HelpKINode Title="ColumnCount property" Url="html/P_USGS_Puma_Modflow_BinaryLayerReader_ColumnCount.htm" />
+  <HelpKINode Title="ColumnCount property" Url="html/P_USGS_Puma_Modflow_BinaryLayerWriter_ColumnCount.htm" />
+  <HelpKINode Title="ColumnCount property" Url="html/P_USGS_Puma_Modflow_DisFileData_ColumnCount.htm" />
+  <HelpKINode Title="ColumnCount property" Url="html/P_USGS_Puma_Modflow_IModflowDataArray2d_1_ColumnCount.htm" />
+  <HelpKINode Title="ColumnCount property" Url="html/P_USGS_Puma_Modflow_LayerDataRecordHeader_ColumnCount.htm" />
+  <HelpKINode Title="ColumnCount property" Url="html/P_USGS_Puma_Modflow_LpfFileData_ColumnCount.htm" />
+  <HelpKINode Title="ColumnCount property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_ColumnCount.htm" />
+  <HelpKINode Title="Comments property" Url="html/P_USGS_Puma_Modflow_BasFileData_Comments.htm" />
+  <HelpKINode Title="Comments property" Url="html/P_USGS_Puma_Modflow_BcfFileData_Comments.htm" />
+  <HelpKINode Title="Comments property" Url="html/P_USGS_Puma_Modflow_DisFileData_Comments.htm" />
+  <HelpKINode Title="Comments property" Url="html/P_USGS_Puma_Modflow_LpfFileData_Comments.htm" />
+  <HelpKINode Title="Comments property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_Comments.htm" />
+  <HelpKINode Title="CompactBudget property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_CompactBudget.htm" />
+  <HelpKINode Title="CompactBudgetSaveAuxiliary property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_CompactBudgetSaveAuxiliary.htm" />
+  <HelpKINode Title="Constant enumeration member" Url="html/T_USGS_Puma_Modflow_ArrayControlRecordType.htm" />
+  <HelpKINode Title="ConstantValue property" Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_ConstantValue.htm" />
+  <HelpKINode Title="ConstantValue property" Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_ConstantValue.htm" />
+  <HelpKINode Title="ConstantValue property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_ConstantValue.htm" />
+  <HelpKINode Title="ConstantValue property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_ConstantValue.htm" />
+  <HelpKINode Title="Contains method" Url="html/Overload_USGS_Puma_Modflow_TimeStepCollection_Contains.htm" />
+  <HelpKINode Title="ContainsTimeStep method" Url="html/M_USGS_Puma_Modflow_TimeStepCollection_ContainsTimeStep.htm" />
+  <HelpKINode Title="CopyAsDouble method" Url="html/M_USGS_Puma_Modflow_LayerDataRecord_1_CopyAsDouble.htm" />
+  <HelpKINode Title="CopyAsSingle method" Url="html/M_USGS_Puma_Modflow_LayerDataRecord_1_CopyAsSingle.htm" />
+  <HelpKINode Title="CreateCellCenteredGrid method" Url="html/M_USGS_Puma_Modflow_DisFileData_CreateCellCenteredGrid.htm" />
+  <HelpKINode Title="CreateFromXml method" Url="html/M_USGS_Puma_Modflow_ModflowMetadata_CreateFromXml.htm" />
+  <HelpKINode Title="CreateKey method" Url="html/M_USGS_Puma_Modflow_TimeStep_CreateKey.htm" />
+  <HelpKINode Title="DataArray property" Url="html/P_USGS_Puma_Modflow_IModflowDataArray1d_1_DataArray.htm" />
+  <HelpKINode Title="DataArray property" Url="html/P_USGS_Puma_Modflow_IModflowDataArray2d_1_DataArray.htm" />
+  <HelpKINode Title="DataArray property" Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_DataArray.htm" />
+  <HelpKINode Title="DataArray property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_DataArray.htm" />
+  <HelpKINode Title="DataArray property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_DataArray.htm" />
+  <HelpKINode Title="DelC property" Url="html/P_USGS_Puma_Modflow_DisFileData_DelC.htm" />
+  <HelpKINode Title="DelR property" Url="html/P_USGS_Puma_Modflow_DisFileData_DelR.htm" />
+  <HelpKINode Title="DisDataReader class" Url="html/AllMembers_T_USGS_Puma_Modflow_DisDataReader.htm" />
+  <HelpKINode Title="DisDataReader class" Url="html/T_USGS_Puma_Modflow_DisDataReader.htm" />
+  <HelpKINode Title="DisDataReader class">
+    <HelpKINode Title="about DisDataReader class" Url="html/T_USGS_Puma_Modflow_DisDataReader.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_DisDataReader.htm" />
+    <HelpKINode Title="constructor" Url="html/M_USGS_Puma_Modflow_DisDataReader__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_DisDataReader.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DisDataReader.DisDataReader constructor" Url="html/M_USGS_Puma_Modflow_DisDataReader__ctor.htm" />
+  <HelpKINode Title="DisDataReader.Read method" Url="html/Overload_USGS_Puma_Modflow_DisDataReader_Read.htm" />
+  <HelpKINode Title="DisFileData class" Url="html/AllMembers_T_USGS_Puma_Modflow_DisFileData.htm" />
+  <HelpKINode Title="DisFileData class" Url="html/T_USGS_Puma_Modflow_DisFileData.htm" />
+  <HelpKINode Title="DisFileData class">
+    <HelpKINode Title="about DisFileData class" Url="html/T_USGS_Puma_Modflow_DisFileData.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_DisFileData.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_USGS_Puma_Modflow_DisFileData__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_DisFileData.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_DisFileData.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DisFileData.ColumnCount property" Url="html/P_USGS_Puma_Modflow_DisFileData_ColumnCount.htm" />
+  <HelpKINode Title="DisFileData.Comments property" Url="html/P_USGS_Puma_Modflow_DisFileData_Comments.htm" />
+  <HelpKINode Title="DisFileData.CreateCellCenteredGrid method" Url="html/M_USGS_Puma_Modflow_DisFileData_CreateCellCenteredGrid.htm" />
+  <HelpKINode Title="DisFileData.DelC property" Url="html/P_USGS_Puma_Modflow_DisFileData_DelC.htm" />
+  <HelpKINode Title="DisFileData.DelR property" Url="html/P_USGS_Puma_Modflow_DisFileData_DelR.htm" />
+  <HelpKINode Title="DisFileData.DisFileData constructor" Url="html/Overload_USGS_Puma_Modflow_DisFileData__ctor.htm" />
+  <HelpKINode Title="DisFileData.GetBottom method" Url="html/M_USGS_Puma_Modflow_DisFileData_GetBottom.htm" />
+  <HelpKINode Title="DisFileData.GetConfiningBedBottom method" Url="html/M_USGS_Puma_Modflow_DisFileData_GetConfiningBedBottom.htm" />
+  <HelpKINode Title="DisFileData.GetLayerConfiningBedFlag method" Url="html/M_USGS_Puma_Modflow_DisFileData_GetLayerConfiningBedFlag.htm" />
+  <HelpKINode Title="DisFileData.LayerCount property" Url="html/P_USGS_Puma_Modflow_DisFileData_LayerCount.htm" />
+  <HelpKINode Title="DisFileData.LengthUnit property" Url="html/P_USGS_Puma_Modflow_DisFileData_LengthUnit.htm" />
+  <HelpKINode Title="DisFileData.NameData property" Url="html/P_USGS_Puma_Modflow_DisFileData_NameData.htm" />
+  <HelpKINode Title="DisFileData.RowCount property" Url="html/P_USGS_Puma_Modflow_DisFileData_RowCount.htm" />
+  <HelpKINode Title="DisFileData.SetBottom method" Url="html/M_USGS_Puma_Modflow_DisFileData_SetBottom.htm" />
+  <HelpKINode Title="DisFileData.SetConfiningBedBottom method" Url="html/M_USGS_Puma_Modflow_DisFileData_SetConfiningBedBottom.htm" />
+  <HelpKINode Title="DisFileData.SetLayerConfiningBedFlag method" Url="html/M_USGS_Puma_Modflow_DisFileData_SetLayerConfiningBedFlag.htm" />
+  <HelpKINode Title="DisFileData.TimeDiscretization property" Url="html/P_USGS_Puma_Modflow_DisFileData_TimeDiscretization.htm" />
+  <HelpKINode Title="DisFileData.TimeUnit property" Url="html/P_USGS_Puma_Modflow_DisFileData_TimeUnit.htm" />
+  <HelpKINode Title="DisFileData.Top property" Url="html/P_USGS_Puma_Modflow_DisFileData_Top.htm" />
+  <HelpKINode Title="Dispose method" Url="html/Overload_USGS_Puma_Modflow_BinaryLayerReader_Dispose.htm" />
+  <HelpKINode Title="Dispose method" Url="html/Overload_USGS_Puma_Modflow_BinaryLayerWriter_Dispose.htm" />
+  <HelpKINode Title="Double enumeration member" Url="html/T_USGS_Puma_Modflow_OutputPrecisionType.htm" />
+  <HelpKINode Title="DrawdownPrintFormat property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_DrawdownPrintFormat.htm" />
+  <HelpKINode Title="DrawdownSaveFormat property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_DrawdownSaveFormat.htm" />
+  <HelpKINode Title="DrawdownSaveFormatLabel property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_DrawdownSaveFormatLabel.htm" />
+  <HelpKINode Title="DrawdownSaveUnit property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_DrawdownSaveUnit.htm" />
+  <HelpKINode Title="ElementCount property" Url="html/P_USGS_Puma_Modflow_IModflowDataArray1d_1_ElementCount.htm" />
+  <HelpKINode Title="ElementCount property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_ElementCount.htm" />
+  <HelpKINode Title="External enumeration member" Url="html/T_USGS_Puma_Modflow_ArrayControlRecordType.htm" />
+  <HelpKINode Title="Filename property" Url="html/P_USGS_Puma_Modflow_BinaryLayerReader_Filename.htm" />
+  <HelpKINode Title="Filename property" Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_Filename.htm" />
+  <HelpKINode Title="Filename property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_Filename.htm" />
+  <HelpKINode Title="FileName property" Url="html/P_USGS_Puma_Modflow_INameFileItem_FileName.htm" />
+  <HelpKINode Title="Filename property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_Filename.htm" />
+  <HelpKINode Title="FileName property" Url="html/P_USGS_Puma_Modflow_NameFileItem_FileName.htm" />
+  <HelpKINode Title="Filename property" Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_Filename.htm" />
+  <HelpKINode Title="FileReader property" Url="html/P_USGS_Puma_Modflow_ModflowDataArrayReader_1_FileReader.htm" />
+  <HelpKINode Title="FileStatus property" Url="html/P_USGS_Puma_Modflow_INameFileItem_FileStatus.htm" />
+  <HelpKINode Title="FileStatus property" Url="html/P_USGS_Puma_Modflow_NameFileItem_FileStatus.htm" />
+  <HelpKINode Title="FileType property" Url="html/P_USGS_Puma_Modflow_INameFileItem_FileType.htm" />
+  <HelpKINode Title="FileType property" Url="html/P_USGS_Puma_Modflow_NameFileItem_FileType.htm" />
+  <HelpKINode Title="FileUnit property" Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_FileUnit.htm" />
+  <HelpKINode Title="FileUnit property" Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_FileUnit.htm" />
+  <HelpKINode Title="FileUnit property" Url="html/P_USGS_Puma_Modflow_INameFileItem_FileUnit.htm" />
+  <HelpKINode Title="FileUnit property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_FileUnit.htm" />
+  <HelpKINode Title="FileUnit property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_FileUnit.htm" />
+  <HelpKINode Title="FileUnit property" Url="html/P_USGS_Puma_Modflow_NameFileItem_FileUnit.htm" />
+  <HelpKINode Title="FileUnitAvailable method" Url="html/M_USGS_Puma_Modflow_IModflowNameData_FileUnitAvailable.htm" />
+  <HelpKINode Title="FileUnitAvailable method" Url="html/M_USGS_Puma_Modflow_ModflowNameData_FileUnitAvailable.htm" />
+  <HelpKINode Title="Finalize method" Url="html/M_USGS_Puma_Modflow_BinaryLayerWriter_Finalize.htm" />
+  <HelpKINode Title="FindRecordIndex method" Url="html/Overload_USGS_Puma_Modflow_BinaryLayerReader_FindRecordIndex.htm" />
+  <HelpKINode Title="GetBottom method" Url="html/M_USGS_Puma_Modflow_DisFileData_GetBottom.htm" />
+  <HelpKINode Title="GetConfiningBedBottom method" Url="html/M_USGS_Puma_Modflow_DisFileData_GetConfiningBedBottom.htm" />
+  <HelpKINode Title="GetDataArrayCopy method" Url="html/Overload_USGS_Puma_Modflow_IModflowDataArray1d_1_GetDataArrayCopy.htm" />
+  <HelpKINode Title="GetDataArrayCopy method" Url="html/Overload_USGS_Puma_Modflow_IModflowDataArray2d_1_GetDataArrayCopy.htm" />
+  <HelpKINode Title="GetDataArrayCopy method" Url="html/Overload_USGS_Puma_Modflow_ModflowDataArray1d_1_GetDataArrayCopy.htm" />
+  <HelpKINode Title="GetDataArrayCopy method" Url="html/Overload_USGS_Puma_Modflow_ModflowDataArray2d_1_GetDataArrayCopy.htm" />
+  <HelpKINode Title="GetDataTypes method" Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_GetDataTypes.htm" />
+  <HelpKINode Title="GetFixedFieldInfo method" Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1_GetFixedFieldInfo.htm" />
+  <HelpKINode Title="GetFullFilename method" Url="html/Overload_USGS_Puma_Modflow_ModflowNameData_GetFullFilename.htm" />
+  <HelpKINode Title="GetIBound method" Url="html/M_USGS_Puma_Modflow_BasFileData_GetIBound.htm" />
+  <HelpKINode Title="GetItemsAsList method" Url="html/M_USGS_Puma_Modflow_IModflowNameData_GetItemsAsList.htm" />
+  <HelpKINode Title="GetItemsAsList method" Url="html/Overload_USGS_Puma_Modflow_ModflowNameData_GetItemsAsList.htm" />
+  <HelpKINode Title="GetKeyForItem method" Url="html/M_USGS_Puma_Modflow_TimeStepCollection_GetKeyForItem.htm" />
+  <HelpKINode Title="GetLayerConfiningBedFlag method" Url="html/M_USGS_Puma_Modflow_DisFileData_GetLayerConfiningBedFlag.htm" />
+  <HelpKINode Title="GetPeriodTimes method" Url="html/M_USGS_Puma_Modflow_StressPeriod_GetPeriodTimes.htm" />
+  <HelpKINode Title="GetRecord method" Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_GetRecord.htm" />
+  <HelpKINode Title="GetRecordAsDouble method" Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_GetRecordAsDouble.htm" />
+  <HelpKINode Title="GetRecordAsSingle method" Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_GetRecordAsSingle.htm" />
+  <HelpKINode Title="GetSHead method" Url="html/M_USGS_Puma_Modflow_BasFileData_GetSHead.htm" />
+  <HelpKINode Title="GetStressPeriods method" Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_GetStressPeriods.htm" />
+  <HelpKINode Title="GetTimeStepLengths method" Url="html/M_USGS_Puma_Modflow_StressPeriod_GetTimeStepLengths.htm" />
+  <HelpKINode Title="GetTimeSteps method" Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_GetTimeSteps.htm" />
+  <HelpKINode Title="GridGeoReference property" Url="html/P_USGS_Puma_Modflow_ModflowMetadata_GridGeoReference.htm" />
+  <HelpKINode Title="HDry property" Url="html/P_USGS_Puma_Modflow_BcfFileData_HDry.htm" />
+  <HelpKINode Title="HDry property" Url="html/P_USGS_Puma_Modflow_LpfFileData_HDry.htm" />
+  <HelpKINode Title="HeadPrintFormat property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_HeadPrintFormat.htm" />
+  <HelpKINode Title="HeadSaveFormat property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_HeadSaveFormat.htm" />
+  <HelpKINode Title="HeadSaveFormatLabel property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_HeadSaveFormatLabel.htm" />
+  <HelpKINode Title="HeadSaveUnit property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_HeadSaveUnit.htm" />
+  <HelpKINode Title="HNoFlo property" Url="html/P_USGS_Puma_Modflow_BasFileData_HNoFlo.htm" />
+  <HelpKINode Title="IArrayControlRecord(Of T) interface" Url="html/AllMembers_T_USGS_Puma_Modflow_IArrayControlRecord_1.htm" />
+  <HelpKINode Title="IArrayControlRecord(Of T) interface" Url="html/T_USGS_Puma_Modflow_IArrayControlRecord_1.htm" />
+  <HelpKINode Title="IArrayControlRecord(Of T) interface">
+    <HelpKINode Title="about IArrayControlRecord(Of T) interface" Url="html/T_USGS_Puma_Modflow_IArrayControlRecord_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_IArrayControlRecord_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_IArrayControlRecord_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_IArrayControlRecord_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IArrayControlRecord(Of T).ArrayMultiplier property" Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_ArrayMultiplier.htm" />
+  <HelpKINode Title="IArrayControlRecord(Of T).ConstantValue property" Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_ConstantValue.htm" />
+  <HelpKINode Title="IArrayControlRecord(Of T).Filename property" Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_Filename.htm" />
+  <HelpKINode Title="IArrayControlRecord(Of T).FileUnit property" Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_FileUnit.htm" />
+  <HelpKINode Title="IArrayControlRecord(Of T).InputFormat property" Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_InputFormat.htm" />
+  <HelpKINode Title="IArrayControlRecord(Of T).NameData property" Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_NameData.htm" />
+  <HelpKINode Title="IArrayControlRecord(Of T).PrintCode property" Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_PrintCode.htm" />
+  <HelpKINode Title="IArrayControlRecord(Of T).RecordType property" Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_RecordType.htm" />
+  <HelpKINode Title="IArrayControlRecord(Of T).SetAsConstant method" Url="html/M_USGS_Puma_Modflow_IArrayControlRecord_1_SetAsConstant.htm" />
+  <HelpKINode Title="IArrayControlRecord(Of T).SetAsExternal method" Url="html/M_USGS_Puma_Modflow_IArrayControlRecord_1_SetAsExternal.htm" />
+  <HelpKINode Title="IArrayControlRecord(Of T).SetAsInternal method" Url="html/M_USGS_Puma_Modflow_IArrayControlRecord_1_SetAsInternal.htm" />
+  <HelpKINode Title="IArrayControlRecord(Of T).SetAsOpenClose method" Url="html/M_USGS_Puma_Modflow_IArrayControlRecord_1_SetAsOpenClose.htm" />
+  <HelpKINode Title="IArrayControlRecord(Of T).SetControlRecordData method" Url="html/M_USGS_Puma_Modflow_IArrayControlRecord_1_SetControlRecordData.htm" />
+  <HelpKINode Title="IArrayControlRecord&lt;T&gt; interface" Url="html/AllMembers_T_USGS_Puma_Modflow_IArrayControlRecord_1.htm" />
+  <HelpKINode Title="IArrayControlRecord&lt;T&gt; interface" Url="html/T_USGS_Puma_Modflow_IArrayControlRecord_1.htm" />
+  <HelpKINode Title="IArrayControlRecord&lt;T&gt; interface">
+    <HelpKINode Title="about IArrayControlRecord&lt;T&gt; interface" Url="html/T_USGS_Puma_Modflow_IArrayControlRecord_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_IArrayControlRecord_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_IArrayControlRecord_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_IArrayControlRecord_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IArrayControlRecord&lt;T&gt;.ArrayMultiplier property" Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_ArrayMultiplier.htm" />
+  <HelpKINode Title="IArrayControlRecord&lt;T&gt;.ConstantValue property" Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_ConstantValue.htm" />
+  <HelpKINode Title="IArrayControlRecord&lt;T&gt;.Filename property" Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_Filename.htm" />
+  <HelpKINode Title="IArrayControlRecord&lt;T&gt;.FileUnit property" Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_FileUnit.htm" />
+  <HelpKINode Title="IArrayControlRecord&lt;T&gt;.InputFormat property" Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_InputFormat.htm" />
+  <HelpKINode Title="IArrayControlRecord&lt;T&gt;.NameData property" Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_NameData.htm" />
+  <HelpKINode Title="IArrayControlRecord&lt;T&gt;.PrintCode property" Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_PrintCode.htm" />
+  <HelpKINode Title="IArrayControlRecord&lt;T&gt;.RecordType property" Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_RecordType.htm" />
+  <HelpKINode Title="IArrayControlRecord&lt;T&gt;.SetAsConstant method" Url="html/M_USGS_Puma_Modflow_IArrayControlRecord_1_SetAsConstant.htm" />
+  <HelpKINode Title="IArrayControlRecord&lt;T&gt;.SetAsExternal method" Url="html/M_USGS_Puma_Modflow_IArrayControlRecord_1_SetAsExternal.htm" />
+  <HelpKINode Title="IArrayControlRecord&lt;T&gt;.SetAsInternal method" Url="html/M_USGS_Puma_Modflow_IArrayControlRecord_1_SetAsInternal.htm" />
+  <HelpKINode Title="IArrayControlRecord&lt;T&gt;.SetAsOpenClose method" Url="html/M_USGS_Puma_Modflow_IArrayControlRecord_1_SetAsOpenClose.htm" />
+  <HelpKINode Title="IArrayControlRecord&lt;T&gt;.SetControlRecordData method" Url="html/M_USGS_Puma_Modflow_IArrayControlRecord_1_SetControlRecordData.htm" />
+  <HelpKINode Title="IBcfCb property" Url="html/P_USGS_Puma_Modflow_BcfFileData_IBcfCb.htm" />
+  <HelpKINode Title="IboundSaveFormat property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_IboundSaveFormat.htm" />
+  <HelpKINode Title="IboundSaveFormatLabel property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_IboundSaveFormatLabel.htm" />
+  <HelpKINode Title="IboundSaveUnit property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_IboundSaveUnit.htm" />
+  <HelpKINode Title="IHdWet property" Url="html/P_USGS_Puma_Modflow_BcfFileData_IHdWet.htm" />
+  <HelpKINode Title="ILpfCb property" Url="html/P_USGS_Puma_Modflow_LpfFileData_ILpfCb.htm" />
+  <HelpKINode Title="IModflowDataArray(Of T) interface" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowDataArray_1.htm" />
+  <HelpKINode Title="IModflowDataArray(Of T) interface" Url="html/T_USGS_Puma_Modflow_IModflowDataArray_1.htm" />
+  <HelpKINode Title="IModflowDataArray(Of T) interface">
+    <HelpKINode Title="about IModflowDataArray(Of T) interface" Url="html/T_USGS_Puma_Modflow_IModflowDataArray_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowDataArray_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_IModflowDataArray_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IModflowDataArray(Of T).ArrayDimension property" Url="html/P_USGS_Puma_Modflow_IModflowDataArray_1_ArrayDimension.htm" />
+  <HelpKINode Title="IModflowDataArray1d(Of T) interface" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowDataArray1d_1.htm" />
+  <HelpKINode Title="IModflowDataArray1d(Of T) interface" Url="html/T_USGS_Puma_Modflow_IModflowDataArray1d_1.htm" />
+  <HelpKINode Title="IModflowDataArray1d(Of T) interface">
+    <HelpKINode Title="about IModflowDataArray1d(Of T) interface" Url="html/T_USGS_Puma_Modflow_IModflowDataArray1d_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowDataArray1d_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_IModflowDataArray1d_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_IModflowDataArray1d_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IModflowDataArray1d(Of T).DataArray property" Url="html/P_USGS_Puma_Modflow_IModflowDataArray1d_1_DataArray.htm" />
+  <HelpKINode Title="IModflowDataArray1d(Of T).ElementCount property" Url="html/P_USGS_Puma_Modflow_IModflowDataArray1d_1_ElementCount.htm" />
+  <HelpKINode Title="IModflowDataArray1d(Of T).GetDataArrayCopy method" Url="html/Overload_USGS_Puma_Modflow_IModflowDataArray1d_1_GetDataArrayCopy.htm" />
+  <HelpKINode Title="IModflowDataArray1d&lt;T&gt; interface" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowDataArray1d_1.htm" />
+  <HelpKINode Title="IModflowDataArray1d&lt;T&gt; interface" Url="html/T_USGS_Puma_Modflow_IModflowDataArray1d_1.htm" />
+  <HelpKINode Title="IModflowDataArray1d&lt;T&gt; interface">
+    <HelpKINode Title="about IModflowDataArray1d&lt;T&gt; interface" Url="html/T_USGS_Puma_Modflow_IModflowDataArray1d_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowDataArray1d_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_IModflowDataArray1d_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_IModflowDataArray1d_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IModflowDataArray1d&lt;T&gt;.DataArray property" Url="html/P_USGS_Puma_Modflow_IModflowDataArray1d_1_DataArray.htm" />
+  <HelpKINode Title="IModflowDataArray1d&lt;T&gt;.ElementCount property" Url="html/P_USGS_Puma_Modflow_IModflowDataArray1d_1_ElementCount.htm" />
+  <HelpKINode Title="IModflowDataArray1d&lt;T&gt;.GetDataArrayCopy method" Url="html/Overload_USGS_Puma_Modflow_IModflowDataArray1d_1_GetDataArrayCopy.htm" />
+  <HelpKINode Title="IModflowDataArray2d(Of T) interface" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowDataArray2d_1.htm" />
+  <HelpKINode Title="IModflowDataArray2d(Of T) interface" Url="html/T_USGS_Puma_Modflow_IModflowDataArray2d_1.htm" />
+  <HelpKINode Title="IModflowDataArray2d(Of T) interface">
+    <HelpKINode Title="about IModflowDataArray2d(Of T) interface" Url="html/T_USGS_Puma_Modflow_IModflowDataArray2d_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowDataArray2d_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_IModflowDataArray2d_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_IModflowDataArray2d_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IModflowDataArray2d(Of T).ColumnCount property" Url="html/P_USGS_Puma_Modflow_IModflowDataArray2d_1_ColumnCount.htm" />
+  <HelpKINode Title="IModflowDataArray2d(Of T).DataArray property" Url="html/P_USGS_Puma_Modflow_IModflowDataArray2d_1_DataArray.htm" />
+  <HelpKINode Title="IModflowDataArray2d(Of T).GetDataArrayCopy method" Url="html/Overload_USGS_Puma_Modflow_IModflowDataArray2d_1_GetDataArrayCopy.htm" />
+  <HelpKINode Title="IModflowDataArray2d(Of T).RowCount property" Url="html/P_USGS_Puma_Modflow_IModflowDataArray2d_1_RowCount.htm" />
+  <HelpKINode Title="IModflowDataArray2d&lt;T&gt; interface" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowDataArray2d_1.htm" />
+  <HelpKINode Title="IModflowDataArray2d&lt;T&gt; interface" Url="html/T_USGS_Puma_Modflow_IModflowDataArray2d_1.htm" />
+  <HelpKINode Title="IModflowDataArray2d&lt;T&gt; interface">
+    <HelpKINode Title="about IModflowDataArray2d&lt;T&gt; interface" Url="html/T_USGS_Puma_Modflow_IModflowDataArray2d_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowDataArray2d_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_IModflowDataArray2d_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_IModflowDataArray2d_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IModflowDataArray2d&lt;T&gt;.ColumnCount property" Url="html/P_USGS_Puma_Modflow_IModflowDataArray2d_1_ColumnCount.htm" />
+  <HelpKINode Title="IModflowDataArray2d&lt;T&gt;.DataArray property" Url="html/P_USGS_Puma_Modflow_IModflowDataArray2d_1_DataArray.htm" />
+  <HelpKINode Title="IModflowDataArray2d&lt;T&gt;.GetDataArrayCopy method" Url="html/Overload_USGS_Puma_Modflow_IModflowDataArray2d_1_GetDataArrayCopy.htm" />
+  <HelpKINode Title="IModflowDataArray2d&lt;T&gt;.RowCount property" Url="html/P_USGS_Puma_Modflow_IModflowDataArray2d_1_RowCount.htm" />
+  <HelpKINode Title="IModflowDataArray&lt;T&gt; interface" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowDataArray_1.htm" />
+  <HelpKINode Title="IModflowDataArray&lt;T&gt; interface" Url="html/T_USGS_Puma_Modflow_IModflowDataArray_1.htm" />
+  <HelpKINode Title="IModflowDataArray&lt;T&gt; interface">
+    <HelpKINode Title="about IModflowDataArray&lt;T&gt; interface" Url="html/T_USGS_Puma_Modflow_IModflowDataArray_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowDataArray_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_IModflowDataArray_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IModflowDataArray&lt;T&gt;.ArrayDimension property" Url="html/P_USGS_Puma_Modflow_IModflowDataArray_1_ArrayDimension.htm" />
+  <HelpKINode Title="IModflowNameData interface" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowNameData.htm" />
+  <HelpKINode Title="IModflowNameData interface" Url="html/T_USGS_Puma_Modflow_IModflowNameData.htm" />
+  <HelpKINode Title="IModflowNameData interface">
+    <HelpKINode Title="about IModflowNameData interface" Url="html/T_USGS_Puma_Modflow_IModflowNameData.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowNameData.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_IModflowNameData.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IModflowNameData.AddItem method" Url="html/Overload_USGS_Puma_Modflow_IModflowNameData_AddItem.htm" />
+  <HelpKINode Title="IModflowNameData.Clear method" Url="html/M_USGS_Puma_Modflow_IModflowNameData_Clear.htm" />
+  <HelpKINode Title="IModflowNameData.FileUnitAvailable method" Url="html/M_USGS_Puma_Modflow_IModflowNameData_FileUnitAvailable.htm" />
+  <HelpKINode Title="IModflowNameData.GetItemsAsList method" Url="html/M_USGS_Puma_Modflow_IModflowNameData_GetItemsAsList.htm" />
+  <HelpKINode Title="IModflowNameData.RemoveItem method" Url="html/M_USGS_Puma_Modflow_IModflowNameData_RemoveItem.htm" />
+  <HelpKINode Title="INameFileItem interface" Url="html/AllMembers_T_USGS_Puma_Modflow_INameFileItem.htm" />
+  <HelpKINode Title="INameFileItem interface" Url="html/T_USGS_Puma_Modflow_INameFileItem.htm" />
+  <HelpKINode Title="INameFileItem interface">
+    <HelpKINode Title="about INameFileItem interface" Url="html/T_USGS_Puma_Modflow_INameFileItem.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_INameFileItem.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_INameFileItem.htm" />
+  </HelpKINode>
+  <HelpKINode Title="INameFileItem.FileName property" Url="html/P_USGS_Puma_Modflow_INameFileItem_FileName.htm" />
+  <HelpKINode Title="INameFileItem.FileStatus property" Url="html/P_USGS_Puma_Modflow_INameFileItem_FileStatus.htm" />
+  <HelpKINode Title="INameFileItem.FileType property" Url="html/P_USGS_Puma_Modflow_INameFileItem_FileType.htm" />
+  <HelpKINode Title="INameFileItem.FileUnit property" Url="html/P_USGS_Puma_Modflow_INameFileItem_FileUnit.htm" />
+  <HelpKINode Title="Initialize method" Url="html/M_USGS_Puma_Modflow_BasFileData_Initialize.htm" />
+  <HelpKINode Title="Initialize method" Url="html/M_USGS_Puma_Modflow_BcfFileData_Initialize.htm" />
+  <HelpKINode Title="Initialize method" Url="html/M_USGS_Puma_Modflow_LpfFileData_Initialize.htm" />
+  <HelpKINode Title="InputFormat property" Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_InputFormat.htm" />
+  <HelpKINode Title="InputFormat property" Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_InputFormat.htm" />
+  <HelpKINode Title="InputFormat property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_InputFormat.htm" />
+  <HelpKINode Title="InputFormat property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_InputFormat.htm" />
+  <HelpKINode Title="InsertStressPeriod method" Url="html/M_USGS_Puma_Modflow_TimeDiscretization_InsertStressPeriod.htm" />
+  <HelpKINode Title="Internal enumeration member" Url="html/T_USGS_Puma_Modflow_ArrayControlRecordType.htm" />
+  <HelpKINode Title="IsCrossSection property" Url="html/P_USGS_Puma_Modflow_BasFileData_IsCrossSection.htm" />
+  <HelpKINode Title="Item property" Url="html/Overload_USGS_Puma_Modflow_TimeStepCollection_Item.htm" />
+  <HelpKINode Title="IWdFlg property" Url="html/P_USGS_Puma_Modflow_BcfFileData_IWdFlg.htm" />
+  <HelpKINode Title="IWetIt property" Url="html/P_USGS_Puma_Modflow_BcfFileData_IWetIt.htm" />
+  <HelpKINode Title="Key property" Url="html/P_USGS_Puma_Modflow_TimeStep_Key.htm" />
+  <HelpKINode Title="Layer property" Url="html/P_USGS_Puma_Modflow_LayerDataRecordHeader_Layer.htm" />
+  <HelpKINode Title="Layer property" Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_Layer.htm" />
+  <HelpKINode Title="LayerCount property" Url="html/P_USGS_Puma_Modflow_BasFileData_LayerCount.htm" />
+  <HelpKINode Title="LayerCount property" Url="html/P_USGS_Puma_Modflow_BcfFileData_LayerCount.htm" />
+  <HelpKINode Title="LayerCount property" Url="html/P_USGS_Puma_Modflow_DisFileData_LayerCount.htm" />
+  <HelpKINode Title="LayerCount property" Url="html/P_USGS_Puma_Modflow_LpfFileData_LayerCount.htm" />
+  <HelpKINode Title="LayerDataRecord(Of T) class" Url="html/AllMembers_T_USGS_Puma_Modflow_LayerDataRecord_1.htm" />
+  <HelpKINode Title="LayerDataRecord(Of T) class" Url="html/T_USGS_Puma_Modflow_LayerDataRecord_1.htm" />
+  <HelpKINode Title="LayerDataRecord(Of T) class">
+    <HelpKINode Title="about LayerDataRecord(Of T) class" Url="html/T_USGS_Puma_Modflow_LayerDataRecord_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_LayerDataRecord_1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_USGS_Puma_Modflow_LayerDataRecord_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_LayerDataRecord_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_LayerDataRecord_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LayerDataRecord(Of T).CopyAsDouble method" Url="html/M_USGS_Puma_Modflow_LayerDataRecord_1_CopyAsDouble.htm" />
+  <HelpKINode Title="LayerDataRecord(Of T).CopyAsSingle method" Url="html/M_USGS_Puma_Modflow_LayerDataRecord_1_CopyAsSingle.htm" />
+  <HelpKINode Title="LayerDataRecord(Of T).DataArray property" Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_DataArray.htm" />
+  <HelpKINode Title="LayerDataRecord(Of T).Layer property" Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_Layer.htm" />
+  <HelpKINode Title="LayerDataRecord(Of T).LayerDataRecord constructor" Url="html/Overload_USGS_Puma_Modflow_LayerDataRecord_1__ctor.htm" />
+  <HelpKINode Title="LayerDataRecord(Of T).PeriodTime property" Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_PeriodTime.htm" />
+  <HelpKINode Title="LayerDataRecord(Of T).StressPeriod property" Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_StressPeriod.htm" />
+  <HelpKINode Title="LayerDataRecord(Of T).Text property" Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_Text.htm" />
+  <HelpKINode Title="LayerDataRecord(Of T).TimeStep property" Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_TimeStep.htm" />
+  <HelpKINode Title="LayerDataRecord(Of T).TotalTime property" Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_TotalTime.htm" />
+  <HelpKINode Title="LayerDataRecord(Of T).Write method" Url="html/Overload_USGS_Puma_Modflow_LayerDataRecord_1_Write.htm" />
+  <HelpKINode Title="LayerDataRecord&lt;T&gt; class" Url="html/AllMembers_T_USGS_Puma_Modflow_LayerDataRecord_1.htm" />
+  <HelpKINode Title="LayerDataRecord&lt;T&gt; class" Url="html/T_USGS_Puma_Modflow_LayerDataRecord_1.htm" />
+  <HelpKINode Title="LayerDataRecord&lt;T&gt; class">
+    <HelpKINode Title="about LayerDataRecord&lt;T&gt; class" Url="html/T_USGS_Puma_Modflow_LayerDataRecord_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_LayerDataRecord_1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_USGS_Puma_Modflow_LayerDataRecord_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_LayerDataRecord_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_LayerDataRecord_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LayerDataRecord&lt;T&gt;.CopyAsDouble method" Url="html/M_USGS_Puma_Modflow_LayerDataRecord_1_CopyAsDouble.htm" />
+  <HelpKINode Title="LayerDataRecord&lt;T&gt;.CopyAsSingle method" Url="html/M_USGS_Puma_Modflow_LayerDataRecord_1_CopyAsSingle.htm" />
+  <HelpKINode Title="LayerDataRecord&lt;T&gt;.DataArray property" Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_DataArray.htm" />
+  <HelpKINode Title="LayerDataRecord&lt;T&gt;.Layer property" Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_Layer.htm" />
+  <HelpKINode Title="LayerDataRecord&lt;T&gt;.LayerDataRecord constructor" Url="html/Overload_USGS_Puma_Modflow_LayerDataRecord_1__ctor.htm" />
+  <HelpKINode Title="LayerDataRecord&lt;T&gt;.PeriodTime property" Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_PeriodTime.htm" />
+  <HelpKINode Title="LayerDataRecord&lt;T&gt;.StressPeriod property" Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_StressPeriod.htm" />
+  <HelpKINode Title="LayerDataRecord&lt;T&gt;.Text property" Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_Text.htm" />
+  <HelpKINode Title="LayerDataRecord&lt;T&gt;.TimeStep property" Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_TimeStep.htm" />
+  <HelpKINode Title="LayerDataRecord&lt;T&gt;.TotalTime property" Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_TotalTime.htm" />
+  <HelpKINode Title="LayerDataRecord&lt;T&gt;.Write method" Url="html/Overload_USGS_Puma_Modflow_LayerDataRecord_1_Write.htm" />
+  <HelpKINode Title="LayerDataRecordHeader class" Url="html/AllMembers_T_USGS_Puma_Modflow_LayerDataRecordHeader.htm" />
+  <HelpKINode Title="LayerDataRecordHeader class" Url="html/T_USGS_Puma_Modflow_LayerDataRecordHeader.htm" />
+  <HelpKINode Title="LayerDataRecordHeader class">
+    <HelpKINode Title="about LayerDataRecordHeader class" Url="html/T_USGS_Puma_Modflow_LayerDataRecordHeader.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_LayerDataRecordHeader.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_USGS_Puma_Modflow_LayerDataRecordHeader__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_LayerDataRecordHeader.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_LayerDataRecordHeader.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LayerDataRecordHeader.ColumnCount property" Url="html/P_USGS_Puma_Modflow_LayerDataRecordHeader_ColumnCount.htm" />
+  <HelpKINode Title="LayerDataRecordHeader.Layer property" Url="html/P_USGS_Puma_Modflow_LayerDataRecordHeader_Layer.htm" />
+  <HelpKINode Title="LayerDataRecordHeader.LayerDataRecordHeader constructor" Url="html/Overload_USGS_Puma_Modflow_LayerDataRecordHeader__ctor.htm" />
+  <HelpKINode Title="LayerDataRecordHeader.PeriodTime property" Url="html/P_USGS_Puma_Modflow_LayerDataRecordHeader_PeriodTime.htm" />
+  <HelpKINode Title="LayerDataRecordHeader.RowCount property" Url="html/P_USGS_Puma_Modflow_LayerDataRecordHeader_RowCount.htm" />
+  <HelpKINode Title="LayerDataRecordHeader.StressPeriod property" Url="html/P_USGS_Puma_Modflow_LayerDataRecordHeader_StressPeriod.htm" />
+  <HelpKINode Title="LayerDataRecordHeader.Text property" Url="html/P_USGS_Puma_Modflow_LayerDataRecordHeader_Text.htm" />
+  <HelpKINode Title="LayerDataRecordHeader.TimeStep property" Url="html/P_USGS_Puma_Modflow_LayerDataRecordHeader_TimeStep.htm" />
+  <HelpKINode Title="LayerDataRecordHeader.TotalTime property" Url="html/P_USGS_Puma_Modflow_LayerDataRecordHeader_TotalTime.htm" />
+  <HelpKINode Title="LayerDataRecordHeaderCollection class" Url="html/AllMembers_T_USGS_Puma_Modflow_LayerDataRecordHeaderCollection.htm" />
+  <HelpKINode Title="LayerDataRecordHeaderCollection class" Url="html/T_USGS_Puma_Modflow_LayerDataRecordHeaderCollection.htm" />
+  <HelpKINode Title="LayerDataRecordHeaderCollection class">
+    <HelpKINode Title="about LayerDataRecordHeaderCollection class" Url="html/T_USGS_Puma_Modflow_LayerDataRecordHeaderCollection.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_LayerDataRecordHeaderCollection.htm" />
+    <HelpKINode Title="constructor" Url="html/M_USGS_Puma_Modflow_LayerDataRecordHeaderCollection__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_LayerDataRecordHeaderCollection.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_LayerDataRecordHeaderCollection.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LayerDataRecordHeaderCollection.LayerDataRecordHeaderCollection constructor" Url="html/M_USGS_Puma_Modflow_LayerDataRecordHeaderCollection__ctor.htm" />
+  <HelpKINode Title="LengthUnit property" Url="html/P_USGS_Puma_Modflow_DisFileData_LengthUnit.htm" />
+  <HelpKINode Title="LpfDataReader class" Url="html/AllMembers_T_USGS_Puma_Modflow_LpfDataReader.htm" />
+  <HelpKINode Title="LpfDataReader class" Url="html/T_USGS_Puma_Modflow_LpfDataReader.htm" />
+  <HelpKINode Title="LpfDataReader class">
+    <HelpKINode Title="about LpfDataReader class" Url="html/T_USGS_Puma_Modflow_LpfDataReader.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_LpfDataReader.htm" />
+    <HelpKINode Title="constructor" Url="html/M_USGS_Puma_Modflow_LpfDataReader__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_LpfDataReader.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LpfDataReader.LpfDataReader constructor" Url="html/M_USGS_Puma_Modflow_LpfDataReader__ctor.htm" />
+  <HelpKINode Title="LpfDataReader.Read method" Url="html/Overload_USGS_Puma_Modflow_LpfDataReader_Read.htm" />
+  <HelpKINode Title="LpfFileData class" Url="html/AllMembers_T_USGS_Puma_Modflow_LpfFileData.htm" />
+  <HelpKINode Title="LpfFileData class" Url="html/T_USGS_Puma_Modflow_LpfFileData.htm" />
+  <HelpKINode Title="LpfFileData class">
+    <HelpKINode Title="about LpfFileData class" Url="html/T_USGS_Puma_Modflow_LpfFileData.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_LpfFileData.htm" />
+    <HelpKINode Title="constructor" Url="html/M_USGS_Puma_Modflow_LpfFileData__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_LpfFileData.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_LpfFileData.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LpfFileData.ColumnCount property" Url="html/P_USGS_Puma_Modflow_LpfFileData_ColumnCount.htm" />
+  <HelpKINode Title="LpfFileData.Comments property" Url="html/P_USGS_Puma_Modflow_LpfFileData_Comments.htm" />
+  <HelpKINode Title="LpfFileData.HDry property" Url="html/P_USGS_Puma_Modflow_LpfFileData_HDry.htm" />
+  <HelpKINode Title="LpfFileData.ILpfCb property" Url="html/P_USGS_Puma_Modflow_LpfFileData_ILpfCb.htm" />
+  <HelpKINode Title="LpfFileData.Initialize method" Url="html/M_USGS_Puma_Modflow_LpfFileData_Initialize.htm" />
+  <HelpKINode Title="LpfFileData.LayerCount property" Url="html/P_USGS_Puma_Modflow_LpfFileData_LayerCount.htm" />
+  <HelpKINode Title="LpfFileData.LpfFileData constructor" Url="html/M_USGS_Puma_Modflow_LpfFileData__ctor.htm" />
+  <HelpKINode Title="LpfFileData.NoVerticalCvCorrection property" Url="html/P_USGS_Puma_Modflow_LpfFileData_NoVerticalCvCorrection.htm" />
+  <HelpKINode Title="LpfFileData.NpLpf property" Url="html/P_USGS_Puma_Modflow_LpfFileData_NpLpf.htm" />
+  <HelpKINode Title="LpfFileData.RowCount property" Url="html/P_USGS_Puma_Modflow_LpfFileData_RowCount.htm" />
+  <HelpKINode Title="LpfFileData.UseConstantCV property" Url="html/P_USGS_Puma_Modflow_LpfFileData_UseConstantCV.htm" />
+  <HelpKINode Title="LpfFileData.UseStartingHeadToComputeThickness property" Url="html/P_USGS_Puma_Modflow_LpfFileData_UseStartingHeadToComputeThickness.htm" />
+  <HelpKINode Title="LpfFileData.UseStorageCoefficient property" Url="html/P_USGS_Puma_Modflow_LpfFileData_UseStorageCoefficient.htm" />
+  <HelpKINode Title="ModflowDataArray1d(Of T) class" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowDataArray1d_1.htm" />
+  <HelpKINode Title="ModflowDataArray1d(Of T) class" Url="html/T_USGS_Puma_Modflow_ModflowDataArray1d_1.htm" />
+  <HelpKINode Title="ModflowDataArray1d(Of T) class">
+    <HelpKINode Title="about ModflowDataArray1d(Of T) class" Url="html/T_USGS_Puma_Modflow_ModflowDataArray1d_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowDataArray1d_1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_USGS_Puma_Modflow_ModflowDataArray1d_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_ModflowDataArray1d_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_ModflowDataArray1d_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModflowDataArray1d(Of T).ArrayDimension property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_ArrayDimension.htm" />
+  <HelpKINode Title="ModflowDataArray1d(Of T).ArrayMultiplier property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_ArrayMultiplier.htm" />
+  <HelpKINode Title="ModflowDataArray1d(Of T).ConstantValue property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_ConstantValue.htm" />
+  <HelpKINode Title="ModflowDataArray1d(Of T).DataArray property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_DataArray.htm" />
+  <HelpKINode Title="ModflowDataArray1d(Of T).ElementCount property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_ElementCount.htm" />
+  <HelpKINode Title="ModflowDataArray1d(Of T).Filename property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_Filename.htm" />
+  <HelpKINode Title="ModflowDataArray1d(Of T).FileUnit property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_FileUnit.htm" />
+  <HelpKINode Title="ModflowDataArray1d(Of T).GetDataArrayCopy method" Url="html/Overload_USGS_Puma_Modflow_ModflowDataArray1d_1_GetDataArrayCopy.htm" />
+  <HelpKINode Title="ModflowDataArray1d(Of T).InputFormat property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_InputFormat.htm" />
+  <HelpKINode Title="ModflowDataArray1d(Of T).ModflowDataArray1d constructor" Url="html/Overload_USGS_Puma_Modflow_ModflowDataArray1d_1__ctor.htm" />
+  <HelpKINode Title="ModflowDataArray1d(Of T).NameData property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_NameData.htm" />
+  <HelpKINode Title="ModflowDataArray1d(Of T).PrintCode property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_PrintCode.htm" />
+  <HelpKINode Title="ModflowDataArray1d(Of T).RecordType property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_RecordType.htm" />
+  <HelpKINode Title="ModflowDataArray1d(Of T).SetAsConstant method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1_SetAsConstant.htm" />
+  <HelpKINode Title="ModflowDataArray1d(Of T).SetAsExternal method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1_SetAsExternal.htm" />
+  <HelpKINode Title="ModflowDataArray1d(Of T).SetAsInternal method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1_SetAsInternal.htm" />
+  <HelpKINode Title="ModflowDataArray1d(Of T).SetAsOpenClose method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1_SetAsOpenClose.htm" />
+  <HelpKINode Title="ModflowDataArray1d(Of T).SetControlRecordData method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1_SetControlRecordData.htm" />
+  <HelpKINode Title="ModflowDataArray1d&lt;T&gt; class" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowDataArray1d_1.htm" />
+  <HelpKINode Title="ModflowDataArray1d&lt;T&gt; class" Url="html/T_USGS_Puma_Modflow_ModflowDataArray1d_1.htm" />
+  <HelpKINode Title="ModflowDataArray1d&lt;T&gt; class">
+    <HelpKINode Title="about ModflowDataArray1d&lt;T&gt; class" Url="html/T_USGS_Puma_Modflow_ModflowDataArray1d_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowDataArray1d_1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_USGS_Puma_Modflow_ModflowDataArray1d_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_ModflowDataArray1d_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_ModflowDataArray1d_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModflowDataArray1d&lt;T&gt;.ArrayDimension property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_ArrayDimension.htm" />
+  <HelpKINode Title="ModflowDataArray1d&lt;T&gt;.ArrayMultiplier property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_ArrayMultiplier.htm" />
+  <HelpKINode Title="ModflowDataArray1d&lt;T&gt;.ConstantValue property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_ConstantValue.htm" />
+  <HelpKINode Title="ModflowDataArray1d&lt;T&gt;.DataArray property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_DataArray.htm" />
+  <HelpKINode Title="ModflowDataArray1d&lt;T&gt;.ElementCount property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_ElementCount.htm" />
+  <HelpKINode Title="ModflowDataArray1d&lt;T&gt;.Filename property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_Filename.htm" />
+  <HelpKINode Title="ModflowDataArray1d&lt;T&gt;.FileUnit property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_FileUnit.htm" />
+  <HelpKINode Title="ModflowDataArray1d&lt;T&gt;.GetDataArrayCopy method" Url="html/Overload_USGS_Puma_Modflow_ModflowDataArray1d_1_GetDataArrayCopy.htm" />
+  <HelpKINode Title="ModflowDataArray1d&lt;T&gt;.InputFormat property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_InputFormat.htm" />
+  <HelpKINode Title="ModflowDataArray1d&lt;T&gt;.ModflowDataArray1d constructor" Url="html/Overload_USGS_Puma_Modflow_ModflowDataArray1d_1__ctor.htm" />
+  <HelpKINode Title="ModflowDataArray1d&lt;T&gt;.NameData property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_NameData.htm" />
+  <HelpKINode Title="ModflowDataArray1d&lt;T&gt;.PrintCode property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_PrintCode.htm" />
+  <HelpKINode Title="ModflowDataArray1d&lt;T&gt;.RecordType property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_RecordType.htm" />
+  <HelpKINode Title="ModflowDataArray1d&lt;T&gt;.SetAsConstant method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1_SetAsConstant.htm" />
+  <HelpKINode Title="ModflowDataArray1d&lt;T&gt;.SetAsExternal method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1_SetAsExternal.htm" />
+  <HelpKINode Title="ModflowDataArray1d&lt;T&gt;.SetAsInternal method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1_SetAsInternal.htm" />
+  <HelpKINode Title="ModflowDataArray1d&lt;T&gt;.SetAsOpenClose method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1_SetAsOpenClose.htm" />
+  <HelpKINode Title="ModflowDataArray1d&lt;T&gt;.SetControlRecordData method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1_SetControlRecordData.htm" />
+  <HelpKINode Title="ModflowDataArray2d(Of T) class" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowDataArray2d_1.htm" />
+  <HelpKINode Title="ModflowDataArray2d(Of T) class" Url="html/T_USGS_Puma_Modflow_ModflowDataArray2d_1.htm" />
+  <HelpKINode Title="ModflowDataArray2d(Of T) class">
+    <HelpKINode Title="about ModflowDataArray2d(Of T) class" Url="html/T_USGS_Puma_Modflow_ModflowDataArray2d_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowDataArray2d_1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_USGS_Puma_Modflow_ModflowDataArray2d_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_ModflowDataArray2d_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_ModflowDataArray2d_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModflowDataArray2d(Of T).ArrayDimension property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_ArrayDimension.htm" />
+  <HelpKINode Title="ModflowDataArray2d(Of T).ArrayMultiplier property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_ArrayMultiplier.htm" />
+  <HelpKINode Title="ModflowDataArray2d(Of T).ColumnCount property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_ColumnCount.htm" />
+  <HelpKINode Title="ModflowDataArray2d(Of T).ConstantValue property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_ConstantValue.htm" />
+  <HelpKINode Title="ModflowDataArray2d(Of T).DataArray property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_DataArray.htm" />
+  <HelpKINode Title="ModflowDataArray2d(Of T).Filename property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_Filename.htm" />
+  <HelpKINode Title="ModflowDataArray2d(Of T).FileUnit property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_FileUnit.htm" />
+  <HelpKINode Title="ModflowDataArray2d(Of T).GetDataArrayCopy method" Url="html/Overload_USGS_Puma_Modflow_ModflowDataArray2d_1_GetDataArrayCopy.htm" />
+  <HelpKINode Title="ModflowDataArray2d(Of T).InputFormat property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_InputFormat.htm" />
+  <HelpKINode Title="ModflowDataArray2d(Of T).ModflowDataArray2d constructor" Url="html/Overload_USGS_Puma_Modflow_ModflowDataArray2d_1__ctor.htm" />
+  <HelpKINode Title="ModflowDataArray2d(Of T).NameData property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_NameData.htm" />
+  <HelpKINode Title="ModflowDataArray2d(Of T).PrintCode property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_PrintCode.htm" />
+  <HelpKINode Title="ModflowDataArray2d(Of T).RecordType property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_RecordType.htm" />
+  <HelpKINode Title="ModflowDataArray2d(Of T).RowCount property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_RowCount.htm" />
+  <HelpKINode Title="ModflowDataArray2d(Of T).SetAsConstant method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1_SetAsConstant.htm" />
+  <HelpKINode Title="ModflowDataArray2d(Of T).SetAsExternal method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1_SetAsExternal.htm" />
+  <HelpKINode Title="ModflowDataArray2d(Of T).SetAsInternal method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1_SetAsInternal.htm" />
+  <HelpKINode Title="ModflowDataArray2d(Of T).SetAsOpenClose method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1_SetAsOpenClose.htm" />
+  <HelpKINode Title="ModflowDataArray2d(Of T).SetControlRecordData method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1_SetControlRecordData.htm" />
+  <HelpKINode Title="ModflowDataArray2d&lt;T&gt; class" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowDataArray2d_1.htm" />
+  <HelpKINode Title="ModflowDataArray2d&lt;T&gt; class" Url="html/T_USGS_Puma_Modflow_ModflowDataArray2d_1.htm" />
+  <HelpKINode Title="ModflowDataArray2d&lt;T&gt; class">
+    <HelpKINode Title="about ModflowDataArray2d&lt;T&gt; class" Url="html/T_USGS_Puma_Modflow_ModflowDataArray2d_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowDataArray2d_1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_USGS_Puma_Modflow_ModflowDataArray2d_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_ModflowDataArray2d_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_ModflowDataArray2d_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModflowDataArray2d&lt;T&gt;.ArrayDimension property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_ArrayDimension.htm" />
+  <HelpKINode Title="ModflowDataArray2d&lt;T&gt;.ArrayMultiplier property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_ArrayMultiplier.htm" />
+  <HelpKINode Title="ModflowDataArray2d&lt;T&gt;.ColumnCount property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_ColumnCount.htm" />
+  <HelpKINode Title="ModflowDataArray2d&lt;T&gt;.ConstantValue property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_ConstantValue.htm" />
+  <HelpKINode Title="ModflowDataArray2d&lt;T&gt;.DataArray property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_DataArray.htm" />
+  <HelpKINode Title="ModflowDataArray2d&lt;T&gt;.Filename property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_Filename.htm" />
+  <HelpKINode Title="ModflowDataArray2d&lt;T&gt;.FileUnit property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_FileUnit.htm" />
+  <HelpKINode Title="ModflowDataArray2d&lt;T&gt;.GetDataArrayCopy method" Url="html/Overload_USGS_Puma_Modflow_ModflowDataArray2d_1_GetDataArrayCopy.htm" />
+  <HelpKINode Title="ModflowDataArray2d&lt;T&gt;.InputFormat property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_InputFormat.htm" />
+  <HelpKINode Title="ModflowDataArray2d&lt;T&gt;.ModflowDataArray2d constructor" Url="html/Overload_USGS_Puma_Modflow_ModflowDataArray2d_1__ctor.htm" />
+  <HelpKINode Title="ModflowDataArray2d&lt;T&gt;.NameData property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_NameData.htm" />
+  <HelpKINode Title="ModflowDataArray2d&lt;T&gt;.PrintCode property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_PrintCode.htm" />
+  <HelpKINode Title="ModflowDataArray2d&lt;T&gt;.RecordType property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_RecordType.htm" />
+  <HelpKINode Title="ModflowDataArray2d&lt;T&gt;.RowCount property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_RowCount.htm" />
+  <HelpKINode Title="ModflowDataArray2d&lt;T&gt;.SetAsConstant method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1_SetAsConstant.htm" />
+  <HelpKINode Title="ModflowDataArray2d&lt;T&gt;.SetAsExternal method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1_SetAsExternal.htm" />
+  <HelpKINode Title="ModflowDataArray2d&lt;T&gt;.SetAsInternal method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1_SetAsInternal.htm" />
+  <HelpKINode Title="ModflowDataArray2d&lt;T&gt;.SetAsOpenClose method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1_SetAsOpenClose.htm" />
+  <HelpKINode Title="ModflowDataArray2d&lt;T&gt;.SetControlRecordData method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1_SetControlRecordData.htm" />
+  <HelpKINode Title="ModflowDataArrayReader(Of T) class" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowDataArrayReader_1.htm" />
+  <HelpKINode Title="ModflowDataArrayReader(Of T) class" Url="html/T_USGS_Puma_Modflow_ModflowDataArrayReader_1.htm" />
+  <HelpKINode Title="ModflowDataArrayReader(Of T) class">
+    <HelpKINode Title="about ModflowDataArrayReader(Of T) class" Url="html/T_USGS_Puma_Modflow_ModflowDataArrayReader_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowDataArrayReader_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_USGS_Puma_Modflow_ModflowDataArrayReader_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_ModflowDataArrayReader_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_ModflowDataArrayReader_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModflowDataArrayReader(Of T).FileReader property" Url="html/P_USGS_Puma_Modflow_ModflowDataArrayReader_1_FileReader.htm" />
+  <HelpKINode Title="ModflowDataArrayReader(Of T).ModflowDataArrayReader constructor" Url="html/M_USGS_Puma_Modflow_ModflowDataArrayReader_1__ctor.htm" />
+  <HelpKINode Title="ModflowDataArrayReader(Of T).NameData property" Url="html/P_USGS_Puma_Modflow_ModflowDataArrayReader_1_NameData.htm" />
+  <HelpKINode Title="ModflowDataArrayReader(Of T).Read method" Url="html/Overload_USGS_Puma_Modflow_ModflowDataArrayReader_1_Read.htm" />
+  <HelpKINode Title="ModflowDataArrayReader(Of T).ReadControlRecord method" Url="html/M_USGS_Puma_Modflow_ModflowDataArrayReader_1_ReadControlRecord.htm" />
+  <HelpKINode Title="ModflowDataArrayReader&lt;T&gt; class" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowDataArrayReader_1.htm" />
+  <HelpKINode Title="ModflowDataArrayReader&lt;T&gt; class" Url="html/T_USGS_Puma_Modflow_ModflowDataArrayReader_1.htm" />
+  <HelpKINode Title="ModflowDataArrayReader&lt;T&gt; class">
+    <HelpKINode Title="about ModflowDataArrayReader&lt;T&gt; class" Url="html/T_USGS_Puma_Modflow_ModflowDataArrayReader_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowDataArrayReader_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_USGS_Puma_Modflow_ModflowDataArrayReader_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_ModflowDataArrayReader_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_ModflowDataArrayReader_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModflowDataArrayReader&lt;T&gt;.FileReader property" Url="html/P_USGS_Puma_Modflow_ModflowDataArrayReader_1_FileReader.htm" />
+  <HelpKINode Title="ModflowDataArrayReader&lt;T&gt;.ModflowDataArrayReader constructor" Url="html/M_USGS_Puma_Modflow_ModflowDataArrayReader_1__ctor.htm" />
+  <HelpKINode Title="ModflowDataArrayReader&lt;T&gt;.NameData property" Url="html/P_USGS_Puma_Modflow_ModflowDataArrayReader_1_NameData.htm" />
+  <HelpKINode Title="ModflowDataArrayReader&lt;T&gt;.Read method" Url="html/Overload_USGS_Puma_Modflow_ModflowDataArrayReader_1_Read.htm" />
+  <HelpKINode Title="ModflowDataArrayReader&lt;T&gt;.ReadControlRecord method" Url="html/M_USGS_Puma_Modflow_ModflowDataArrayReader_1_ReadControlRecord.htm" />
+  <HelpKINode Title="ModflowMetadata class" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowMetadata.htm" />
+  <HelpKINode Title="ModflowMetadata class" Url="html/T_USGS_Puma_Modflow_ModflowMetadata.htm" />
+  <HelpKINode Title="ModflowMetadata class">
+    <HelpKINode Title="about ModflowMetadata class" Url="html/T_USGS_Puma_Modflow_ModflowMetadata.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowMetadata.htm" />
+    <HelpKINode Title="constructor" Url="html/M_USGS_Puma_Modflow_ModflowMetadata__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_ModflowMetadata.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_ModflowMetadata.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModflowMetadata.BasemapFile property" Url="html/P_USGS_Puma_Modflow_ModflowMetadata_BasemapFile.htm" />
+  <HelpKINode Title="ModflowMetadata.CreateFromXml method" Url="html/M_USGS_Puma_Modflow_ModflowMetadata_CreateFromXml.htm" />
+  <HelpKINode Title="ModflowMetadata.GridGeoReference property" Url="html/P_USGS_Puma_Modflow_ModflowMetadata_GridGeoReference.htm" />
+  <HelpKINode Title="ModflowMetadata.ModflowMetadata constructor" Url="html/M_USGS_Puma_Modflow_ModflowMetadata__ctor.htm" />
+  <HelpKINode Title="ModflowMetadata.Read method" Url="html/M_USGS_Puma_Modflow_ModflowMetadata_Read.htm" />
+  <HelpKINode Title="ModflowMetadata.SourcefileDirectory property" Url="html/P_USGS_Puma_Modflow_ModflowMetadata_SourcefileDirectory.htm" />
+  <HelpKINode Title="ModflowMetadata.Write method" Url="html/M_USGS_Puma_Modflow_ModflowMetadata_Write.htm" />
+  <HelpKINode Title="ModflowNameData class" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowNameData.htm" />
+  <HelpKINode Title="ModflowNameData class" Url="html/T_USGS_Puma_Modflow_ModflowNameData.htm" />
+  <HelpKINode Title="ModflowNameData class">
+    <HelpKINode Title="about ModflowNameData class" Url="html/T_USGS_Puma_Modflow_ModflowNameData.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowNameData.htm" />
+    <HelpKINode Title="constructor" Url="html/M_USGS_Puma_Modflow_ModflowNameData__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_ModflowNameData.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_ModflowNameData.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModflowNameData.AddItem method" Url="html/Overload_USGS_Puma_Modflow_ModflowNameData_AddItem.htm" />
+  <HelpKINode Title="ModflowNameData.Clear method" Url="html/M_USGS_Puma_Modflow_ModflowNameData_Clear.htm" />
+  <HelpKINode Title="ModflowNameData.FileUnitAvailable method" Url="html/M_USGS_Puma_Modflow_ModflowNameData_FileUnitAvailable.htm" />
+  <HelpKINode Title="ModflowNameData.GetFullFilename method" Url="html/Overload_USGS_Puma_Modflow_ModflowNameData_GetFullFilename.htm" />
+  <HelpKINode Title="ModflowNameData.GetItemsAsList method" Url="html/Overload_USGS_Puma_Modflow_ModflowNameData_GetItemsAsList.htm" />
+  <HelpKINode Title="ModflowNameData.ModflowNameData constructor" Url="html/M_USGS_Puma_Modflow_ModflowNameData__ctor.htm" />
+  <HelpKINode Title="ModflowNameData.ParentDirectory property" Url="html/P_USGS_Puma_Modflow_ModflowNameData_ParentDirectory.htm" />
+  <HelpKINode Title="ModflowNameData.RemoveItem method" Url="html/M_USGS_Puma_Modflow_ModflowNameData_RemoveItem.htm" />
+  <HelpKINode Title="ModflowNameFileReader class" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowNameFileReader.htm" />
+  <HelpKINode Title="ModflowNameFileReader class" Url="html/T_USGS_Puma_Modflow_ModflowNameFileReader.htm" />
+  <HelpKINode Title="ModflowNameFileReader class">
+    <HelpKINode Title="about ModflowNameFileReader class" Url="html/T_USGS_Puma_Modflow_ModflowNameFileReader.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowNameFileReader.htm" />
+    <HelpKINode Title="constructor" Url="html/M_USGS_Puma_Modflow_ModflowNameFileReader__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_ModflowNameFileReader.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModflowNameFileReader.ModflowNameFileReader constructor" Url="html/M_USGS_Puma_Modflow_ModflowNameFileReader__ctor.htm" />
+  <HelpKINode Title="ModflowNameFileReader.Read method" Url="html/M_USGS_Puma_Modflow_ModflowNameFileReader_Read.htm" />
+  <HelpKINode Title="ModflowNameFileReader.Write method" Url="html/M_USGS_Puma_Modflow_ModflowNameFileReader_Write.htm" />
+  <HelpKINode Title="NameData property" Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_NameData.htm" />
+  <HelpKINode Title="NameData property" Url="html/P_USGS_Puma_Modflow_DisFileData_NameData.htm" />
+  <HelpKINode Title="NameData property" Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_NameData.htm" />
+  <HelpKINode Title="NameData property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_NameData.htm" />
+  <HelpKINode Title="NameData property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_NameData.htm" />
+  <HelpKINode Title="NameData property" Url="html/P_USGS_Puma_Modflow_ModflowDataArrayReader_1_NameData.htm" />
+  <HelpKINode Title="NameFileItem class" Url="html/AllMembers_T_USGS_Puma_Modflow_NameFileItem.htm" />
+  <HelpKINode Title="NameFileItem class" Url="html/T_USGS_Puma_Modflow_NameFileItem.htm" />
+  <HelpKINode Title="NameFileItem class">
+    <HelpKINode Title="about NameFileItem class" Url="html/T_USGS_Puma_Modflow_NameFileItem.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_NameFileItem.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_USGS_Puma_Modflow_NameFileItem__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_NameFileItem.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_NameFileItem.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NameFileItem.FileName property" Url="html/P_USGS_Puma_Modflow_NameFileItem_FileName.htm" />
+  <HelpKINode Title="NameFileItem.FileStatus property" Url="html/P_USGS_Puma_Modflow_NameFileItem_FileStatus.htm" />
+  <HelpKINode Title="NameFileItem.FileType property" Url="html/P_USGS_Puma_Modflow_NameFileItem_FileType.htm" />
+  <HelpKINode Title="NameFileItem.FileUnit property" Url="html/P_USGS_Puma_Modflow_NameFileItem_FileUnit.htm" />
+  <HelpKINode Title="NameFileItem.NameFileItem constructor" Url="html/Overload_USGS_Puma_Modflow_NameFileItem__ctor.htm" />
+  <HelpKINode Title="NoVerticalCvCorrection property" Url="html/P_USGS_Puma_Modflow_LpfFileData_NoVerticalCvCorrection.htm" />
+  <HelpKINode Title="NpLpf property" Url="html/P_USGS_Puma_Modflow_LpfFileData_NpLpf.htm" />
+  <HelpKINode Title="OcDataHeader class" Url="html/AllMembers_T_USGS_Puma_Modflow_OcDataHeader.htm" />
+  <HelpKINode Title="OcDataHeader class" Url="html/T_USGS_Puma_Modflow_OcDataHeader.htm" />
+  <HelpKINode Title="OcDataHeader class">
+    <HelpKINode Title="about OcDataHeader class" Url="html/T_USGS_Puma_Modflow_OcDataHeader.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_OcDataHeader.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_USGS_Puma_Modflow_OcDataHeader__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_OcDataHeader.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_OcDataHeader.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OcDataHeader.Comments property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_Comments.htm" />
+  <HelpKINode Title="OcDataHeader.CompactBudget property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_CompactBudget.htm" />
+  <HelpKINode Title="OcDataHeader.CompactBudgetSaveAuxiliary property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_CompactBudgetSaveAuxiliary.htm" />
+  <HelpKINode Title="OcDataHeader.DrawdownPrintFormat property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_DrawdownPrintFormat.htm" />
+  <HelpKINode Title="OcDataHeader.DrawdownSaveFormat property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_DrawdownSaveFormat.htm" />
+  <HelpKINode Title="OcDataHeader.DrawdownSaveFormatLabel property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_DrawdownSaveFormatLabel.htm" />
+  <HelpKINode Title="OcDataHeader.DrawdownSaveUnit property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_DrawdownSaveUnit.htm" />
+  <HelpKINode Title="OcDataHeader.HeadPrintFormat property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_HeadPrintFormat.htm" />
+  <HelpKINode Title="OcDataHeader.HeadSaveFormat property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_HeadSaveFormat.htm" />
+  <HelpKINode Title="OcDataHeader.HeadSaveFormatLabel property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_HeadSaveFormatLabel.htm" />
+  <HelpKINode Title="OcDataHeader.HeadSaveUnit property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_HeadSaveUnit.htm" />
+  <HelpKINode Title="OcDataHeader.IboundSaveFormat property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_IboundSaveFormat.htm" />
+  <HelpKINode Title="OcDataHeader.IboundSaveFormatLabel property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_IboundSaveFormatLabel.htm" />
+  <HelpKINode Title="OcDataHeader.IboundSaveUnit property" Url="html/P_USGS_Puma_Modflow_OcDataHeader_IboundSaveUnit.htm" />
+  <HelpKINode Title="OcDataHeader.OcDataHeader constructor" Url="html/Overload_USGS_Puma_Modflow_OcDataHeader__ctor.htm" />
+  <HelpKINode Title="OcDataReader class" Url="html/AllMembers_T_USGS_Puma_Modflow_OcDataReader.htm" />
+  <HelpKINode Title="OcDataReader class" Url="html/T_USGS_Puma_Modflow_OcDataReader.htm" />
+  <HelpKINode Title="OcDataReader class">
+    <HelpKINode Title="about OcDataReader class" Url="html/T_USGS_Puma_Modflow_OcDataReader.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_OcDataReader.htm" />
+    <HelpKINode Title="constructor" Url="html/M_USGS_Puma_Modflow_OcDataReader__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_OcDataReader.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OcDataReader.OcDataReader constructor" Url="html/M_USGS_Puma_Modflow_OcDataReader__ctor.htm" />
+  <HelpKINode Title="OcDataReader.ReadHeader method" Url="html/M_USGS_Puma_Modflow_OcDataReader_ReadHeader.htm" />
+  <HelpKINode Title="OpenClose enumeration member" Url="html/T_USGS_Puma_Modflow_ArrayControlRecordType.htm" />
+  <HelpKINode Title="OutputPrecision property" Url="html/P_USGS_Puma_Modflow_BinaryLayerReader_OutputPrecision.htm" />
+  <HelpKINode Title="OutputPrecisionType enumeration" Url="html/T_USGS_Puma_Modflow_OutputPrecisionType.htm" />
+  <HelpKINode Title="ParentDirectory property" Url="html/P_USGS_Puma_Modflow_ModflowNameData_ParentDirectory.htm" />
+  <HelpKINode Title="Period property" Url="html/P_USGS_Puma_Modflow_TimeStep_Period.htm" />
+  <HelpKINode Title="PeriodLength property" Url="html/P_USGS_Puma_Modflow_StressPeriod_PeriodLength.htm" />
+  <HelpKINode Title="PeriodTime property" Url="html/P_USGS_Puma_Modflow_LayerDataRecordHeader_PeriodTime.htm" />
+  <HelpKINode Title="PeriodTime property" Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_PeriodTime.htm" />
+  <HelpKINode Title="PeriodTime property" Url="html/P_USGS_Puma_Modflow_TimeStep_PeriodTime.htm" />
+  <HelpKINode Title="PeriodType property" Url="html/P_USGS_Puma_Modflow_StressPeriod_PeriodType.htm" />
+  <HelpKINode Title="PeriodType property" Url="html/P_USGS_Puma_Modflow_TimeStep_PeriodType.htm" />
+  <HelpKINode Title="PrintCode property" Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_PrintCode.htm" />
+  <HelpKINode Title="PrintCode property" Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_PrintCode.htm" />
+  <HelpKINode Title="PrintCode property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_PrintCode.htm" />
+  <HelpKINode Title="PrintCode property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_PrintCode.htm" />
+  <HelpKINode Title="Read method" Url="html/M_USGS_Puma_Modflow_ModflowMetadata_Read.htm" />
+  <HelpKINode Title="Read method" Url="html/M_USGS_Puma_Modflow_ModflowNameFileReader_Read.htm" />
+  <HelpKINode Title="Read method" Url="html/Overload_USGS_Puma_Modflow_BasDataReader_Read.htm" />
+  <HelpKINode Title="Read method" Url="html/Overload_USGS_Puma_Modflow_BcfDataReader_Read.htm" />
+  <HelpKINode Title="Read method" Url="html/Overload_USGS_Puma_Modflow_DisDataReader_Read.htm" />
+  <HelpKINode Title="Read method" Url="html/Overload_USGS_Puma_Modflow_LpfDataReader_Read.htm" />
+  <HelpKINode Title="Read method" Url="html/Overload_USGS_Puma_Modflow_ModflowDataArrayReader_1_Read.htm" />
+  <HelpKINode Title="ReadAllRecordHeaders method" Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_ReadAllRecordHeaders.htm" />
+  <HelpKINode Title="ReadControlRecord method" Url="html/M_USGS_Puma_Modflow_ModflowDataArrayReader_1_ReadControlRecord.htm" />
+  <HelpKINode Title="ReadHeader method" Url="html/M_USGS_Puma_Modflow_OcDataReader_ReadHeader.htm" />
+  <HelpKINode Title="ReadRecordHeader method" Url="html/M_USGS_Puma_Modflow_BinaryLayerReader_ReadRecordHeader.htm" />
+  <HelpKINode Title="RecordCount property" Url="html/P_USGS_Puma_Modflow_BinaryLayerReader_RecordCount.htm" />
+  <HelpKINode Title="RecordType property" Url="html/P_USGS_Puma_Modflow_ArrayControlRecord_1_RecordType.htm" />
+  <HelpKINode Title="RecordType property" Url="html/P_USGS_Puma_Modflow_IArrayControlRecord_1_RecordType.htm" />
+  <HelpKINode Title="RecordType property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray1d_1_RecordType.htm" />
+  <HelpKINode Title="RecordType property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_RecordType.htm" />
+  <HelpKINode Title="Remove method" Url="html/Overload_USGS_Puma_Modflow_TimeStepCollection_Remove.htm" />
+  <HelpKINode Title="RemoveItem method" Url="html/M_USGS_Puma_Modflow_IModflowNameData_RemoveItem.htm" />
+  <HelpKINode Title="RemoveItem method" Url="html/M_USGS_Puma_Modflow_ModflowNameData_RemoveItem.htm" />
+  <HelpKINode Title="RemoveStressPeriod method" Url="html/M_USGS_Puma_Modflow_TimeDiscretization_RemoveStressPeriod.htm" />
+  <HelpKINode Title="RowCount property" Url="html/P_USGS_Puma_Modflow_BasFileData_RowCount.htm" />
+  <HelpKINode Title="RowCount property" Url="html/P_USGS_Puma_Modflow_BcfFileData_RowCount.htm" />
+  <HelpKINode Title="RowCount property" Url="html/P_USGS_Puma_Modflow_BinaryLayerReader_RowCount.htm" />
+  <HelpKINode Title="RowCount property" Url="html/P_USGS_Puma_Modflow_BinaryLayerWriter_RowCount.htm" />
+  <HelpKINode Title="RowCount property" Url="html/P_USGS_Puma_Modflow_DisFileData_RowCount.htm" />
+  <HelpKINode Title="RowCount property" Url="html/P_USGS_Puma_Modflow_IModflowDataArray2d_1_RowCount.htm" />
+  <HelpKINode Title="RowCount property" Url="html/P_USGS_Puma_Modflow_LayerDataRecordHeader_RowCount.htm" />
+  <HelpKINode Title="RowCount property" Url="html/P_USGS_Puma_Modflow_LpfFileData_RowCount.htm" />
+  <HelpKINode Title="RowCount property" Url="html/P_USGS_Puma_Modflow_ModflowDataArray2d_1_RowCount.htm" />
+  <HelpKINode Title="SetAsConstant method" Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1_SetAsConstant.htm" />
+  <HelpKINode Title="SetAsConstant method" Url="html/M_USGS_Puma_Modflow_IArrayControlRecord_1_SetAsConstant.htm" />
+  <HelpKINode Title="SetAsConstant method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1_SetAsConstant.htm" />
+  <HelpKINode Title="SetAsConstant method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1_SetAsConstant.htm" />
+  <HelpKINode Title="SetAsExternal method" Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1_SetAsExternal.htm" />
+  <HelpKINode Title="SetAsExternal method" Url="html/M_USGS_Puma_Modflow_IArrayControlRecord_1_SetAsExternal.htm" />
+  <HelpKINode Title="SetAsExternal method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1_SetAsExternal.htm" />
+  <HelpKINode Title="SetAsExternal method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1_SetAsExternal.htm" />
+  <HelpKINode Title="SetAsInternal method" Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1_SetAsInternal.htm" />
+  <HelpKINode Title="SetAsInternal method" Url="html/M_USGS_Puma_Modflow_IArrayControlRecord_1_SetAsInternal.htm" />
+  <HelpKINode Title="SetAsInternal method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1_SetAsInternal.htm" />
+  <HelpKINode Title="SetAsInternal method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1_SetAsInternal.htm" />
+  <HelpKINode Title="SetAsOpenClose method" Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1_SetAsOpenClose.htm" />
+  <HelpKINode Title="SetAsOpenClose method" Url="html/M_USGS_Puma_Modflow_IArrayControlRecord_1_SetAsOpenClose.htm" />
+  <HelpKINode Title="SetAsOpenClose method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1_SetAsOpenClose.htm" />
+  <HelpKINode Title="SetAsOpenClose method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1_SetAsOpenClose.htm" />
+  <HelpKINode Title="SetBottom method" Url="html/M_USGS_Puma_Modflow_DisFileData_SetBottom.htm" />
+  <HelpKINode Title="SetConfiningBedBottom method" Url="html/M_USGS_Puma_Modflow_DisFileData_SetConfiningBedBottom.htm" />
+  <HelpKINode Title="SetControlRecordData method" Url="html/M_USGS_Puma_Modflow_ArrayControlRecord_1_SetControlRecordData.htm" />
+  <HelpKINode Title="SetControlRecordData method" Url="html/M_USGS_Puma_Modflow_IArrayControlRecord_1_SetControlRecordData.htm" />
+  <HelpKINode Title="SetControlRecordData method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray1d_1_SetControlRecordData.htm" />
+  <HelpKINode Title="SetControlRecordData method" Url="html/M_USGS_Puma_Modflow_ModflowDataArray2d_1_SetControlRecordData.htm" />
+  <HelpKINode Title="SetIBound method" Url="html/M_USGS_Puma_Modflow_BasFileData_SetIBound.htm" />
+  <HelpKINode Title="SetLayerConfiningBedFlag method" Url="html/M_USGS_Puma_Modflow_DisFileData_SetLayerConfiningBedFlag.htm" />
+  <HelpKINode Title="SetSHead method" Url="html/M_USGS_Puma_Modflow_BasFileData_SetSHead.htm" />
+  <HelpKINode Title="Single enumeration member" Url="html/T_USGS_Puma_Modflow_OutputPrecisionType.htm" />
+  <HelpKINode Title="SourcefileDirectory property" Url="html/P_USGS_Puma_Modflow_ModflowMetadata_SourcefileDirectory.htm" />
+  <HelpKINode Title="SteadyState enumeration member" Url="html/T_USGS_Puma_Modflow_StressPeriodType.htm" />
+  <HelpKINode Title="Step property" Url="html/P_USGS_Puma_Modflow_TimeStep_Step.htm" />
+  <HelpKINode Title="StressPeriod class" Url="html/AllMembers_T_USGS_Puma_Modflow_StressPeriod.htm" />
+  <HelpKINode Title="StressPeriod class" Url="html/T_USGS_Puma_Modflow_StressPeriod.htm" />
+  <HelpKINode Title="StressPeriod class">
+    <HelpKINode Title="about StressPeriod class" Url="html/T_USGS_Puma_Modflow_StressPeriod.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_StressPeriod.htm" />
+    <HelpKINode Title="constructor" Url="html/M_USGS_Puma_Modflow_StressPeriod__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_StressPeriod.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_StressPeriod.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StressPeriod method" Url="html/M_USGS_Puma_Modflow_TimeDiscretization_StressPeriod.htm" />
+  <HelpKINode Title="StressPeriod property" Url="html/P_USGS_Puma_Modflow_LayerDataRecordHeader_StressPeriod.htm" />
+  <HelpKINode Title="StressPeriod property" Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_StressPeriod.htm" />
+  <HelpKINode Title="StressPeriod.GetPeriodTimes method" Url="html/M_USGS_Puma_Modflow_StressPeriod_GetPeriodTimes.htm" />
+  <HelpKINode Title="StressPeriod.GetTimeStepLengths method" Url="html/M_USGS_Puma_Modflow_StressPeriod_GetTimeStepLengths.htm" />
+  <HelpKINode Title="StressPeriod.PeriodLength property" Url="html/P_USGS_Puma_Modflow_StressPeriod_PeriodLength.htm" />
+  <HelpKINode Title="StressPeriod.PeriodType property" Url="html/P_USGS_Puma_Modflow_StressPeriod_PeriodType.htm" />
+  <HelpKINode Title="StressPeriod.StressPeriod constructor" Url="html/M_USGS_Puma_Modflow_StressPeriod__ctor.htm" />
+  <HelpKINode Title="StressPeriod.TimeStepCount property" Url="html/P_USGS_Puma_Modflow_StressPeriod_TimeStepCount.htm" />
+  <HelpKINode Title="StressPeriod.TimeStepMultiplier property" Url="html/P_USGS_Puma_Modflow_StressPeriod_TimeStepMultiplier.htm" />
+  <HelpKINode Title="StressPeriodCount property" Url="html/P_USGS_Puma_Modflow_TimeDiscretization_StressPeriodCount.htm" />
+  <HelpKINode Title="StressPeriodType enumeration" Url="html/T_USGS_Puma_Modflow_StressPeriodType.htm" />
+  <HelpKINode Title="Text property" Url="html/P_USGS_Puma_Modflow_LayerDataRecordHeader_Text.htm" />
+  <HelpKINode Title="Text property" Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_Text.htm" />
+  <HelpKINode Title="TimeDiscretization class" Url="html/AllMembers_T_USGS_Puma_Modflow_TimeDiscretization.htm" />
+  <HelpKINode Title="TimeDiscretization class" Url="html/T_USGS_Puma_Modflow_TimeDiscretization.htm" />
+  <HelpKINode Title="TimeDiscretization class">
+    <HelpKINode Title="about TimeDiscretization class" Url="html/T_USGS_Puma_Modflow_TimeDiscretization.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_TimeDiscretization.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_USGS_Puma_Modflow_TimeDiscretization__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_TimeDiscretization.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_TimeDiscretization.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TimeDiscretization property" Url="html/P_USGS_Puma_Modflow_DisFileData_TimeDiscretization.htm" />
+  <HelpKINode Title="TimeDiscretization.AddStressPeriod method" Url="html/Overload_USGS_Puma_Modflow_TimeDiscretization_AddStressPeriod.htm" />
+  <HelpKINode Title="TimeDiscretization.BuildTimeStepCollection method" Url="html/Overload_USGS_Puma_Modflow_TimeDiscretization_BuildTimeStepCollection.htm" />
+  <HelpKINode Title="TimeDiscretization.Clear method" Url="html/M_USGS_Puma_Modflow_TimeDiscretization_Clear.htm" />
+  <HelpKINode Title="TimeDiscretization.InsertStressPeriod method" Url="html/M_USGS_Puma_Modflow_TimeDiscretization_InsertStressPeriod.htm" />
+  <HelpKINode Title="TimeDiscretization.RemoveStressPeriod method" Url="html/M_USGS_Puma_Modflow_TimeDiscretization_RemoveStressPeriod.htm" />
+  <HelpKINode Title="TimeDiscretization.StressPeriod method" Url="html/M_USGS_Puma_Modflow_TimeDiscretization_StressPeriod.htm" />
+  <HelpKINode Title="TimeDiscretization.StressPeriodCount property" Url="html/P_USGS_Puma_Modflow_TimeDiscretization_StressPeriodCount.htm" />
+  <HelpKINode Title="TimeDiscretization.TimeDiscretization constructor" Url="html/Overload_USGS_Puma_Modflow_TimeDiscretization__ctor.htm" />
+  <HelpKINode Title="TimeDiscretization.ToArray method" Url="html/M_USGS_Puma_Modflow_TimeDiscretization_ToArray.htm" />
+  <HelpKINode Title="TimeStep class" Url="html/AllMembers_T_USGS_Puma_Modflow_TimeStep.htm" />
+  <HelpKINode Title="TimeStep class" Url="html/T_USGS_Puma_Modflow_TimeStep.htm" />
+  <HelpKINode Title="TimeStep class">
+    <HelpKINode Title="about TimeStep class" Url="html/T_USGS_Puma_Modflow_TimeStep.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_TimeStep.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_USGS_Puma_Modflow_TimeStep__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_TimeStep.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_TimeStep.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TimeStep property" Url="html/P_USGS_Puma_Modflow_LayerDataRecordHeader_TimeStep.htm" />
+  <HelpKINode Title="TimeStep property" Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_TimeStep.htm" />
+  <HelpKINode Title="TimeStep.CreateKey method" Url="html/M_USGS_Puma_Modflow_TimeStep_CreateKey.htm" />
+  <HelpKINode Title="TimeStep.Key property" Url="html/P_USGS_Puma_Modflow_TimeStep_Key.htm" />
+  <HelpKINode Title="TimeStep.Period property" Url="html/P_USGS_Puma_Modflow_TimeStep_Period.htm" />
+  <HelpKINode Title="TimeStep.PeriodTime property" Url="html/P_USGS_Puma_Modflow_TimeStep_PeriodTime.htm" />
+  <HelpKINode Title="TimeStep.PeriodType property" Url="html/P_USGS_Puma_Modflow_TimeStep_PeriodType.htm" />
+  <HelpKINode Title="TimeStep.Step property" Url="html/P_USGS_Puma_Modflow_TimeStep_Step.htm" />
+  <HelpKINode Title="TimeStep.TimeStep constructor" Url="html/Overload_USGS_Puma_Modflow_TimeStep__ctor.htm" />
+  <HelpKINode Title="TimeStep.TotalTime property" Url="html/P_USGS_Puma_Modflow_TimeStep_TotalTime.htm" />
+  <HelpKINode Title="TimeStepCollection class" Url="html/AllMembers_T_USGS_Puma_Modflow_TimeStepCollection.htm" />
+  <HelpKINode Title="TimeStepCollection class" Url="html/T_USGS_Puma_Modflow_TimeStepCollection.htm" />
+  <HelpKINode Title="TimeStepCollection class">
+    <HelpKINode Title="about TimeStepCollection class" Url="html/T_USGS_Puma_Modflow_TimeStepCollection.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_TimeStepCollection.htm" />
+    <HelpKINode Title="constructor" Url="html/M_USGS_Puma_Modflow_TimeStepCollection__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_TimeStepCollection.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_USGS_Puma_Modflow_TimeStepCollection.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TimeStepCollection.Contains method" Url="html/Overload_USGS_Puma_Modflow_TimeStepCollection_Contains.htm" />
+  <HelpKINode Title="TimeStepCollection.ContainsTimeStep method" Url="html/M_USGS_Puma_Modflow_TimeStepCollection_ContainsTimeStep.htm" />
+  <HelpKINode Title="TimeStepCollection.GetKeyForItem method" Url="html/M_USGS_Puma_Modflow_TimeStepCollection_GetKeyForItem.htm" />
+  <HelpKINode Title="TimeStepCollection.Item property" Url="html/Overload_USGS_Puma_Modflow_TimeStepCollection_Item.htm" />
+  <HelpKINode Title="TimeStepCollection.Remove method" Url="html/Overload_USGS_Puma_Modflow_TimeStepCollection_Remove.htm" />
+  <HelpKINode Title="TimeStepCollection.TimeStepCollection constructor" Url="html/M_USGS_Puma_Modflow_TimeStepCollection__ctor.htm" />
+  <HelpKINode Title="TimeStepCount property" Url="html/P_USGS_Puma_Modflow_StressPeriod_TimeStepCount.htm" />
+  <HelpKINode Title="TimeStepMultiplier property" Url="html/P_USGS_Puma_Modflow_StressPeriod_TimeStepMultiplier.htm" />
+  <HelpKINode Title="TimeUnit property" Url="html/P_USGS_Puma_Modflow_DisFileData_TimeUnit.htm" />
+  <HelpKINode Title="ToArray method" Url="html/M_USGS_Puma_Modflow_TimeDiscretization_ToArray.htm" />
+  <HelpKINode Title="Top property" Url="html/P_USGS_Puma_Modflow_DisFileData_Top.htm" />
+  <HelpKINode Title="TotalTime property" Url="html/P_USGS_Puma_Modflow_LayerDataRecordHeader_TotalTime.htm" />
+  <HelpKINode Title="TotalTime property" Url="html/P_USGS_Puma_Modflow_LayerDataRecord_1_TotalTime.htm" />
+  <HelpKINode Title="TotalTime property" Url="html/P_USGS_Puma_Modflow_TimeStep_TotalTime.htm" />
+  <HelpKINode Title="Transient enumeration member" Url="html/T_USGS_Puma_Modflow_StressPeriodType.htm" />
+  <HelpKINode Title="Undefined enumeration member" Url="html/T_USGS_Puma_Modflow_OutputPrecisionType.htm" />
+  <HelpKINode Title="Undefined enumeration member" Url="html/T_USGS_Puma_Modflow_StressPeriodType.htm" />
+  <HelpKINode Title="UseConstantCV property" Url="html/P_USGS_Puma_Modflow_LpfFileData_UseConstantCV.htm" />
+  <HelpKINode Title="UseFreeFormat property" Url="html/P_USGS_Puma_Modflow_BasFileData_UseFreeFormat.htm" />
+  <HelpKINode Title="UseStartingHeadToComputeThickness property" Url="html/P_USGS_Puma_Modflow_LpfFileData_UseStartingHeadToComputeThickness.htm" />
+  <HelpKINode Title="UseStorageCoefficient property" Url="html/P_USGS_Puma_Modflow_LpfFileData_UseStorageCoefficient.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow namespace" Url="html/N_USGS_Puma_Modflow.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.ArrayControlRecord(Of T) class" Url="html/AllMembers_T_USGS_Puma_Modflow_ArrayControlRecord_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.ArrayControlRecord(Of T) class" Url="html/T_USGS_Puma_Modflow_ArrayControlRecord_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.ArrayControlRecord&lt;T&gt; class" Url="html/AllMembers_T_USGS_Puma_Modflow_ArrayControlRecord_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.ArrayControlRecord&lt;T&gt; class" Url="html/T_USGS_Puma_Modflow_ArrayControlRecord_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.ArrayControlRecordType enumeration" Url="html/T_USGS_Puma_Modflow_ArrayControlRecordType.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.BasDataReader class" Url="html/AllMembers_T_USGS_Puma_Modflow_BasDataReader.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.BasDataReader class" Url="html/T_USGS_Puma_Modflow_BasDataReader.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.BasFileData class" Url="html/AllMembers_T_USGS_Puma_Modflow_BasFileData.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.BasFileData class" Url="html/T_USGS_Puma_Modflow_BasFileData.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.BcfDataReader class" Url="html/AllMembers_T_USGS_Puma_Modflow_BcfDataReader.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.BcfDataReader class" Url="html/T_USGS_Puma_Modflow_BcfDataReader.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.BcfFileData class" Url="html/AllMembers_T_USGS_Puma_Modflow_BcfFileData.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.BcfFileData class" Url="html/T_USGS_Puma_Modflow_BcfFileData.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.BinaryLayerReader class" Url="html/AllMembers_T_USGS_Puma_Modflow_BinaryLayerReader.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.BinaryLayerReader class" Url="html/T_USGS_Puma_Modflow_BinaryLayerReader.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.BinaryLayerWriter class" Url="html/AllMembers_T_USGS_Puma_Modflow_BinaryLayerWriter.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.BinaryLayerWriter class" Url="html/T_USGS_Puma_Modflow_BinaryLayerWriter.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.DisDataReader class" Url="html/AllMembers_T_USGS_Puma_Modflow_DisDataReader.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.DisDataReader class" Url="html/T_USGS_Puma_Modflow_DisDataReader.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.DisFileData class" Url="html/AllMembers_T_USGS_Puma_Modflow_DisFileData.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.DisFileData class" Url="html/T_USGS_Puma_Modflow_DisFileData.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.IArrayControlRecord(Of T) interface" Url="html/AllMembers_T_USGS_Puma_Modflow_IArrayControlRecord_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.IArrayControlRecord(Of T) interface" Url="html/T_USGS_Puma_Modflow_IArrayControlRecord_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.IArrayControlRecord&lt;T&gt; interface" Url="html/AllMembers_T_USGS_Puma_Modflow_IArrayControlRecord_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.IArrayControlRecord&lt;T&gt; interface" Url="html/T_USGS_Puma_Modflow_IArrayControlRecord_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.IModflowDataArray(Of T) interface" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowDataArray_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.IModflowDataArray(Of T) interface" Url="html/T_USGS_Puma_Modflow_IModflowDataArray_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.IModflowDataArray1d(Of T) interface" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowDataArray1d_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.IModflowDataArray1d(Of T) interface" Url="html/T_USGS_Puma_Modflow_IModflowDataArray1d_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.IModflowDataArray1d&lt;T&gt; interface" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowDataArray1d_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.IModflowDataArray1d&lt;T&gt; interface" Url="html/T_USGS_Puma_Modflow_IModflowDataArray1d_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.IModflowDataArray2d(Of T) interface" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowDataArray2d_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.IModflowDataArray2d(Of T) interface" Url="html/T_USGS_Puma_Modflow_IModflowDataArray2d_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.IModflowDataArray2d&lt;T&gt; interface" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowDataArray2d_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.IModflowDataArray2d&lt;T&gt; interface" Url="html/T_USGS_Puma_Modflow_IModflowDataArray2d_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.IModflowDataArray&lt;T&gt; interface" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowDataArray_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.IModflowDataArray&lt;T&gt; interface" Url="html/T_USGS_Puma_Modflow_IModflowDataArray_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.IModflowNameData interface" Url="html/AllMembers_T_USGS_Puma_Modflow_IModflowNameData.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.IModflowNameData interface" Url="html/T_USGS_Puma_Modflow_IModflowNameData.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.INameFileItem interface" Url="html/AllMembers_T_USGS_Puma_Modflow_INameFileItem.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.INameFileItem interface" Url="html/T_USGS_Puma_Modflow_INameFileItem.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.LayerDataRecord(Of T) class" Url="html/AllMembers_T_USGS_Puma_Modflow_LayerDataRecord_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.LayerDataRecord(Of T) class" Url="html/T_USGS_Puma_Modflow_LayerDataRecord_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.LayerDataRecord&lt;T&gt; class" Url="html/AllMembers_T_USGS_Puma_Modflow_LayerDataRecord_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.LayerDataRecord&lt;T&gt; class" Url="html/T_USGS_Puma_Modflow_LayerDataRecord_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.LayerDataRecordHeader class" Url="html/AllMembers_T_USGS_Puma_Modflow_LayerDataRecordHeader.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.LayerDataRecordHeader class" Url="html/T_USGS_Puma_Modflow_LayerDataRecordHeader.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.LayerDataRecordHeaderCollection class" Url="html/AllMembers_T_USGS_Puma_Modflow_LayerDataRecordHeaderCollection.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.LayerDataRecordHeaderCollection class" Url="html/T_USGS_Puma_Modflow_LayerDataRecordHeaderCollection.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.LpfDataReader class" Url="html/AllMembers_T_USGS_Puma_Modflow_LpfDataReader.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.LpfDataReader class" Url="html/T_USGS_Puma_Modflow_LpfDataReader.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.LpfFileData class" Url="html/AllMembers_T_USGS_Puma_Modflow_LpfFileData.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.LpfFileData class" Url="html/T_USGS_Puma_Modflow_LpfFileData.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.ModflowDataArray1d(Of T) class" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowDataArray1d_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.ModflowDataArray1d(Of T) class" Url="html/T_USGS_Puma_Modflow_ModflowDataArray1d_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.ModflowDataArray1d&lt;T&gt; class" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowDataArray1d_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.ModflowDataArray1d&lt;T&gt; class" Url="html/T_USGS_Puma_Modflow_ModflowDataArray1d_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.ModflowDataArray2d(Of T) class" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowDataArray2d_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.ModflowDataArray2d(Of T) class" Url="html/T_USGS_Puma_Modflow_ModflowDataArray2d_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.ModflowDataArray2d&lt;T&gt; class" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowDataArray2d_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.ModflowDataArray2d&lt;T&gt; class" Url="html/T_USGS_Puma_Modflow_ModflowDataArray2d_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.ModflowDataArrayReader(Of T) class" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowDataArrayReader_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.ModflowDataArrayReader(Of T) class" Url="html/T_USGS_Puma_Modflow_ModflowDataArrayReader_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.ModflowDataArrayReader&lt;T&gt; class" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowDataArrayReader_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.ModflowDataArrayReader&lt;T&gt; class" Url="html/T_USGS_Puma_Modflow_ModflowDataArrayReader_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.ModflowMetadata class" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowMetadata.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.ModflowMetadata class" Url="html/T_USGS_Puma_Modflow_ModflowMetadata.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.ModflowNameData class" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowNameData.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.ModflowNameData class" Url="html/T_USGS_Puma_Modflow_ModflowNameData.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.ModflowNameFileReader class" Url="html/AllMembers_T_USGS_Puma_Modflow_ModflowNameFileReader.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.ModflowNameFileReader class" Url="html/T_USGS_Puma_Modflow_ModflowNameFileReader.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.NameFileItem class" Url="html/AllMembers_T_USGS_Puma_Modflow_NameFileItem.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.NameFileItem class" Url="html/T_USGS_Puma_Modflow_NameFileItem.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.OcDataHeader class" Url="html/AllMembers_T_USGS_Puma_Modflow_OcDataHeader.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.OcDataHeader class" Url="html/T_USGS_Puma_Modflow_OcDataHeader.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.OcDataReader class" Url="html/AllMembers_T_USGS_Puma_Modflow_OcDataReader.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.OcDataReader class" Url="html/T_USGS_Puma_Modflow_OcDataReader.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.OutputPrecisionType enumeration" Url="html/T_USGS_Puma_Modflow_OutputPrecisionType.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.StressPeriod class" Url="html/AllMembers_T_USGS_Puma_Modflow_StressPeriod.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.StressPeriod class" Url="html/T_USGS_Puma_Modflow_StressPeriod.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.StressPeriodType enumeration" Url="html/T_USGS_Puma_Modflow_StressPeriodType.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.TimeDiscretization class" Url="html/AllMembers_T_USGS_Puma_Modflow_TimeDiscretization.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.TimeDiscretization class" Url="html/T_USGS_Puma_Modflow_TimeDiscretization.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.TimeStep class" Url="html/AllMembers_T_USGS_Puma_Modflow_TimeStep.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.TimeStep class" Url="html/T_USGS_Puma_Modflow_TimeStep.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.TimeStepCollection class" Url="html/AllMembers_T_USGS_Puma_Modflow_TimeStepCollection.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.TimeStepCollection class" Url="html/T_USGS_Puma_Modflow_TimeStepCollection.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.XmlLayerDataWriter(Of T) class" Url="html/AllMembers_T_USGS_Puma_Modflow_XmlLayerDataWriter_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.XmlLayerDataWriter(Of T) class" Url="html/T_USGS_Puma_Modflow_XmlLayerDataWriter_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.XmlLayerDataWriter&lt;T&gt; class" Url="html/AllMembers_T_USGS_Puma_Modflow_XmlLayerDataWriter_1.htm" />
+  <HelpKINode Title="USGS.Puma.Modflow.XmlLayerDataWriter&lt;T&gt; class" Url="html/T_USGS_Puma_Modflow_XmlLayerDataWriter_1.htm" />
+  <HelpKINode Title="Valid property" Url="html/P_USGS_Puma_Modflow_BinaryLayerReader_Valid.htm" />
+  <HelpKINode Title="WetFct property" Url="html/P_USGS_Puma_Modflow_BcfFileData_WetFct.htm" />
+  <HelpKINode Title="Write method" Url="html/M_USGS_Puma_Modflow_ModflowMetadata_Write.htm" />
+  <HelpKINode Title="Write method" Url="html/M_USGS_Puma_Modflow_ModflowNameFileReader_Write.htm" />
+  <HelpKINode Title="Write method" Url="html/Overload_USGS_Puma_Modflow_BinaryLayerWriter_Write.htm" />
+  <HelpKINode Title="Write method" Url="html/Overload_USGS_Puma_Modflow_LayerDataRecord_1_Write.htm" />
+  <HelpKINode Title="Write method" Url="html/Overload_USGS_Puma_Modflow_XmlLayerDataWriter_1_Write.htm" />
+  <HelpKINode Title="WriteFile method" Url="html/M_USGS_Puma_Modflow_BinaryLayerWriter_WriteFile.htm" />
+  <HelpKINode Title="XmlLayerDataWriter(Of T) class" Url="html/AllMembers_T_USGS_Puma_Modflow_XmlLayerDataWriter_1.htm" />
+  <HelpKINode Title="XmlLayerDataWriter(Of T) class" Url="html/T_USGS_Puma_Modflow_XmlLayerDataWriter_1.htm" />
+  <HelpKINode Title="XmlLayerDataWriter(Of T) class">
+    <HelpKINode Title="about XmlLayerDataWriter(Of T) class" Url="html/T_USGS_Puma_Modflow_XmlLayerDataWriter_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_XmlLayerDataWriter_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_USGS_Puma_Modflow_XmlLayerDataWriter_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_XmlLayerDataWriter_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="XmlLayerDataWriter(Of T).Write method" Url="html/Overload_USGS_Puma_Modflow_XmlLayerDataWriter_1_Write.htm" />
+  <HelpKINode Title="XmlLayerDataWriter(Of T).XmlLayerDataWriter constructor" Url="html/M_USGS_Puma_Modflow_XmlLayerDataWriter_1__ctor.htm" />
+  <HelpKINode Title="XmlLayerDataWriter&lt;T&gt; class" Url="html/AllMembers_T_USGS_Puma_Modflow_XmlLayerDataWriter_1.htm" />
+  <HelpKINode Title="XmlLayerDataWriter&lt;T&gt; class" Url="html/T_USGS_Puma_Modflow_XmlLayerDataWriter_1.htm" />
+  <HelpKINode Title="XmlLayerDataWriter&lt;T&gt; class">
+    <HelpKINode Title="about XmlLayerDataWriter&lt;T&gt; class" Url="html/T_USGS_Puma_Modflow_XmlLayerDataWriter_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_USGS_Puma_Modflow_XmlLayerDataWriter_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_USGS_Puma_Modflow_XmlLayerDataWriter_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_USGS_Puma_Modflow_XmlLayerDataWriter_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="XmlLayerDataWriter&lt;T&gt;.Write method" Url="html/Overload_USGS_Puma_Modflow_XmlLayerDataWriter_1_Write.htm" />
+  <HelpKINode Title="XmlLayerDataWriter&lt;T&gt;.XmlLayerDataWriter constructor" Url="html/M_USGS_Puma_Modflow_XmlLayerDataWriter_1__ctor.htm" />
+</HelpKI>
