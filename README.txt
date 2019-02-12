@@ -7,3 +7,9 @@ o ScenarioManager - This is a C++ project.  Compile it with Qt Creator.  The pro
 o Florida_tools_tasks.tsk - This is a Task Coach file containing to-do tasks for the Florida-tools project.  Task Coach is available from SourceForge.net.
 
 o Florida_tools_log.txt - Log of project actions.
+
++++++++++++++++++++++++++++++
+
+Feb. 12, 2019 -- ERB
+
+The entry above is OLD!  Both Scenario Analyzer and Scenario Manager were released in 2014 as C# projects.
